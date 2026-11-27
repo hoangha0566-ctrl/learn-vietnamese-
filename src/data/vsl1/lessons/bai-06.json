@@ -1,0 +1,733 @@
+{
+  "id": "bai-06",
+  "number": 6,
+  "bookLesson": 6,
+  "bookPages": "102–111",
+  "syllabusLessons": [
+    "6a",
+    14,
+    15
+  ],
+  "topic": "Ôn tập: số lượng, mức độ, nơi chốn",
+  "topicEn": "Review: quantity, degree, place",
+  "title": "Cô học tiếng Việt ở đâu?",
+  "titleEn": "Where do you study Vietnamese?",
+  "objectives": [
+    {
+      "vi": "Phân biệt “mấy” và “bao nhiêu”",
+      "en": "Distinguish “mấy” and “bao nhiêu”"
+    },
+    {
+      "vi": "Phân biệt “rất” (trần thuật) và “quá” (cảm thán)",
+      "en": "Distinguish “rất” (statement) and “quá” (exclamation)"
+    },
+    {
+      "vi": "Phân biệt “đâu” (đi đâu) và “ở đâu” (học, làm việc, sống ở đâu)",
+      "en": "Distinguish “đâu” (movement) and “ở đâu” (location)"
+    },
+    {
+      "vi": "Tự giới thiệu đầy đủ về bản thân",
+      "en": "Introduce yourself fully"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "102",
+      "title": "Yoko tìm chỗ ngồi trong quán cà phê"
+    },
+    {
+      "page": "103",
+      "title": "Thuỷ gặp Bình trên đường"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "quá",
+      "meaning": "so, too (exclamation)",
+      "type": "adverb",
+      "image": "",
+      "audio": "",
+      "example": "Cô nói tiếng Việt hay quá!",
+      "exampleEn": "You speak Vietnamese so well!"
+    },
+    {
+      "word": "hay",
+      "meaning": "good, interesting; well",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "giỏi",
+      "meaning": "good at, skilled",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "lâu quá không gặp",
+      "meaning": "long time no see",
+      "type": "phrase",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "quán cà phê",
+      "meaning": "café",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "chỗ ngồi",
+      "meaning": "seat",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ngồi",
+      "meaning": "to sit",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nói chuyện",
+      "meaning": "to talk, to chat",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "cô gái",
+      "meaning": "girl, young woman",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "thư viện",
+      "meaning": "library",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "lớp",
+      "meaning": "class",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tiết",
+      "meaning": "class period",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "buổi",
+      "meaning": "session",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tuần",
+      "meaning": "week",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ngày",
+      "meaning": "day",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "thợ điện",
+      "meaning": "electrician",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "giám đốc",
+      "meaning": "director",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "khách hàng",
+      "meaning": "customer, client",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "sang",
+      "meaning": "to come over (to another country)",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Tôi sang Việt Nam làm việc.",
+      "exampleEn": "I came over to Vietnam to work."
+    },
+    {
+      "word": "bắt đầu",
+      "meaning": "to begin",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tập thể dục",
+      "meaning": "to exercise",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "phim",
+      "meaning": "film, movie",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "mấy vs bao nhiêu",
+      "explainVi": "“Mấy”: số lượng người nói nghĩ là ít (thường dưới 10). “Bao nhiêu”: không biết nhiều hay ít.",
+      "explainEn": "“mấy”: quantity assumed small (usually under 10). “bao nhiêu”: size unknown.",
+      "examples": [
+        {
+          "vi": "Lớp anh có mấy người? – 5 người.",
+          "en": "How many people in your class? – 5."
+        },
+        {
+          "vi": "Công ty anh có bao nhiêu nhân viên?",
+          "en": "How many employees does your company have?"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "quá vs rất",
+      "explainVi": "“Quá” dùng trong câu cảm thán, thường đứng sau tính từ. “Rất” dùng trong câu trần thuật, đứng trước tính từ.",
+      "explainEn": "“quá” = exclamation, usually after the adjective. “rất” = statement, before the adjective.",
+      "examples": [
+        {
+          "vi": "Cô nói tiếng Việt hay quá!",
+          "en": "You speak Vietnamese so well!"
+        },
+        {
+          "vi": "Cô ấy nói tiếng Việt rất giỏi.",
+          "en": "She speaks Vietnamese very well."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "đâu vs ở đâu",
+      "explainVi": "“Đi đâu?” hỏi hướng di chuyển. “Ở đâu?” dùng sau làm việc, học, sống… để hỏi vị trí.",
+      "explainEn": "“đi đâu?” asks about destination. “ở đâu?” follows làm việc, học, sống… to ask location.",
+      "examples": [
+        {
+          "vi": "Chị đi đâu đấy?",
+          "en": "Where are you going?"
+        },
+        {
+          "vi": "Anh làm việc ở đâu?",
+          "en": "Where do you work?"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Ở quán cà phê",
+      "titleEn": "At a café",
+      "lines": [
+        {
+          "speaker": "Ana",
+          "vi": "Xin lỗi, tôi ngồi đây được không ạ?",
+          "en": "Excuse me, may I sit here?"
+        },
+        {
+          "speaker": "Bảo",
+          "vi": "Dạ, được. Mời chị. Chị nói tiếng Việt hay quá! Chị học tiếng Việt ở đâu?",
+          "en": "Yes, please. You speak Vietnamese so well! Where do you study?"
+        },
+        {
+          "speaker": "Ana",
+          "vi": "Tôi học ở Trường Đại học Khoa học Xã hội và Nhân văn.",
+          "en": "I study at the University of Social Sciences and Humanities."
+        },
+        {
+          "speaker": "Bảo",
+          "vi": "Lớp chị có mấy người?",
+          "en": "How many people are in your class?"
+        },
+        {
+          "speaker": "Ana",
+          "vi": "Có sáu người. Còn anh, anh làm việc ở đâu?",
+          "en": "Six. And where do you work?"
+        },
+        {
+          "speaker": "Bảo",
+          "vi": "Tôi làm ở một công ty máy tính. Công ty tôi có khoảng ba trăm nhân viên.",
+          "en": "I work at a computer company. It has about 300 staff."
+        }
+      ]
+    },
+    {
+      "title": "Lâu quá không gặp",
+      "titleEn": "Long time no see",
+      "lines": [
+        {
+          "speaker": "Thuỷ",
+          "vi": "Chào anh Bình. Lâu quá không gặp anh!",
+          "en": "Hi Bình. Long time no see!"
+        },
+        {
+          "speaker": "Bình",
+          "vi": "Chào Thuỷ. Thuỷ đi đâu đấy?",
+          "en": "Hi Thuỷ. Where are you going?"
+        },
+        {
+          "speaker": "Thuỷ",
+          "vi": "Em đi thư viện. Dạo này anh làm việc ở đâu?",
+          "en": "I'm going to the library. Where are you working these days?"
+        },
+        {
+          "speaker": "Bình",
+          "vi": "Ở Bệnh viện Chợ Rẫy. Công việc rất bận.",
+          "en": "At Chợ Rẫy Hospital. Work is very busy."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Lớp học của Ana",
+    "text": "Ana là người Tây Ban Nha. Cô ấy sang Việt Nam làm việc. Cô ấy học tiếng Việt ở trường đại học, ba buổi một tuần, mỗi buổi ba tiết. Lớp của Ana có sáu người. Thầy giáo nói: “Ana nói tiếng Việt hay quá!” Ana nói tiếng Việt rất giỏi, nhưng cô ấy viết chưa giỏi lắm.",
+    "translation": "Ana is Spanish. She came to Vietnam to work. She studies Vietnamese at a university, three sessions a week, three periods per session. Ana's class has six people. The teacher says: “Ana, you speak Vietnamese so well!” Ana speaks Vietnamese very well, but she doesn't write very well yet.",
+    "trueFalse": [
+      {
+        "q": "Ana sang Việt Nam để du lịch.",
+        "answer": false
+      },
+      {
+        "q": "Ana học tiếng Việt ba buổi một tuần.",
+        "answer": true
+      },
+      {
+        "q": "Lớp của Ana có mười người.",
+        "answer": false
+      },
+      {
+        "q": "Ana viết tiếng Việt rất giỏi.",
+        "answer": false
+      }
+    ],
+    "questions": [
+      {
+        "q": "Lớp của Ana có mấy người?",
+        "answers": [
+          "Lớp của Ana có sáu người.",
+          "Có sáu người."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "title": "mấy hay bao nhiêu?",
+      "titleEn": "mấy or bao nhiêu?",
+      "items": [
+        {
+          "q": "Gia đình anh có ___ người? (khoảng 4–5 người)",
+          "options": [
+            "mấy",
+            "bao nhiêu"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Thành phố Hồ Chí Minh có ___ người?",
+          "options": [
+            "mấy",
+            "bao nhiêu"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Cái áo này ___ tiền?",
+          "options": [
+            "mấy",
+            "bao nhiêu"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Bây giờ là ___ giờ?",
+          "options": [
+            "mấy",
+            "bao nhiêu"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Trường anh có ___ sinh viên?",
+          "options": [
+            "mấy",
+            "bao nhiêu"
+          ],
+          "answer": 1,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "rất hay quá?",
+      "titleEn": "rất or quá?",
+      "items": [
+        {
+          "q": "Ôi, đẹp ___!",
+          "options": [
+            "rất",
+            "quá"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Cô ấy nói tiếng Việt ___ giỏi.",
+          "options": [
+            "rất",
+            "quá"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Hôm nay trời nóng ___!",
+          "options": [
+            "rất",
+            "quá"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Tiếng Việt ___ khó.",
+          "options": [
+            "rất",
+            "quá"
+          ],
+          "answer": 0,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "đâu hay ở đâu?",
+      "titleEn": "đâu or ở đâu?",
+      "items": [
+        {
+          "q": "Chị đi ___ đấy?",
+          "options": [
+            "đâu",
+            "ở đâu"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Anh làm việc ___?",
+          "options": [
+            "đâu",
+            "ở đâu"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Bây giờ bà sống ___?",
+          "options": [
+            "đâu",
+            "ở đâu"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Các bạn về ___?",
+          "options": [
+            "đâu",
+            "ở đâu"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Cô học tiếng Việt ___?",
+          "options": [
+            "đâu",
+            "ở đâu"
+          ],
+          "answer": 1,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền từ: mấy, bao nhiêu, rất, quá, đâu, ở đâu",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Lớp em có ___ học viên? – Bảy người.",
+          "answers": [
+            "mấy"
+          ]
+        },
+        {
+          "q": "Phở ở đây ngon ___!",
+          "answers": [
+            "quá"
+          ]
+        },
+        {
+          "q": "Anh Nam ___ bận.",
+          "answers": [
+            "rất"
+          ]
+        },
+        {
+          "q": "Bạn sống ___?",
+          "answers": [
+            "ở đâu"
+          ]
+        },
+        {
+          "q": "Tối nay chị đi ___?",
+          "answers": [
+            "đâu"
+          ]
+        },
+        {
+          "q": "Một ký xoài ___ tiền?",
+          "answers": [
+            "bao nhiêu"
+          ]
+        }
+      ],
+      "wordBank": [
+        "mấy",
+        "bao nhiêu",
+        "rất",
+        "quá",
+        "đâu",
+        "ở đâu"
+      ]
+    },
+    {
+      "type": "number-write",
+      "title": "Viết bằng số",
+      "titleEn": "Write in digits",
+      "items": [
+        {
+          "q": "một trăm rưỡi",
+          "answers": [
+            "150"
+          ]
+        },
+        {
+          "q": "ba nghìn rưỡi",
+          "answers": [
+            "3500",
+            "3.500"
+          ]
+        },
+        {
+          "q": "chín nghìn tám trăm linh năm",
+          "answers": [
+            "9805",
+            "9.805"
+          ]
+        },
+        {
+          "q": "một nghìn chín trăm chín mươi chín",
+          "answers": [
+            "1999",
+            "1.999"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Viết câu tự giới thiệu",
+      "titleEn": "Write a self-introduction",
+      "items": [
+        {
+          "q": "Tên bạn là gì?",
+          "answers": [
+            "Tôi tên là …"
+          ],
+          "instruction": "Trả lời tự do"
+        },
+        {
+          "q": "Bạn là người nước nào?",
+          "answers": [
+            "Tôi là người …"
+          ],
+          "instruction": "Trả lời tự do"
+        },
+        {
+          "q": "Bạn làm nghề gì? Làm việc ở đâu?",
+          "answers": [
+            "Tôi là … Tôi làm việc ở …"
+          ],
+          "instruction": "Trả lời tự do"
+        },
+        {
+          "q": "Bạn nói được tiếng gì?",
+          "answers": [
+            "Tôi nói được tiếng …"
+          ],
+          "instruction": "Trả lời tự do"
+        }
+      ],
+      "freeAnswer": true
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "You speak Vietnamese so well! (to a young woman)",
+          "answers": [
+            "Chị nói tiếng Việt hay quá!",
+            "Chị nói tiếng Việt giỏi quá!"
+          ]
+        },
+        {
+          "q": "Where do you study Vietnamese? (to a young man)",
+          "answers": [
+            "Anh học tiếng Việt ở đâu?"
+          ]
+        },
+        {
+          "q": "Long time no see.",
+          "answers": [
+            "Lâu quá không gặp."
+          ]
+        },
+        {
+          "q": "May I sit here?",
+          "answers": [
+            "Tôi ngồi đây được không?",
+            "Tôi ngồi đây được không ạ?"
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "hide-and-seek",
+      "title": "Trốn tìm: đâu hay ở đâu?",
+      "titleEn": "Hide and seek: đâu or ở đâu?",
+      "intro": "Khi nhân vật đứng yên, hỏi “… ở đâu?”. Khi nhân vật đang chạy đi, hỏi “… đi đâu?”.",
+      "introEn": "If the character is still, ask “… ở đâu?”. If it's moving, ask “… đi đâu?”.",
+      "config": {
+        "rounds": [
+          {
+            "character": "Mèo Mun 🐈",
+            "state": "static",
+            "place": "thư viện",
+            "answer": "Mèo Mun ở đâu?",
+            "reply": "Nó ở thư viện."
+          },
+          {
+            "character": "Anh Nam 🏃",
+            "state": "moving",
+            "place": "bưu điện",
+            "answer": "Anh Nam đi đâu?",
+            "reply": "Anh ấy đi bưu điện."
+          },
+          {
+            "character": "Chị Lan 🧍‍♀️",
+            "state": "static",
+            "place": "quán cà phê",
+            "answer": "Chị Lan ở đâu?",
+            "reply": "Chị ấy ở quán cà phê."
+          },
+          {
+            "character": "Ông Brown 🚶",
+            "state": "moving",
+            "place": "ngân hàng",
+            "answer": "Ông Brown đi đâu?",
+            "reply": "Ông ấy đi ngân hàng."
+          }
+        ]
+      }
+    },
+    {
+      "type": "quick-count",
+      "title": "Đếm nhanh: mấy hay bao nhiêu?",
+      "titleEn": "Quick count: mấy or bao nhiêu?",
+      "intro": "Ít đồ vật → hỏi “mấy”. Nhiều, không đoán được → hỏi “bao nhiêu”. Rồi phản ứng với “quá!”.",
+      "introEn": "Few objects → “mấy”. Many / unknown → “bao nhiêu”. Then react with “quá!”.",
+      "config": {
+        "rounds": [
+          {
+            "emoji": "🍎",
+            "count": 3,
+            "noun": "quả táo",
+            "answer": "mấy"
+          },
+          {
+            "emoji": "⭐",
+            "count": 60,
+            "noun": "ngôi sao",
+            "answer": "bao nhiêu"
+          },
+          {
+            "emoji": "🐟",
+            "count": 7,
+            "noun": "con cá",
+            "answer": "mấy"
+          },
+          {
+            "emoji": "🌸",
+            "count": 120,
+            "noun": "bông hoa",
+            "answer": "bao nhiêu"
+          }
+        ],
+        "exclamations": [
+          "Nhiều quá!",
+          "Đẹp quá!",
+          "Ít quá!"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "book": "Giáo trình tiếng Việt cho người nước ngoài – VSL 1 (NXB ĐHQG TP.HCM, 2018)",
+  "lessons": [
+    {
+      "id": "bai-01",
+      "number": 1,
+      "title": "Xin lỗi, anh tên là gì?",
+      "titleEn": "Excuse me, what is your name?",
+      "topic": "Làm quen & hỏi thăm sức khoẻ",
+      "topicEn": "Greetings & asking how someone is",
+      "bookPages": "52–58",
+      "syllabusLessons": [
+        1,
+        2
+      ],
+      "file": "lessons/bai-01.json"
+    },
+    {
+      "id": "bai-02",
+      "number": 2,
+      "title": "Cô là người nước nào?",
+      "titleEn": "Where are you from?",
+      "topic": "Quốc tịch & giới thiệu người khác",
+      "topicEn": "Nationality & introducing others",
+      "bookPages": "59–68",
+      "syllabusLessons": [
+        3,
+        4
+      ],
+      "file": "lessons/bai-02.json"
+    },
+    {
+      "id": "bai-03",
+      "number": 3,
+      "title": "Dạo này anh làm gì?",
+      "titleEn": "What are you doing these days?",
+      "topic": "Nghề nghiệp & việc đang làm",
+      "topicEn": "Jobs & what you're doing",
+      "bookPages": "69–78",
+      "syllabusLessons": [
+        5,
+        "6b"
+      ],
+      "file": "lessons/bai-03.json"
+    },
+    {
+      "id": "bai-04",
+      "number": 4,
+      "title": "Bây giờ cô sống ở đâu?",
+      "titleEn": "Where do you live now?",
+      "topic": "Địa chỉ, khả năng, số đếm",
+      "topicEn": "Addresses, abilities, numbers",
+      "bookPages": "79–90",
+      "syllabusLessons": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "file": "lessons/bai-04.json"
+    },
+    {
+      "id": "bai-05",
+      "number": 5,
+      "title": "Bây giờ là mấy giờ?",
+      "titleEn": "What time is it now?",
+      "topic": "Giờ giấc, thói quen, giá cả",
+      "topicEn": "Time, habits, prices",
+      "bookPages": "91–101",
+      "syllabusLessons": [
+        11,
+        12,
+        13
+      ],
+      "file": "lessons/bai-05.json"
+    },
+    {
+      "id": "bai-06",
+      "number": 6,
+      "title": "Cô học tiếng Việt ở đâu?",
+      "titleEn": "Where do you study Vietnamese?",
+      "topic": "Ôn tập: số lượng, mức độ, nơi chốn",
+      "topicEn": "Review: quantity, degree, place",
+      "bookPages": "102–111",
+      "syllabusLessons": [
+        "6a",
+        14,
+        15
+      ],
+      "file": "lessons/bai-06.json"
+    },
+    {
+      "id": "bai-07",
+      "number": 7,
+      "title": "Hôm nay là thứ mấy?",
+      "titleEn": "What day is today?",
+      "topic": "Ngày tháng, dự định, thời lượng",
+      "topicEn": "Dates, plans, duration",
+      "bookPages": "112–121",
+      "syllabusLessons": [
+        16,
+        17,
+        18
+      ],
+      "file": "lessons/bai-07.json"
+    },
+    {
+      "id": "bai-08",
+      "number": 8,
+      "title": "Cô đi thẳng đường này",
+      "titleEn": "Go straight ahead on this street",
+      "topic": "Hỏi đường & chỉ đường",
+      "topicEn": "Asking for and giving directions",
+      "bookPages": "122–131",
+      "syllabusLessons": [
+        19,
+        20
+      ],
+      "file": "lessons/bai-08.json"
+    },
+    {
+      "id": "bai-09",
+      "number": 9,
+      "title": "Tôi nên đi bằng gì?",
+      "titleEn": "How should I go?",
+      "topic": "Phương tiện, mua vé, điều kiện",
+      "topicEn": "Transport, buying tickets, conditions",
+      "bookPages": "132–140",
+      "syllabusLessons": [
+        21,
+        22
+      ],
+      "file": "lessons/bai-09.json"
+    },
+    {
+      "id": "bai-10",
+      "number": 10,
+      "title": "Gia đình chị có mấy người?",
+      "titleEn": "How many people are there in your family?",
+      "topic": "Gia đình & trò chuyện",
+      "topicEn": "Family & small talk",
+      "bookPages": "141–150",
+      "syllabusLessons": [
+        4,
+        23,
+        24
+      ],
+      "file": "lessons/bai-10.json"
+    },
+    {
+      "id": "bai-11",
+      "number": 11,
+      "title": "Anh cho tôi xem thực đơn",
+      "titleEn": "Please let me see the menu",
+      "topic": "Ở nhà hàng & quán cà phê",
+      "topicEn": "At a restaurant & café",
+      "bookPages": "151–158",
+      "syllabusLessons": [
+        25
+      ],
+      "file": "lessons/bai-11.json"
+    },
+    {
+      "id": "bai-12",
+      "number": 12,
+      "title": "Quê anh ấy ở xa quá!",
+      "titleEn": "His hometown is very far away!",
+      "topic": "Ôn tập tổng hợp",
+      "topicEn": "Overall review",
+      "bookPages": "159–169",
+      "syllabusLessons": [
+        27
+      ],
+      "file": "lessons/bai-12.json"
+    }
+  ]
+}

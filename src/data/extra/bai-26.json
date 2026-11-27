@@ -1,0 +1,207 @@
+{
+  "id": "bai-26",
+  "number": 26,
+  "bookLesson": null,
+  "bookPages": "",
+  "extra": true,
+  "syllabusLessons": [26],
+  "topic": "Sức khoẻ – bị / được",
+  "topicEn": "Health – bị / được",
+  "title": "Hình như anh bị cảm rồi, phải không?",
+  "titleEn": "You seem to have a cold, right?",
+  "objectives": [
+    { "vi": "Nói về sức khoẻ và triệu chứng đơn giản", "en": "Talk about health and simple symptoms" },
+    { "vi": "Dùng “bị” cho việc không may, “được” cho việc tốt", "en": "Use “bị” for bad things and “được” for good things" },
+    { "vi": "Khuyên người khác bằng “nên”", "en": "Give advice with “nên”" }
+  ],
+  "vocabulary": [
+    { "word": "bị", "meaning": "to suffer (something bad)", "type": "verb", "example": "Tôi bị cảm.", "exampleEn": "I have a cold.", "image": "😷", "audio": "" },
+    { "word": "được", "meaning": "to get / receive (something good)", "type": "verb", "example": "Tôi được nghỉ hai ngày.", "exampleEn": "I got two days off.", "image": "🎉", "audio": "" },
+    { "word": "cảm", "meaning": "a cold", "type": "noun", "example": "Hình như anh bị cảm.", "exampleEn": "You seem to have a cold.", "image": "🤧", "audio": "" },
+    { "word": "sốt", "meaning": "fever", "type": "noun", "example": "Em bé bị sốt.", "exampleEn": "The baby has a fever.", "image": "🤒", "audio": "" },
+    { "word": "ho", "meaning": "cough", "type": "verb", "example": "Chị ấy bị ho.", "exampleEn": "She has a cough.", "image": "😮‍💨", "audio": "" },
+    { "word": "đau đầu", "meaning": "headache", "type": "noun", "example": "Tôi bị đau đầu.", "exampleEn": "I have a headache.", "image": "🤕", "audio": "" },
+    { "word": "đau bụng", "meaning": "stomachache", "type": "noun", "example": "Anh ấy bị đau bụng.", "exampleEn": "He has a stomachache.", "image": "🤢", "audio": "" },
+    { "word": "đau răng", "meaning": "toothache", "type": "noun", "example": "Bé Na bị đau răng.", "exampleEn": "Na has a toothache.", "image": "🦷", "audio": "" },
+    { "word": "mệt", "meaning": "tired", "type": "adjective", "example": "Hôm nay tôi mệt quá.", "exampleEn": "I'm so tired today.", "image": "😩", "audio": "" },
+    { "word": "bác sĩ", "meaning": "doctor", "type": "noun", "example": "Anh nên đi bác sĩ.", "exampleEn": "You should see a doctor.", "image": "👨‍⚕️", "audio": "" },
+    { "word": "thuốc", "meaning": "medicine", "type": "noun", "example": "Chị uống thuốc chưa?", "exampleEn": "Have you taken medicine yet?", "image": "💊", "audio": "" },
+    { "word": "uống thuốc", "meaning": "take medicine", "type": "verb", "image": "💊", "audio": "" },
+    { "word": "nghỉ ngơi", "meaning": "to rest", "type": "verb", "example": "Anh nên nghỉ ngơi.", "exampleEn": "You should rest.", "image": "🛌", "audio": "" },
+    { "word": "nên", "meaning": "should", "type": "modal", "example": "Chị nên uống nhiều nước.", "exampleEn": "You should drink a lot of water.", "image": "👉", "audio": "" },
+    { "word": "hình như", "meaning": "it seems that", "type": "phrase", "example": "Hình như anh bị cảm rồi.", "exampleEn": "It seems you've caught a cold.", "image": "🤔", "audio": "" },
+    { "word": "khen", "meaning": "to praise", "type": "verb", "example": "Tôi được cô giáo khen.", "exampleEn": "I was praised by the teacher.", "image": "👏", "audio": "" },
+    { "word": "phạt", "meaning": "to fine / punish", "type": "verb", "example": "Anh ấy bị phạt.", "exampleEn": "He was fined.", "image": "🚓", "audio": "" },
+    { "word": "quà", "meaning": "gift", "type": "noun", "example": "Em được quà sinh nhật.", "exampleEn": "I got a birthday gift.", "image": "🎁", "audio": "" }
+  ],
+  "grammar": [
+    {
+      "pattern": "S + bị + bệnh / việc không may",
+      "explainVi": "“bị” dùng khi người nói thấy sự việc là không tốt, không may.",
+      "explainEn": "“bị” is used when the event is bad or unfortunate for the subject.",
+      "examples": [
+        { "vi": "Tôi bị cảm.", "en": "I have a cold." },
+        { "vi": "Anh ấy bị phạt.", "en": "He was fined." },
+        { "vi": "Chị Lan bị mất xe.", "en": "Lan had her motorbike stolen." }
+      ],
+      "note": "Hỏi: Anh bị sao vậy? / Anh bị làm sao? (What's wrong with you?)"
+    },
+    {
+      "pattern": "S + được + việc tốt",
+      "explainVi": "“được” dùng khi sự việc là tốt, có lợi cho chủ ngữ.",
+      "explainEn": "“được” is used when the event is good or beneficial for the subject.",
+      "examples": [
+        { "vi": "Tôi được nghỉ hai ngày.", "en": "I got two days off." },
+        { "vi": "Em được cô giáo khen.", "en": "I was praised by the teacher." }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "S + nên + V",
+      "explainVi": "Dùng “nên” để khuyên.",
+      "explainEn": "Use “nên” (should) to give advice.",
+      "examples": [
+        { "vi": "Anh nên đi bác sĩ.", "en": "You should see a doctor." },
+        { "vi": "Chị nên nghỉ ngơi.", "en": "You should rest." }
+      ],
+      "note": "Phủ định: không nên (shouldn't)."
+    },
+    {
+      "pattern": "Hình như … rồi, phải không?",
+      "explainVi": "“hình như” = có vẻ như, chưa chắc chắn.",
+      "explainEn": "“hình như” = it seems that (not sure).",
+      "examples": [{ "vi": "Hình như anh bị cảm rồi, phải không?", "en": "You seem to have a cold, right?" }],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Ở văn phòng",
+      "titleEn": "At the office",
+      "lines": [
+        { "speaker": "Lan", "vi": "Anh Nam, hình như anh bị cảm rồi, phải không?", "en": "Nam, you seem to have a cold, right?" },
+        { "speaker": "Nam", "vi": "Ừ, tôi bị sốt và ho. Mệt quá!", "en": "Yes, I have a fever and a cough. I'm so tired!" },
+        { "speaker": "Lan", "vi": "Anh đã uống thuốc chưa?", "en": "Have you taken any medicine?" },
+        { "speaker": "Nam", "vi": "Chưa. Tôi chưa đi bác sĩ.", "en": "Not yet. I haven't seen a doctor." },
+        { "speaker": "Lan", "vi": "Anh nên đi bác sĩ và nghỉ ngơi đi.", "en": "You should see a doctor and get some rest." }
+      ]
+    },
+    {
+      "title": "Tin vui",
+      "titleEn": "Good news",
+      "lines": [
+        { "speaker": "Mai", "vi": "Hôm nay em vui quá!", "en": "I'm so happy today!" },
+        { "speaker": "Tom", "vi": "Em được quà à?", "en": "Did you get a present?" },
+        { "speaker": "Mai", "vi": "Dạ không. Em được cô giáo khen.", "en": "No. I was praised by the teacher." },
+        { "speaker": "Tom", "vi": "Giỏi quá! Còn anh thì bị phạt vì đi xe nhanh.", "en": "Great! As for me, I got fined for driving too fast." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Một ngày không may",
+    "text": "Hôm qua anh Tom bị cảm. Anh ấy bị sốt và đau đầu. Anh ấy đi bác sĩ. Bác sĩ nói: “Anh nên uống thuốc và nghỉ ngơi hai ngày.” Anh Tom được công ty cho nghỉ hai ngày. Hôm nay anh ấy khoẻ hơn rồi.",
+    "translation": "Yesterday Tom caught a cold. He had a fever and a headache. He went to the doctor. The doctor said: “You should take medicine and rest for two days.” Tom's company gave him two days off. Today he is better.",
+    "trueFalse": [
+      { "q": "Anh Tom bị đau bụng.", "answer": false },
+      { "q": "Anh Tom đi bác sĩ.", "answer": true },
+      { "q": "Anh Tom được nghỉ hai ngày.", "answer": true },
+      { "q": "Hôm nay anh Tom vẫn bị sốt.", "answer": false }
+    ],
+    "questions": [
+      { "q": "Bác sĩ khuyên anh Tom làm gì?", "answers": ["Anh ấy nên uống thuốc và nghỉ ngơi hai ngày.", "Uống thuốc và nghỉ ngơi."] }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "substitution",
+      "title": "Bảng thay thế",
+      "titleEn": "Substitution drill",
+      "items": [
+        { "frame": "{0} bị {1}.", "slots": [["Tôi", "Anh ấy", "Chị Lan", "Em bé"], ["cảm", "sốt", "ho", "đau đầu", "đau bụng"]], "en": "… has a …" },
+        { "frame": "{0} nên {1}.", "slots": [["Anh", "Chị", "Em"], ["đi bác sĩ", "uống thuốc", "nghỉ ngơi", "uống nhiều nước"]], "en": "You should …" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "Chọn “bị” hay “được”",
+      "titleEn": "Choose “bị” or “được”",
+      "items": [
+        { "q": "Tôi ___ cảm.", "options": ["bị", "được"], "answer": 0, "explain": "Bị cảm là việc không tốt." },
+        { "q": "Em ___ cô giáo khen.", "options": ["bị", "được"], "answer": 1, "explain": "Được khen là việc tốt." },
+        { "q": "Anh ấy ___ phạt vì đi xe nhanh.", "options": ["bị", "được"], "answer": 0, "explain": "Bị phạt là việc không may." },
+        { "q": "Chị Mai ___ nghỉ ba ngày.", "options": ["bị", "được"], "answer": 1, "explain": "Được nghỉ là việc vui." },
+        { "q": "Bé Na ___ đau răng.", "options": ["bị", "được"], "answer": 0, "explain": "Đau răng là không tốt." },
+        { "q": "Tôi ___ quà sinh nhật.", "options": ["bị", "được"], "answer": 1, "explain": "Được quà là việc vui." }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền từ",
+      "titleEn": "Fill in the blanks",
+      "wordBank": ["bị", "được", "nên", "hình như", "thuốc"],
+      "items": [
+        { "q": "___ anh bị cảm rồi, phải không?", "answers": ["Hình như"] },
+        { "q": "Anh ___ đi bác sĩ.", "answers": ["nên"] },
+        { "q": "Chị đã uống ___ chưa?", "answers": ["thuốc"] },
+        { "q": "Tôi ___ sốt và ho.", "answers": ["bị"] },
+        { "q": "Em ___ cô giáo khen.", "answers": ["được"] }
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        { "words": ["bị", "tôi", "đầu", "đau"], "answers": ["Tôi bị đau đầu."] },
+        { "words": ["nên", "anh", "ngơi", "nghỉ"], "answers": ["Anh nên nghỉ ngơi."] },
+        { "words": ["được", "chị ấy", "quà", "sinh nhật"], "answers": ["Chị ấy được quà sinh nhật."] },
+        { "words": ["bị", "hình như", "cảm", "anh", "rồi"], "answers": ["Hình như anh bị cảm rồi."] }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        { "q": "I have a headache.", "answers": ["Tôi bị đau đầu."] },
+        { "q": "You should rest.", "answers": ["Anh nên nghỉ ngơi.", "Chị nên nghỉ ngơi.", "Bạn nên nghỉ ngơi.", "Em nên nghỉ ngơi."] },
+        { "q": "She has a fever.", "answers": ["Chị ấy bị sốt.", "Cô ấy bị sốt."] },
+        { "q": "I got two days off.", "answers": ["Tôi được nghỉ hai ngày."] }
+      ]
+    },
+    {
+      "type": "dictation",
+      "title": "Nghe và viết",
+      "titleEn": "Dictation",
+      "items": [
+        { "q": "Hình như anh bị cảm rồi.", "answers": ["Hình như anh bị cảm rồi."] },
+        { "q": "Anh nên đi bác sĩ.", "answers": ["Anh nên đi bác sĩ."] },
+        { "q": "Em được cô giáo khen.", "answers": ["Em được cô giáo khen."] }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "clinic",
+      "title": "Phòng khám",
+      "titleEn": "The clinic",
+      "intro": "Bệnh nhân đến phòng khám. Hãy nói họ bị gì và cho lời khuyên!",
+      "introEn": "Patients come to the clinic. Say what's wrong and give advice!",
+      "config": {
+        "patients": [
+          { "name": "Anh Nam", "emoji": "🤒", "pronoun": "Anh ấy", "symptom": "sốt", "advice": "nghỉ ngơi và uống nhiều nước" },
+          { "name": "Chị Lan", "emoji": "🤕", "pronoun": "Chị ấy", "symptom": "đau đầu", "advice": "uống thuốc" },
+          { "name": "Bé Na", "emoji": "🦷", "pronoun": "Em ấy", "symptom": "đau răng", "advice": "đi nha sĩ" },
+          { "name": "Ông Brown", "emoji": "🤢", "pronoun": "Ông ấy", "symptom": "đau bụng", "advice": "không nên ăn đồ cay" },
+          { "name": "Cô Mai", "emoji": "🤧", "pronoun": "Cô ấy", "symptom": "cảm", "advice": "mặc áo ấm và nghỉ ngơi" }
+        ],
+        "sentence": "{pronoun} bị {symptom}.",
+        "adviceSentence": "{pronoun} nên {advice}.",
+        "sortRound": {
+          "good": ["được khen", "được quà", "được nghỉ", "được đi du lịch"],
+          "bad": ["bị cảm", "bị phạt", "bị mất ví", "bị đau bụng"]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "note": "Phần một – Phát âm (theo khung sách VSL 1, trang 15–50). Mỗi đơn vị: Âm và chữ → Nghe và lặp lại → Nhận diện → Ghép chữ → Chính tả. Giáo viên có thể sửa/thêm từ tuỳ ý.",
+  "units": [
+    {
+      "id": "pa-1",
+      "number": 1,
+      "title": "Bảng chữ cái",
+      "titleEn": "The alphabet",
+      "intro": { "vi": "Tiếng Việt có 29 chữ cái.", "en": "Vietnamese has 29 letters." },
+      "sounds": [
+        { "letter": "a", "examples": ["ba", "ca", "la"] },
+        { "letter": "ă", "examples": ["ăn", "căn", "khăn"] },
+        { "letter": "â", "examples": ["ân", "cân", "sân"] },
+        { "letter": "b", "examples": ["ba", "bé", "bò"] },
+        { "letter": "c", "examples": ["cá", "cô", "cũ"] },
+        { "letter": "d", "examples": ["da", "dê", "dì"] },
+        { "letter": "đ", "examples": ["đi", "đá", "đỏ"] },
+        { "letter": "e", "examples": ["xe", "me", "bé"] },
+        { "letter": "ê", "examples": ["mê", "về", "kê"] },
+        { "letter": "g", "examples": ["gà", "gỗ", "gù"] },
+        { "letter": "h", "examples": ["hai", "hồ", "hè"] },
+        { "letter": "i", "examples": ["đi", "bi", "mì"] },
+        { "letter": "k", "examples": ["kê", "kì", "kem"] },
+        { "letter": "l", "examples": ["lá", "lê", "lo"] },
+        { "letter": "m", "examples": ["mẹ", "mũ", "mua"] },
+        { "letter": "n", "examples": ["nó", "nữ", "nam"] },
+        { "letter": "o", "examples": ["to", "lo", "bò"] },
+        { "letter": "ô", "examples": ["cô", "tô", "bố"] },
+        { "letter": "ơ", "examples": ["mơ", "bơ", "chợ"] },
+        { "letter": "p", "examples": ["pin", "pa-tê"] },
+        { "letter": "q", "examples": ["quà", "quê", "quý"] },
+        { "letter": "r", "examples": ["ra", "rẻ", "rau"] },
+        { "letter": "s", "examples": ["số", "sữa", "sáu"] },
+        { "letter": "t", "examples": ["tôi", "tên", "tám"] },
+        { "letter": "u", "examples": ["mũ", "đủ", "thu"] },
+        { "letter": "ư", "examples": ["thư", "sư", "từ"] },
+        { "letter": "v", "examples": ["về", "vui", "vé"] },
+        { "letter": "x", "examples": ["xe", "xa", "xin"] },
+        { "letter": "y", "examples": ["y tá", "ý", "máy"] }
+      ],
+      "pairs": [["d", "đ"], ["e", "ê"], ["o", "ô", "ơ"], ["u", "ư"], ["a", "ă", "â"]],
+      "pairWords": [["da", "đa"], ["me", "mê"], ["to", "tô", "tơ"], ["thu", "thư"], ["can", "căn", "cân"]],
+      "build": [],
+      "dictation": ["ba", "đi", "cô", "xe", "thư"]
+    },
+    {
+      "id": "pa-2",
+      "number": 2,
+      "title": "Nguyên âm đơn",
+      "titleEn": "Single vowels",
+      "intro": { "vi": "11 nguyên âm đơn: a, ă, â, e, ê, i/y, o, ô, ơ, u, ư.", "en": "11 single vowels." },
+      "sounds": [
+        { "letter": "a / ă / â", "examples": ["tam", "tăm", "tâm"] },
+        { "letter": "e / ê", "examples": ["be", "bê"] },
+        { "letter": "o / ô / ơ", "examples": ["bo", "bô", "bơ"] },
+        { "letter": "u / ư", "examples": ["tu", "tư"] },
+        { "letter": "i / y", "examples": ["mi", "my", "kỹ"] }
+      ],
+      "pairWords": [["tam", "tăm", "tâm"], ["be", "bê"], ["bo", "bô", "bơ"], ["tu", "tư"], ["lan", "lăn", "lân"], ["chơ", "chư"]],
+      "build": [
+        { "onset": "b", "rhyme": "ơ", "tone": "ngang" },
+        { "onset": "t", "rhyme": "ư", "tone": "ngang" },
+        { "onset": "m", "rhyme": "e", "tone": "ngang" },
+        { "onset": "c", "rhyme": "ô", "tone": "ngang" }
+      ],
+      "dictation": ["bơ", "tư", "cô", "mê", "lăn"]
+    },
+    {
+      "id": "pa-3",
+      "number": 3,
+      "title": "Nguyên âm đôi",
+      "titleEn": "Diphthongs",
+      "intro": { "vi": "ia/iê/yê, ua/uô, ưa/ươ.", "en": "ia/iê/yê, ua/uô, ưa/ươ." },
+      "sounds": [
+        { "letter": "ia / iê / yê", "examples": ["bia", "tiền", "yên"] },
+        { "letter": "ua / uô", "examples": ["mua", "muốn", "cuối"] },
+        { "letter": "ưa / ươ", "examples": ["mưa", "người", "nước"] }
+      ],
+      "pairWords": [["mua", "mưa"], ["bia", "bưa"], ["tiền", "tuần"], ["muốn", "mướn"]],
+      "build": [
+        { "onset": "m", "rhyme": "ua", "tone": "ngang" },
+        { "onset": "m", "rhyme": "ưa", "tone": "ngang" },
+        { "onset": "b", "rhyme": "ia", "tone": "ngang" },
+        { "onset": "ng", "rhyme": "ươi", "tone": "huyền" }
+      ],
+      "dictation": ["mua", "mưa", "bia", "người", "nước"]
+    },
+    {
+      "id": "pa-4",
+      "number": 4,
+      "title": "Phụ âm đầu (1)",
+      "titleEn": "Initial consonants (1)",
+      "intro": { "vi": "b, m, ph, v, đ, t, th, n, l, d/gi/r, x, s.", "en": "b, m, ph, v, đ, t, th, n, l, d/gi/r, x, s." },
+      "sounds": [
+        { "letter": "b / m", "examples": ["ba", "ma"] },
+        { "letter": "ph / v", "examples": ["phở", "vở"] },
+        { "letter": "đ / t / th", "examples": ["đi", "ti", "thi"] },
+        { "letter": "n / l", "examples": ["no", "lo"] },
+        { "letter": "d / gi / r", "examples": ["da", "gia", "ra"] },
+        { "letter": "x / s", "examples": ["xa", "sa"] }
+      ],
+      "pairWords": [["ba", "ma"], ["phở", "vở"], ["đi", "ti", "thi"], ["no", "lo"], ["tai", "thai"], ["nam", "lam"]],
+      "build": [
+        { "onset": "ph", "rhyme": "ơ", "tone": "hỏi" },
+        { "onset": "th", "rhyme": "i", "tone": "ngang" },
+        { "onset": "v", "rhyme": "ê", "tone": "huyền" },
+        { "onset": "l", "rhyme": "a", "tone": "sắc" }
+      ],
+      "dictation": ["phở", "thi", "về", "lá", "nó"]
+    },
+    {
+      "id": "pa-5",
+      "number": 5,
+      "title": "Phụ âm đầu (2)",
+      "titleEn": "Initial consonants (2)",
+      "intro": { "vi": "c/k/q, ch, tr, nh, ng/ngh, kh, g/gh, h.", "en": "c/k/q, ch, tr, nh, ng/ngh, kh, g/gh, h." },
+      "sounds": [
+        { "letter": "c / k / q", "examples": ["cá", "kem", "quê"] },
+        { "letter": "ch / tr", "examples": ["chà", "trà"] },
+        { "letter": "nh", "examples": ["nhà", "nhỏ"] },
+        { "letter": "ng / ngh", "examples": ["ngủ", "nghe"] },
+        { "letter": "kh", "examples": ["khá", "khoẻ"] },
+        { "letter": "g / gh", "examples": ["gà", "ghế"] },
+        { "letter": "h", "examples": ["hai", "hoa"] }
+      ],
+      "pairWords": [["cá", "khá"], ["chà", "trà"], ["nhà", "ngà"], ["gà", "hà"], ["cam", "kham"]],
+      "build": [
+        { "onset": "nh", "rhyme": "a", "tone": "huyền" },
+        { "onset": "kh", "rhyme": "a", "tone": "sắc" },
+        { "onset": "ngh", "rhyme": "e", "tone": "ngang" },
+        { "onset": "tr", "rhyme": "a", "tone": "huyền" }
+      ],
+      "dictation": ["nhà", "khá", "nghe", "trà", "ghế"]
+    },
+    {
+      "id": "pa-6",
+      "number": 6,
+      "title": "Phụ âm cuối",
+      "titleEn": "Final consonants",
+      "intro": { "vi": "-m, -n, -ng/-nh, -p, -t, -c/-ch.", "en": "-m, -n, -ng/-nh, -p, -t, -c/-ch." },
+      "sounds": [
+        { "letter": "-m / -n / -ng", "examples": ["cam", "can", "cang"] },
+        { "letter": "-nh", "examples": ["anh", "xanh"] },
+        { "letter": "-p / -t / -c", "examples": ["cáp", "cát", "các"] },
+        { "letter": "-ch", "examples": ["sách", "ếch"] }
+      ],
+      "pairWords": [["cam", "can", "cang"], ["cáp", "cát", "các"], ["tan", "tang"], ["anh", "an"], ["sách", "sát"]],
+      "build": [
+        { "onset": "c", "rhyme": "am", "tone": "ngang" },
+        { "onset": "s", "rhyme": "ach", "tone": "sắc" },
+        { "onset": "t", "rhyme": "ên", "tone": "ngang" },
+        { "onset": "h", "rhyme": "oc", "tone": "nặng" }
+      ],
+      "dictation": ["cam", "sách", "tên", "học", "anh"]
+    },
+    {
+      "id": "pa-7",
+      "number": 7,
+      "title": "Thanh điệu (1): ngang, huyền, sắc",
+      "titleEn": "Tones (1): level, falling, rising",
+      "intro": { "vi": "Thanh ngang (không dấu), huyền (`), sắc (´).", "en": "Level (no mark), falling (`), rising (´)." },
+      "sounds": [
+        { "letter": "ngang", "examples": ["ma", "ba", "cô"] },
+        { "letter": "huyền", "examples": ["mà", "bà", "cồ"] },
+        { "letter": "sắc", "examples": ["má", "bá", "cố"] }
+      ],
+      "pairWords": [["ma", "mà", "má"], ["ba", "bà", "bá"], ["co", "cò", "có"], ["đi", "đì", "đí"]],
+      "tonePick": ["bà", "má", "cô", "tên", "là", "có", "anh", "người", "nước"],
+      "build": [
+        { "onset": "b", "rhyme": "a", "tone": "huyền" },
+        { "onset": "m", "rhyme": "a", "tone": "sắc" },
+        { "onset": "c", "rhyme": "o", "tone": "sắc" },
+        { "onset": "ng", "rhyme": "ươi", "tone": "huyền" }
+      ],
+      "dictation": ["bà", "má", "có", "người", "tên"]
+    },
+    {
+      "id": "pa-8",
+      "number": 8,
+      "title": "Thanh điệu (2): hỏi, ngã, nặng",
+      "titleEn": "Tones (2): dipping, broken, heavy",
+      "intro": { "vi": "Thanh hỏi (̉), ngã (~), nặng (.).", "en": "Dipping (̉), broken (~), heavy (.)." },
+      "sounds": [
+        { "letter": "hỏi", "examples": ["mả", "bả", "hỏi"] },
+        { "letter": "ngã", "examples": ["mã", "bã", "ngã"] },
+        { "letter": "nặng", "examples": ["mạ", "bạ", "nặng"] }
+      ],
+      "pairWords": [["mả", "mã", "mạ"], ["bả", "bã", "bạ"], ["cổ", "cỗ", "cộ"], ["vở", "vỡ", "vợ"]],
+      "tonePick": ["hỏi", "ngã", "nặng", "mẹ", "vở", "mũ", "khoẻ", "sữa", "học"],
+      "build": [
+        { "onset": "m", "rhyme": "e", "tone": "nặng" },
+        { "onset": "v", "rhyme": "ơ", "tone": "hỏi" },
+        { "onset": "s", "rhyme": "ưa", "tone": "ngã" },
+        { "onset": "h", "rhyme": "oc", "tone": "nặng" }
+      ],
+      "dictation": ["mẹ", "vở", "sữa", "học", "khoẻ"]
+    },
+    {
+      "id": "pa-9",
+      "number": 9,
+      "title": "Kết hợp thanh điệu & ngữ điệu",
+      "titleEn": "Tone combinations & intonation",
+      "intro": { "vi": "Đọc từ hai âm tiết và câu ngắn; câu hỏi và câu kể.", "en": "Two-syllable words and short sentences; questions vs statements." },
+      "sounds": [
+        { "letter": "ngang + huyền", "examples": ["xin chào", "tên là"] },
+        { "letter": "sắc + nặng", "examples": ["bác sĩ", "tiếng Việt"] },
+        { "letter": "hỏi + ngã", "examples": ["khoẻ không", "bảy giờ"] },
+        { "letter": "câu hỏi / câu kể", "examples": ["Anh khoẻ không?", "Tôi khoẻ."] }
+      ],
+      "pairWords": [["ba ba", "bà ba", "bá ba"], ["tiếng Việt", "tiếng việc"], ["bảy giờ", "bảy giở"]],
+      "tonePick": ["xin chào", "cảm ơn", "bác sĩ", "tiếng Việt", "sinh viên", "giáo viên", "Việt Nam", "khách sạn"],
+      "build": [],
+      "dictation": ["xin chào", "cảm ơn", "tiếng Việt", "bác sĩ", "Việt Nam"]
+    }
+  ],
+  "toneGame": {
+    "words": ["ba", "bà", "bá", "bả", "bã", "bạ", "ma", "mà", "má", "mả", "mã", "mạ", "cô", "có", "cỏ", "cỗ", "cọ", "tôi", "tên", "là", "gì", "khoẻ", "không", "mẹ", "bố", "nhà", "sữa", "vở", "mũ", "học", "chợ", "phở", "người", "nước", "tiền", "bảy", "tám", "chín", "mười", "sáu"]
+  }
+}

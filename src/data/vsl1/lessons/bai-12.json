@@ -1,0 +1,606 @@
+{
+  "id": "bai-12",
+  "number": 12,
+  "bookLesson": 12,
+  "bookPages": "159–169",
+  "syllabusLessons": [
+    27
+  ],
+  "topic": "Ôn tập tổng hợp",
+  "topicEn": "Overall review",
+  "title": "Quê anh ấy ở xa quá!",
+  "titleEn": "His hometown is very far away!",
+  "objectives": [
+    {
+      "vi": "Ôn lại các phó từ thời gian: đã, đang, sắp, sẽ",
+      "en": "Review time adverbs: đã, đang, sắp, sẽ"
+    },
+    {
+      "vi": "Ôn các từ hỏi: mấy, bao nhiêu, bao lâu, bao giờ",
+      "en": "Review question words: mấy, bao nhiêu, bao lâu, bao giờ"
+    },
+    {
+      "vi": "Ôn các kết cấu: nào … cũng, gì … cũng, không … đâu, không … gì",
+      "en": "Review structures: nào … cũng, gì … cũng, không … đâu, không … gì"
+    },
+    {
+      "vi": "Ôn trợ từ cuối câu: nhé, ạ, à, hả, vậy, thôi, đi",
+      "en": "Review final particles: nhé, ạ, à, hả, vậy, thôi, đi"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "159",
+      "title": "Chi muốn đi ra ga mua vé xe lửa"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "quê",
+      "meaning": "hometown",
+      "type": "noun",
+      "image": "",
+      "audio": "",
+      "example": "Quê anh ấy ở Đà Nẵng.",
+      "exampleEn": "His hometown is Đà Nẵng."
+    },
+    {
+      "word": "ga",
+      "meaning": "train station",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "định",
+      "meaning": "to intend, to plan",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Em định đi Đà Nẵng.",
+      "exampleEn": "I plan to go to Đà Nẵng."
+    },
+    {
+      "word": "thăm",
+      "meaning": "to visit",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "hiểu",
+      "meaning": "to understand",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "sợ",
+      "meaning": "to be afraid",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "người ta",
+      "meaning": "people, they (in general)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "sinh",
+      "meaning": "to give birth to",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đông",
+      "meaning": "crowded; many people",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ơi",
+      "meaning": "(calling someone)",
+      "type": "particle",
+      "image": "",
+      "audio": "",
+      "example": "Chị Lan ơi!",
+      "exampleEn": "Hey, Lan!"
+    },
+    {
+      "word": "tàu thuỷ / tàu",
+      "meaning": "ship / boat",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "xích lô",
+      "meaning": "cyclo",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "sắp vs sẽ",
+      "explainVi": "“Sẽ”: tương lai nói chung. “Sắp”: tương lai rất gần.",
+      "explainEn": "“sẽ”: future in general. “sắp”: very near future.",
+      "examples": [
+        {
+          "vi": "Tháng sau tôi sẽ về nước.",
+          "en": "I'll go back next month."
+        },
+        {
+          "vi": "Cô ấy sắp lập gia đình.",
+          "en": "She's getting married soon."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "nào … cũng / gì … cũng",
+      "explainVi": "Bao quát mọi đơn vị.",
+      "explainEn": "Covers every member.",
+      "examples": [
+        {
+          "vi": "Ngày nào tôi cũng học.",
+          "en": "I study every day."
+        },
+        {
+          "vi": "Món gì tôi cũng thích.",
+          "en": "I like every dish."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "bao nhiêu / bao lâu / bao giờ",
+      "explainVi": "Số lượng / khoảng thời gian / thời điểm.",
+      "explainEn": "Quantity / duration / point in time.",
+      "examples": [
+        {
+          "vi": "Gia đình anh ấy có bao nhiêu người?",
+          "en": "How many in his family?"
+        },
+        {
+          "vi": "Anh sẽ ở đó bao lâu?",
+          "en": "How long will you stay?"
+        },
+        {
+          "vi": "Bao giờ em đi?",
+          "en": "When are you going?"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "không … đâu / không … gì",
+      "explainVi": "Bác bỏ ý kiến / phủ định hoàn toàn.",
+      "explainEn": "Rejecting an opinion / total negation.",
+      "examples": [
+        {
+          "vi": "Không xa lắm đâu.",
+          "en": "It's not far at all."
+        },
+        {
+          "vi": "Tôi không sợ gì cả.",
+          "en": "I'm not afraid of anything."
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Đi mua vé xe lửa",
+      "titleEn": "Going to buy a train ticket",
+      "lines": [
+        {
+          "speaker": "Chi",
+          "vi": "Chị Lan ơi, bây giờ là mấy giờ rồi?",
+          "en": "Lan, what time is it?"
+        },
+        {
+          "speaker": "Lan",
+          "vi": "Mười một giờ rồi. Em định đi đâu vậy?",
+          "en": "Eleven already. Where are you planning to go?"
+        },
+        {
+          "speaker": "Chi",
+          "vi": "Em ra ga mua vé đi Đà Nẵng. Chủ nhật này em đi.",
+          "en": "To the station to buy a ticket to Đà Nẵng. I'm going this Sunday."
+        },
+        {
+          "speaker": "Lan",
+          "vi": "Quê em ở Đà Nẵng à?",
+          "en": "Is your hometown Đà Nẵng?"
+        },
+        {
+          "speaker": "Chi",
+          "vi": "Dạ, không. Em đi thăm gia đình một người bạn.",
+          "en": "No. I'm visiting a friend's family."
+        },
+        {
+          "speaker": "Lan",
+          "vi": "Gia đình anh ấy có bao nhiêu người?",
+          "en": "How many people are in his family?"
+        },
+        {
+          "speaker": "Chi",
+          "vi": "Mười người. Anh ấy có bảy anh chị em.",
+          "en": "Ten. He has seven siblings."
+        },
+        {
+          "speaker": "Lan",
+          "vi": "Đông quá! Em không sợ à?",
+          "en": "So many! Aren't you scared?"
+        },
+        {
+          "speaker": "Chi",
+          "vi": "Dạ, không sợ đâu. Người nào cũng dễ thương lắm.",
+          "en": "Not at all. Everyone is very nice."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Bưu thiếp từ Sài Gòn",
+    "text": "Đây là Thành phố Hồ Chí Minh, một thành phố lớn của Việt Nam. Tôi ở một khách sạn không lớn lắm ở Quận 1. Trên đường có nhiều xe máy quá! Tôi có nhiều bạn Việt Nam. Ngày nào chúng tôi cũng đi uống cà phê. Món gì tôi cũng thích, nhất là phở. Tuần sau tôi sẽ đi Hà Nội bằng máy bay. Nếu có thời gian thì tôi sẽ đi thăm Vịnh Hạ Long.",
+    "translation": "This is Ho Chi Minh City, a big city in Vietnam. I'm staying at a not-very-big hotel in District 1. There are so many motorbikes on the street! I have many Vietnamese friends. Every day we go for coffee. I like every dish, especially phở. Next week I'll fly to Hà Nội. If I have time, I'll visit Hạ Long Bay.",
+    "trueFalse": [
+      {
+        "q": "Khách sạn của tôi rất lớn.",
+        "answer": false
+      },
+      {
+        "q": "Ngày nào chúng tôi cũng đi uống cà phê.",
+        "answer": true
+      },
+      {
+        "q": "Tuần sau tôi đi Hà Nội bằng xe lửa.",
+        "answer": false
+      },
+      {
+        "q": "Nếu có thời gian thì tôi đi Hạ Long.",
+        "answer": true
+      }
+    ],
+    "questions": [
+      {
+        "q": "Tôi thích món gì nhất?",
+        "answers": [
+          "Phở.",
+          "Tôi thích phở nhất."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "title": "Ôn tập tổng hợp",
+      "titleEn": "Mixed review",
+      "items": [
+        {
+          "q": "Năm phút nữa máy bay ___ cất cánh.",
+          "options": [
+            "sẽ",
+            "sắp",
+            "đã"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Năm 2030 tôi ___ về hưu.",
+          "options": [
+            "sẽ",
+            "sắp",
+            "đang"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Anh ở Việt Nam ___ rồi? – Hai năm.",
+          "options": [
+            "bao giờ",
+            "bao lâu",
+            "bao nhiêu"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Lớp này có ___ học viên? – Bốn.",
+          "options": [
+            "mấy",
+            "bao lâu",
+            "nào"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Tôi ___ biết gì cả.",
+          "options": [
+            "không",
+            "chưa",
+            "cũng"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Ngày ___ tôi cũng uống cà phê.",
+          "options": [
+            "gì",
+            "nào",
+            "đâu"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Nói với ông bà: “Cháu chào ông bà ___.”",
+          "options": [
+            "ạ",
+            "hả",
+            "đi"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Rủ bạn: “Mình đi ăn ___!”",
+          "options": [
+            "đi",
+            "à",
+            "thôi"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Ngạc nhiên hỏi lại: “Anh là sinh viên ___?”",
+          "options": [
+            "à",
+            "nhé",
+            "ạ"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Chỉ hai người ___.",
+          "options": [
+            "thôi",
+            "nhé",
+            "vậy"
+          ],
+          "answer": 0,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền vào chỗ trống",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Hôm qua tôi ___ đi Vũng Tàu.",
+          "answers": [
+            "đã"
+          ]
+        },
+        {
+          "q": "Bây giờ tôi ___ học tiếng Việt.",
+          "answers": [
+            "đang"
+          ]
+        },
+        {
+          "q": "Quê anh ấy ở xa ___!",
+          "answers": [
+            "quá"
+          ]
+        },
+        {
+          "q": "Không xa lắm ___.",
+          "answers": [
+            "đâu"
+          ]
+        },
+        {
+          "q": "Em định đi đâu ___?",
+          "answers": [
+            "vậy"
+          ]
+        },
+        {
+          "q": "Ngày mai chị đến sớm ___!",
+          "answers": [
+            "nhé"
+          ]
+        }
+      ],
+      "wordBank": [
+        "đã",
+        "đang",
+        "quá",
+        "đâu",
+        "vậy",
+        "nhé"
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        {
+          "words": [
+            "ở",
+            "quê",
+            "xa quá",
+            "anh ấy"
+          ],
+          "answers": [
+            "Quê anh ấy ở xa quá!",
+            "Quê anh ấy ở xa quá."
+          ]
+        },
+        {
+          "words": [
+            "đi Đà Nẵng",
+            "định",
+            "em",
+            "chủ nhật này"
+          ],
+          "answers": [
+            "Chủ nhật này em định đi Đà Nẵng.",
+            "Em định đi Đà Nẵng chủ nhật này."
+          ]
+        },
+        {
+          "words": [
+            "cũng",
+            "người nào",
+            "dễ thương"
+          ],
+          "answers": [
+            "Người nào cũng dễ thương."
+          ]
+        },
+        {
+          "words": [
+            "không",
+            "gì",
+            "sợ",
+            "tôi",
+            "cả"
+          ],
+          "answers": [
+            "Tôi không sợ gì cả."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "His hometown is very far away!",
+          "answers": [
+            "Quê anh ấy ở xa quá!"
+          ]
+        },
+        {
+          "q": "I plan to go to Huế next week.",
+          "answers": [
+            "Tuần sau tôi định đi Huế.",
+            "Tôi định tuần sau đi Huế.",
+            "Tôi định đi Huế tuần sau."
+          ]
+        },
+        {
+          "q": "Everyone is very nice.",
+          "answers": [
+            "Người nào cũng dễ thương lắm.",
+            "Ai cũng dễ thương lắm.",
+            "Người nào cũng rất dễ thương."
+          ]
+        },
+        {
+          "q": "If I have time, I will visit Hạ Long.",
+          "answers": [
+            "Nếu có thời gian thì tôi sẽ đi thăm Hạ Long.",
+            "Nếu có thời gian thì tôi sẽ đi Hạ Long."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Viết đoạn văn ngắn",
+      "titleEn": "Write a short paragraph",
+      "items": [
+        {
+          "q": "Giới thiệu gia đình bạn (có mấy người, làm gì).",
+          "answers": [
+            "Gia đình tôi có … người: …"
+          ],
+          "instruction": "Viết 4–5 câu"
+        },
+        {
+          "q": "Bạn đã đi du lịch những đâu ở Việt Nam? Đi bằng gì?",
+          "answers": [
+            "Tôi đã đi … bằng …"
+          ],
+          "instruction": "Viết 4–5 câu"
+        }
+      ],
+      "freeAnswer": true
+    }
+  ],
+  "games": [
+    {
+      "type": "review-board",
+      "title": "Cờ cá ngựa ôn tập",
+      "titleEn": "Review board game",
+      "intro": "Tung xúc xắc! Mỗi ô là một câu hỏi lấy ngẫu nhiên từ bài 1–12. Đội nào về đích trước thì thắng.",
+      "introEn": "Roll the dice! Each square is a random question from lessons 1–12. First team home wins.",
+      "config": {
+        "squares": 30,
+        "teams": 2,
+        "pullFrom": [
+          "bai-01",
+          "bai-02",
+          "bai-03",
+          "bai-04",
+          "bai-05",
+          "bai-06",
+          "bai-07",
+          "bai-08",
+          "bai-09",
+          "bai-10",
+          "bai-11",
+          "bai-12"
+        ],
+        "exerciseTypes": [
+          "multiple-choice",
+          "fill-blank",
+          "translate-en-vi"
+        ],
+        "specialSquares": {
+          "5": "Nói 3 câu về gia đình bạn",
+          "12": "Chỉ đường đến bưu điện",
+          "18": "Gọi món ở nhà hàng",
+          "24": "Hỏi giờ và nói thói quen buổi tối",
+          "28": "Kể dự định tuần sau"
+        },
+        "penalty": "Trả lời sai: lùi 2 ô."
+      }
+    },
+    {
+      "type": "direction-map",
+      "title": "Chỉ đường cho Bình",
+      "titleEn": "Directions for Bình",
+      "intro": "Dùng lại bản đồ bài 8: chỉ đường cho Bình đến khách sạn, nhà thờ, bệnh viện.",
+      "introEn": "Reuse the lesson 8 map: guide Bình to the hotel, church and hospital.",
+      "config": {
+        "reuseMapFrom": "bai-08",
+        "levels": "reuse"
+      }
+    }
+  ]
+}

@@ -1,0 +1,989 @@
+{
+  "id": "bai-08",
+  "number": 8,
+  "bookLesson": 8,
+  "bookPages": "122–131",
+  "syllabusLessons": [
+    19,
+    20
+  ],
+  "topic": "Hỏi đường & chỉ đường",
+  "topicEn": "Asking for and giving directions",
+  "title": "Cô đi thẳng đường này",
+  "titleEn": "Go straight ahead on this street",
+  "objectives": [
+    {
+      "vi": "Hỏi đường lịch sự",
+      "en": "Ask for directions politely"
+    },
+    {
+      "vi": "Chỉ đường: đi thẳng, rẽ trái, rẽ phải; vị trí: bên trái, bên phải, đối diện",
+      "en": "Give directions and describe positions"
+    },
+    {
+      "vi": "Bác bỏ ý kiến với “không … đâu”; dùng “lắm”, “mới”",
+      "en": "Reject an opinion with “không … đâu”; use “lắm”, “mới”"
+    },
+    {
+      "vi": "Ra lệnh, đề nghị với “đi”; hỏi lại với “hả”",
+      "en": "Make suggestions with “đi”; check with “hả”"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "122",
+      "title": "Yoko hỏi đường đi đến bưu điện"
+    },
+    {
+      "page": "123",
+      "title": "Vợ chồng Tân đang trên đường đi đến chợ"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "đường",
+      "meaning": "street, road; way",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "hỏi đường",
+      "meaning": "to ask for directions",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "làm ơn cho hỏi",
+      "meaning": "excuse me, may I ask",
+      "type": "phrase",
+      "image": "",
+      "audio": "",
+      "example": "Anh làm ơn cho hỏi, bưu điện ở đâu?",
+      "exampleEn": "Excuse me, where is the post office?"
+    },
+    {
+      "word": "đi thẳng",
+      "meaning": "to go straight",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "rẽ trái / quẹo trái",
+      "meaning": "to turn left",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "rẽ phải / quẹo phải",
+      "meaning": "to turn right",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ngã tư",
+      "meaning": "crossroads, intersection",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ngã ba",
+      "meaning": "T-junction",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bên trái / bên phải",
+      "meaning": "on the left / on the right",
+      "type": "phrase",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đối diện",
+      "meaning": "opposite",
+      "type": "preposition",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bên cạnh",
+      "meaning": "next to",
+      "type": "preposition",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "gần",
+      "meaning": "near",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "xa",
+      "meaning": "far",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "mét / cây số",
+      "meaning": "metre / kilometre",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "lắm",
+      "meaning": "very (spoken, after adjective)",
+      "type": "adverb",
+      "image": "",
+      "audio": "",
+      "example": "Xa lắm!",
+      "exampleEn": "Very far!"
+    },
+    {
+      "word": "không … đâu",
+      "meaning": "not … at all (rejecting)",
+      "type": "structure",
+      "image": "",
+      "audio": "",
+      "example": "Không xa lắm đâu.",
+      "exampleEn": "It's not far at all."
+    },
+    {
+      "word": "mới",
+      "meaning": "just (recently)",
+      "type": "adverb",
+      "image": "",
+      "audio": "",
+      "example": "Tôi mới hỏi một người.",
+      "exampleEn": "I just asked someone."
+    },
+    {
+      "word": "đi (cuối câu)",
+      "meaning": "(particle: suggestion/command)",
+      "type": "particle",
+      "image": "",
+      "audio": "",
+      "example": "Anh đi đi!",
+      "exampleEn": "Go on!"
+    },
+    {
+      "word": "hả",
+      "meaning": "(particle: checking, spoken)",
+      "type": "particle",
+      "image": "",
+      "audio": "",
+      "example": "Chợ Bến Thành hả?",
+      "exampleEn": "Bến Thành Market?"
+    },
+    {
+      "word": "lạc đường",
+      "meaning": "to get lost",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "cảnh sát",
+      "meaning": "police officer",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "xích lô",
+      "meaning": "cyclo",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nặng",
+      "meaning": "heavy",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "trạm xe buýt",
+      "meaning": "bus stop",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nhà thờ",
+      "meaning": "church",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tiệm ăn",
+      "meaning": "small restaurant",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "trạm xăng",
+      "meaning": "petrol station",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Hỏi đường",
+      "explainVi": "Xin lỗi, (anh/chị) làm ơn cho hỏi: … ở đâu? / … có gần đây không?",
+      "explainEn": "Polite: Excuse me, may I ask: where is …? / Is … near here?",
+      "examples": [
+        {
+          "vi": "Xin lỗi, chị làm ơn cho hỏi: bưu điện ở đâu ạ?",
+          "en": "Excuse me, where is the post office?"
+        },
+        {
+          "vi": "Chợ Bến Thành có gần đây không ạ?",
+          "en": "Is Bến Thành Market near here?"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "Chỉ đường",
+      "explainVi": "Đi thẳng … Đến ngã tư thì rẽ trái/phải. … ở bên trái/bên phải/đối diện …",
+      "explainEn": "Go straight … At the crossroads turn left/right. … is on the left/right/opposite …",
+      "examples": [
+        {
+          "vi": "Anh đi thẳng đường này. Đến ngã tư thì rẽ trái. Bưu điện ở bên phải.",
+          "en": "Go straight on this street. At the crossroads turn left. The post office is on the right."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "không … (lắm) đâu",
+      "explainVi": "Phủ định để thuyết phục hoặc bác bỏ ý kiến người nghe.",
+      "explainEn": "Negation used to persuade or reject the listener's opinion.",
+      "examples": [
+        {
+          "vi": "Không xa lắm đâu.",
+          "en": "It's not very far at all."
+        },
+        {
+          "vi": "Anh ấy không đến đâu.",
+          "en": "He won't come (believe me)."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "adj + lắm",
+      "explainVi": "“Lắm” chỉ mức độ cao, dùng trong khẩu ngữ. Trong câu phủ định dùng “lắm” thay cho “rất/quá”.",
+      "explainEn": "“lắm” = very, in speech. In negatives use “không … lắm” instead of “rất/quá”.",
+      "examples": [
+        {
+          "vi": "Nhà tôi ở xa lắm.",
+          "en": "My house is very far."
+        },
+        {
+          "vi": "Không xa lắm.",
+          "en": "Not very far."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "mới + V",
+      "explainVi": "Việc vừa xảy ra không lâu.",
+      "explainEn": "Something that just happened.",
+      "examples": [
+        {
+          "vi": "Tôi mới hỏi một người.",
+          "en": "I just asked someone."
+        },
+        {
+          "vi": "Cô Mai mới đi Hà Nội hôm qua.",
+          "en": "Mai just went to Hà Nội yesterday."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "V + đi!",
+      "explainVi": "Cuối câu: mệnh lệnh hoặc đề nghị (khẩu ngữ).",
+      "explainEn": "At the end: command or suggestion (spoken).",
+      "examples": [
+        {
+          "vi": "Chị nói đi!",
+          "en": "Go ahead, speak!"
+        },
+        {
+          "vi": "Mình kêu xích lô đi!",
+          "en": "Let's call a cyclo!"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "… hả?",
+      "explainVi": "Đầu hoặc cuối câu, hỏi lại điều chưa chắc chắn (khẩu ngữ).",
+      "explainEn": "Start or end of sentence, checking something uncertain.",
+      "examples": [
+        {
+          "vi": "Xe đến rồi hả?",
+          "en": "The car's here already?"
+        },
+        {
+          "vi": "Hả, bao nhiêu tiền?",
+          "en": "What? How much?"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Hỏi đường đến bưu điện",
+      "titleEn": "Asking the way to the post office",
+      "lines": [
+        {
+          "speaker": "Emma",
+          "vi": "Xin lỗi, anh làm ơn cho hỏi: bưu điện ở đâu ạ?",
+          "en": "Excuse me, where is the post office?"
+        },
+        {
+          "speaker": "Người đi đường",
+          "vi": "Chị đi thẳng đường này. Đến ngã tư thì rẽ phải. Bưu điện ở bên trái.",
+          "en": "Go straight. At the crossroads turn right. It's on the left."
+        },
+        {
+          "speaker": "Emma",
+          "vi": "Đi thẳng, rồi rẽ phải hả anh? Có xa không?",
+          "en": "Straight, then right? Is it far?"
+        },
+        {
+          "speaker": "Người đi đường",
+          "vi": "Không xa lắm đâu. Khoảng 300 mét thôi.",
+          "en": "Not far at all. Only about 300 metres."
+        },
+        {
+          "speaker": "Emma",
+          "vi": "Nhưng tôi mới hỏi một người. Người đó nói là xa lắm.",
+          "en": "But I just asked someone. They said it was very far."
+        },
+        {
+          "speaker": "Người đi đường",
+          "vi": "Không phải đâu. Chị đi đi, không lạc đâu.",
+          "en": "No, it isn't. Go on, you won't get lost."
+        }
+      ]
+    },
+    {
+      "title": "Túi nặng quá!",
+      "titleEn": "The bag is so heavy!",
+      "lines": [
+        {
+          "speaker": "Chồng",
+          "vi": "Ôi, nặng quá! Mình đi xích lô đi, em.",
+          "en": "Oh, it's so heavy! Let's take a cyclo."
+        },
+        {
+          "speaker": "Vợ",
+          "vi": "Chợ không xa lắm đâu. Đến ngã tư em hỏi cảnh sát.",
+          "en": "The market isn't far. I'll ask the police at the crossroads."
+        },
+        {
+          "speaker": "Vợ",
+          "vi": "Dạ, anh làm ơn cho hỏi: chợ Bến Thành có gần đây không ạ?",
+          "en": "Excuse me, is Bến Thành Market near here?"
+        },
+        {
+          "speaker": "Cảnh sát",
+          "vi": "Chợ Bến Thành hả? Chị đi thẳng, đến ngã tư thứ hai thì rẽ trái. Chợ ở đối diện khách sạn.",
+          "en": "Bến Thành? Go straight, turn left at the second crossroads. It's opposite the hotel."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Khách sạn của tôi",
+    "text": "Khách sạn tôi đang ở không xa trường lắm. Từ trường, tôi đi thẳng khoảng 200 mét, đến ngã tư thì rẽ phải. Khách sạn ở bên trái. Đối diện khách sạn là trạm xe buýt. Bên phải khách sạn là một tiệm ăn nhỏ. Buổi sáng tôi thường ăn sáng ở đó. Bên trái khách sạn là một nhà hàng lớn, nhưng bạn tôi nói là nhà hàng đó đắt lắm.",
+    "translation": "My hotel isn't very far from the school. From school I go straight about 200 m, then turn right at the crossroads. The hotel is on the left. Opposite the hotel is a bus stop. To the right of the hotel is a small eatery where I usually have breakfast. To the left is a big restaurant, but my friend says it's very expensive.",
+    "trueFalse": [
+      {
+        "q": "Khách sạn ở xa trường lắm.",
+        "answer": false
+      },
+      {
+        "q": "Đối diện khách sạn là trạm xe buýt.",
+        "answer": true
+      },
+      {
+        "q": "Tôi thường ăn sáng ở nhà hàng lớn.",
+        "answer": false
+      },
+      {
+        "q": "Bên phải khách sạn là tiệm ăn nhỏ.",
+        "answer": true
+      }
+    ],
+    "questions": [
+      {
+        "q": "Từ trường đến khách sạn đi thế nào?",
+        "answers": [
+          "Đi thẳng khoảng 200 mét, đến ngã tư thì rẽ phải."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "substitution",
+      "title": "Bảng thay thế",
+      "titleEn": "Substitution drill",
+      "items": [
+        {
+          "frame": "Anh {0} đi!",
+          "slots": [
+            [
+              "hỏi",
+              "nói",
+              "trả lời"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Đến ngã tư thì {0}.",
+          "slots": [
+            [
+              "rẽ trái",
+              "rẽ phải",
+              "đi thẳng"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "{0} ở bên phải.",
+          "slots": [
+            [
+              "Bưu điện",
+              "Ngân hàng",
+              "Khách sạn"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Không {0} lắm đâu.",
+          "slots": [
+            [
+              "xa",
+              "đắt",
+              "khó"
+            ]
+          ],
+          "en": ""
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền vào chỗ trống",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Xin lỗi, anh làm ơn cho ___: chợ ở đâu ạ?",
+          "answers": [
+            "hỏi"
+          ]
+        },
+        {
+          "q": "Chị đi ___ đường này.",
+          "answers": [
+            "thẳng"
+          ]
+        },
+        {
+          "q": "Đến ngã tư thì ___ trái.",
+          "answers": [
+            "rẽ",
+            "quẹo"
+          ]
+        },
+        {
+          "q": "Không xa lắm ___.",
+          "answers": [
+            "đâu"
+          ]
+        },
+        {
+          "q": "Tôi ___ hỏi một người.",
+          "answers": [
+            "mới"
+          ]
+        },
+        {
+          "q": "Đi thẳng rồi rẽ phải ___ anh?",
+          "answers": [
+            "hả"
+          ]
+        }
+      ],
+      "wordBank": [
+        "hỏi",
+        "thẳng",
+        "rẽ",
+        "đâu",
+        "mới",
+        "hả"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "Chọn đáp án đúng",
+      "titleEn": "Choose the right answer",
+      "items": [
+        {
+          "q": "Bạn quay mặt về hướng Bắc rồi rẽ phải. Bây giờ bạn nhìn về hướng:",
+          "options": [
+            "Tây",
+            "Đông",
+            "Nam"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Câu phủ định đúng:",
+          "options": [
+            "Không rất xa.",
+            "Không xa lắm.",
+            "Không quá xa lắm."
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "“Xa quá!” – Bạn muốn bác bỏ:",
+          "options": [
+            "Xa lắm đâu.",
+            "Không xa lắm đâu.",
+            "Rất xa đâu."
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "“Mình đi xích lô ___!” (đề nghị)",
+          "options": [
+            "đi",
+            "hả",
+            "đâu"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Ngân hàng ở bên này đường, bưu điện ở bên kia, ngay trước mặt. Bưu điện ở ___ ngân hàng.",
+          "options": [
+            "bên cạnh",
+            "đối diện",
+            "bên trái"
+          ],
+          "answer": 1,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        {
+          "words": [
+            "đường này",
+            "đi",
+            "chị",
+            "thẳng"
+          ],
+          "answers": [
+            "Chị đi thẳng đường này."
+          ]
+        },
+        {
+          "words": [
+            "thì",
+            "ngã tư",
+            "rẽ trái",
+            "đến"
+          ],
+          "answers": [
+            "Đến ngã tư thì rẽ trái."
+          ]
+        },
+        {
+          "words": [
+            "lắm",
+            "không",
+            "đâu",
+            "xa"
+          ],
+          "answers": [
+            "Không xa lắm đâu."
+          ]
+        },
+        {
+          "words": [
+            "ở",
+            "bên phải",
+            "bưu điện"
+          ],
+          "answers": [
+            "Bưu điện ở bên phải."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Bác bỏ ý kiến với “không … lắm đâu”",
+      "titleEn": "Reject with “không … lắm đâu”",
+      "items": [
+        {
+          "q": "Nhà anh xa quá!",
+          "answers": [
+            "Không xa lắm đâu."
+          ]
+        },
+        {
+          "q": "Tiếng Việt khó quá!",
+          "answers": [
+            "Không khó lắm đâu."
+          ]
+        },
+        {
+          "q": "Nhà hàng này đắt quá!",
+          "answers": [
+            "Không đắt lắm đâu."
+          ]
+        },
+        {
+          "q": "Túi này nặng quá!",
+          "answers": [
+            "Không nặng lắm đâu."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "Excuse me, where is the bank? (to a young man)",
+          "answers": [
+            "Xin lỗi, anh làm ơn cho hỏi, ngân hàng ở đâu?",
+            "Xin lỗi, ngân hàng ở đâu ạ?",
+            "Xin lỗi anh, ngân hàng ở đâu?"
+          ]
+        },
+        {
+          "q": "Go straight, then turn left.",
+          "answers": [
+            "Đi thẳng, rồi rẽ trái.",
+            "Đi thẳng rồi rẽ trái.",
+            "Đi thẳng, rồi quẹo trái."
+          ]
+        },
+        {
+          "q": "The hotel is on the right.",
+          "answers": [
+            "Khách sạn ở bên phải."
+          ]
+        },
+        {
+          "q": "It's not very far.",
+          "answers": [
+            "Không xa lắm.",
+            "Không xa lắm đâu."
+          ]
+        },
+        {
+          "q": "The church is opposite the park.",
+          "answers": [
+            "Nhà thờ ở đối diện công viên."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-vi-en",
+      "title": "Dịch sang tiếng Anh",
+      "titleEn": "Translate into English",
+      "items": [
+        {
+          "q": "Đến ngã tư thứ hai thì rẽ phải.",
+          "answers": [
+            "Turn right at the second crossroads.",
+            "At the second intersection, turn right."
+          ]
+        },
+        {
+          "q": "Bên cạnh khách sạn là trạm xăng.",
+          "answers": [
+            "Next to the hotel is a petrol station.",
+            "There is a gas station next to the hotel."
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "direction-map",
+      "title": "Dẫn đường cho du khách",
+      "titleEn": "Guide the tourist",
+      "intro": "Du khách bị lạc! Chỉ đường bằng tiếng Việt để nhân vật đến đúng nơi.",
+      "introEn": "The tourist is lost! Give directions in Vietnamese to get them there.",
+      "config": {
+        "map": {
+          "width": 7,
+          "height": 7,
+          "roadRule": "Ô (x,y) là đường nếu x chẵn hoặc y chẵn; ngã tư khi cả x và y đều chẵn. Toạ độ: x sang phải, y xuống dưới.",
+          "places": [
+            {
+              "id": "buu-dien",
+              "name": "bưu điện",
+              "emoji": "🏤",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "id": "ngan-hang",
+              "name": "ngân hàng",
+              "emoji": "🏦",
+              "x": 3,
+              "y": 1
+            },
+            {
+              "id": "cho",
+              "name": "chợ Bến Thành",
+              "emoji": "🛒",
+              "x": 5,
+              "y": 1
+            },
+            {
+              "id": "nha-hang",
+              "name": "nhà hàng",
+              "emoji": "🍜",
+              "x": 1,
+              "y": 3
+            },
+            {
+              "id": "cong-vien",
+              "name": "công viên",
+              "emoji": "🌳",
+              "x": 3,
+              "y": 3
+            },
+            {
+              "id": "benh-vien",
+              "name": "bệnh viện",
+              "emoji": "🏥",
+              "x": 5,
+              "y": 3
+            },
+            {
+              "id": "truong",
+              "name": "trường học",
+              "emoji": "🏫",
+              "x": 1,
+              "y": 5
+            },
+            {
+              "id": "khach-san",
+              "name": "khách sạn",
+              "emoji": "🏨",
+              "x": 3,
+              "y": 5
+            },
+            {
+              "id": "nha-tho",
+              "name": "nhà thờ",
+              "emoji": "⛪",
+              "x": 5,
+              "y": 5
+            }
+          ],
+          "commands": {
+            "đi thẳng": "Đi tiếp theo hướng đang quay mặt đến ngã tư kế tiếp (2 ô).",
+            "đi thêm một chút": "Đi tiếp 1 ô.",
+            "rẽ trái": "Quay 90° sang trái so với hướng nhân vật đang nhìn (không theo màn hình).",
+            "rẽ phải": "Quay 90° sang phải so với hướng nhân vật đang nhìn.",
+            "quay lại": "Quay 180°."
+          },
+          "textParser": [
+            "đi thẳng",
+            "đi thêm một chút",
+            "rẽ trái",
+            "rẽ phải",
+            "quẹo trái",
+            "quẹo phải",
+            "quay lại",
+            "đến ngã tư thì"
+          ],
+          "sideRule": "Khi đến nơi, toà nhà ở bên trái/bên phải tính theo hướng nhân vật đang nhìn."
+        },
+        "levels": [
+          {
+            "level": 1,
+            "tourist": "Yoko 👩",
+            "ask": "Xin lỗi, anh làm ơn cho hỏi: bưu điện ở đâu ạ?",
+            "start": {
+              "x": 0,
+              "y": 4,
+              "facing": "N"
+            },
+            "goal": "buu-dien",
+            "door": {
+              "x": 0,
+              "y": 1
+            },
+            "solution": [
+              "đi thẳng",
+              "đi thêm một chút"
+            ],
+            "side": "bên phải",
+            "modelAnswer": "Chị đi thẳng đường này, qua ngã tư thì đi thêm một chút. Bưu điện ở bên phải."
+          },
+          {
+            "level": 2,
+            "tourist": "Ông Brown 👴",
+            "ask": "Xin lỗi, ngân hàng có gần đây không?",
+            "start": {
+              "x": 0,
+              "y": 6,
+              "facing": "N"
+            },
+            "goal": "ngan-hang",
+            "door": {
+              "x": 3,
+              "y": 2
+            },
+            "solution": [
+              "đi thẳng",
+              "đi thẳng",
+              "rẽ phải",
+              "đi thẳng",
+              "đi thêm một chút"
+            ],
+            "side": "bên trái",
+            "modelAnswer": "Ông đi thẳng, đến ngã tư thứ hai thì rẽ phải. Đi thẳng đến ngã tư tiếp theo rồi đi thêm một chút. Ngân hàng ở bên trái."
+          },
+          {
+            "level": 3,
+            "tourist": "Anh Ken 👨",
+            "ask": "Bệnh viện ở đâu vậy anh?",
+            "start": {
+              "x": 6,
+              "y": 6,
+              "facing": "W"
+            },
+            "goal": "benh-vien",
+            "door": {
+              "x": 4,
+              "y": 3
+            },
+            "solution": [
+              "đi thẳng",
+              "rẽ phải",
+              "đi thẳng",
+              "đi thêm một chút"
+            ],
+            "side": "bên phải",
+            "modelAnswer": "Anh đi thẳng, đến ngã tư thì rẽ phải. Đi thẳng đến ngã tư tiếp theo rồi đi thêm một chút. Bệnh viện ở bên phải."
+          },
+          {
+            "level": 4,
+            "tourist": "Chị Sara 👩",
+            "ask": "Từ đây đến nhà thờ có xa không, chị?",
+            "start": {
+              "x": 2,
+              "y": 0,
+              "facing": "S"
+            },
+            "goal": "nha-tho",
+            "door": {
+              "x": 5,
+              "y": 6
+            },
+            "solution": [
+              "đi thẳng",
+              "đi thẳng",
+              "đi thẳng",
+              "rẽ trái",
+              "đi thẳng",
+              "đi thêm một chút"
+            ],
+            "side": "bên trái",
+            "modelAnswer": "Không xa lắm đâu. Chị đi thẳng, đến ngã tư thứ ba thì rẽ trái. Đi thẳng đến ngã tư tiếp theo rồi đi thêm một chút. Nhà thờ ở bên trái."
+          }
+        ],
+        "positionQuiz": [
+          {
+            "q": "Khách sạn ở đâu so với công viên?",
+            "answer": "Khách sạn ở đối diện công viên.",
+            "note": "Cả hai cùng nhìn ra đường y = 4."
+          },
+          {
+            "q": "Ngân hàng ở đâu so với bưu điện?",
+            "answer": "Ngân hàng ở bên cạnh bưu điện."
+          }
+        ],
+        "reverseMode": "App đọc câu chỉ đường (modelAnswer); học viên tự điều khiển nhân vật theo lời nghe được."
+      }
+    },
+    {
+      "type": "argue-back",
+      "title": "Cãi vui: Không … lắm đâu!",
+      "titleEn": "Friendly argument",
+      "intro": "Bạn của bạn than phiền. Bác bỏ bằng “Không … lắm đâu”!",
+      "introEn": "Your friend complains. Push back with “Không … lắm đâu”!",
+      "config": {
+        "rounds": [
+          {
+            "friend": "Chợ xa quá!",
+            "answer": "Không xa lắm đâu."
+          },
+          {
+            "friend": "Phở ở đây đắt quá!",
+            "answer": "Không đắt lắm đâu."
+          },
+          {
+            "friend": "Túi này nặng lắm!",
+            "answer": "Không nặng lắm đâu."
+          },
+          {
+            "friend": "Đường này khó đi lắm!",
+            "answer": "Không khó đi lắm đâu."
+          }
+        ]
+      }
+    }
+  ]
+}
