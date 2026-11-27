@@ -1,0 +1,792 @@
+{
+  "id": "bai-07",
+  "number": 7,
+  "bookLesson": 7,
+  "bookPages": "112–121",
+  "syllabusLessons": [
+    16,
+    17,
+    18
+  ],
+  "topic": "Ngày tháng, dự định, thời lượng",
+  "topicEn": "Dates, plans, duration",
+  "title": "Hôm nay là thứ mấy?",
+  "titleEn": "What day is today?",
+  "objectives": [
+    {
+      "vi": "Nói thứ, ngày, tháng",
+      "en": "Say days of the week, dates and months"
+    },
+    {
+      "vi": "Nói dự định với “sắp”, “sẽ”",
+      "en": "Talk about plans with “sắp”, “sẽ”"
+    },
+    {
+      "vi": "Hỏi thời điểm với “bao giờ” và khoảng thời gian với “bao lâu”",
+      "en": "Ask when with “bao giờ” and how long with “bao lâu”"
+    },
+    {
+      "vi": "Dùng “để” với nghĩa “cho phép, để tôi…”",
+      "en": "Use “để” meaning “let (me)…”"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "112",
+      "title": "Thu mời Mai đi Đà Lạt"
+    },
+    {
+      "page": "113",
+      "title": "Hải gặp Mai ở một trung tâm ngoại ngữ"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "thứ hai … thứ bảy",
+      "meaning": "Monday … Saturday",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "chủ nhật",
+      "meaning": "Sunday",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "thứ mấy",
+      "meaning": "which day of the week",
+      "type": "phrase",
+      "image": "",
+      "audio": "",
+      "example": "Hôm nay là thứ mấy?",
+      "exampleEn": "What day is today?"
+    },
+    {
+      "word": "hôm nay / hôm qua / ngày mai",
+      "meaning": "today / yesterday / tomorrow",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tuần này / tuần sau / tuần trước",
+      "meaning": "this week / next week / last week",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tháng sau / năm sau",
+      "meaning": "next month / next year",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ngày … tháng …",
+      "meaning": "date (day … month …)",
+      "type": "phrase",
+      "image": "",
+      "audio": "",
+      "example": "ngày 20 tháng 11",
+      "exampleEn": "20 November"
+    },
+    {
+      "word": "sắp",
+      "meaning": "about to, soon",
+      "type": "adverb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "sẽ",
+      "meaning": "will",
+      "type": "adverb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bao giờ / khi nào",
+      "meaning": "when",
+      "type": "question word",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bao lâu",
+      "meaning": "how long",
+      "type": "question word",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bao lâu rồi",
+      "meaning": "how long (until now)",
+      "type": "phrase",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "để tôi xem",
+      "meaning": "let me see",
+      "type": "phrase",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tiếc quá",
+      "meaning": "what a pity",
+      "type": "phrase",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "chúc … vui",
+      "meaning": "have a nice …",
+      "type": "phrase",
+      "image": "",
+      "audio": "",
+      "example": "Chúc chị đi Đà Lạt vui.",
+      "exampleEn": "Have a nice trip to Đà Lạt."
+    },
+    {
+      "word": "quà",
+      "meaning": "gift",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "về nước",
+      "meaning": "to return to one's country",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "khoảng",
+      "meaning": "about, approximately",
+      "type": "adverb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "hơn",
+      "meaning": "more than",
+      "type": "adverb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ngoại ngữ",
+      "meaning": "foreign language",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tham quan",
+      "meaning": "to visit, to tour",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Thứ trong tuần",
+      "explainVi": "Thứ hai, thứ ba, thứ tư, thứ năm, thứ sáu, thứ bảy, chủ nhật.",
+      "explainEn": "Mon–Sat are numbered “thứ hai” (2) to “thứ bảy” (7); Sunday is “chủ nhật”.",
+      "examples": [
+        {
+          "vi": "Hôm nay là thứ mấy? – Hôm nay là thứ tư.",
+          "en": "What day is it today? – Wednesday."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "sắp + V",
+      "explainVi": "Việc sẽ xảy ra rất gần.",
+      "explainEn": "Something will happen very soon.",
+      "examples": [
+        {
+          "vi": "Tôi sắp đi Hà Nội.",
+          "en": "I'm going to Hà Nội soon."
+        },
+        {
+          "vi": "Sắp đến giờ học rồi.",
+          "en": "It's almost class time."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "sẽ + V",
+      "explainVi": "Việc xảy ra trong tương lai.",
+      "explainEn": "Something in the future.",
+      "examples": [
+        {
+          "vi": "Tháng sau tôi sẽ về nước.",
+          "en": "I'll go back to my country next month."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "Bao giờ … ? / … bao giờ?",
+      "explainVi": "“Bao giờ” ở đầu câu: hỏi tương lai. Ở cuối câu: hỏi quá khứ.",
+      "explainEn": "“bao giờ” at the start asks about the future; at the end, about the past.",
+      "examples": [
+        {
+          "vi": "Bao giờ anh đi? – Ngày mai.",
+          "en": "When will you go? – Tomorrow."
+        },
+        {
+          "vi": "Anh đi bao giờ? – Hôm qua.",
+          "en": "When did you go? – Yesterday."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "bao lâu / bao lâu rồi",
+      "explainVi": "“Bao lâu”: hỏi khoảng thời gian. “Bao lâu rồi”: tính đến bây giờ.",
+      "explainEn": "“bao lâu”: length of time. “bao lâu rồi”: up to now.",
+      "examples": [
+        {
+          "vi": "Chị sẽ ở Đà Lạt bao lâu? – Một tuần.",
+          "en": "How long will you stay? – A week."
+        },
+        {
+          "vi": "Cô ở Việt Nam bao lâu rồi? – Một năm rồi.",
+          "en": "How long have you been in Vietnam? – A year."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "để + người + V",
+      "explainVi": "“Để” = cho phép, không ngăn cản ai làm gì. Thường dùng trong câu đề nghị.",
+      "explainEn": "“để” = let someone do something; used in suggestions.",
+      "examples": [
+        {
+          "vi": "Để tôi xem.",
+          "en": "Let me see."
+        },
+        {
+          "vi": "Nó mệt, để nó ngủ.",
+          "en": "He's tired, let him sleep."
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Rủ bạn đi Hội An",
+      "titleEn": "Inviting a friend to Hội An",
+      "lines": [
+        {
+          "speaker": "Hoa",
+          "vi": "Ken ơi, tôi sắp đi Hội An. Anh đi với tôi không?",
+          "en": "Ken, I'm going to Hội An soon. Want to come?"
+        },
+        {
+          "speaker": "Ken",
+          "vi": "Hay quá! Bao giờ chị đi?",
+          "en": "Great! When are you going?"
+        },
+        {
+          "speaker": "Hoa",
+          "vi": "Thứ sáu tuần này.",
+          "en": "This Friday."
+        },
+        {
+          "speaker": "Ken",
+          "vi": "Để tôi xem… Thứ sáu tôi phải làm việc. Tiếc quá! Chị sẽ ở đó bao lâu?",
+          "en": "Let me see… I work on Friday. What a pity! How long will you stay?"
+        },
+        {
+          "speaker": "Hoa",
+          "vi": "Ba ngày. Chủ nhật tôi về.",
+          "en": "Three days. I'm coming back on Sunday."
+        },
+        {
+          "speaker": "Ken",
+          "vi": "Chúc chị đi Hội An vui!",
+          "en": "Have a nice trip to Hội An!"
+        }
+      ]
+    },
+    {
+      "title": "Học bao lâu rồi?",
+      "titleEn": "How long have you been studying?",
+      "lines": [
+        {
+          "speaker": "Mai",
+          "vi": "Anh học tiếng Việt bao lâu rồi?",
+          "en": "How long have you been studying Vietnamese?"
+        },
+        {
+          "speaker": "Tom",
+          "vi": "Khoảng bốn tháng rồi. Còn chị học tiếng Anh bao lâu rồi?",
+          "en": "About four months. And how long have you studied English?"
+        },
+        {
+          "speaker": "Mai",
+          "vi": "Hơn một năm rồi. Tôi học ba buổi một tuần: thứ hai, thứ tư và thứ sáu.",
+          "en": "Over a year. Three times a week: Monday, Wednesday and Friday."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Kế hoạch của Tom",
+    "text": "Tom đã ở Việt Nam sáu tháng rồi. Tháng sau anh ấy sẽ về nước. Tuần này anh ấy rất bận. Thứ hai và thứ tư anh ấy học tiếng Việt. Thứ năm anh ấy sắp đi Đà Lạt với bạn. Anh ấy sẽ ở Đà Lạt ba ngày. Chủ nhật anh ấy về Thành phố Hồ Chí Minh để mua quà cho gia đình.",
+    "translation": "Tom has been in Vietnam for six months. Next month he will go back home. This week he's very busy. On Monday and Wednesday he studies Vietnamese. On Thursday he's going to Đà Lạt with a friend. He'll stay in Đà Lạt for three days. On Sunday he'll return to HCMC to buy gifts for his family.",
+    "trueFalse": [
+      {
+        "q": "Tom đã ở Việt Nam một năm.",
+        "answer": false
+      },
+      {
+        "q": "Tháng sau Tom sẽ về nước.",
+        "answer": true
+      },
+      {
+        "q": "Tom sẽ ở Đà Lạt ba ngày.",
+        "answer": true
+      },
+      {
+        "q": "Thứ năm Tom học tiếng Việt.",
+        "answer": false
+      }
+    ],
+    "questions": [
+      {
+        "q": "Bao giờ Tom đi Đà Lạt?",
+        "answers": [
+          "Thứ năm.",
+          "Thứ năm anh ấy đi Đà Lạt.",
+          "Thứ năm Tom đi Đà Lạt."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "substitution",
+      "title": "Bảng thay thế",
+      "titleEn": "Substitution drill",
+      "items": [
+        {
+          "frame": "Bao giờ chị {0}?",
+          "slots": [
+            [
+              "đi Đà Lạt",
+              "về nước",
+              "đi Nhật"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Anh ấy sắp {0}.",
+          "slots": [
+            [
+              "đến Việt Nam",
+              "đi Hà Nội",
+              "về nước"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Chị sẽ ở {0} bao lâu?",
+          "slots": [
+            [
+              "Đà Lạt",
+              "Hà Nội",
+              "Hàn Quốc"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Để tôi {0}.",
+          "slots": [
+            [
+              "xem",
+              "nói",
+              "làm"
+            ]
+          ],
+          "en": ""
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền vào chỗ trống",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Hôm nay là thứ ___?",
+          "answers": [
+            "mấy"
+          ]
+        },
+        {
+          "q": "Tháng sau tôi ___ về nước.",
+          "answers": [
+            "sẽ"
+          ]
+        },
+        {
+          "q": "Tôi ___ đi rồi. Năm phút nữa thôi.",
+          "answers": [
+            "sắp"
+          ]
+        },
+        {
+          "q": "Anh ở Việt Nam bao lâu ___? – Hai năm rồi.",
+          "answers": [
+            "rồi"
+          ]
+        },
+        {
+          "q": "___ tôi xem…",
+          "answers": [
+            "Để"
+          ]
+        },
+        {
+          "q": "Chúc chị đi Đà Lạt ___!",
+          "answers": [
+            "vui"
+          ]
+        }
+      ],
+      "wordBank": [
+        "mấy",
+        "sẽ",
+        "sắp",
+        "rồi",
+        "Để",
+        "vui"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "Chọn đáp án đúng",
+      "titleEn": "Choose the right answer",
+      "items": [
+        {
+          "q": "“Bao giờ anh đi Huế?” – câu này hỏi về:",
+          "options": [
+            "quá khứ",
+            "tương lai"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "“Anh đi Huế bao giờ?” – câu này hỏi về:",
+          "options": [
+            "quá khứ",
+            "tương lai"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Anh sẽ ở Hà Nội ___? – Một tuần.",
+          "options": [
+            "bao giờ",
+            "bao lâu",
+            "thứ mấy"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "___ chị về nước? – Tháng sau.",
+          "options": [
+            "Bao giờ",
+            "Bao lâu",
+            "Mấy giờ"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Ngày sau thứ bảy là:",
+          "options": [
+            "thứ hai",
+            "chủ nhật",
+            "thứ tám"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Hôm nay là thứ tư. Ngày mai là:",
+          "options": [
+            "thứ ba",
+            "thứ năm",
+            "thứ sáu"
+          ],
+          "answer": 1,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        {
+          "words": [
+            "về nước",
+            "tháng sau",
+            "sẽ",
+            "tôi"
+          ],
+          "answers": [
+            "Tháng sau tôi sẽ về nước.",
+            "Tôi sẽ về nước tháng sau."
+          ]
+        },
+        {
+          "words": [
+            "bao lâu",
+            "ở",
+            "Đà Lạt",
+            "chị",
+            "sẽ"
+          ],
+          "answers": [
+            "Chị sẽ ở Đà Lạt bao lâu?"
+          ]
+        },
+        {
+          "words": [
+            "đi",
+            "bao giờ",
+            "Nhật",
+            "anh"
+          ],
+          "answers": [
+            "Bao giờ anh đi Nhật?",
+            "Anh đi Nhật bao giờ?"
+          ]
+        },
+        {
+          "words": [
+            "sắp",
+            "giờ học",
+            "đến",
+            "rồi"
+          ],
+          "answers": [
+            "Sắp đến giờ học rồi."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Đặt câu hỏi cho phần gạch chân",
+      "titleEn": "Ask about the underlined part",
+      "items": [
+        {
+          "q": "Ngày mai tôi đi Hà Nội. (ngày mai)",
+          "answers": [
+            "Bao giờ anh đi Hà Nội?",
+            "Bao giờ chị đi Hà Nội?",
+            "Khi nào anh đi Hà Nội?"
+          ]
+        },
+        {
+          "q": "Tôi đến Việt Nam năm ngoái. (năm ngoái)",
+          "answers": [
+            "Anh đến Việt Nam bao giờ?",
+            "Chị đến Việt Nam bao giờ?",
+            "Anh đến Việt Nam khi nào?"
+          ]
+        },
+        {
+          "q": "Tôi sẽ ở Huế năm ngày. (năm ngày)",
+          "answers": [
+            "Anh sẽ ở Huế bao lâu?",
+            "Chị sẽ ở Huế bao lâu?"
+          ]
+        },
+        {
+          "q": "Hôm nay là thứ sáu. (thứ sáu)",
+          "answers": [
+            "Hôm nay là thứ mấy?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "What day is today?",
+          "answers": [
+            "Hôm nay là thứ mấy?"
+          ]
+        },
+        {
+          "q": "When will you go back to your country? (to a young man)",
+          "answers": [
+            "Bao giờ anh về nước?",
+            "Khi nào anh về nước?"
+          ]
+        },
+        {
+          "q": "I will stay in Đà Lạt for one week.",
+          "answers": [
+            "Tôi sẽ ở Đà Lạt một tuần."
+          ]
+        },
+        {
+          "q": "Let me see.",
+          "answers": [
+            "Để tôi xem."
+          ]
+        },
+        {
+          "q": "How long have you been in Vietnam? (to a young woman)",
+          "answers": [
+            "Chị ở Việt Nam bao lâu rồi?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-vi-en",
+      "title": "Dịch sang tiếng Anh",
+      "titleEn": "Translate into English",
+      "items": [
+        {
+          "q": "Tôi sắp đi du lịch.",
+          "answers": [
+            "I'm going on a trip soon.",
+            "I am about to travel."
+          ]
+        },
+        {
+          "q": "Tiếc quá!",
+          "answers": [
+            "What a pity!",
+            "That's a shame!"
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "time-machine",
+      "title": "Cỗ máy thời gian",
+      "titleEn": "Time machine",
+      "intro": "Đọc câu hỏi. “Bao giờ” ở đầu câu → bay tới tương lai. Ở cuối câu → quay về quá khứ.",
+      "introEn": "Read the question. “Bao giờ” at the start → fly to the future. At the end → back to the past.",
+      "config": {
+        "rounds": [
+          {
+            "q": "Bao giờ anh đi Đà Lạt?",
+            "answer": "future",
+            "reply": "Thứ sáu tuần này."
+          },
+          {
+            "q": "Anh đến Việt Nam bao giờ?",
+            "answer": "past",
+            "reply": "Năm ngoái."
+          },
+          {
+            "q": "Bao giờ chị về nước?",
+            "answer": "future",
+            "reply": "Tháng sau."
+          },
+          {
+            "q": "Chị gặp anh ấy bao giờ?",
+            "answer": "past",
+            "reply": "Hôm qua."
+          },
+          {
+            "q": "Bao giờ các bạn thi?",
+            "answer": "future",
+            "reply": "Tuần sau."
+          }
+        ]
+      }
+    },
+    {
+      "type": "trip-calendar",
+      "title": "Lên lịch du lịch",
+      "titleEn": "Plan a trip",
+      "intro": "Kéo hoạt động vào lịch tuần, rồi trả lời: Bao giờ? Bao lâu?",
+      "introEn": "Drag activities into the weekly calendar, then answer: When? How long?",
+      "config": {
+        "days": [
+          "thứ hai",
+          "thứ ba",
+          "thứ tư",
+          "thứ năm",
+          "thứ sáu",
+          "thứ bảy",
+          "chủ nhật"
+        ],
+        "activities": [
+          "học tiếng Việt",
+          "đi Đà Lạt",
+          "về Sài Gòn",
+          "mua quà",
+          "gặp bạn"
+        ],
+        "questions": [
+          "Bao giờ bạn đi Đà Lạt?",
+          "Bạn sẽ ở Đà Lạt bao lâu?",
+          "Thứ mấy bạn mua quà?"
+        ]
+      }
+    },
+    {
+      "type": "duration-bar",
+      "title": "Thanh thời gian",
+      "titleEn": "Duration bar",
+      "intro": "Kéo thanh dài đúng khoảng thời gian trong câu; phân loại câu hỏi “bao giờ” (mốc) và “bao lâu” (khoảng).",
+      "introEn": "Drag the bar to the right length; sort “bao giờ” (point) and “bao lâu” (length) questions.",
+      "config": {
+        "rounds": [
+          {
+            "sentence": "Tôi sẽ ở Huế ba ngày.",
+            "value": 3,
+            "unit": "ngày"
+          },
+          {
+            "sentence": "Anh ấy học tiếng Việt hai tuần rồi.",
+            "value": 2,
+            "unit": "tuần"
+          },
+          {
+            "sentence": "Chị ấy ở Việt Nam sáu tháng.",
+            "value": 6,
+            "unit": "tháng"
+          }
+        ]
+      }
+    }
+  ]
+}

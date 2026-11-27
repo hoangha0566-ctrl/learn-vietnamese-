@@ -1,0 +1,850 @@
+{
+  "id": "bai-11",
+  "number": 11,
+  "bookLesson": 11,
+  "bookPages": "151–158",
+  "syllabusLessons": [
+    25
+  ],
+  "topic": "Ở nhà hàng & quán cà phê",
+  "topicEn": "At a restaurant & café",
+  "title": "Anh cho tôi xem thực đơn",
+  "titleEn": "Please let me see the menu",
+  "objectives": [
+    {
+      "vi": "Gọi món, gọi đồ uống ở nhà hàng, quán cà phê",
+      "en": "Order food and drinks"
+    },
+    {
+      "vi": "Nói “gì … cũng …” (mọi thứ) và “không … gì” (không gì cả)",
+      "en": "Say “gì … cũng” (anything) and “không … gì” (nothing)"
+    },
+    {
+      "vi": "Đề nghị với “nhé”; từ chối, kết thúc với “thôi”",
+      "en": "Suggest with “nhé”; refuse or wrap up with “thôi”"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "151",
+      "title": "Ở nhà hàng"
+    },
+    {
+      "page": "152",
+      "title": "Ở tiệm cà phê"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "thực đơn",
+      "meaning": "menu",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "món ăn",
+      "meaning": "dish",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "món uống / đồ uống",
+      "meaning": "drink",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "kêu / gọi (món)",
+      "meaning": "to order",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "dùng",
+      "meaning": "to have (food, polite)",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Anh dùng gì ạ?",
+      "exampleEn": "What will you have?"
+    },
+    {
+      "word": "cho tôi …",
+      "meaning": "give me …, I'd like …",
+      "type": "phrase",
+      "image": "",
+      "audio": "",
+      "example": "Cho tôi một ly cà phê đá.",
+      "exampleEn": "An iced coffee, please."
+    },
+    {
+      "word": "người phục vụ",
+      "meaning": "waiter / waitress",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đĩa / dĩa",
+      "meaning": "plate",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ly / cốc",
+      "meaning": "glass",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "chai / lon",
+      "meaning": "bottle / can",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đôi đũa",
+      "meaning": "pair of chopsticks",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "phở",
+      "meaning": "phở (noodle soup)",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "chả giò / nem rán",
+      "meaning": "spring rolls",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tôm nướng",
+      "meaning": "grilled prawns",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "cơm",
+      "meaning": "rice, meal",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bánh xèo",
+      "meaning": "Vietnamese pancake",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "thịt bò / thịt gà / thịt heo",
+      "meaning": "beef / chicken / pork",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "cá",
+      "meaning": "fish",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "cà phê đen / cà phê sữa",
+      "meaning": "black coffee / coffee with milk",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nước cam / nước chanh / nước dừa / nước suối",
+      "meaning": "orange juice / lemonade / coconut water / mineral water",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "trà đá / sinh tố",
+      "meaning": "iced tea / smoothie",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "cay / ngọt / ngon",
+      "meaning": "spicy / sweet / tasty",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đắt (mắc) / rẻ",
+      "meaning": "expensive / cheap",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "thêm",
+      "meaning": "more, extra",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "gì … cũng …",
+      "meaning": "anything / everything",
+      "type": "structure",
+      "image": "",
+      "audio": "",
+      "example": "Món gì tôi cũng ăn được.",
+      "exampleEn": "I can eat anything."
+    },
+    {
+      "word": "không … gì (cả)",
+      "meaning": "nothing at all",
+      "type": "structure",
+      "image": "",
+      "audio": "",
+      "example": "Tôi không biết gì cả.",
+      "exampleEn": "I don't know anything."
+    },
+    {
+      "word": "nhé",
+      "meaning": "(particle: …, OK?)",
+      "type": "particle",
+      "image": "",
+      "audio": "",
+      "example": "Anh gọi món nhé!",
+      "exampleEn": "You order, OK?"
+    },
+    {
+      "word": "thôi",
+      "meaning": "that's enough; OK then",
+      "type": "interjection",
+      "image": "",
+      "audio": "",
+      "example": "Thôi, tôi không ăn nữa.",
+      "exampleEn": "That's enough, I won't eat more."
+    },
+    {
+      "word": "tính tiền",
+      "meaning": "the bill, please",
+      "type": "phrase",
+      "image": "",
+      "audio": ""
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Cho tôi + số lượng + đơn vị + món",
+      "explainVi": "Cách gọi món tự nhiên.",
+      "explainEn": "Natural way to order.",
+      "examples": [
+        {
+          "vi": "Cho tôi một đĩa chả giò.",
+          "en": "A plate of spring rolls, please."
+        },
+        {
+          "vi": "Anh cho tôi xem thực đơn.",
+          "en": "Let me see the menu, please."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "không … gì (cả)",
+      "explainVi": "Phủ định hoàn toàn.",
+      "explainEn": "Absolute negative.",
+      "examples": [
+        {
+          "vi": "Tôi không biết gì về món ăn Việt Nam cả.",
+          "en": "I don't know anything about Vietnamese food."
+        },
+        {
+          "vi": "Cô ấy không nói gì.",
+          "en": "She said nothing."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "(N +) gì + S + cũng + V",
+      "explainVi": "Mọi thứ trong phạm vi đều như nhau.",
+      "explainEn": "Everything in the range is the same.",
+      "examples": [
+        {
+          "vi": "Món gì anh ấy cũng ăn được.",
+          "en": "He can eat any dish."
+        },
+        {
+          "vi": "Việc gì anh ấy cũng biết.",
+          "en": "He knows everything."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "Thôi, …",
+      "explainVi": "Đầu câu: từ chối, can ngăn, hoặc muốn kết thúc.",
+      "explainEn": "Sentence-initial: refuse, stop someone, or wrap up.",
+      "examples": [
+        {
+          "vi": "Thôi, tôi không ăn đâu.",
+          "en": "No thanks, I won't eat."
+        },
+        {
+          "vi": "Thôi, chúng tôi đi nhé!",
+          "en": "Alright, we're off!"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "… nhé!",
+      "explainVi": "Cuối câu: mong người nghe đồng ý.",
+      "explainEn": "Final: hoping the listener agrees.",
+      "examples": [
+        {
+          "vi": "Anh kêu món ăn nhé!",
+          "en": "You order the food, OK?"
+        },
+        {
+          "vi": "Ngày mai chị đến sớm nhé!",
+          "en": "Come early tomorrow, OK?"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Ở quán phở",
+      "titleEn": "At a phở restaurant",
+      "lines": [
+        {
+          "speaker": "Phục vụ",
+          "vi": "Dạ, hai chị dùng gì ạ?",
+          "en": "What would you like?"
+        },
+        {
+          "speaker": "Linh",
+          "vi": "Chị cho tôi xem thực đơn.",
+          "en": "Let me see the menu, please."
+        },
+        {
+          "speaker": "Linh",
+          "vi": "Julia, chị gọi món nhé!",
+          "en": "Julia, you order, OK?"
+        },
+        {
+          "speaker": "Julia",
+          "vi": "Ồ, không. Tôi không biết gì về món ăn Việt Nam cả. Món gì tôi cũng ăn được.",
+          "en": "Oh no. I don't know anything about Vietnamese food. I can eat anything."
+        },
+        {
+          "speaker": "Linh",
+          "vi": "Thôi, được. Cho tôi hai tô phở bò và một đĩa chả giò.",
+          "en": "OK then. Two beef phở and a plate of spring rolls."
+        },
+        {
+          "speaker": "Phục vụ",
+          "vi": "Dạ. Hai chị uống gì ạ?",
+          "en": "And to drink?"
+        },
+        {
+          "speaker": "Julia",
+          "vi": "Cho tôi một ly nước dừa. Linh uống gì?",
+          "en": "A coconut water for me. What about you, Linh?"
+        },
+        {
+          "speaker": "Linh",
+          "vi": "Tôi cũng vậy.",
+          "en": "Same for me."
+        }
+      ]
+    },
+    {
+      "title": "Ở quán cà phê",
+      "titleEn": "At a café",
+      "lines": [
+        {
+          "speaker": "Phục vụ",
+          "vi": "Anh uống gì ạ?",
+          "en": "What would you like to drink?"
+        },
+        {
+          "speaker": "Leo",
+          "vi": "Cho tôi một ly cà phê sữa đá. Một ly bao nhiêu tiền?",
+          "en": "An iced milk coffee. How much is it?"
+        },
+        {
+          "speaker": "Phục vụ",
+          "vi": "Dạ, ba mươi lăm ngàn.",
+          "en": "35,000."
+        },
+        {
+          "speaker": "Leo",
+          "vi": "Ba mươi lăm ngàn hả? Không đắt lắm.",
+          "en": "35,000? Not too expensive."
+        },
+        {
+          "speaker": "Leo",
+          "vi": "Em ơi, tính tiền!",
+          "en": "Excuse me, the bill please!"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Quán cà phê ở Sài Gòn",
+    "text": "Quán cà phê ở Thành phố Hồ Chí Minh thường mở cửa sớm và đóng cửa muộn. Nhiều quán mở cửa lúc 6 giờ sáng và đóng cửa lúc 11 giờ đêm. Ở quán cà phê, người ta bán cà phê, trà đá, nước cam, nước chanh, nước dừa và sinh tố. Ở quán sang, một ly cà phê đen giá khoảng 50.000 đồng. Ở quán bình dân thì rẻ hơn, chỉ khoảng 15.000 đồng thôi.",
+    "translation": "Cafés in HCMC usually open early and close late. Many open at 6 a.m. and close at 11 p.m. They sell coffee, iced tea, orange juice, lemonade, coconut water and smoothies. At a fancy café a black coffee costs about 50,000 dong. At a simple café it's cheaper, only about 15,000.",
+    "trueFalse": [
+      {
+        "q": "Quán cà phê thường mở cửa muộn.",
+        "answer": false
+      },
+      {
+        "q": "Ở quán cà phê có bán sinh tố.",
+        "answer": true
+      },
+      {
+        "q": "Ở quán bình dân, một ly cà phê đen khoảng 15.000 đồng.",
+        "answer": true
+      },
+      {
+        "q": "Quán sang rẻ hơn quán bình dân.",
+        "answer": false
+      }
+    ],
+    "questions": [
+      {
+        "q": "Nhiều quán cà phê mở cửa lúc mấy giờ?",
+        "answers": [
+          "Lúc 6 giờ sáng.",
+          "Nhiều quán mở cửa lúc 6 giờ sáng."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "substitution",
+      "title": "Bảng thay thế",
+      "titleEn": "Substitution drill",
+      "items": [
+        {
+          "frame": "Cho tôi {0}.",
+          "slots": [
+            [
+              "một ly cà phê đá",
+              "hai lon bia",
+              "một đĩa chả giò",
+              "ba đôi đũa"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Ở đây có {0} không?",
+          "slots": [
+            [
+              "nước dừa",
+              "nước cam",
+              "nước suối",
+              "trà đá",
+              "sinh tố"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "{0} gì anh ấy cũng {1}.",
+          "slots": [
+            [
+              "Món",
+              "Việc"
+            ],
+            [
+              "ăn được",
+              "biết",
+              "thích"
+            ]
+          ],
+          "en": ""
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền vào chỗ trống",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Anh cho tôi xem ___.",
+          "answers": [
+            "thực đơn"
+          ]
+        },
+        {
+          "q": "Tôi không biết ___ về món ăn Việt Nam cả.",
+          "answers": [
+            "gì"
+          ]
+        },
+        {
+          "q": "Món gì tôi ___ ăn được.",
+          "answers": [
+            "cũng"
+          ]
+        },
+        {
+          "q": "Anh gọi món ___!",
+          "answers": [
+            "nhé"
+          ]
+        },
+        {
+          "q": "___, tôi không ăn nữa.",
+          "answers": [
+            "Thôi"
+          ]
+        },
+        {
+          "q": "Cho tôi một ___ cà phê đen.",
+          "answers": [
+            "ly",
+            "cốc"
+          ]
+        }
+      ],
+      "wordBank": [
+        "thực đơn",
+        "gì",
+        "cũng",
+        "nhé",
+        "Thôi",
+        "ly"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "Chọn đáp án đúng",
+      "titleEn": "Choose the right answer",
+      "items": [
+        {
+          "q": "Khách dễ tính nói:",
+          "options": [
+            "Món gì tôi cũng ăn được.",
+            "Tôi không ăn gì cả.",
+            "Thôi, tôi đi."
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "“Tôi không uống ___ cả.”",
+          "options": [
+            "gì",
+            "nào",
+            "cũng"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Bạn muốn trả tiền, bạn nói:",
+          "options": [
+            "Cho tôi thực đơn.",
+            "Em ơi, tính tiền!",
+            "Thêm gì nữa không?"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Đơn vị đúng: “hai ___ bia”",
+          "options": [
+            "đĩa",
+            "lon",
+            "đôi"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "“Ngày mai anh đến sớm ___!” (mong đồng ý)",
+          "options": [
+            "nhé",
+            "thôi",
+            "hả"
+          ],
+          "answer": 0,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        {
+          "words": [
+            "xem",
+            "cho",
+            "thực đơn",
+            "anh",
+            "tôi"
+          ],
+          "answers": [
+            "Anh cho tôi xem thực đơn."
+          ]
+        },
+        {
+          "words": [
+            "cũng",
+            "món gì",
+            "ăn được",
+            "tôi"
+          ],
+          "answers": [
+            "Món gì tôi cũng ăn được."
+          ]
+        },
+        {
+          "words": [
+            "gì",
+            "không",
+            "biết",
+            "tôi",
+            "cả"
+          ],
+          "answers": [
+            "Tôi không biết gì cả."
+          ]
+        },
+        {
+          "words": [
+            "nhé",
+            "món ăn",
+            "anh",
+            "kêu"
+          ],
+          "answers": [
+            "Anh kêu món ăn nhé!",
+            "Anh kêu món ăn nhé."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Viết lại câu",
+      "titleEn": "Rewrite",
+      "items": [
+        {
+          "q": "Anh ấy ăn được tất cả các món.",
+          "answers": [
+            "Món gì anh ấy cũng ăn được."
+          ],
+          "instruction": "Dùng “gì … cũng”"
+        },
+        {
+          "q": "Tôi không biết một chút nào về ông ta.",
+          "answers": [
+            "Tôi không biết gì về ông ta.",
+            "Tôi không biết gì về ông ta cả."
+          ],
+          "instruction": "Dùng “không … gì”"
+        },
+        {
+          "q": "Anh gọi món đi.",
+          "answers": [
+            "Anh gọi món nhé!",
+            "Anh gọi món nhé."
+          ],
+          "instruction": "Dùng “nhé”"
+        },
+        {
+          "q": "Cô ấy thích tất cả mọi việc.",
+          "answers": [
+            "Việc gì cô ấy cũng thích."
+          ],
+          "instruction": "Dùng “gì … cũng”"
+        }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "Can I see the menu?",
+          "answers": [
+            "Cho tôi xem thực đơn.",
+            "Anh cho tôi xem thực đơn.",
+            "Chị cho tôi xem thực đơn."
+          ]
+        },
+        {
+          "q": "An iced coffee, please.",
+          "answers": [
+            "Cho tôi một ly cà phê đá."
+          ]
+        },
+        {
+          "q": "I can eat anything.",
+          "answers": [
+            "Món gì tôi cũng ăn được.",
+            "Gì tôi cũng ăn được."
+          ]
+        },
+        {
+          "q": "I don't want anything.",
+          "answers": [
+            "Tôi không muốn gì cả.",
+            "Tôi không muốn gì."
+          ]
+        },
+        {
+          "q": "The bill, please!",
+          "answers": [
+            "Tính tiền!",
+            "Em ơi, tính tiền!",
+            "Anh ơi, tính tiền!",
+            "Chị ơi, tính tiền!"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-vi-en",
+      "title": "Dịch sang tiếng Anh",
+      "titleEn": "Translate into English",
+      "items": [
+        {
+          "q": "Thêm gì nữa không ạ?",
+          "answers": [
+            "Anything else?",
+            "Would you like anything else?"
+          ]
+        },
+        {
+          "q": "Tôi cũng vậy.",
+          "answers": [
+            "Me too.",
+            "Same for me."
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "restaurant-order",
+      "title": "Nhà hàng: phục vụ khách",
+      "titleEn": "Restaurant: serve the customers",
+      "intro": "Bạn là người phục vụ. Nghe khách gọi món và mang đúng món. Rồi đổi vai: bạn là khách!",
+      "introEn": "You're the waiter. Listen to the order and bring the right dishes. Then swap: you're the customer!",
+      "config": {
+        "menu": [
+          {
+            "name": "phở bò",
+            "emoji": "🍜",
+            "price": 60000,
+            "unit": "tô"
+          },
+          {
+            "name": "chả giò",
+            "emoji": "🥟",
+            "price": 45000,
+            "unit": "đĩa"
+          },
+          {
+            "name": "tôm nướng",
+            "emoji": "🍤",
+            "price": 120000,
+            "unit": "đĩa"
+          },
+          {
+            "name": "bánh xèo",
+            "emoji": "🥞",
+            "price": 50000,
+            "unit": "cái"
+          },
+          {
+            "name": "cơm gà",
+            "emoji": "🍗",
+            "price": 55000,
+            "unit": "đĩa"
+          },
+          {
+            "name": "cà phê sữa đá",
+            "emoji": "☕",
+            "price": 30000,
+            "unit": "ly"
+          },
+          {
+            "name": "nước dừa",
+            "emoji": "🥥",
+            "price": 25000,
+            "unit": "trái"
+          },
+          {
+            "name": "bia",
+            "emoji": "🍺",
+            "price": 20000,
+            "unit": "lon"
+          }
+        ],
+        "customers": [
+          {
+            "name": "Khách dễ tính 😊",
+            "line": "Món gì tôi cũng ăn được. Anh chọn đi!",
+            "accept": "any"
+          },
+          {
+            "name": "Khách khó tính 😤",
+            "line": "Tôi không ăn thịt gì cả. Tôi không uống bia.",
+            "reject": [
+              "phở bò",
+              "cơm gà",
+              "bia"
+            ]
+          },
+          {
+            "name": "Khách vội 🏃",
+            "line": "Cho tôi một ly cà phê sữa đá thôi. Tính tiền luôn nhé!",
+            "order": [
+              "cà phê sữa đá"
+            ]
+          }
+        ],
+        "waiterLines": [
+          "Dạ, anh dùng gì ạ?",
+          "Thêm gì nữa không ạ?",
+          "Dạ, của anh … đồng."
+        ]
+      }
+    }
+  ]
+}

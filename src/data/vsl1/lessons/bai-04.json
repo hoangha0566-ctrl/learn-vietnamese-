@@ -1,0 +1,1012 @@
+{
+  "id": "bai-04",
+  "number": 4,
+  "bookLesson": 4,
+  "bookPages": "79–90",
+  "syllabusLessons": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "topic": "Địa chỉ, khả năng, số đếm",
+  "topicEn": "Addresses, abilities, numbers",
+  "title": "Bây giờ cô sống ở đâu?",
+  "titleEn": "Where do you live now?",
+  "objectives": [
+    {
+      "vi": "Nói địa chỉ và số điện thoại",
+      "en": "Tell your address and phone number"
+    },
+    {
+      "vi": "Nói mình làm được gì với “được”",
+      "en": "Say what you can do with “được”"
+    },
+    {
+      "vi": "Nói mục đích với “để”",
+      "en": "Say a purpose with “để”"
+    },
+    {
+      "vi": "Đọc số; hỏi số lượng nhỏ với “mấy”; dùng “đã”, “xin”",
+      "en": "Read numbers; ask small quantities with “mấy”; use “đã”, “xin”"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "79",
+      "title": "Một cuộc phỏng vấn"
+    },
+    {
+      "page": "79–80",
+      "title": "Ở một buổi tiệc"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "sống",
+      "meaning": "to live",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Tôi sống ở Quận 3.",
+      "exampleEn": "I live in District 3."
+    },
+    {
+      "word": "nhà",
+      "meaning": "house, home",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "số",
+      "meaning": "number",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đường",
+      "meaning": "street",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "phường",
+      "meaning": "ward",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "quận",
+      "meaning": "district",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "thành phố",
+      "meaning": "city",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "địa chỉ",
+      "meaning": "address",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "điện thoại",
+      "meaning": "telephone",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "cơ quan",
+      "meaning": "office, workplace",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "mấy",
+      "meaning": "how many (small number); what number",
+      "type": "question word",
+      "image": "",
+      "audio": "",
+      "example": "Nhà anh số mấy?",
+      "exampleEn": "What's your house number?"
+    },
+    {
+      "word": "được",
+      "meaning": "can, be able to",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Tôi nói tiếng Anh được.",
+      "exampleEn": "I can speak English."
+    },
+    {
+      "word": "nói",
+      "meaning": "to speak",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nghe",
+      "meaning": "to listen",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đọc",
+      "meaning": "to read",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "viết",
+      "meaning": "to write",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tiếng Anh / tiếng Việt",
+      "meaning": "English / Vietnamese (language)",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "một ít",
+      "meaning": "a little",
+      "type": "phrase",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "lái xe",
+      "meaning": "to drive",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nấu ăn",
+      "meaning": "to cook",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bơi",
+      "meaning": "to swim",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "học",
+      "meaning": "to study",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "năm",
+      "meaning": "year; five",
+      "type": "noun / number",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tháng",
+      "meaning": "month",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đã",
+      "meaning": "(past marker)",
+      "type": "adverb",
+      "image": "",
+      "audio": "",
+      "example": "Tôi đã học tiếng Anh bốn năm.",
+      "exampleEn": "I have studied English for four years."
+    },
+    {
+      "word": "để",
+      "meaning": "in order to",
+      "type": "conjunction",
+      "image": "",
+      "audio": "",
+      "example": "Tôi đến Việt Nam để du lịch.",
+      "exampleEn": "I came to Vietnam to travel."
+    },
+    {
+      "word": "du lịch",
+      "meaning": "to travel; tourism",
+      "type": "verb / noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "muốn",
+      "meaning": "to want",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "xin",
+      "meaning": "(polite word)",
+      "type": "word",
+      "image": "",
+      "audio": "",
+      "example": "Xin chào ông.",
+      "exampleEn": "Hello, sir."
+    },
+    {
+      "word": "mời",
+      "meaning": "to invite; please (do)",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Mời cô ngồi.",
+      "exampleEn": "Please sit down."
+    },
+    {
+      "word": "ngân hàng",
+      "meaning": "bank",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "chợ",
+      "meaning": "market",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "khách sạn",
+      "meaning": "hotel",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nhà hàng",
+      "meaning": "restaurant",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "trăm / ngàn (nghìn) / triệu",
+      "meaning": "hundred / thousand / million",
+      "type": "number",
+      "image": "",
+      "audio": ""
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Địa chỉ: số nhà → đường → phường → quận → thành phố",
+      "explainVi": "Địa chỉ ở thành phố Việt Nam viết theo thứ tự từ nhỏ đến lớn.",
+      "explainEn": "Vietnamese city addresses go from smallest to largest unit.",
+      "examples": [
+        {
+          "vi": "Nhà tôi ở số 50, đường Nguyễn Thị Diệu, Phường 6, Quận 3, TP. Hồ Chí Minh.",
+          "en": "My house is at 50 Nguyễn Thị Diệu Street, Ward 6, District 3, HCMC."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "V (+ O) + được (không)?",
+      "explainVi": "“được” chỉ khả năng, đứng sau động từ chính (trước hoặc sau tân ngữ). Phủ định: không + V + được.",
+      "explainEn": "“được” = ability, after the main verb (before or after the object). Negative: không + V + được.",
+      "examples": [
+        {
+          "vi": "Cô nói tiếng Anh được không?",
+          "en": "Can you speak English?"
+        },
+        {
+          "vi": "Tôi không nói được tiếng Pháp.",
+          "en": "I can't speak French."
+        },
+        {
+          "vi": "– Dạ, được. / – Dạ, không được.",
+          "en": "– Yes, I can. / – No, I can't."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "S + V + để + V (mục đích)",
+      "explainVi": "“để” nối hành động với mục đích. Hỏi: … để làm gì?",
+      "explainEn": "“để” links an action to its purpose. Question: … để làm gì?",
+      "examples": [
+        {
+          "vi": "Cô đến Việt Nam để làm gì?",
+          "en": "Why did you come to Vietnam?"
+        },
+        {
+          "vi": "Tôi đến Việt Nam để học tiếng Việt.",
+          "en": "I came to Vietnam to study Vietnamese."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "đã + V",
+      "explainVi": "“đã” chỉ việc xảy ra trước thời điểm nói. Có từ chỉ thời gian thì có thể bỏ “đã”.",
+      "explainEn": "“đã” marks something before now. Can be dropped when a time word is present.",
+      "examples": [
+        {
+          "vi": "Cô Mai đã học tiếng Anh 2 năm.",
+          "en": "Mai has studied English for two years."
+        },
+        {
+          "vi": "Hôm qua tôi đi thư viện.",
+          "en": "Yesterday I went to the library."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "mấy",
+      "explainVi": "Hỏi số lượng mà người nói nghĩ là ít (dưới 10), và hỏi số nhà, số điện thoại, giờ.",
+      "explainEn": "Asks about a quantity assumed small (under 10), and about house/phone numbers, time.",
+      "examples": [
+        {
+          "vi": "Chị đã học tiếng Anh mấy năm?",
+          "en": "How many years have you studied English?"
+        },
+        {
+          "vi": "Nhà anh ở quận mấy?",
+          "en": "Which district is your house in?"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "Số đếm",
+      "explainVi": "Lưu ý: 15 = mười lăm, 21 = hai mươi mốt, 25 = hai mươi lăm, 150 = một trăm rưỡi, 205 = hai trăm lẻ/linh năm.",
+      "explainEn": "Note: 15 = mười lăm, 21 = hai mươi mốt, 25 = hai mươi lăm, 150 = một trăm rưỡi, 205 = hai trăm lẻ/linh năm.",
+      "examples": [
+        {
+          "vi": "Số điện thoại: ba – tám – hai – hai – năm – không – không – chín",
+          "en": "Phone numbers are read digit by digit."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "xin",
+      "explainVi": "Biểu thị thái độ khiêm tốn, lễ phép khi chào, cảm ơn, mời, yêu cầu.",
+      "explainEn": "Shows humility and politeness when greeting, thanking, inviting or asking.",
+      "examples": [
+        {
+          "vi": "Xin chào ông.",
+          "en": "Hello, sir."
+        },
+        {
+          "vi": "Xin cảm ơn bà.",
+          "en": "Thank you, madam."
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Phỏng vấn xin việc",
+      "titleEn": "A job interview",
+      "lines": [
+        {
+          "speaker": "Giám đốc",
+          "vi": "Chào anh. Mời anh ngồi.",
+          "en": "Hello. Please sit down."
+        },
+        {
+          "speaker": "Khoa",
+          "vi": "Dạ, xin cảm ơn ông.",
+          "en": "Thank you, sir."
+        },
+        {
+          "speaker": "Giám đốc",
+          "vi": "Anh nói tiếng Nhật được không?",
+          "en": "Can you speak Japanese?"
+        },
+        {
+          "speaker": "Khoa",
+          "vi": "Dạ, được. Tôi đã học tiếng Nhật ba năm.",
+          "en": "Yes. I have studied Japanese for three years."
+        },
+        {
+          "speaker": "Giám đốc",
+          "vi": "Anh lái xe được không?",
+          "en": "Can you drive?"
+        },
+        {
+          "speaker": "Khoa",
+          "vi": "Dạ, không được ạ.",
+          "en": "No, I can't."
+        }
+      ]
+    },
+    {
+      "title": "Ở bữa tiệc",
+      "titleEn": "At a party",
+      "lines": [
+        {
+          "speaker": "Nam",
+          "vi": "Xin lỗi, chị đến Việt Nam để làm gì?",
+          "en": "Excuse me, why did you come to Vietnam?"
+        },
+        {
+          "speaker": "Sara",
+          "vi": "Tôi đến Việt Nam để làm việc. Tôi làm ở một ngân hàng.",
+          "en": "I came to Vietnam to work. I work at a bank."
+        },
+        {
+          "speaker": "Nam",
+          "vi": "Bây giờ chị sống ở đâu?",
+          "en": "Where do you live now?"
+        },
+        {
+          "speaker": "Sara",
+          "vi": "Tôi sống ở số 12, đường Lê Lợi, Quận 1. Còn nhà anh ở đâu?",
+          "en": "I live at 12 Lê Lợi Street, District 1. And where is your house?"
+        },
+        {
+          "speaker": "Nam",
+          "vi": "Nhà tôi ở Quận 7. Số điện thoại của chị số mấy?",
+          "en": "My house is in District 7. What's your phone number?"
+        },
+        {
+          "speaker": "Sara",
+          "vi": "Không chín không ba – một hai ba – bốn năm sáu.",
+          "en": "0903 123 456."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Danh thiếp của chị Thanh",
+    "text": "Chị Thanh là phóng viên Báo Tuổi Trẻ. Chị ấy nói được tiếng Anh và một ít tiếng Pháp. Chị ấy đã học tiếng Anh sáu năm. Cơ quan của chị Thanh ở số 60A, đường Hoàng Văn Thụ, Quận Phú Nhuận, Thành phố Hồ Chí Minh. Chị ấy sống ở Quận 3. Tháng sau chị ấy đi Pháp để làm việc.",
+    "translation": "Thanh is a reporter for Tuổi Trẻ newspaper. She can speak English and a little French. She has studied English for six years. Her office is at 60A Hoàng Văn Thụ Street, Phú Nhuận District, HCMC. She lives in District 3. Next month she is going to France to work.",
+    "trueFalse": [
+      {
+        "q": "Chị Thanh nói được tiếng Pháp rất giỏi.",
+        "answer": false
+      },
+      {
+        "q": "Chị Thanh đã học tiếng Anh sáu năm.",
+        "answer": true
+      },
+      {
+        "q": "Chị ấy sống ở Quận Phú Nhuận.",
+        "answer": false
+      },
+      {
+        "q": "Chị ấy đi Pháp để làm việc.",
+        "answer": true
+      }
+    ],
+    "questions": [
+      {
+        "q": "Cơ quan của chị Thanh ở đâu?",
+        "answers": [
+          "Cơ quan của chị Thanh ở số 60A, đường Hoàng Văn Thụ, Quận Phú Nhuận, Thành phố Hồ Chí Minh."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "substitution",
+      "title": "Bảng thay thế",
+      "titleEn": "Substitution drill",
+      "items": [
+        {
+          "frame": "Anh đã {0} ở đâu?",
+          "slots": [
+            [
+              "làm việc",
+              "sống",
+              "học"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "{0} ở đâu?",
+          "slots": [
+            [
+              "Nhà anh",
+              "Cơ quan cô",
+              "Công ty ông"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Cô nói tiếng {0} được không?",
+          "slots": [
+            [
+              "Anh",
+              "Pháp",
+              "Nhật",
+              "Việt"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Tôi đến Việt Nam để {0}.",
+          "slots": [
+            [
+              "du lịch",
+              "làm việc",
+              "học tiếng Việt"
+            ]
+          ],
+          "en": ""
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền vào chỗ trống",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Bây giờ cô sống ___ đâu?",
+          "answers": [
+            "ở"
+          ]
+        },
+        {
+          "q": "Anh nói tiếng Anh ___ không?",
+          "answers": [
+            "được"
+          ]
+        },
+        {
+          "q": "Tôi ___ học tiếng Việt hai tháng.",
+          "answers": [
+            "đã"
+          ]
+        },
+        {
+          "q": "Tôi đến Việt Nam ___ du lịch.",
+          "answers": [
+            "để"
+          ]
+        },
+        {
+          "q": "Nhà anh ở quận ___?",
+          "answers": [
+            "mấy"
+          ]
+        },
+        {
+          "q": "___ chào ông.",
+          "answers": [
+            "Xin"
+          ]
+        }
+      ],
+      "wordBank": [
+        "ở",
+        "được",
+        "đã",
+        "để",
+        "mấy",
+        "Xin"
+      ]
+    },
+    {
+      "type": "number-write",
+      "title": "Viết bằng số",
+      "titleEn": "Write in digits",
+      "items": [
+        {
+          "q": "mười lăm",
+          "answers": [
+            "15"
+          ]
+        },
+        {
+          "q": "hai mươi mốt",
+          "answers": [
+            "21"
+          ]
+        },
+        {
+          "q": "ba trăm lẻ năm",
+          "answers": [
+            "305"
+          ]
+        },
+        {
+          "q": "một trăm rưỡi",
+          "answers": [
+            "150"
+          ]
+        },
+        {
+          "q": "hai ngàn bốn trăm năm mươi",
+          "answers": [
+            "2450",
+            "2.450"
+          ]
+        },
+        {
+          "q": "năm ngàn không trăm lẻ tám",
+          "answers": [
+            "5008",
+            "5.008"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "Chọn đáp án đúng",
+      "titleEn": "Choose the right answer",
+      "items": [
+        {
+          "q": "Thứ tự địa chỉ đúng là:",
+          "options": [
+            "Quận 3, số 50, đường Lê Lợi",
+            "Số 50, đường Lê Lợi, Quận 3",
+            "Đường Lê Lợi, Quận 3, số 50"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "“Tôi không nói được tiếng Pháp.” nghĩa là:",
+          "options": [
+            "I can speak French.",
+            "I can't speak French.",
+            "I don't like French."
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Anh đến Việt Nam ___ làm gì?",
+          "options": [
+            "để",
+            "được",
+            "đã"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Chọn câu ĐÚNG:",
+          "options": [
+            "Tôi được nói tiếng Anh.",
+            "Tôi nói tiếng Anh được.",
+            "Tôi nói được không tiếng Anh."
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "25 đọc là:",
+          "options": [
+            "hai mươi năm",
+            "hai mươi lăm",
+            "hai lăm mươi"
+          ],
+          "answer": 1,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        {
+          "words": [
+            "cô ấy",
+            "tiếng Hàn Quốc",
+            "được",
+            "nói"
+          ],
+          "answers": [
+            "Cô ấy nói được tiếng Hàn Quốc.",
+            "Cô ấy nói tiếng Hàn Quốc được."
+          ]
+        },
+        {
+          "words": [
+            "không",
+            "tiếng Anh",
+            "bà",
+            "được",
+            "nói"
+          ],
+          "answers": [
+            "Bà nói tiếng Anh được không?"
+          ]
+        },
+        {
+          "words": [
+            "ngân hàng",
+            "tôi",
+            "ở",
+            "làm việc"
+          ],
+          "answers": [
+            "Tôi làm việc ở ngân hàng."
+          ]
+        },
+        {
+          "words": [
+            "ở",
+            "bây giờ",
+            "sống",
+            "bà",
+            "đâu"
+          ],
+          "answers": [
+            "Bây giờ bà sống ở đâu?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Chuyển thành câu hỏi với “được không?”",
+      "titleEn": "Make questions with “được không?”",
+      "items": [
+        {
+          "q": "Anh Nam nói tiếng Anh được.",
+          "answers": [
+            "Anh Nam nói tiếng Anh được không?"
+          ]
+        },
+        {
+          "q": "Cô Lan lái xe hơi được.",
+          "answers": [
+            "Cô Lan lái xe hơi được không?"
+          ]
+        },
+        {
+          "q": "Cô Loan nấu ăn được.",
+          "answers": [
+            "Cô Loan nấu ăn được không?"
+          ]
+        },
+        {
+          "q": "Bà Mai viết tiếng Nhật được.",
+          "answers": [
+            "Bà Mai viết tiếng Nhật được không?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "Where do you live now? (to a young woman)",
+          "answers": [
+            "Bây giờ chị sống ở đâu?",
+            "Chị sống ở đâu?"
+          ]
+        },
+        {
+          "q": "Can you swim? (to a young man)",
+          "answers": [
+            "Anh bơi được không?"
+          ]
+        },
+        {
+          "q": "I came to Vietnam to work.",
+          "answers": [
+            "Tôi đến Việt Nam để làm việc."
+          ]
+        },
+        {
+          "q": "I have studied Vietnamese for three months.",
+          "answers": [
+            "Tôi đã học tiếng Việt ba tháng."
+          ]
+        },
+        {
+          "q": "What is your phone number? (to a young man)",
+          "answers": [
+            "Số điện thoại của anh số mấy?",
+            "Điện thoại của anh số mấy?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-vi-en",
+      "title": "Dịch sang tiếng Anh",
+      "titleEn": "Translate into English",
+      "items": [
+        {
+          "q": "Tôi nói được một ít tiếng Việt.",
+          "answers": [
+            "I can speak a little Vietnamese."
+          ]
+        },
+        {
+          "q": "Mời cô ngồi.",
+          "answers": [
+            "Please sit down."
+          ]
+        },
+        {
+          "q": "Nhà tôi ở Quận 1.",
+          "answers": [
+            "My house is in District 1.",
+            "I live in District 1."
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "address-delivery",
+      "title": "Người giao hàng",
+      "titleEn": "Delivery driver",
+      "intro": "Sắp xếp địa chỉ đúng thứ tự để shipper giao hàng đến đúng nhà.",
+      "introEn": "Put the address parts in the right order so the driver reaches the right house.",
+      "config": {
+        "orders": [
+          {
+            "customer": "Chị Park",
+            "parts": [
+              "số 50",
+              "đường Nguyễn Thị Diệu",
+              "Phường 6",
+              "Quận 3",
+              "TP. Hồ Chí Minh"
+            ]
+          },
+          {
+            "customer": "Anh Tom",
+            "parts": [
+              "số 12",
+              "đường Lê Lợi",
+              "Phường Bến Thành",
+              "Quận 1",
+              "TP. Hồ Chí Minh"
+            ]
+          },
+          {
+            "customer": "Bà Lan",
+            "parts": [
+              "số 205",
+              "đường Hai Bà Trưng",
+              "Phường 8",
+              "Quận 3",
+              "TP. Hồ Chí Minh"
+            ]
+          }
+        ],
+        "phoneRound": [
+          {
+            "say": "không chín không ba – một hai ba – bốn năm sáu",
+            "digits": "0903123456"
+          },
+          {
+            "say": "ba tám hai hai năm không không chín",
+            "digits": "38225009"
+          }
+        ]
+      }
+    },
+    {
+      "type": "talent-team",
+      "title": "Tuyển đội phiêu lưu",
+      "titleEn": "Recruit an adventure team",
+      "intro": "Mỗi thử thách cần một kỹ năng. Hỏi “… được không?” để chọn đúng người.",
+      "introEn": "Each challenge needs a skill. Ask “… được không?” to pick the right person.",
+      "config": {
+        "candidates": [
+          {
+            "name": "Anh Ken",
+            "skills": [
+              "bơi",
+              "nói tiếng Nhật"
+            ]
+          },
+          {
+            "name": "Chị Sara",
+            "skills": [
+              "lái xe",
+              "nói tiếng Việt"
+            ]
+          },
+          {
+            "name": "Anh Minh",
+            "skills": [
+              "nấu ăn",
+              "nói tiếng Anh"
+            ]
+          }
+        ],
+        "challenges": [
+          {
+            "task": "Qua sông 🌊",
+            "skill": "bơi",
+            "answer": "Anh Ken"
+          },
+          {
+            "task": "Đi đường dài 🚗",
+            "skill": "lái xe",
+            "answer": "Chị Sara"
+          },
+          {
+            "task": "Hỏi đường người Việt 🗣️",
+            "skill": "nói tiếng Việt",
+            "answer": "Chị Sara"
+          },
+          {
+            "task": "Nấu bữa tối 🍲",
+            "skill": "nấu ăn",
+            "answer": "Anh Minh"
+          }
+        ],
+        "questionTemplate": "{name} {skill} được không?",
+        "answerTemplates": [
+          "Dạ, được.",
+          "Dạ, không được."
+        ]
+      }
+    },
+    {
+      "type": "number-bingo",
+      "title": "Bingo số",
+      "titleEn": "Number bingo",
+      "intro": "Nghe số và đánh dấu trên bảng. Đủ một hàng là thắng!",
+      "introEn": "Listen to the number and mark it. Complete a row to win!",
+      "config": {
+        "min": 0,
+        "max": 99,
+        "grid": 5,
+        "focus": [
+          15,
+          21,
+          25,
+          31,
+          45,
+          55,
+          71,
+          85,
+          95
+        ]
+      }
+    }
+  ]
+}

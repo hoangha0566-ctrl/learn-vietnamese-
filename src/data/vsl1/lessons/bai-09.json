@@ -1,0 +1,945 @@
+{
+  "id": "bai-09",
+  "number": 9,
+  "bookLesson": 9,
+  "bookPages": "132–140",
+  "syllabusLessons": [
+    21,
+    22
+  ],
+  "topic": "Phương tiện, mua vé, điều kiện",
+  "topicEn": "Transport, buying tickets, conditions",
+  "title": "Tôi nên đi bằng gì?",
+  "titleEn": "How should I go?",
+  "objectives": [
+    {
+      "vi": "Hỏi và nói về phương tiện đi lại",
+      "en": "Ask and talk about means of transport"
+    },
+    {
+      "vi": "Mua vé: chọn ngày, chuyến, loại vé với “nào”",
+      "en": "Buy tickets: choose day, trip, ticket type with “nào”"
+    },
+    {
+      "vi": "Nói điều kiện – kết quả với “nếu … thì …”",
+      "en": "Express condition–result with “nếu … thì …”"
+    },
+    {
+      "vi": "Nhấn mạnh giới hạn với “chỉ … thôi”; hỏi rõ với “vậy”",
+      "en": "Stress a limit with “chỉ … thôi”; ask with “vậy”"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "132",
+      "title": "Tom hỏi Hà về cách đi Nha Trang"
+    },
+    {
+      "page": "133",
+      "title": "Ở phòng bán vé xe lửa"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "nên",
+      "meaning": "should",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Tôi nên đi bằng gì?",
+      "exampleEn": "How should I go?"
+    },
+    {
+      "word": "bằng",
+      "meaning": "by (means of)",
+      "type": "preposition",
+      "image": "",
+      "audio": "",
+      "example": "đi bằng xe lửa",
+      "exampleEn": "go by train"
+    },
+    {
+      "word": "phương tiện",
+      "meaning": "means (of transport)",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "máy bay",
+      "meaning": "airplane",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "xe lửa / tàu hoả",
+      "meaning": "train",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ô tô / xe hơi",
+      "meaning": "car",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "xe buýt",
+      "meaning": "bus",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "xe đò / xe khách",
+      "meaning": "coach, long-distance bus",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "xe máy",
+      "meaning": "motorbike",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "xe đạp",
+      "meaning": "bicycle",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tắc xi",
+      "meaning": "taxi",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "mất",
+      "meaning": "to take (time)",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Đi máy bay mất 1 tiếng.",
+      "exampleEn": "By plane it takes 1 hour."
+    },
+    {
+      "word": "tiếng",
+      "meaning": "hour (duration)",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "chuyến",
+      "meaning": "trip, run (of a vehicle)",
+      "type": "noun",
+      "image": "",
+      "audio": "",
+      "example": "chuyến tối",
+      "exampleEn": "the evening run"
+    },
+    {
+      "word": "vé",
+      "meaning": "ticket",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "vé một chiều / vé khứ hồi",
+      "meaning": "one-way / return ticket",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "vé ngồi / vé nằm",
+      "meaning": "seat / sleeper ticket",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "mua / bán",
+      "meaning": "to buy / to sell",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "muốn",
+      "meaning": "to want",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "có thể",
+      "meaning": "can, may",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nào",
+      "meaning": "which",
+      "type": "question word",
+      "image": "",
+      "audio": "",
+      "example": "Anh muốn đi chuyến nào?",
+      "exampleEn": "Which trip do you want?"
+    },
+    {
+      "word": "vậy",
+      "meaning": "(particle: asking for clarity)",
+      "type": "particle",
+      "image": "",
+      "audio": "",
+      "example": "Bao nhiêu một vé vậy?",
+      "exampleEn": "So how much is a ticket?"
+    },
+    {
+      "word": "chỉ … thôi",
+      "meaning": "only",
+      "type": "structure",
+      "image": "",
+      "audio": "",
+      "example": "Tôi chỉ có 5 ngàn đồng thôi.",
+      "exampleEn": "I only have 5,000 dong."
+    },
+    {
+      "word": "nếu … thì …",
+      "meaning": "if … then …",
+      "type": "structure",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "mưa / nắng / lạnh / nóng",
+      "meaning": "rain / sunny / cold / hot",
+      "type": "noun / adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "trời",
+      "meaning": "sky; weather",
+      "type": "noun",
+      "image": "",
+      "audio": "",
+      "example": "Trời lạnh quá!",
+      "exampleEn": "It's so cold!"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "đi bằng + phương tiện",
+      "explainVi": "Hỏi: … nên đi bằng gì? / Đi bằng … mất bao lâu?",
+      "explainEn": "Ask: How should … go? / How long does it take by …?",
+      "examples": [
+        {
+          "vi": "Tôi nên đi bằng gì?",
+          "en": "How should I go?"
+        },
+        {
+          "vi": "Đi bằng xe lửa mất khoảng 9 tiếng.",
+          "en": "By train it takes about 9 hours."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "N + nào?",
+      "explainVi": "“Nào” đứng sau danh từ, hỏi để chọn lựa.",
+      "explainEn": "“nào” after a noun asks for a choice.",
+      "examples": [
+        {
+          "vi": "Anh muốn đi ngày nào?",
+          "en": "Which day do you want to go?"
+        },
+        {
+          "vi": "Chị biết người nào trong lớp này?",
+          "en": "Which person in this class do you know?"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "… vậy?",
+      "explainVi": "Trợ từ cuối câu, hỏi rõ hơn về điều đang nói.",
+      "explainEn": "Final particle to ask more clearly about the topic.",
+      "examples": [
+        {
+          "vi": "Tất cả bao nhiêu tiền vậy, cô?",
+          "en": "So how much altogether?"
+        },
+        {
+          "vi": "Ga Sài Gòn ở đâu vậy?",
+          "en": "Where's Saigon station, then?"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "(chỉ) … thôi",
+      "explainVi": "Nhấn mạnh sự giới hạn; thường đi với “chỉ”.",
+      "explainEn": "Stresses a limit; often with “chỉ”.",
+      "examples": [
+        {
+          "vi": "Còn 1 cây số nữa thôi.",
+          "en": "Just one more kilometre."
+        },
+        {
+          "vi": "Tôi chỉ đi ngày mai thôi.",
+          "en": "I'm only going tomorrow."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "Nếu … thì …",
+      "explainVi": "Quan hệ điều kiện – kết quả.",
+      "explainEn": "Condition – result.",
+      "examples": [
+        {
+          "vi": "Nếu đi bằng máy bay thì chỉ mất 1 tiếng.",
+          "en": "If you fly, it only takes an hour."
+        },
+        {
+          "vi": "Nếu ngày mai mưa thì tôi ở nhà.",
+          "en": "If it rains tomorrow, I'll stay home."
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Đi Đà Nẵng bằng gì?",
+      "titleEn": "How to get to Đà Nẵng?",
+      "lines": [
+        {
+          "speaker": "Lucas",
+          "vi": "Chị Hà ơi, tôi muốn đi Đà Nẵng. Theo chị, tôi nên đi bằng gì?",
+          "en": "Hà, I want to go to Đà Nẵng. How should I go?"
+        },
+        {
+          "speaker": "Hà",
+          "vi": "Anh có thể đi bằng máy bay hay xe lửa.",
+          "en": "You can go by plane or by train."
+        },
+        {
+          "speaker": "Lucas",
+          "vi": "Đi bằng máy bay mất bao lâu?",
+          "en": "How long does it take by plane?"
+        },
+        {
+          "speaker": "Hà",
+          "vi": "Nếu đi bằng máy bay thì chỉ mất khoảng 1 tiếng thôi. Còn xe lửa thì mất khoảng 16 tiếng.",
+          "en": "By plane only about an hour. By train about 16 hours."
+        },
+        {
+          "speaker": "Lucas",
+          "vi": "Xa quá! Tôi đi máy bay.",
+          "en": "So far! I'll fly."
+        }
+      ]
+    },
+    {
+      "title": "Ở quầy bán vé",
+      "titleEn": "At the ticket counter",
+      "lines": [
+        {
+          "speaker": "Lucas",
+          "vi": "Chào chị. Tôi muốn mua một vé xe lửa đi Huế.",
+          "en": "Hello. I'd like a train ticket to Huế."
+        },
+        {
+          "speaker": "Người bán vé",
+          "vi": "Anh muốn đi ngày nào?",
+          "en": "Which day?"
+        },
+        {
+          "speaker": "Lucas",
+          "vi": "Thứ bảy này. Có mấy chuyến vậy, chị?",
+          "en": "This Saturday. How many trains are there?"
+        },
+        {
+          "speaker": "Người bán vé",
+          "vi": "Có hai chuyến: chuyến sáng và chuyến tối. Anh muốn đi chuyến nào?",
+          "en": "Two: morning and evening. Which one?"
+        },
+        {
+          "speaker": "Lucas",
+          "vi": "Chuyến tối. Vé khứ hồi, vé nằm.",
+          "en": "Evening. Return, sleeper."
+        },
+        {
+          "speaker": "Người bán vé",
+          "vi": "Dạ, một triệu hai trăm ngàn đồng.",
+          "en": "1,200,000 dong."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Cuối tuần của Mai",
+    "text": "Cuối tuần này Mai muốn đi Vũng Tàu. Từ Thành phố Hồ Chí Minh đến Vũng Tàu, nếu đi bằng xe khách thì mất khoảng hai tiếng, còn nếu đi bằng tàu cánh ngầm thì chỉ mất một tiếng rưỡi thôi. Mai muốn đi bằng tàu. Nhưng nếu thứ bảy trời mưa thì Mai sẽ ở nhà. Nếu trời nắng thì Mai sẽ đi tắm biển.",
+    "translation": "This weekend Mai wants to go to Vũng Tàu. From HCMC, the coach takes about two hours, while the hydrofoil takes only an hour and a half. Mai wants to take the boat. But if it rains on Saturday, Mai will stay home. If it's sunny, she will go swimming in the sea.",
+    "trueFalse": [
+      {
+        "q": "Đi xe khách đến Vũng Tàu mất khoảng hai tiếng.",
+        "answer": true
+      },
+      {
+        "q": "Mai muốn đi bằng xe khách.",
+        "answer": false
+      },
+      {
+        "q": "Nếu trời mưa thì Mai ở nhà.",
+        "answer": true
+      },
+      {
+        "q": "Đi tàu mất ba tiếng.",
+        "answer": false
+      }
+    ],
+    "questions": [
+      {
+        "q": "Nếu trời nắng thì Mai sẽ làm gì?",
+        "answers": [
+          "Nếu trời nắng thì Mai sẽ đi tắm biển.",
+          "Mai sẽ đi tắm biển."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "substitution",
+      "title": "Bảng thay thế",
+      "titleEn": "Substitution drill",
+      "items": [
+        {
+          "frame": "Tôi muốn mua một vé đi {0}.",
+          "slots": [
+            [
+              "Nha Trang",
+              "Hà Nội",
+              "Huế"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Đi bằng {0} mất bao lâu?",
+          "slots": [
+            [
+              "xe lửa",
+              "xe đò",
+              "máy bay",
+              "xe đạp"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Anh muốn đi {0} nào?",
+          "slots": [
+            [
+              "ngày",
+              "chuyến",
+              "tháng"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Nếu {0} thì tôi {1}.",
+          "slots": [
+            [
+              "trời mưa",
+              "có tiền",
+              "rảnh"
+            ],
+            [
+              "ở nhà",
+              "đi du lịch",
+              "đi xem phim"
+            ]
+          ],
+          "en": ""
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền vào chỗ trống",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Tôi nên đi ___ gì?",
+          "answers": [
+            "bằng"
+          ]
+        },
+        {
+          "q": "Đi bằng máy bay ___ bao lâu?",
+          "answers": [
+            "mất"
+          ]
+        },
+        {
+          "q": "Anh muốn đi chuyến ___?",
+          "answers": [
+            "nào"
+          ]
+        },
+        {
+          "q": "Tôi chỉ có 50 ngàn đồng ___.",
+          "answers": [
+            "thôi"
+          ]
+        },
+        {
+          "q": "___ trời mưa thì tôi ở nhà.",
+          "answers": [
+            "Nếu"
+          ]
+        },
+        {
+          "q": "Nếu đi máy bay ___ chỉ mất 1 tiếng.",
+          "answers": [
+            "thì"
+          ]
+        }
+      ],
+      "wordBank": [
+        "bằng",
+        "mất",
+        "nào",
+        "thôi",
+        "Nếu",
+        "thì"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "Chọn đáp án đúng",
+      "titleEn": "Choose the right answer",
+      "items": [
+        {
+          "q": "Vé đi và về là:",
+          "options": [
+            "vé một chiều",
+            "vé khứ hồi",
+            "vé nằm"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "“Tôi chỉ đi ngày mai ___.”",
+          "options": [
+            "thôi",
+            "vậy",
+            "nào"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Chọn câu đúng:",
+          "options": [
+            "Nếu trời mưa thì tôi đi bơi.",
+            "Nếu trời mưa thì tôi ở nhà.",
+            "Nếu trời nắng thì tôi mang áo mưa."
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "“Bao nhiêu một vé ___, chị?” (hỏi rõ)",
+          "options": [
+            "vậy",
+            "nào",
+            "thôi"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Đi từ Hà Nội đến Thành phố Hồ Chí Minh, phương tiện nhanh nhất là:",
+          "options": [
+            "xe đạp",
+            "xe lửa",
+            "máy bay"
+          ],
+          "answer": 2,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        {
+          "words": [
+            "đi",
+            "bằng",
+            "nên",
+            "gì",
+            "tôi"
+          ],
+          "answers": [
+            "Tôi nên đi bằng gì?"
+          ]
+        },
+        {
+          "words": [
+            "ngày nào",
+            "anh",
+            "đi",
+            "muốn"
+          ],
+          "answers": [
+            "Anh muốn đi ngày nào?"
+          ]
+        },
+        {
+          "words": [
+            "thì",
+            "nếu",
+            "mưa",
+            "ở nhà",
+            "tôi",
+            "trời"
+          ],
+          "answers": [
+            "Nếu trời mưa thì tôi ở nhà."
+          ]
+        },
+        {
+          "words": [
+            "có",
+            "chỉ",
+            "tôi",
+            "thôi",
+            "một vé"
+          ],
+          "answers": [
+            "Tôi chỉ có một vé thôi."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Nối hai câu bằng “nếu … thì …”",
+      "titleEn": "Join with “nếu … thì …”",
+      "items": [
+        {
+          "q": "Trời mưa. Tôi ở nhà.",
+          "answers": [
+            "Nếu trời mưa thì tôi ở nhà."
+          ]
+        },
+        {
+          "q": "Có tiền. Tôi đi du lịch nước ngoài.",
+          "answers": [
+            "Nếu có tiền thì tôi đi du lịch nước ngoài.",
+            "Nếu có tiền thì tôi sẽ đi du lịch nước ngoài."
+          ]
+        },
+        {
+          "q": "Đi bằng xe lửa. Mất 9 tiếng.",
+          "answers": [
+            "Nếu đi bằng xe lửa thì mất 9 tiếng."
+          ]
+        },
+        {
+          "q": "Trời lạnh. Tôi mặc áo khoác.",
+          "answers": [
+            "Nếu trời lạnh thì tôi mặc áo khoác."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "How should I go to Huế?",
+          "answers": [
+            "Tôi nên đi Huế bằng gì?",
+            "Tôi nên đi bằng gì đến Huế?"
+          ]
+        },
+        {
+          "q": "I want to buy a return ticket.",
+          "answers": [
+            "Tôi muốn mua một vé khứ hồi.",
+            "Tôi muốn mua vé khứ hồi."
+          ]
+        },
+        {
+          "q": "Which trip do you want? (to a young man)",
+          "answers": [
+            "Anh muốn đi chuyến nào?"
+          ]
+        },
+        {
+          "q": "If it rains, I'll stay home.",
+          "answers": [
+            "Nếu trời mưa thì tôi ở nhà.",
+            "Nếu trời mưa thì tôi sẽ ở nhà."
+          ]
+        },
+        {
+          "q": "It only takes one hour.",
+          "answers": [
+            "Chỉ mất một tiếng thôi.",
+            "Chỉ mất 1 tiếng thôi."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-vi-en",
+      "title": "Dịch sang tiếng Anh",
+      "titleEn": "Translate into English",
+      "items": [
+        {
+          "q": "Đi bằng xe lửa mất bao lâu?",
+          "answers": [
+            "How long does it take by train?"
+          ]
+        },
+        {
+          "q": "Anh có thể đi chuyến tối.",
+          "answers": [
+            "You can take the evening trip.",
+            "You can take the night train."
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "ticket-booking",
+      "title": "Quầy bán vé",
+      "titleEn": "Ticket counter",
+      "intro": "Đọc yêu cầu của khách, rồi hỏi và chọn đúng ngày, chuyến, loại vé.",
+      "introEn": "Read the customer's request, then ask about and pick the right day, trip and ticket type.",
+      "config": {
+        "customers": [
+          {
+            "request": "Tôi chỉ đi thứ bảy thôi. Chuyến tối. Vé khứ hồi, vé nằm.",
+            "answer": {
+              "day": "thứ bảy",
+              "trip": "chuyến tối",
+              "type": "khứ hồi",
+              "seat": "vé nằm"
+            }
+          },
+          {
+            "request": "Tôi muốn đi Huế ngày 20, chuyến sáng, vé một chiều, vé ngồi.",
+            "answer": {
+              "day": "ngày 20",
+              "trip": "chuyến sáng",
+              "type": "một chiều",
+              "seat": "vé ngồi"
+            }
+          }
+        ],
+        "clerkQuestions": [
+          "Anh muốn đi ngày nào?",
+          "Anh muốn đi chuyến nào?",
+          "Vé một chiều hay vé khứ hồi?",
+          "Vé ngồi hay vé nằm?"
+        ]
+      }
+    },
+    {
+      "type": "dress-up",
+      "title": "Mặc đồ cho nhân vật",
+      "titleEn": "Dress the character",
+      "intro": "Vòng quay thời tiết dừng ở đâu? Nhân vật cần mặc gì? Dùng đúng động từ: mặc, đội, đeo, quàng, đi/mang, cầm.",
+      "introEn": "Where does the weather wheel stop? What should the character wear? Use the right verb: mặc, đội, đeo, quàng, đi/mang, cầm.",
+      "config": {
+        "items": [
+          {
+            "id": "ao-khoac",
+            "name": "áo khoác",
+            "emoji": "🧥",
+            "verb": "mặc"
+          },
+          {
+            "id": "ao-len",
+            "name": "áo len",
+            "emoji": "🧶",
+            "verb": "mặc"
+          },
+          {
+            "id": "khan",
+            "name": "khăn quàng",
+            "emoji": "🧣",
+            "verb": "quàng",
+            "alsoAccept": [
+              "đeo"
+            ]
+          },
+          {
+            "id": "mu-len",
+            "name": "mũ len",
+            "emoji": "🧢",
+            "verb": "đội"
+          },
+          {
+            "id": "gang-tay",
+            "name": "găng tay",
+            "emoji": "🧤",
+            "verb": "đeo"
+          },
+          {
+            "id": "ao-mua",
+            "name": "áo mưa",
+            "emoji": "🥼",
+            "verb": "mặc"
+          },
+          {
+            "id": "o",
+            "name": "ô (dù)",
+            "emoji": "☂️",
+            "verb": "cầm",
+            "alsoAccept": [
+              "mang",
+              "che"
+            ]
+          },
+          {
+            "id": "ung",
+            "name": "ủng",
+            "emoji": "👢",
+            "verb": "đi",
+            "alsoAccept": [
+              "mang"
+            ]
+          },
+          {
+            "id": "ao-phong",
+            "name": "áo phông",
+            "emoji": "👕",
+            "verb": "mặc"
+          },
+          {
+            "id": "quan-dui",
+            "name": "quần đùi",
+            "emoji": "🩳",
+            "verb": "mặc"
+          },
+          {
+            "id": "kinh-ram",
+            "name": "kính râm",
+            "emoji": "🕶️",
+            "verb": "đeo"
+          },
+          {
+            "id": "non-la",
+            "name": "nón lá",
+            "emoji": "👒",
+            "verb": "đội"
+          },
+          {
+            "id": "dep",
+            "name": "dép",
+            "emoji": "🩴",
+            "verb": "đi",
+            "alsoAccept": [
+              "mang"
+            ]
+          },
+          {
+            "id": "giay",
+            "name": "giày",
+            "emoji": "👟",
+            "verb": "đi",
+            "alsoAccept": [
+              "mang"
+            ]
+          }
+        ],
+        "scenes": [
+          {
+            "id": "lanh",
+            "weather": "Trời lạnh",
+            "emoji": "❄️",
+            "place": "Đà Lạt, 10 giờ tối, 10°C",
+            "complaint": "Lạnh quá! Tôi phải mặc gì?",
+            "needs": [
+              "ao-khoac",
+              "khan",
+              "mu-len",
+              "gang-tay"
+            ],
+            "wrongReaction": "Không được! Lạnh lắm!",
+            "nếuThì": "Nếu trời lạnh thì tôi mặc áo khoác."
+          },
+          {
+            "id": "mua",
+            "weather": "Trời mưa",
+            "emoji": "🌧️",
+            "place": "Hà Nội, buổi chiều",
+            "complaint": "Mưa to quá! Tôi bị ướt rồi!",
+            "needs": [
+              "ao-mua",
+              "ung",
+              "o"
+            ],
+            "wrongReaction": "Ôi, vẫn ướt!",
+            "nếuThì": "Nếu trời mưa thì tôi mang áo mưa."
+          },
+          {
+            "id": "nong",
+            "weather": "Trời nóng",
+            "emoji": "☀️",
+            "place": "Nha Trang, 12 giờ trưa, 35°C",
+            "complaint": "Nóng quá! Tôi muốn đi biển.",
+            "needs": [
+              "ao-phong",
+              "quan-dui",
+              "kinh-ram",
+              "non-la",
+              "dep"
+            ],
+            "wrongReaction": "Nóng lắm! Không mặc áo khoác đâu!",
+            "nếuThì": "Nếu trời nắng thì tôi đội nón."
+          }
+        ],
+        "modes": {
+          "easy": "Kéo món đồ vào nhân vật, sau đó chọn động từ đúng trong 4 lựa chọn.",
+          "hard": "Gõ câu, ví dụ “Anh ấy mặc áo khoác.” hoặc “Đội mũ len vào đi!”. Chỉ khi động từ + món đồ đúng thì nhân vật mới mặc."
+        },
+        "comfortBar": "Mỗi món đúng tăng thanh “thoải mái”; đủ đồ thì nhân vật hết run và cười.",
+        "sentenceTemplates": [
+          "{subject} {verb} {item}.",
+          "{Verb} {item} vào đi!",
+          "Nếu {weather_lower} thì tôi {verb} {item}."
+        ]
+      }
+    }
+  ]
+}

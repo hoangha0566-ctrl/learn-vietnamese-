@@ -1,0 +1,18 @@
+{
+  "note": "Icon và huy hiệu cho từng bài. Có thể sửa tuỳ ý.",
+  "lessons": {
+    "bai-01": { "icon": "👋", "badge": { "vi": "Bạn mới thân thiện", "en": "Friendly newcomer" } },
+    "bai-02": { "icon": "🌏", "badge": { "vi": "Công dân toàn cầu", "en": "Global citizen" } },
+    "bai-03": { "icon": "💼", "badge": { "vi": "Chuyên gia nghề nghiệp", "en": "Career expert" } },
+    "bai-04": { "icon": "🏠", "badge": { "vi": "Người giao hàng nhanh", "en": "Speedy courier" } },
+    "bai-05": { "icon": "⏰", "badge": { "vi": "Người đúng giờ", "en": "Always on time" } },
+    "bai-06": { "icon": "🏫", "badge": { "vi": "Học viên chăm chỉ", "en": "Hard-working student" } },
+    "bai-07": { "icon": "📅", "badge": { "vi": "Nhà lên kế hoạch", "en": "Master planner" } },
+    "bai-08": { "icon": "🧭", "badge": { "vi": "Người chỉ đường giỏi", "en": "Great guide" } },
+    "bai-09": { "icon": "🚆", "badge": { "vi": "Nhà du lịch sành điệu", "en": "Savvy traveller" } },
+    "bai-10": { "icon": "👨‍👩‍👧", "badge": { "vi": "Hàng xóm thân thiện", "en": "Friendly neighbour" } },
+    "bai-11": { "icon": "🍜", "badge": { "vi": "Thực khách sành ăn", "en": "Foodie" } },
+    "bai-12": { "icon": "🏆", "badge": { "vi": "Nhà vô địch VSL 1", "en": "VSL 1 champion" } },
+    "bai-26": { "icon": "🩺", "badge": { "vi": "Bác sĩ nhí", "en": "Little doctor" } }
+  }
+}

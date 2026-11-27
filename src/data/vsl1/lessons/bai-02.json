@@ -1,0 +1,839 @@
+{
+  "id": "bai-02",
+  "number": 2,
+  "bookLesson": 2,
+  "bookPages": "59–68",
+  "syllabusLessons": [
+    3,
+    4
+  ],
+  "topic": "Quốc tịch & giới thiệu người khác",
+  "topicEn": "Nationality & introducing others",
+  "title": "Cô là người nước nào?",
+  "titleEn": "Where are you from?",
+  "objectives": [
+    {
+      "vi": "Hỏi và nói quốc tịch",
+      "en": "Ask and tell nationality"
+    },
+    {
+      "vi": "Dùng câu hỏi đuôi “phải không?” và trả lời",
+      "en": "Use and answer the tag question “phải không?”"
+    },
+    {
+      "vi": "Giới thiệu người khác với đây/đó/kia và anh ấy, chị ấy",
+      "en": "Introduce others with đây/đó/kia and third-person pronouns"
+    },
+    {
+      "vi": "So sánh hai người với “còn”",
+      "en": "Contrast two people with “còn”"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "59",
+      "title": "Tom và Mary gặp nhau lần đầu"
+    },
+    {
+      "page": "59",
+      "title": "Nam gặp Yoko và Tom lần đầu"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "người",
+      "meaning": "person, people",
+      "type": "noun",
+      "image": "",
+      "audio": "",
+      "example": "Tôi là người Việt.",
+      "exampleEn": "I am Vietnamese."
+    },
+    {
+      "word": "nước",
+      "meaning": "country",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nào",
+      "meaning": "which",
+      "type": "question word",
+      "image": "",
+      "audio": "",
+      "example": "Cô là người nước nào?",
+      "exampleEn": "Which country are you from?"
+    },
+    {
+      "word": "người Việt (Nam)",
+      "meaning": "Vietnamese",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "người Mỹ",
+      "meaning": "American",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "người Anh",
+      "meaning": "English / British",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "người Pháp",
+      "meaning": "French",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "người Đức",
+      "meaning": "German",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "người Nhật",
+      "meaning": "Japanese",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "người Hàn Quốc",
+      "meaning": "Korean",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "người Trung Quốc",
+      "meaning": "Chinese",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "người Úc",
+      "meaning": "Australian",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "phải không?",
+      "meaning": "…, right? (tag question)",
+      "type": "phrase",
+      "image": "",
+      "audio": "",
+      "example": "Anh là người Mỹ, phải không?",
+      "exampleEn": "You're American, right?"
+    },
+    {
+      "word": "vâng / phải",
+      "meaning": "yes / right",
+      "type": "word",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "không phải",
+      "meaning": "no, not (to be)",
+      "type": "phrase",
+      "image": "",
+      "audio": "",
+      "example": "Tôi không phải là người Anh.",
+      "exampleEn": "I'm not English."
+    },
+    {
+      "word": "đây",
+      "meaning": "this, here (near both)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đó / đấy",
+      "meaning": "that (near the listener)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "kia",
+      "meaning": "that, over there (far from both)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ai",
+      "meaning": "who",
+      "type": "question word",
+      "image": "",
+      "audio": "",
+      "example": "Đây là ai?",
+      "exampleEn": "Who is this?"
+    },
+    {
+      "word": "anh ấy / chị ấy",
+      "meaning": "he / she",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ông ấy / bà ấy / cô ấy",
+      "meaning": "he / she (older; miss)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "các anh ấy",
+      "meaning": "they (young men)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "còn",
+      "meaning": "and, while (contrast)",
+      "type": "conjunction",
+      "image": "",
+      "audio": ""
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "S + là người + nước nào?",
+      "explainVi": "Hỏi quốc tịch. Trả lời: S + là người + tên nước.",
+      "explainEn": "Ask nationality. Answer: S + là người + country.",
+      "examples": [
+        {
+          "vi": "Cô là người nước nào?",
+          "en": "Where are you from?"
+        },
+        {
+          "vi": "Tôi là người Nhật.",
+          "en": "I'm Japanese."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "…, phải không?",
+      "explainVi": "Đặt cuối câu để tạo câu hỏi đuôi. Trả lời: Phải/Vâng hoặc Không phải.",
+      "explainEn": "Placed at the end to make a tag question. Answer: Phải/Vâng or Không phải.",
+      "examples": [
+        {
+          "vi": "Anh là người Mỹ, phải không?",
+          "en": "You're American, aren't you?"
+        },
+        {
+          "vi": "– Dạ, phải. / – Dạ, không phải. Tôi là người Anh.",
+          "en": "– Yes. / – No. I'm English."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "dạ",
+      "explainVi": "Đặt đầu câu trả lời để biểu thị lễ phép.",
+      "explainEn": "Placed at the start of an answer to show politeness.",
+      "examples": [
+        {
+          "vi": "Dạ, phải.",
+          "en": "Yes (politely)."
+        },
+        {
+          "vi": "Dạ, không phải.",
+          "en": "No (politely)."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "Đại từ ngôi thứ ba: anh/chị/ông/bà/cô + ấy",
+      "explainVi": "Thêm “ấy” sau đại từ ngôi thứ hai. Số nhiều: thêm “các” phía trước.",
+      "explainEn": "Add “ấy” after the 2nd-person pronoun. Plural: add “các” in front.",
+      "examples": [
+        {
+          "vi": "Anh ấy là người Anh.",
+          "en": "He is English."
+        },
+        {
+          "vi": "Các chị ấy là người Úc.",
+          "en": "They are Australian."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "A …, còn B …",
+      "explainVi": "“Còn” nêu một trường hợp khác để so sánh.",
+      "explainEn": "“Còn” introduces a contrasting case.",
+      "examples": [
+        {
+          "vi": "Tôi là người Việt. Còn anh?",
+          "en": "I'm Vietnamese. And you?"
+        },
+        {
+          "vi": "Jane là người Mỹ, còn Marie là người Pháp.",
+          "en": "Jane is American, and Marie is French."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "đây / đó (đấy) / kia",
+      "explainVi": "Đây: gần cả hai người. Đó/đấy: xa người nói, gần người nghe. Kia: xa cả hai.",
+      "explainEn": "Đây: near both. Đó/đấy: near the listener. Kia: far from both.",
+      "examples": [
+        {
+          "vi": "Đây là anh Tom.",
+          "en": "This is Tom."
+        },
+        {
+          "vi": "Kia là chị Marie.",
+          "en": "That (over there) is Marie."
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Ở quán cà phê",
+      "titleEn": "At a café",
+      "lines": [
+        {
+          "speaker": "Hà",
+          "vi": "Chào anh. Xin lỗi, anh là người Mỹ, phải không?",
+          "en": "Hello. Excuse me, you're American, right?"
+        },
+        {
+          "speaker": "David",
+          "vi": "Dạ, không phải. Tôi là người Úc. Còn chị?",
+          "en": "No, I'm Australian. And you?"
+        },
+        {
+          "speaker": "Hà",
+          "vi": "Tôi là người Việt. Tôi tên là Hà.",
+          "en": "I'm Vietnamese. My name is Hà."
+        },
+        {
+          "speaker": "David",
+          "vi": "Tôi tên là David. Rất vui được gặp chị.",
+          "en": "My name is David. Nice to meet you."
+        }
+      ]
+    },
+    {
+      "title": "Giới thiệu bạn",
+      "titleEn": "Introducing friends",
+      "lines": [
+        {
+          "speaker": "Hà",
+          "vi": "David, đây là chị Kim. Chị ấy là người Hàn Quốc.",
+          "en": "David, this is Kim. She is Korean."
+        },
+        {
+          "speaker": "David",
+          "vi": "Chào chị Kim. Còn kia là ai?",
+          "en": "Hello, Kim. And who is that over there?"
+        },
+        {
+          "speaker": "Hà",
+          "vi": "Kia là anh Ken. Anh ấy là người Nhật.",
+          "en": "That's Ken. He is Japanese."
+        },
+        {
+          "speaker": "Kim",
+          "vi": "Không phải. Anh Ken không phải là người Nhật. Anh ấy là người Anh.",
+          "en": "No. Ken isn't Japanese. He is English."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Lớp học quốc tế",
+    "text": "Lớp tiếng Việt của cô Hoa có năm học viên. Đây là anh John, người Mỹ. Đó là chị Yoko, người Nhật. Kia là anh Min-ho và chị Ji-woo. Anh Min-ho là người Hàn Quốc, còn chị Ji-woo là người Trung Quốc. Bạn mới tên là Marie. Chị ấy không phải là người Anh. Chị ấy là người Pháp.",
+    "translation": "Ms Hoa's Vietnamese class has five students. This is John, an American. That is Yoko, a Japanese. Over there are Min-ho and Ji-woo. Min-ho is Korean, while Ji-woo is Chinese. The new student is Marie. She is not English. She is French.",
+    "trueFalse": [
+      {
+        "q": "Anh John là người Mỹ.",
+        "answer": true
+      },
+      {
+        "q": "Chị Ji-woo là người Hàn Quốc.",
+        "answer": false
+      },
+      {
+        "q": "Marie là người Anh.",
+        "answer": false
+      },
+      {
+        "q": "Lớp có năm học viên.",
+        "answer": true
+      }
+    ],
+    "questions": [
+      {
+        "q": "Chị Yoko là người nước nào?",
+        "answers": [
+          "Chị Yoko là người Nhật.",
+          "Chị ấy là người Nhật."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "substitution",
+      "title": "Bảng thay thế",
+      "titleEn": "Substitution drill",
+      "items": [
+        {
+          "frame": "{0} là người nước nào?",
+          "slots": [
+            [
+              "Cô",
+              "Anh",
+              "Ông",
+              "Bà"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Tôi là người {0}.",
+          "slots": [
+            [
+              "Việt",
+              "Mỹ",
+              "Pháp",
+              "Nhật",
+              "Hàn Quốc",
+              "Trung Quốc"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "{0} là anh Tom.",
+          "slots": [
+            [
+              "Đây",
+              "Đó",
+              "Kia"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "{0} là người Anh, phải không?",
+          "slots": [
+            [
+              "Anh ấy",
+              "Chị ấy",
+              "Ông ấy",
+              "Bà ấy"
+            ]
+          ],
+          "en": ""
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền vào chỗ trống",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Cô là người nước ___?",
+          "answers": [
+            "nào"
+          ]
+        },
+        {
+          "q": "Anh là người Mỹ, ___ không?",
+          "answers": [
+            "phải"
+          ]
+        },
+        {
+          "q": "___, không phải. Tôi là người Anh.",
+          "answers": [
+            "Dạ",
+            "Vâng"
+          ]
+        },
+        {
+          "q": "Tôi là người Việt. ___ anh?",
+          "answers": [
+            "Còn"
+          ]
+        },
+        {
+          "q": "Đây là ___? – Đây là chị Kim.",
+          "answers": [
+            "ai"
+          ]
+        },
+        {
+          "q": "Anh Nam là người Việt. Anh ___ không phải là người Hàn Quốc.",
+          "answers": [
+            "ấy"
+          ]
+        }
+      ],
+      "wordBank": [
+        "nào",
+        "phải",
+        "Dạ",
+        "Còn",
+        "ai",
+        "ấy"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "Chọn đáp án đúng",
+      "titleEn": "Choose the right answer",
+      "items": [
+        {
+          "q": "Người đó ở rất xa bạn và người nghe. Bạn nói: “___ là anh Tom.”",
+          "options": [
+            "Đây",
+            "Đó",
+            "Kia"
+          ],
+          "answer": 2,
+          "explain": "Xa cả hai người → kia."
+        },
+        {
+          "q": "Bạn chỉ vào người đứng cạnh người nghe: “___ là ai?”",
+          "options": [
+            "Đây",
+            "Đó",
+            "Kia"
+          ],
+          "answer": 1,
+          "explain": "Gần người nghe → đó/đấy."
+        },
+        {
+          "q": "“Chị là người Nhật, phải không?” – (Bạn là người Hàn Quốc)",
+          "options": [
+            "Dạ, phải.",
+            "Dạ, không phải. Tôi là người Hàn Quốc.",
+            "Tôi tên là Kim."
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Ông Brown → ngôi thứ ba là:",
+          "options": [
+            "ông ấy",
+            "anh ấy",
+            "bà ấy"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Chọn câu đúng:",
+          "options": [
+            "Tôi là người nước Pháp nào.",
+            "Tôi là người Pháp.",
+            "Tôi người là Pháp."
+          ],
+          "answer": 1,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        {
+          "words": [
+            "phải không",
+            "người Đức",
+            "là",
+            "anh"
+          ],
+          "answers": [
+            "Anh là người Đức, phải không?"
+          ]
+        },
+        {
+          "words": [
+            "người nước nào",
+            "là",
+            "bà",
+            "xin lỗi"
+          ],
+          "answers": [
+            "Xin lỗi, bà là người nước nào?"
+          ]
+        },
+        {
+          "words": [
+            "tôi",
+            "Hàn Quốc",
+            "người",
+            "là"
+          ],
+          "answers": [
+            "Tôi là người Hàn Quốc."
+          ]
+        },
+        {
+          "words": [
+            "bà ấy",
+            "Nhật",
+            "người",
+            "không phải",
+            "là"
+          ],
+          "answers": [
+            "Bà ấy không phải là người Nhật."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Viết lại câu",
+      "titleEn": "Rewrite",
+      "items": [
+        {
+          "q": "Cô ấy tên là Chi.",
+          "answers": [
+            "Cô ấy tên là Chi, phải không?"
+          ],
+          "instruction": "Dùng “phải không?”"
+        },
+        {
+          "q": "Đây là anh Thomas.",
+          "answers": [
+            "Đây là anh Thomas, phải không?"
+          ],
+          "instruction": "Dùng “phải không?”"
+        },
+        {
+          "q": "Chị Yoko là người Mỹ.",
+          "answers": [
+            "Chị Yoko không phải là người Mỹ."
+          ],
+          "instruction": "Chuyển sang câu phủ định"
+        },
+        {
+          "q": "Anh Peter là người Pháp.",
+          "answers": [
+            "Anh Peter không phải là người Pháp."
+          ],
+          "instruction": "Chuyển sang câu phủ định"
+        },
+        {
+          "q": "Anh Nam là người Việt. Anh Peter là người Mỹ.",
+          "answers": [
+            "Anh Nam là người Việt, còn anh Peter là người Mỹ."
+          ],
+          "instruction": "Nối hai câu bằng “còn”"
+        },
+        {
+          "q": "Cô Mai khoẻ. Cô Hanako không khoẻ.",
+          "answers": [
+            "Cô Mai khoẻ, còn cô Hanako không khoẻ."
+          ],
+          "instruction": "Nối hai câu bằng “còn”"
+        }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "Where are you from? (to a young woman)",
+          "answers": [
+            "Chị là người nước nào?"
+          ]
+        },
+        {
+          "q": "I am French.",
+          "answers": [
+            "Tôi là người Pháp."
+          ]
+        },
+        {
+          "q": "He is not Japanese.",
+          "answers": [
+            "Anh ấy không phải là người Nhật.",
+            "Anh ấy không phải người Nhật."
+          ]
+        },
+        {
+          "q": "Who is this?",
+          "answers": [
+            "Đây là ai?"
+          ]
+        },
+        {
+          "q": "You are Korean, right? (to a young man)",
+          "answers": [
+            "Anh là người Hàn Quốc, phải không?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-vi-en",
+      "title": "Dịch sang tiếng Anh",
+      "titleEn": "Translate into English",
+      "items": [
+        {
+          "q": "Kia là chị Marie.",
+          "answers": [
+            "That is Marie.",
+            "That's Marie over there."
+          ]
+        },
+        {
+          "q": "Chị ấy là người Úc.",
+          "answers": [
+            "She is Australian."
+          ]
+        },
+        {
+          "q": "Dạ, không phải.",
+          "answers": [
+            "No.",
+            "No, that's not right."
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "passport-check",
+      "title": "Quầy nhập cảnh sân bay",
+      "titleEn": "Airport passport control",
+      "intro": "Bạn làm ở sân bay Tân Sơn Nhất. Xem hộ chiếu và trả lời: Người này là người nước nào?",
+      "introEn": "You work at Tan Son Nhat airport. Check each passport: where is this person from?",
+      "config": {
+        "travellers": [
+          {
+            "name": "John",
+            "flag": "🇺🇸",
+            "nationality": "Mỹ",
+            "pronoun": "anh ấy"
+          },
+          {
+            "name": "Yoko",
+            "flag": "🇯🇵",
+            "nationality": "Nhật",
+            "pronoun": "chị ấy"
+          },
+          {
+            "name": "Pierre",
+            "flag": "🇫🇷",
+            "nationality": "Pháp",
+            "pronoun": "ông ấy"
+          },
+          {
+            "name": "Min-ho",
+            "flag": "🇰🇷",
+            "nationality": "Hàn Quốc",
+            "pronoun": "anh ấy"
+          },
+          {
+            "name": "Hans",
+            "flag": "🇩🇪",
+            "nationality": "Đức",
+            "pronoun": "ông ấy"
+          },
+          {
+            "name": "Emma",
+            "flag": "🇬🇧",
+            "nationality": "Anh",
+            "pronoun": "cô ấy"
+          },
+          {
+            "name": "Li",
+            "flag": "🇨🇳",
+            "nationality": "Trung Quốc",
+            "pronoun": "bà ấy"
+          },
+          {
+            "name": "Jack",
+            "flag": "🇦🇺",
+            "nationality": "Úc",
+            "pronoun": "anh ấy"
+          }
+        ],
+        "questionTemplates": [
+          "{name} là người nước nào?",
+          "{name} là người {wrong}, phải không?"
+        ],
+        "answerTemplates": [
+          "{Pronoun} là người {nationality}.",
+          "Không phải. {Pronoun} là người {nationality}."
+        ],
+        "bonus": "Nối hai hành khách bằng “còn”: John là người Mỹ, còn Yoko là người Nhật."
+      }
+    },
+    {
+      "type": "family-album",
+      "title": "Album ảnh: Đây, đó hay kia?",
+      "titleEn": "Photo album: đây, đó or kia?",
+      "intro": "Người được chỉ đứng gần bạn, gần người nghe hay xa cả hai? Chọn đúng từ.",
+      "introEn": "Is the person near you, near the listener, or far from both? Pick the word.",
+      "config": {
+        "scenes": [
+          {
+            "target": "anh Tom",
+            "position": "near-speaker",
+            "answer": "Đây"
+          },
+          {
+            "target": "chị Marie",
+            "position": "near-listener",
+            "answer": "Đó"
+          },
+          {
+            "target": "ông Brown",
+            "position": "far",
+            "answer": "Kia"
+          },
+          {
+            "target": "cô Yoko",
+            "position": "near-speaker",
+            "answer": "Đây"
+          },
+          {
+            "target": "anh Kim",
+            "position": "far",
+            "answer": "Kia"
+          }
+        ],
+        "sentence": "{answer} là {target}."
+      }
+    }
+  ]
+}

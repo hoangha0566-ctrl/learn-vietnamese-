@@ -1,0 +1,33 @@
+{
+  "note": "Giáo trình chi tiết của giáo viên. Trường 'lesson' trỏ tới bài trong app (bai-01 … bai-12 theo sách, bai-26 tự soạn). Sửa 'number'/thứ tự ở đây mà không cần sửa code.",
+  "entries": [
+    { "id": 1, "topic": "Làm quen", "title": "Xin lỗi, anh tên là gì?", "grammar": "… tên là gì? / … tên là …; đại từ anh, chị, em", "game": "Bữa tiệc làm quen", "lesson": "bai-01" },
+    { "id": 2, "topic": "Hỏi thăm sức khoẻ", "title": "Anh có khoẻ không?", "grammar": "có … không?; trợ từ “dạ”", "game": "Gặp hàng xóm", "lesson": "bai-01" },
+    { "id": 3, "topic": "Quốc tịch", "title": "Chị là người nước nào?", "grammar": "… là người nước nào? / … là người …; liên từ “còn”", "game": "Quầy nhập cảnh sân bay", "lesson": "bai-02" },
+    { "id": 4, "topic": "Người thứ ba", "title": "Đây là ai vậy?", "grammar": "đây / đó / kia; trợ từ “vậy”", "game": "Album ảnh gia đình", "lesson": "bai-02", "review": true },
+    { "id": 5, "topic": "Nghề nghiệp", "title": "Anh làm nghề gì?", "grammar": "… làm nghề gì?; tôi là/làm …; cô, chú; trợ từ “ạ”", "game": "Ngày hội việc làm", "lesson": "bai-03" },
+    { "id": "6a", "topic": "Đi đâu / ở đâu", "title": "Anh đi đâu?", "grammar": "đi tới/đi đến …; đi về …", "game": "Trốn tìm", "lesson": "bai-06" },
+    { "id": "6b", "topic": "Hoạt động đang diễn ra", "title": "Anh đang làm gì?", "grammar": "… đang làm gì?; đã – đang – sẽ; trợ từ “đấy”", "game": "Camera quan sát", "lesson": "bai-03" },
+    { "id": 7, "topic": "Mục đích", "title": "Anh muốn học tiếng Việt để làm gì?", "grammar": "… để làm gì?; động từ “muốn”; ông, bà", "game": "Tuyển thành viên", "lesson": "bai-04" },
+    { "id": 8, "topic": "Địa chỉ", "title": "Nhà anh ở số mấy?", "grammar": "số nhà → đường → phường → quận → thành phố; “mấy”", "game": "Người giao hàng", "lesson": "bai-04", "review": true },
+    { "id": 9, "topic": "Tuổi", "title": "Anh bao nhiêu tuổi?", "grammar": "bao nhiêu tuổi?; số 0–99; … phải không?", "game": "Bingo số", "lesson": "bai-04" },
+    { "id": 10, "topic": "Khả năng", "title": "Chị nói tiếng Việt được không?", "grammar": "V + được (không)?; phó từ “đã”", "game": "Tuyển thành viên đội phiêu lưu", "lesson": "bai-04" },
+    { "id": 11, "topic": "Giờ giấc", "title": "Bây giờ là mấy giờ rồi chị?", "grammar": "mấy giờ?; sáng/trưa/chiều/tối/đêm", "game": "Đồng hồ ma thuật", "lesson": "bai-05" },
+    { "id": 12, "topic": "Thói quen + tần suất", "title": "Buổi tối anh thường ngủ lúc mấy giờ?", "grammar": "thường; thỉnh thoảng, ít khi, lâu lâu; trợ từ “à”", "game": "Một ngày của nhân vật", "lesson": "bai-05" },
+    { "id": 13, "topic": "Giá cả", "title": "Cái này bao nhiêu tiền vậy anh?", "grammar": "bao nhiêu (tiền)?; trăm/nghìn/triệu; “rất”", "game": "Đi chợ", "lesson": "bai-05" },
+    { "id": 14, "topic": "Ôn tập 1", "title": "Công ty anh có mấy người vậy?", "grammar": "rất / quá / lắm; mấy vs bao nhiêu", "game": "Đếm nhanh", "lesson": "bai-06", "review": true },
+    { "id": 15, "topic": "Ôn tập 2", "title": "Anh làm việc ở đâu?", "grammar": "đâu (chuyển động) vs ở đâu (tĩnh tại)", "game": "Trốn tìm", "lesson": "bai-06", "review": true },
+    { "id": 16, "topic": "Dự định", "title": "Khi nào anh đi Đà Lạt vậy?", "grammar": "thứ trong tuần; “sắp”; “nhé”; “để” (đề nghị)", "game": "Lên lịch du lịch", "lesson": "bai-07" },
+    { "id": 17, "topic": "Dự định", "title": "Bao giờ anh đi Việt Nam?", "grammar": "“bao giờ” đầu câu / cuối câu; “sẽ”", "game": "Cỗ máy thời gian", "lesson": "bai-07" },
+    { "id": 18, "topic": "Thời lượng", "title": "Anh sẽ ở Việt Nam bao lâu?", "grammar": "bao lâu; bao lâu rồi; bao giờ/bao lâu", "game": "Thanh thời gian", "lesson": "bai-07" },
+    { "id": 19, "topic": "Chỉ đường 1", "title": "Đi thẳng đường này hả anh?", "grammar": "đi thẳng, rẽ trái, rẽ phải; bên phải, bên trái, đối diện; “hả”; “đi”", "game": "Dẫn đường cho du khách", "lesson": "bai-08", "review": true },
+    { "id": 20, "topic": "Chỉ đường 2", "title": "Nhà tôi không xa lắm đâu", "grammar": "không … đâu; “lắm”", "game": "Cãi vui với bạn", "lesson": "bai-08" },
+    { "id": 21, "topic": "Kế hoạch 1", "title": "Chị muốn đi ngày nào?", "grammar": "“nào” sau danh từ; chỉ … thôi", "game": "Đặt vé", "lesson": "bai-09" },
+    { "id": 22, "topic": "Kế hoạch 2", "title": "Nếu ngày mai mưa thì tôi ở nhà", "grammar": "Nếu … thì …; “mới”", "game": "Mặc đồ cho nhân vật", "lesson": "bai-09" },
+    { "id": 23, "topic": "Gia đình", "title": "Anh ấy đã lập gia đình chưa?", "grammar": "đã … chưa?; “còn”", "game": "Hỏi chuyện hàng xóm", "lesson": "bai-10" },
+    { "id": 24, "topic": "Trò chuyện", "title": "Ngày nào chúng ta cũng gặp nhau", "grammar": "nào … cũng; chúng tôi vs chúng ta", "game": "Ai nói với ai?", "lesson": "bai-10" },
+    { "id": 25, "topic": "Nhà hàng", "title": "Món gì anh ấy cũng ăn được", "grammar": "gì … cũng; không … gì; “cùng”", "game": "Nhà hàng", "lesson": "bai-11" },
+    { "id": 26, "topic": "Sức khoẻ", "title": "Hình như anh bị cảm rồi phải không?", "grammar": "bị / được; nói về sức khoẻ", "game": "Phòng khám", "lesson": "bai-26" },
+    { "id": 27, "topic": "Ôn tập", "title": "Tháng sau tôi sẽ về nước", "grammar": "sắp/sẽ/đã/đang; mấy, bao nhiêu, bao lâu; nhé, ạ, dạ, thôi, hả, à", "game": "Cờ cá ngựa ôn tập", "lesson": "bai-12" }
+  ]
+}

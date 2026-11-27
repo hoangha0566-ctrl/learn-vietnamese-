@@ -1,0 +1,880 @@
+{
+  "id": "bai-01",
+  "number": 1,
+  "bookLesson": 1,
+  "bookPages": "52–58",
+  "syllabusLessons": [
+    1,
+    2
+  ],
+  "topic": "Làm quen & hỏi thăm sức khoẻ",
+  "topicEn": "Greetings & asking how someone is",
+  "title": "Xin lỗi, anh tên là gì?",
+  "titleEn": "Excuse me, what is your name?",
+  "objectives": [
+    {
+      "vi": "Chào hỏi và giới thiệu tên",
+      "en": "Greet people and introduce your name"
+    },
+    {
+      "vi": "Chọn đúng đại từ xưng hô theo tuổi, giới tính",
+      "en": "Choose the right pronoun by age and gender"
+    },
+    {
+      "vi": "Hỏi thăm sức khoẻ bằng 'có … không?'",
+      "en": "Ask how someone is with 'có … không?'"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "53",
+      "title": "Bình và ông James Baker gặp nhau lần đầu"
+    },
+    {
+      "page": "53",
+      "title": "Việt và Lan đã biết nhau"
+    },
+    {
+      "page": "53",
+      "title": "Trong lớp học"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "chào",
+      "meaning": "hello / goodbye",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Chào anh.",
+      "exampleEn": "Hello (to a young man)."
+    },
+    {
+      "word": "xin lỗi",
+      "meaning": "excuse me / sorry",
+      "type": "phrase",
+      "image": "",
+      "audio": "",
+      "example": "Xin lỗi, anh tên là gì?",
+      "exampleEn": "Excuse me, what is your name?"
+    },
+    {
+      "word": "tên",
+      "meaning": "name",
+      "type": "noun",
+      "image": "",
+      "audio": "",
+      "example": "Tôi tên là Bình.",
+      "exampleEn": "My name is Bình."
+    },
+    {
+      "word": "là",
+      "meaning": "to be (copula)",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Tôi là Lan.",
+      "exampleEn": "I am Lan."
+    },
+    {
+      "word": "gì",
+      "meaning": "what",
+      "type": "question word",
+      "image": "",
+      "audio": "",
+      "example": "Chị tên là gì?",
+      "exampleEn": "What is your name?"
+    },
+    {
+      "word": "tôi",
+      "meaning": "I, me",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ông",
+      "meaning": "you (old man), sir",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bà",
+      "meaning": "you (old woman), madam",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "anh",
+      "meaning": "you (young man, same age or older)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "chị",
+      "meaning": "you (young woman, same age or older)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "cô",
+      "meaning": "you (miss / female teacher)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "thầy",
+      "meaning": "you (male teacher)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "em",
+      "meaning": "you (younger person, child)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "các bạn",
+      "meaning": "you all, friends",
+      "type": "pronoun",
+      "image": "",
+      "audio": "",
+      "example": "Chào các bạn.",
+      "exampleEn": "Hello everyone."
+    },
+    {
+      "word": "khoẻ",
+      "meaning": "well, healthy",
+      "type": "adjective",
+      "image": "",
+      "audio": "",
+      "example": "Tôi khoẻ.",
+      "exampleEn": "I am fine."
+    },
+    {
+      "word": "không",
+      "meaning": "no, not; question tag",
+      "type": "adverb",
+      "image": "",
+      "audio": "",
+      "example": "Anh có khoẻ không?",
+      "exampleEn": "How are you?"
+    },
+    {
+      "word": "cũng",
+      "meaning": "also, too",
+      "type": "adverb",
+      "image": "",
+      "audio": "",
+      "example": "Tôi cũng khoẻ.",
+      "exampleEn": "I'm fine too."
+    },
+    {
+      "word": "cám ơn / cảm ơn",
+      "meaning": "thank you",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "rất vui được gặp …",
+      "meaning": "very nice to meet …",
+      "type": "phrase",
+      "image": "",
+      "audio": "",
+      "example": "Rất vui được gặp chị.",
+      "exampleEn": "Very nice to meet you."
+    },
+    {
+      "word": "hẹn gặp lại",
+      "meaning": "see you again",
+      "type": "phrase",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "còn … ?",
+      "meaning": "and … ? (what about …?)",
+      "type": "phrase",
+      "image": "",
+      "audio": "",
+      "example": "Tôi khoẻ. Còn anh?",
+      "exampleEn": "I'm fine. And you?"
+    },
+    {
+      "word": "dạ",
+      "meaning": "yes (polite)",
+      "type": "particle",
+      "image": "",
+      "audio": "",
+      "example": "Dạ, khoẻ.",
+      "exampleEn": "Yes, (I'm) fine."
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "S + tên là + tên",
+      "explainVi": "“là” nối chủ ngữ với danh từ. Có thể bỏ “là”: Tôi tên Nam.",
+      "explainEn": "“là” links the subject to a noun. It can be dropped: Tôi tên Nam.",
+      "examples": [
+        {
+          "vi": "Tôi tên là Nam.",
+          "en": "My name is Nam."
+        },
+        {
+          "vi": "Tôi tên Nam.",
+          "en": "My name is Nam."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "S + tên là gì?",
+      "explainVi": "“gì” là từ để hỏi, đứng sau động từ hoặc sau “là”.",
+      "explainEn": "“gì” (what) is placed after the verb or after “là”.",
+      "examples": [
+        {
+          "vi": "Anh tên là gì?",
+          "en": "What is your name?"
+        },
+        {
+          "vi": "Cô tên là gì?",
+          "en": "What is your name, Miss?"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "Đại từ ngôi thứ hai: ông, bà, anh, chị, cô, thầy, em",
+      "explainVi": "Chọn đại từ theo giới tính, tuổi tác và quan hệ giữa người nói và người nghe.",
+      "explainEn": "Choose by the listener's gender, age and relationship to the speaker.",
+      "examples": [
+        {
+          "vi": "Chào ông.",
+          "en": "Hello, sir."
+        },
+        {
+          "vi": "Chào em.",
+          "en": "Hello (to a younger person)."
+        }
+      ],
+      "note": "Người nói tự xưng “tôi” khi lịch sự, trung tính."
+    },
+    {
+      "pattern": "S + (có) + adj/verb + không?",
+      "explainVi": "Câu hỏi có/không. Có thể bỏ “có”.",
+      "explainEn": "Yes/No question. “có” can be omitted.",
+      "examples": [
+        {
+          "vi": "Anh có khoẻ không?",
+          "en": "How are you?"
+        },
+        {
+          "vi": "Chị khoẻ không?",
+          "en": "How are you?"
+        },
+        {
+          "vi": "– Cám ơn, tôi khoẻ. / – Tôi không khoẻ.",
+          "en": "– Thanks, I'm fine. / – I'm not well."
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Gặp nhau ở lớp học tiếng Việt",
+      "titleEn": "Meeting in a Vietnamese class",
+      "lines": [
+        {
+          "speaker": "Minh",
+          "vi": "Chào chị. Xin lỗi, chị tên là gì?",
+          "en": "Hello. Excuse me, what is your name?"
+        },
+        {
+          "speaker": "Anna",
+          "vi": "Chào anh. Tôi tên là Anna. Còn anh?",
+          "en": "Hello. My name is Anna. And you?"
+        },
+        {
+          "speaker": "Minh",
+          "vi": "Tôi tên là Minh. Rất vui được gặp chị.",
+          "en": "My name is Minh. Very nice to meet you."
+        },
+        {
+          "speaker": "Anna",
+          "vi": "Rất vui được gặp anh.",
+          "en": "Very nice to meet you too."
+        }
+      ]
+    },
+    {
+      "title": "Gặp lại thầy giáo",
+      "titleEn": "Meeting the teacher again",
+      "lines": [
+        {
+          "speaker": "Peter",
+          "vi": "Chào thầy ạ. Thầy có khoẻ không ạ?",
+          "en": "Hello, teacher. How are you?"
+        },
+        {
+          "speaker": "Thầy Hùng",
+          "vi": "Chào em. Cám ơn em, thầy khoẻ. Còn em?",
+          "en": "Hello. Thank you, I'm fine. And you?"
+        },
+        {
+          "speaker": "Peter",
+          "vi": "Dạ, em cũng khoẻ. Cám ơn thầy.",
+          "en": "I'm fine too. Thank you."
+        },
+        {
+          "speaker": "Thầy Hùng",
+          "vi": "Chào em. Hẹn gặp lại.",
+          "en": "Goodbye. See you again."
+        },
+        {
+          "speaker": "Peter",
+          "vi": "Dạ, chào thầy. Hẹn gặp lại thầy.",
+          "en": "Goodbye, teacher. See you again."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Lớp học buổi sáng",
+    "text": "Đây là lớp tiếng Việt. Cô giáo tên là Hoa. Học viên tên là Tom, Mai và Ken. Sáng nay cô Hoa chào các bạn: “Chào các bạn. Các bạn có khoẻ không?”. Tom và Ken khoẻ. Mai không khoẻ. Cô Hoa nói: “Mai không khoẻ à? Hẹn gặp lại em ngày mai.”",
+    "translation": "This is a Vietnamese class. The teacher's name is Hoa. The students are Tom, Mai and Ken. This morning Ms Hoa greets everyone: “Hello everyone. How are you?”. Tom and Ken are fine. Mai is not well. Ms Hoa says: “Mai, you're not well? See you tomorrow.”",
+    "trueFalse": [
+      {
+        "q": "Cô giáo tên là Mai.",
+        "answer": false
+      },
+      {
+        "q": "Tom khoẻ.",
+        "answer": true
+      },
+      {
+        "q": "Mai không khoẻ.",
+        "answer": true
+      },
+      {
+        "q": "Ken không khoẻ.",
+        "answer": false
+      }
+    ],
+    "questions": [
+      {
+        "q": "Cô giáo tên là gì?",
+        "answers": [
+          "Cô giáo tên là Hoa.",
+          "Cô ấy tên là Hoa."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "substitution",
+      "title": "Bảng thay thế",
+      "titleEn": "Substitution drill",
+      "items": [
+        {
+          "frame": "Chào {0}.",
+          "slots": [
+            [
+              "ông",
+              "bà",
+              "anh",
+              "chị",
+              "cô",
+              "em"
+            ]
+          ],
+          "en": "Hello …"
+        },
+        {
+          "frame": "{0} có khoẻ không?",
+          "slots": [
+            [
+              "Ông",
+              "Bà",
+              "Anh",
+              "Chị",
+              "Cô"
+            ]
+          ],
+          "en": "How are you?"
+        },
+        {
+          "frame": "Rất vui được gặp {0}.",
+          "slots": [
+            [
+              "ông",
+              "bà",
+              "anh",
+              "chị",
+              "các bạn"
+            ]
+          ],
+          "en": "Nice to meet you."
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền vào chỗ trống",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Xin lỗi, anh tên ___ gì?",
+          "answers": [
+            "là"
+          ]
+        },
+        {
+          "q": "Tôi ___ là Lan.",
+          "answers": [
+            "tên"
+          ]
+        },
+        {
+          "q": "Chị tên là ___?",
+          "answers": [
+            "gì"
+          ]
+        },
+        {
+          "q": "Anh có khoẻ ___?",
+          "answers": [
+            "không"
+          ]
+        },
+        {
+          "q": "Tôi khoẻ. ___ anh?",
+          "answers": [
+            "Còn"
+          ]
+        },
+        {
+          "q": "Cô Mai khoẻ. Tôi ___ khoẻ.",
+          "answers": [
+            "cũng"
+          ]
+        },
+        {
+          "q": "Chào anh. Hẹn gặp ___.",
+          "answers": [
+            "lại"
+          ]
+        }
+      ],
+      "wordBank": [
+        "là",
+        "tên",
+        "gì",
+        "không",
+        "Còn",
+        "cũng",
+        "lại"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "Chọn đại từ đúng",
+      "titleEn": "Choose the right pronoun",
+      "items": [
+        {
+          "q": "Bạn gặp một người đàn ông 70 tuổi: “Chào ___.”",
+          "options": [
+            "anh",
+            "ông",
+            "em",
+            "cô"
+          ],
+          "answer": 1,
+          "explain": "Người đàn ông lớn tuổi → ông."
+        },
+        {
+          "q": "Bạn gặp cô giáo: “Chào ___ ạ.”",
+          "options": [
+            "cô",
+            "bà",
+            "chị",
+            "em"
+          ],
+          "answer": 0,
+          "explain": "Giáo viên nữ → cô."
+        },
+        {
+          "q": "Bạn 30 tuổi, gặp một cậu bé 8 tuổi: “Chào ___.”",
+          "options": [
+            "anh",
+            "em",
+            "ông",
+            "chị"
+          ],
+          "answer": 1,
+          "explain": "Người nhỏ tuổi hơn nhiều → em."
+        },
+        {
+          "q": "Bạn 25 tuổi gặp một phụ nữ 28 tuổi: “Chào ___.”",
+          "options": [
+            "bà",
+            "em",
+            "chị",
+            "thầy"
+          ],
+          "answer": 2,
+          "explain": "Phụ nữ trẻ, lớn hơn hoặc bằng tuổi → chị."
+        },
+        {
+          "q": "Bạn gặp thầy giáo: “Chào ___ ạ.”",
+          "options": [
+            "anh",
+            "ông",
+            "thầy",
+            "cô"
+          ],
+          "answer": 2,
+          "explain": "Giáo viên nam → thầy."
+        },
+        {
+          "q": "A: Anh có khoẻ không? – B: ___",
+          "options": [
+            "Tôi tên là Nam.",
+            "Cám ơn, tôi khoẻ.",
+            "Hẹn gặp lại.",
+            "Xin lỗi."
+          ],
+          "answer": 1,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        {
+          "words": [
+            "Peter",
+            "là",
+            "tôi",
+            "tên"
+          ],
+          "answers": [
+            "Tôi tên là Peter."
+          ]
+        },
+        {
+          "words": [
+            "có",
+            "bà",
+            "không",
+            "khoẻ"
+          ],
+          "answers": [
+            "Bà có khoẻ không?"
+          ]
+        },
+        {
+          "words": [
+            "Lan",
+            "chị",
+            "khoẻ",
+            "cũng"
+          ],
+          "answers": [
+            "Chị Lan cũng khoẻ."
+          ]
+        },
+        {
+          "words": [
+            "tôi",
+            "khoẻ",
+            "không"
+          ],
+          "answers": [
+            "Tôi không khoẻ."
+          ]
+        },
+        {
+          "words": [
+            "gặp",
+            "rất vui",
+            "được",
+            "ông"
+          ],
+          "answers": [
+            "Rất vui được gặp ông."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Chuyển thành câu hỏi với “có … không?”",
+      "titleEn": "Make questions with “có … không?”",
+      "items": [
+        {
+          "q": "Anh Bình khoẻ.",
+          "answers": [
+            "Anh Bình có khoẻ không?",
+            "Anh Bình khoẻ không?"
+          ]
+        },
+        {
+          "q": "Cô Mai khoẻ.",
+          "answers": [
+            "Cô Mai có khoẻ không?",
+            "Cô Mai khoẻ không?"
+          ]
+        },
+        {
+          "q": "Ông Năm khoẻ.",
+          "answers": [
+            "Ông Năm có khoẻ không?",
+            "Ông Năm khoẻ không?"
+          ]
+        },
+        {
+          "q": "Chị Thuý khoẻ.",
+          "answers": [
+            "Chị Thuý có khoẻ không?",
+            "Chị Thuý khoẻ không?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "Hello (to a young woman).",
+          "answers": [
+            "Chào chị."
+          ]
+        },
+        {
+          "q": "What is your name? (to a young man)",
+          "answers": [
+            "Anh tên là gì?",
+            "Anh tên gì?"
+          ]
+        },
+        {
+          "q": "My name is Anna.",
+          "answers": [
+            "Tôi tên là Anna.",
+            "Tôi tên Anna."
+          ]
+        },
+        {
+          "q": "How are you, sir?",
+          "answers": [
+            "Ông có khoẻ không?",
+            "Ông khoẻ không?"
+          ]
+        },
+        {
+          "q": "I'm fine. And you?",
+          "answers": [
+            "Tôi khoẻ. Còn anh?",
+            "Tôi khoẻ. Còn chị?",
+            "Tôi khoẻ. Còn bạn?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-vi-en",
+      "title": "Dịch sang tiếng Anh",
+      "titleEn": "Translate into English",
+      "items": [
+        {
+          "q": "Rất vui được gặp anh.",
+          "answers": [
+            "Very nice to meet you.",
+            "Nice to meet you."
+          ]
+        },
+        {
+          "q": "Tôi cũng khoẻ.",
+          "answers": [
+            "I'm fine too.",
+            "I am also fine."
+          ]
+        },
+        {
+          "q": "Hẹn gặp lại.",
+          "answers": [
+            "See you again.",
+            "See you later."
+          ]
+        },
+        {
+          "q": "Xin lỗi, cô tên là gì?",
+          "answers": [
+            "Excuse me, what is your name?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dictation",
+      "title": "Nghe và viết",
+      "titleEn": "Dictation",
+      "items": [
+        {
+          "q": "Chào anh. Tôi tên là Bình.",
+          "answers": [
+            "Chào anh. Tôi tên là Bình."
+          ]
+        },
+        {
+          "q": "Anh có khoẻ không?",
+          "answers": [
+            "Anh có khoẻ không?"
+          ]
+        },
+        {
+          "q": "Chào chị. Hẹn gặp lại.",
+          "answers": [
+            "Chào chị. Hẹn gặp lại."
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "name-party",
+      "title": "Bữa tiệc làm quen",
+      "titleEn": "Meet-and-greet party",
+      "intro": "Mọi người đến bữa tiệc. Hãy chào đúng đại từ rồi hỏi tên!",
+      "introEn": "Guests arrive at the party. Greet them with the right pronoun, then ask their name!",
+      "config": {
+        "guests": [
+          {
+            "name": "Ông Năm",
+            "emoji": "👴",
+            "age": 72,
+            "gender": "male",
+            "pronoun": "ông",
+            "reply": "Tôi tên là Năm."
+          },
+          {
+            "name": "Bà Lan",
+            "emoji": "👵",
+            "age": 68,
+            "gender": "female",
+            "pronoun": "bà",
+            "reply": "Tôi tên là Lan."
+          },
+          {
+            "name": "Anh Bình",
+            "emoji": "👨",
+            "age": 30,
+            "gender": "male",
+            "pronoun": "anh",
+            "reply": "Tôi tên là Bình."
+          },
+          {
+            "name": "Chị Mai",
+            "emoji": "👩",
+            "age": 29,
+            "gender": "female",
+            "pronoun": "chị",
+            "reply": "Tôi tên là Mai."
+          },
+          {
+            "name": "Cô Hoa (giáo viên)",
+            "emoji": "👩‍🏫",
+            "age": 40,
+            "gender": "female",
+            "pronoun": "cô",
+            "reply": "Cô tên là Hoa."
+          },
+          {
+            "name": "Thầy Hùng (giáo viên)",
+            "emoji": "👨‍🏫",
+            "age": 45,
+            "gender": "male",
+            "pronoun": "thầy",
+            "reply": "Thầy tên là Hùng."
+          },
+          {
+            "name": "Bé Na",
+            "emoji": "👧",
+            "age": 7,
+            "gender": "female",
+            "pronoun": "em",
+            "reply": "Em tên là Na."
+          }
+        ],
+        "playerAge": 25,
+        "steps": [
+          "Chào {pronoun}.",
+          "Xin lỗi, {pronoun} tên là gì?",
+          "Rất vui được gặp {pronoun}."
+        ]
+      }
+    },
+    {
+      "type": "polite-reply",
+      "title": "Gặp hàng xóm",
+      "titleEn": "Meeting the neighbours",
+      "intro": "Hàng xóm hỏi thăm bạn. Trả lời lễ phép để tăng thanh “lịch sự”.",
+      "introEn": "Neighbours ask how you are. Reply politely to fill the politeness bar.",
+      "config": {
+        "rounds": [
+          {
+            "speaker": "Bà Tư 👵",
+            "line": "Cháu có khoẻ không?",
+            "good": [
+              "Dạ, cháu khoẻ. Cám ơn bà.",
+              "Dạ, khoẻ ạ. Còn bà?"
+            ],
+            "bad": [
+              "Khoẻ.",
+              "Tôi tên là Tom."
+            ]
+          },
+          {
+            "speaker": "Anh Bình 👨",
+            "line": "Chào em. Em khoẻ không?",
+            "good": [
+              "Dạ, em khoẻ. Còn anh?"
+            ],
+            "bad": [
+              "Chào ông.",
+              "Hẹn gặp lại."
+            ]
+          },
+          {
+            "speaker": "Cô Hoa 👩‍🏫",
+            "line": "Các em có khoẻ không?",
+            "good": [
+              "Dạ, khoẻ. Cám ơn cô. Còn cô?"
+            ],
+            "bad": [
+              "Không.",
+              "Cám ơn em."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,870 @@
+{
+  "id": "bai-03",
+  "number": 3,
+  "bookLesson": 3,
+  "bookPages": "69–78",
+  "syllabusLessons": [
+    5,
+    "6b"
+  ],
+  "topic": "Nghề nghiệp & việc đang làm",
+  "topicEn": "Jobs & what you're doing",
+  "title": "Dạo này anh làm gì?",
+  "titleEn": "What are you doing these days?",
+  "objectives": [
+    {
+      "vi": "Hỏi và nói về nghề nghiệp, nơi làm việc",
+      "en": "Ask and talk about jobs and workplaces"
+    },
+    {
+      "vi": "Hỏi ai đó đang đi đâu, đang làm gì",
+      "en": "Ask where someone is going and what they are doing"
+    },
+    {
+      "vi": "Dùng “ạ” để nói lịch sự, kính trọng",
+      "en": "Use “ạ” to sound polite and respectful"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "69",
+      "title": "Ở sân bay quốc tế Tân Sơn Nhất"
+    },
+    {
+      "page": "69",
+      "title": "Dũng và Nam gặp nhau trên đường"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "làm",
+      "meaning": "to do, to work",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Anh làm nghề gì?",
+      "exampleEn": "What do you do?"
+    },
+    {
+      "word": "nghề",
+      "meaning": "job, profession",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "dạo này",
+      "meaning": "these days, lately",
+      "type": "adverb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "làm việc",
+      "meaning": "to work",
+      "type": "verb",
+      "image": "",
+      "audio": "",
+      "example": "Tôi làm việc ở bệnh viện.",
+      "exampleEn": "I work at a hospital."
+    },
+    {
+      "word": "ở",
+      "meaning": "at, in; to be located",
+      "type": "preposition / verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đâu",
+      "meaning": "where",
+      "type": "question word",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đi",
+      "meaning": "to go",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đến",
+      "meaning": "to arrive, to come to",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "về",
+      "meaning": "to return, to go back",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đang",
+      "meaning": "-ing (in progress)",
+      "type": "adverb",
+      "image": "",
+      "audio": "",
+      "example": "Tôi đang ăn cơm.",
+      "exampleEn": "I'm eating."
+    },
+    {
+      "word": "đấy",
+      "meaning": "(particle: action in progress)",
+      "type": "particle",
+      "image": "",
+      "audio": "",
+      "example": "Anh đi đâu đấy?",
+      "exampleEn": "Where are you going?"
+    },
+    {
+      "word": "ạ",
+      "meaning": "(particle: polite, respectful)",
+      "type": "particle",
+      "image": "",
+      "audio": "",
+      "example": "Chào ông ạ.",
+      "exampleEn": "Hello, sir."
+    },
+    {
+      "word": "bác sĩ",
+      "meaning": "doctor",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "kỹ sư",
+      "meaning": "engineer",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "giáo viên",
+      "meaning": "teacher",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "sinh viên",
+      "meaning": "university student",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "thư ký",
+      "meaning": "secretary",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tài xế",
+      "meaning": "driver",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "y tá",
+      "meaning": "nurse",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ca sĩ",
+      "meaning": "singer",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nội trợ",
+      "meaning": "homemaker",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nhân viên",
+      "meaning": "employee, staff",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "thợ chụp hình",
+      "meaning": "photographer",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "công ty",
+      "meaning": "company",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bệnh viện",
+      "meaning": "hospital",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "trường",
+      "meaning": "school",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "sân bay",
+      "meaning": "airport",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bưu điện",
+      "meaning": "post office",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "mệt",
+      "meaning": "tired",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bình thường",
+      "meaning": "normal, so-so",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đón",
+      "meaning": "to pick up, to meet",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "chờ / đợi",
+      "meaning": "to wait",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "S + làm nghề gì?",
+      "explainVi": "Hỏi nghề nghiệp. Trả lời: S + là/làm + nghề.",
+      "explainEn": "Ask about a job. Answer: S + là/làm + job.",
+      "examples": [
+        {
+          "vi": "Anh làm nghề gì?",
+          "en": "What do you do?"
+        },
+        {
+          "vi": "Tôi là bác sĩ. / Tôi làm bác sĩ.",
+          "en": "I'm a doctor."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "S + làm việc ở + nơi chốn",
+      "explainVi": "“ở” chỉ nơi chốn. “ở” cũng là động từ: Xe hơi ở đằng kia.",
+      "explainEn": "“ở” marks place. It is also a verb “to be (located)”.",
+      "examples": [
+        {
+          "vi": "Chị ấy làm việc ở bệnh viện.",
+          "en": "She works at a hospital."
+        },
+        {
+          "vi": "Xe hơi ở đằng kia.",
+          "en": "The car is over there."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "S + đang + V",
+      "explainVi": "“đang” chỉ hành động đang diễn ra.",
+      "explainEn": "“đang” marks an action in progress.",
+      "examples": [
+        {
+          "vi": "Tôi đang ăn cơm.",
+          "en": "I am eating."
+        },
+        {
+          "vi": "Chị đang đợi ai đấy?",
+          "en": "Who are you waiting for?"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "… đấy?",
+      "explainVi": "Trợ từ cuối câu, hành động đang diễn ra. Có thể thay bằng đó, vậy, thế.",
+      "explainEn": "Final particle for an action in progress. Can be replaced by đó, vậy, thế.",
+      "examples": [
+        {
+          "vi": "Anh đi đâu đấy?",
+          "en": "Where are you going?"
+        },
+        {
+          "vi": "Chị đang làm gì đấy?",
+          "en": "What are you doing?"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "… ạ",
+      "explainVi": "Trợ từ cuối câu, biểu thị kính trọng, lịch sự.",
+      "explainEn": "Final particle expressing respect and politeness.",
+      "examples": [
+        {
+          "vi": "Ông có mệt không ạ?",
+          "en": "Are you tired, sir?"
+        },
+        {
+          "vi": "Dạ, cháu là sinh viên ạ.",
+          "en": "I'm a student (polite)."
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Gặp nhau trên đường",
+      "titleEn": "Meeting on the street",
+      "lines": [
+        {
+          "speaker": "Lan",
+          "vi": "Chào anh Tuấn. Anh đi đâu đấy?",
+          "en": "Hi Tuấn. Where are you going?"
+        },
+        {
+          "speaker": "Tuấn",
+          "vi": "Chào Lan. Tôi đi làm. Dạo này Lan làm gì?",
+          "en": "Hi Lan. I'm going to work. What are you doing these days?"
+        },
+        {
+          "speaker": "Lan",
+          "vi": "Tôi đang làm y tá ở Bệnh viện Chợ Rẫy. Còn anh?",
+          "en": "I'm working as a nurse at Chợ Rẫy Hospital. And you?"
+        },
+        {
+          "speaker": "Tuấn",
+          "vi": "Tôi là kỹ sư. Tôi làm việc ở một công ty Nhật.",
+          "en": "I'm an engineer. I work at a Japanese company."
+        }
+      ]
+    },
+    {
+      "title": "Ở sân bay",
+      "titleEn": "At the airport",
+      "lines": [
+        {
+          "speaker": "Nhân viên",
+          "vi": "Xin lỗi, bà là bà Smith, phải không ạ?",
+          "en": "Excuse me, are you Mrs Smith?"
+        },
+        {
+          "speaker": "Bà Smith",
+          "vi": "Vâng, tôi là Mary Smith.",
+          "en": "Yes, I'm Mary Smith."
+        },
+        {
+          "speaker": "Nhân viên",
+          "vi": "Tôi là Vy, nhân viên khách sạn. Tôi đến đón bà ạ.",
+          "en": "I'm Vy, from the hotel. I've come to pick you up."
+        },
+        {
+          "speaker": "Bà Smith",
+          "vi": "Cám ơn cô. Xe ở đâu?",
+          "en": "Thank you. Where is the car?"
+        },
+        {
+          "speaker": "Nhân viên",
+          "vi": "Xe đang chờ bà ở đằng kia ạ.",
+          "en": "The car is waiting for you over there."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Ba người bạn",
+    "text": "Anh Long là tài xế. Anh ấy làm việc ở Công ty Du lịch Sài Gòn. Chị Thảo là giáo viên. Chị ấy dạy tiếng Anh ở một trường đại học. Còn anh Paul là người Úc. Anh ấy là kỹ sư. Dạo này anh Paul đang học tiếng Việt. Bây giờ anh ấy đang đi đến trường.",
+    "translation": "Long is a driver. He works at Saigon Tourist Company. Thảo is a teacher. She teaches English at a university. Paul is Australian. He is an engineer. These days Paul is studying Vietnamese. Right now he is going to school.",
+    "trueFalse": [
+      {
+        "q": "Anh Long là kỹ sư.",
+        "answer": false
+      },
+      {
+        "q": "Chị Thảo là giáo viên.",
+        "answer": true
+      },
+      {
+        "q": "Anh Paul là người Úc.",
+        "answer": true
+      },
+      {
+        "q": "Bây giờ anh Paul đang đi làm.",
+        "answer": false
+      }
+    ],
+    "questions": [
+      {
+        "q": "Anh Long làm việc ở đâu?",
+        "answers": [
+          "Anh Long làm việc ở Công ty Du lịch Sài Gòn.",
+          "Anh ấy làm việc ở Công ty Du lịch Sài Gòn."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "substitution",
+      "title": "Bảng thay thế",
+      "titleEn": "Substitution drill",
+      "items": [
+        {
+          "frame": "{0} làm nghề gì?",
+          "slots": [
+            [
+              "Ông ấy",
+              "Anh ấy",
+              "Cô ấy",
+              "Bà ấy"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Anh ấy là {0}.",
+          "slots": [
+            [
+              "sinh viên",
+              "bác sĩ",
+              "giáo viên",
+              "kỹ sư",
+              "tài xế"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Tôi đi {0}.",
+          "slots": [
+            [
+              "bệnh viện",
+              "sân bay",
+              "bưu điện",
+              "làm",
+              "học"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Các anh ấy đang {0}.",
+          "slots": [
+            [
+              "ăn cơm",
+              "làm việc",
+              "học tiếng Việt"
+            ]
+          ],
+          "en": ""
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền vào chỗ trống",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Anh làm ___ gì?",
+          "answers": [
+            "nghề"
+          ]
+        },
+        {
+          "q": "Chị ấy làm việc ___ bệnh viện.",
+          "answers": [
+            "ở"
+          ]
+        },
+        {
+          "q": "Tôi ___ ăn cơm.",
+          "answers": [
+            "đang"
+          ]
+        },
+        {
+          "q": "Anh đi đâu ___?",
+          "answers": [
+            "đấy",
+            "đó",
+            "vậy",
+            "thế"
+          ]
+        },
+        {
+          "q": "Ông có mệt không ___?",
+          "answers": [
+            "ạ"
+          ]
+        },
+        {
+          "q": "___ này anh làm gì?",
+          "answers": [
+            "Dạo"
+          ]
+        }
+      ],
+      "wordBank": [
+        "nghề",
+        "ở",
+        "đang",
+        "đấy",
+        "ạ",
+        "Dạo"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "Chọn “là” hay “làm”",
+      "titleEn": "Choose “là” or “làm”",
+      "items": [
+        {
+          "q": "Bà ___ nghề gì?",
+          "options": [
+            "là",
+            "làm"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Anh Philip ___ sinh viên.",
+          "options": [
+            "là",
+            "làm"
+          ],
+          "answer": 0,
+          "explain": "Cả “là” và “làm” đều được dùng để nói nghề, nhưng “là sinh viên” tự nhiên hơn."
+        },
+        {
+          "q": "Thu Thuỷ ___ ở Công ty Du lịch Sài Gòn.",
+          "options": [
+            "là",
+            "làm"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Tôi tên ___ Larry.",
+          "options": [
+            "là",
+            "làm"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Cô ấy không phải ___ người Hàn Quốc.",
+          "options": [
+            "là",
+            "làm"
+          ],
+          "answer": 0,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        {
+          "words": [
+            "ông Nam",
+            "kỹ sư",
+            "là",
+            "phải không"
+          ],
+          "answers": [
+            "Ông Nam là kỹ sư, phải không?"
+          ]
+        },
+        {
+          "words": [
+            "dạo này",
+            "gì",
+            "anh",
+            "làm"
+          ],
+          "answers": [
+            "Dạo này anh làm gì?"
+          ]
+        },
+        {
+          "words": [
+            "đang",
+            "tôi",
+            "tiếng Việt",
+            "học"
+          ],
+          "answers": [
+            "Tôi đang học tiếng Việt."
+          ]
+        },
+        {
+          "words": [
+            "làm việc",
+            "bệnh viện",
+            "chị ấy",
+            "ở"
+          ],
+          "answers": [
+            "Chị ấy làm việc ở bệnh viện."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Trả lời câu hỏi bằng câu đầy đủ",
+      "titleEn": "Answer in full sentences",
+      "items": [
+        {
+          "q": "Anh đang học gì đấy? (tiếng Việt)",
+          "answers": [
+            "Tôi đang học tiếng Việt."
+          ]
+        },
+        {
+          "q": "Cô ấy đang đợi ai đấy? (ông Baker)",
+          "answers": [
+            "Cô ấy đang đợi ông Baker."
+          ]
+        },
+        {
+          "q": "Anh đi đâu đấy? (bưu điện)",
+          "answers": [
+            "Tôi đi bưu điện.",
+            "Tôi đang đi bưu điện."
+          ]
+        },
+        {
+          "q": "Bà làm nghề gì? (giáo viên) – trả lời lễ phép",
+          "answers": [
+            "Dạ, tôi là giáo viên ạ.",
+            "Dạ, tôi làm giáo viên ạ."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "What do you do? (to a young man)",
+          "answers": [
+            "Anh làm nghề gì?"
+          ]
+        },
+        {
+          "q": "I am an engineer.",
+          "answers": [
+            "Tôi là kỹ sư.",
+            "Tôi làm kỹ sư."
+          ]
+        },
+        {
+          "q": "She works at a hospital.",
+          "answers": [
+            "Chị ấy làm việc ở bệnh viện.",
+            "Cô ấy làm việc ở bệnh viện."
+          ]
+        },
+        {
+          "q": "Where are you going? (to a young woman)",
+          "answers": [
+            "Chị đi đâu đấy?",
+            "Chị đi đâu?"
+          ]
+        },
+        {
+          "q": "I'm going to the airport.",
+          "answers": [
+            "Tôi đi sân bay.",
+            "Tôi đang đi sân bay."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-vi-en",
+      "title": "Dịch sang tiếng Anh",
+      "titleEn": "Translate into English",
+      "items": [
+        {
+          "q": "Dạo này anh làm gì?",
+          "answers": [
+            "What are you doing these days?",
+            "What do you do these days?"
+          ]
+        },
+        {
+          "q": "Tôi đang đợi bạn.",
+          "answers": [
+            "I am waiting for a friend.",
+            "I'm waiting for my friend."
+          ]
+        },
+        {
+          "q": "Xe hơi ở đằng kia.",
+          "answers": [
+            "The car is over there."
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "job-fair",
+      "title": "Ngày hội việc làm",
+      "titleEn": "Job fair",
+      "intro": "Nhìn đồng phục và dụng cụ, đoán nghề rồi nói câu đầy đủ.",
+      "introEn": "Look at the uniform and tools, guess the job, then say a full sentence.",
+      "config": {
+        "people": [
+          {
+            "emoji": "👨‍⚕️",
+            "pronoun": "Anh ấy",
+            "job": "bác sĩ",
+            "place": "bệnh viện"
+          },
+          {
+            "emoji": "👩‍🏫",
+            "pronoun": "Cô ấy",
+            "job": "giáo viên",
+            "place": "trường học"
+          },
+          {
+            "emoji": "👷",
+            "pronoun": "Anh ấy",
+            "job": "kỹ sư",
+            "place": "công ty"
+          },
+          {
+            "emoji": "👩‍💼",
+            "pronoun": "Chị ấy",
+            "job": "thư ký",
+            "place": "công ty"
+          },
+          {
+            "emoji": "🧑‍✈️",
+            "pronoun": "Ông ấy",
+            "job": "tài xế",
+            "place": "Công ty Du lịch"
+          },
+          {
+            "emoji": "👩‍⚕️",
+            "pronoun": "Chị ấy",
+            "job": "y tá",
+            "place": "bệnh viện"
+          },
+          {
+            "emoji": "🎤",
+            "pronoun": "Cô ấy",
+            "job": "ca sĩ",
+            "place": "nhà hát"
+          },
+          {
+            "emoji": "🧑‍🎓",
+            "pronoun": "Anh ấy",
+            "job": "sinh viên",
+            "place": "trường đại học"
+          }
+        ],
+        "templates": [
+          "{pronoun} là {job}.",
+          "{pronoun} làm việc ở {place}."
+        ]
+      }
+    },
+    {
+      "type": "spy-camera",
+      "title": "Camera quan sát: Họ đang làm gì?",
+      "titleEn": "Spy camera: what are they doing?",
+      "intro": "Mỗi màn hình là một cảnh. Mô tả: Ai đang làm gì, ở đâu?",
+      "introEn": "Each screen shows a scene. Describe who is doing what, and where.",
+      "config": {
+        "scenes": [
+          {
+            "emoji": "🍚",
+            "subject": "Anh Nam",
+            "action": "ăn cơm",
+            "place": "nhà hàng"
+          },
+          {
+            "emoji": "📖",
+            "subject": "Chị Lan",
+            "action": "học tiếng Anh",
+            "place": "thư viện"
+          },
+          {
+            "emoji": "💻",
+            "subject": "Ông Brown",
+            "action": "làm việc",
+            "place": "công ty"
+          },
+          {
+            "emoji": "⏳",
+            "subject": "Cô Thuỷ",
+            "action": "đợi ông Baker",
+            "place": "sân bay"
+          },
+          {
+            "emoji": "🚗",
+            "subject": "Anh Dũng",
+            "action": "đi làm",
+            "place": "trên đường"
+          }
+        ],
+        "template": "{subject} đang {action} ở {place}."
+      }
+    }
+  ]
+}

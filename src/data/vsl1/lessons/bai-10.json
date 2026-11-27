@@ -1,0 +1,856 @@
+{
+  "id": "bai-10",
+  "number": 10,
+  "bookLesson": 10,
+  "bookPages": "141–150",
+  "syllabusLessons": [
+    4,
+    23,
+    24
+  ],
+  "topic": "Gia đình & trò chuyện",
+  "topicEn": "Family & small talk",
+  "title": "Gia đình chị có mấy người?",
+  "titleEn": "How many people are there in your family?",
+  "objectives": [
+    {
+      "vi": "Giới thiệu gia đình: có mấy người, làm gì",
+      "en": "Introduce your family: size, jobs"
+    },
+    {
+      "vi": "Hỏi đã xảy ra chưa với “đã … chưa?”; trả lời rồi/chưa",
+      "en": "Ask whether something has happened with “đã … chưa?”"
+    },
+    {
+      "vi": "Nói “ai/ngày nào … cũng …”, “cùng”, “còn” (vẫn)",
+      "en": "Use “nào … cũng”, “cùng”, “còn” (still)"
+    },
+    {
+      "vi": "Phân biệt “chúng tôi” và “chúng ta”",
+      "en": "Distinguish “chúng tôi” (excl.) and “chúng ta” (incl.)"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "141",
+      "title": "Mai và Lan làm quen nhau trên xe lửa"
+    },
+    {
+      "page": "142",
+      "title": "Hải và Bình – bạn học cũ lâu ngày mới gặp"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "gia đình",
+      "meaning": "family",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "có gia đình / lập gia đình",
+      "meaning": "to be married / to get married",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "độc thân",
+      "meaning": "single",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ba / bố",
+      "meaning": "father (South / North)",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "má / mẹ",
+      "meaning": "mother (South / North)",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "anh trai / chị gái",
+      "meaning": "older brother / older sister",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "em trai / em gái",
+      "meaning": "younger brother / younger sister",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "anh chị em",
+      "meaning": "siblings",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "vợ / chồng",
+      "meaning": "wife / husband",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "con trai / con gái",
+      "meaning": "son / daughter",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "con cả / con út",
+      "meaning": "eldest / youngest child",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ông bà",
+      "meaning": "grandparents",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "học sinh",
+      "meaning": "school pupil",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "sinh viên năm thứ nhất",
+      "meaning": "first-year student",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đã … chưa?",
+      "meaning": "… yet?",
+      "type": "structure",
+      "image": "",
+      "audio": "",
+      "example": "Anh ăn cơm chưa?",
+      "exampleEn": "Have you eaten yet?"
+    },
+    {
+      "word": "rồi",
+      "meaning": "already; yes (answer)",
+      "type": "adverb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "chưa",
+      "meaning": "not yet",
+      "type": "adverb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "nào … cũng",
+      "meaning": "every …",
+      "type": "structure",
+      "image": "",
+      "audio": "",
+      "example": "Ngày nào tôi cũng gặp cô ấy.",
+      "exampleEn": "I see her every day."
+    },
+    {
+      "word": "cùng",
+      "meaning": "together, same",
+      "type": "adverb",
+      "image": "",
+      "audio": "",
+      "example": "Chúng tôi cùng học một lớp.",
+      "exampleEn": "We're in the same class."
+    },
+    {
+      "word": "còn (+ V/adj)",
+      "meaning": "still",
+      "type": "adverb",
+      "image": "",
+      "audio": "",
+      "example": "Anh ấy còn độc thân.",
+      "exampleEn": "He's still single."
+    },
+    {
+      "word": "chúng tôi",
+      "meaning": "we (not including listener)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "chúng ta",
+      "meaning": "we (including listener)",
+      "type": "pronoun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tuổi",
+      "meaning": "age, years old",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bạn học cũ",
+      "meaning": "former classmate",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "lâu ngày mới gặp",
+      "meaning": "meet after a long time",
+      "type": "phrase",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đông",
+      "meaning": "crowded, many people",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Gia đình + có mấy người?",
+      "explainVi": "Hỏi số người trong gia đình; trả lời liệt kê: ba má tôi, tôi và …",
+      "explainEn": "Ask family size; answer by listing: my parents, me and …",
+      "examples": [
+        {
+          "vi": "Gia đình chị có mấy người? – Có 5 người: ba má tôi, tôi và hai em trai.",
+          "en": "How many in your family? – Five: my parents, me and two younger brothers."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "(đã) + V + chưa?",
+      "explainVi": "Hỏi việc đã xảy ra chưa. Trả lời: Rồi, … rồi. / Chưa, … chưa …",
+      "explainEn": "Asks whether something has happened yet. Answer: Rồi … rồi / Chưa … chưa …",
+      "examples": [
+        {
+          "vi": "Cô đã ăn cơm chưa? – Rồi, tôi ăn rồi.",
+          "en": "Have you eaten? – Yes, I have."
+        },
+        {
+          "vi": "Anh ấy có gia đình chưa? – Chưa, anh ấy còn độc thân.",
+          "en": "Is he married? – No, he's still single."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "N + nào + (S) + cũng + V/adj",
+      "explainVi": "Mọi đơn vị trong nhóm đều giống nhau.",
+      "explainEn": "Every member of the group is the same.",
+      "examples": [
+        {
+          "vi": "Ngày nào chúng tôi cũng gặp nhau.",
+          "en": "We meet every day."
+        },
+        {
+          "vi": "Người nào cũng dễ thương.",
+          "en": "Everyone is lovely."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "cùng + V",
+      "explainVi": "Cùng làm một việc, ở cùng một nơi.",
+      "explainEn": "Doing the same thing / in the same place.",
+      "examples": [
+        {
+          "vi": "Họ cùng làm việc ở một công ty.",
+          "en": "They work at the same company."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "còn + V/adj",
+      "explainVi": "Trạng thái vẫn đang tiếp tục.",
+      "explainEn": "A state that is still continuing.",
+      "examples": [
+        {
+          "vi": "Hai em tôi còn đi học.",
+          "en": "My two siblings are still at school."
+        },
+        {
+          "vi": "Nó còn ngủ.",
+          "en": "He's still asleep."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "chúng tôi vs chúng ta",
+      "explainVi": "“Chúng tôi” không gồm người nghe; “chúng ta” gồm cả người nghe.",
+      "explainEn": "“chúng tôi” excludes the listener; “chúng ta” includes them.",
+      "examples": [
+        {
+          "vi": "Chúng tôi cùng học một lớp.",
+          "en": "We (not you) are in the same class."
+        },
+        {
+          "vi": "Chúng ta cùng đi ăn tối đi.",
+          "en": "Let's (you and me) go to dinner."
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Trên xe lửa",
+      "titleEn": "On the train",
+      "lines": [
+        {
+          "speaker": "Vy",
+          "vi": "Gia đình anh có mấy người?",
+          "en": "How many people are in your family?"
+        },
+        {
+          "speaker": "Mark",
+          "vi": "Có bốn người: bố mẹ tôi, tôi và em gái tôi.",
+          "en": "Four: my parents, me and my younger sister."
+        },
+        {
+          "speaker": "Vy",
+          "vi": "Em gái anh làm gì?",
+          "en": "What does your sister do?"
+        },
+        {
+          "speaker": "Mark",
+          "vi": "Em ấy còn đi học. Em ấy là sinh viên năm thứ nhất.",
+          "en": "She's still studying. She's a first-year student."
+        },
+        {
+          "speaker": "Vy",
+          "vi": "Anh đã có gia đình chưa?",
+          "en": "Are you married?"
+        },
+        {
+          "speaker": "Mark",
+          "vi": "Chưa. Tôi còn độc thân. Còn chị?",
+          "en": "No, I'm still single. And you?"
+        },
+        {
+          "speaker": "Vy",
+          "vi": "Tôi có gia đình rồi. Tôi có một con trai.",
+          "en": "I'm married. I have a son."
+        }
+      ]
+    },
+    {
+      "title": "Bạn học cũ",
+      "titleEn": "Old classmates",
+      "lines": [
+        {
+          "speaker": "Hải",
+          "vi": "Chào Bình. Lâu quá không gặp! Anh có gặp chị Lan không?",
+          "en": "Hi Bình. Long time no see! Do you see Lan?"
+        },
+        {
+          "speaker": "Bình",
+          "vi": "Có. Ngày nào tôi cũng gặp chị ấy. Chúng tôi cùng làm việc ở bưu điện.",
+          "en": "Yes, every day. We work at the post office together."
+        },
+        {
+          "speaker": "Hải",
+          "vi": "Chị ấy đã có gia đình chưa?",
+          "en": "Is she married?"
+        },
+        {
+          "speaker": "Bình",
+          "vi": "Rồi. Chị ấy có gia đình rồi.",
+          "en": "Yes, she is."
+        },
+        {
+          "speaker": "Hải",
+          "vi": "Vậy hả? Thôi, chúng ta đi uống cà phê đi!",
+          "en": "Really? Well, let's go for a coffee!"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Gia đình ông Lâm",
+    "text": "Ông Lâm là kỹ sư. Ông ấy lập gia đình hai mươi năm rồi. Vợ ông Lâm là giáo viên. Ông bà có hai con, một gái và một trai. Con gái lớn năm nay mười tám tuổi, là sinh viên năm thứ nhất. Con trai mười tuổi, còn là học sinh. Ngày nào cả nhà cũng ăn tối cùng nhau. Ông Lâm thường đi ngủ sớm, còn vợ ông thường thức khuya xem phim.",
+    "translation": "Mr Lâm is an engineer. He has been married for twenty years. His wife is a teacher. They have two children, a girl and a boy. The elder daughter is eighteen this year, a first-year student. The son is ten and still a pupil. Every day the whole family has dinner together. Mr Lâm usually goes to bed early, while his wife usually stays up late watching films.",
+    "trueFalse": [
+      {
+        "q": "Ông Lâm có ba con.",
+        "answer": false
+      },
+      {
+        "q": "Con gái ông Lâm là sinh viên.",
+        "answer": true
+      },
+      {
+        "q": "Ngày nào cả nhà cũng ăn tối cùng nhau.",
+        "answer": true
+      },
+      {
+        "q": "Vợ ông Lâm thường đi ngủ sớm.",
+        "answer": false
+      }
+    ],
+    "questions": [
+      {
+        "q": "Ông Lâm lập gia đình bao lâu rồi?",
+        "answers": [
+          "Ông Lâm lập gia đình hai mươi năm rồi.",
+          "Hai mươi năm rồi."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "substitution",
+      "title": "Bảng thay thế",
+      "titleEn": "Substitution drill",
+      "items": [
+        {
+          "frame": "{0} đã {1} chưa?",
+          "slots": [
+            [
+              "Anh ấy",
+              "Các bạn",
+              "Chị"
+            ],
+            [
+              "ăn sáng",
+              "đi Hà Nội",
+              "gặp ông ấy"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Gia đình chị có mấy {0}?",
+          "slots": [
+            [
+              "người",
+              "anh chị em"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "{0} chị làm gì?",
+          "slots": [
+            [
+              "Anh trai",
+              "Em gái",
+              "Ba má"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Chúng tôi cùng {0}.",
+          "slots": [
+            [
+              "làm việc ở bưu điện",
+              "học một lớp",
+              "đi du lịch ở Việt Nam"
+            ]
+          ],
+          "en": ""
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền vào chỗ trống",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Anh đã ăn cơm ___? – Rồi.",
+          "answers": [
+            "chưa"
+          ]
+        },
+        {
+          "q": "Chưa, tôi ___ ăn.",
+          "answers": [
+            "chưa"
+          ]
+        },
+        {
+          "q": "Anh ấy ___ độc thân.",
+          "answers": [
+            "còn"
+          ]
+        },
+        {
+          "q": "Ngày nào tôi ___ gặp cô ấy.",
+          "answers": [
+            "cũng"
+          ]
+        },
+        {
+          "q": "Chúng tôi ___ học một lớp.",
+          "answers": [
+            "cùng"
+          ]
+        },
+        {
+          "q": "Gia đình anh có ___ người?",
+          "answers": [
+            "mấy"
+          ]
+        }
+      ],
+      "wordBank": [
+        "chưa",
+        "chưa",
+        "còn",
+        "cũng",
+        "cùng",
+        "mấy"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "Chọn đáp án đúng",
+      "titleEn": "Choose the right answer",
+      "items": [
+        {
+          "q": "Bạn rủ người nghe đi ăn: “___ đi ăn tối đi!”",
+          "options": [
+            "Chúng tôi",
+            "Chúng ta"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Bạn nói với giáo viên về bạn và bạn cùng lớp: “___ là người Nhật.”",
+          "options": [
+            "Chúng tôi",
+            "Chúng ta"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "Chị đã có gia đình chưa? – (Bạn chưa kết hôn)",
+          "options": [
+            "Rồi.",
+            "Chưa. Tôi còn độc thân.",
+            "Có, tôi chưa."
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Con trai của bố mẹ tôi, lớn tuổi hơn tôi, là ___ của tôi.",
+          "options": [
+            "anh trai",
+            "em trai",
+            "con trai"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "“Người nào ___ dễ thương.”",
+          "options": [
+            "cũng",
+            "cùng",
+            "còn"
+          ],
+          "answer": 0,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        {
+          "words": [
+            "chưa",
+            "có gia đình",
+            "anh ấy",
+            "đã"
+          ],
+          "answers": [
+            "Anh ấy đã có gia đình chưa?"
+          ]
+        },
+        {
+          "words": [
+            "cũng",
+            "ngày nào",
+            "gặp nhau",
+            "chúng tôi"
+          ],
+          "answers": [
+            "Ngày nào chúng tôi cũng gặp nhau."
+          ]
+        },
+        {
+          "words": [
+            "đi học",
+            "còn",
+            "hai em tôi"
+          ],
+          "answers": [
+            "Hai em tôi còn đi học."
+          ]
+        },
+        {
+          "words": [
+            "đi",
+            "chúng ta",
+            "ăn tối",
+            "cùng",
+            "đi"
+          ],
+          "answers": [
+            "Chúng ta cùng đi ăn tối đi."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Viết lại câu",
+      "titleEn": "Rewrite",
+      "items": [
+        {
+          "q": "Anh ăn cơm.",
+          "answers": [
+            "Anh đã ăn cơm chưa?",
+            "Anh ăn cơm chưa?"
+          ],
+          "instruction": "Chuyển thành câu hỏi “đã … chưa?”"
+        },
+        {
+          "q": "Chị ấy đi Huế.",
+          "answers": [
+            "Chị ấy đã đi Huế chưa?",
+            "Chị ấy đi Huế chưa?"
+          ],
+          "instruction": "Chuyển thành câu hỏi “đã … chưa?”"
+        },
+        {
+          "q": "Thứ hai tôi đi học. Thứ ba tôi đi học. Ngày nào tôi cũng …",
+          "answers": [
+            "Ngày nào tôi cũng đi học."
+          ],
+          "instruction": "Dùng “nào … cũng”"
+        },
+        {
+          "q": "Người trong lớp tôi đều chăm học.",
+          "answers": [
+            "Người nào trong lớp tôi cũng chăm học.",
+            "Lớp tôi, người nào cũng chăm học."
+          ],
+          "instruction": "Dùng “nào … cũng”"
+        }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "How many people are there in your family? (to a young woman)",
+          "answers": [
+            "Gia đình chị có mấy người?"
+          ]
+        },
+        {
+          "q": "Have you eaten yet? (to a young man)",
+          "answers": [
+            "Anh ăn cơm chưa?",
+            "Anh đã ăn cơm chưa?",
+            "Anh ăn chưa?"
+          ]
+        },
+        {
+          "q": "He is still single.",
+          "answers": [
+            "Anh ấy còn độc thân."
+          ]
+        },
+        {
+          "q": "We meet every day.",
+          "answers": [
+            "Ngày nào chúng tôi cũng gặp nhau.",
+            "Ngày nào chúng ta cũng gặp nhau."
+          ]
+        },
+        {
+          "q": "Let's go together!",
+          "answers": [
+            "Chúng ta cùng đi đi!",
+            "Chúng ta đi cùng nhau đi!"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-vi-en",
+      "title": "Dịch sang tiếng Anh",
+      "titleEn": "Translate into English",
+      "items": [
+        {
+          "q": "Tôi có gia đình rồi.",
+          "answers": [
+            "I'm married.",
+            "I am already married."
+          ]
+        },
+        {
+          "q": "Em gái tôi còn đi học.",
+          "answers": [
+            "My younger sister is still at school.",
+            "My younger sister is still studying."
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "neighbour-chat",
+      "title": "Hỏi chuyện hàng xóm: rồi hay chưa?",
+      "titleEn": "Neighbour chat: yet or not yet?",
+      "intro": "Xem thẻ thông tin của hàng xóm, hỏi “đã … chưa?” và trả lời đúng “rồi / chưa / còn …”.",
+      "introEn": "Read each neighbour's card, ask “đã … chưa?” and answer with “rồi / chưa / còn …”.",
+      "config": {
+        "neighbours": [
+          {
+            "name": "Anh Tuấn 👨",
+            "facts": {
+              "có gia đình": false,
+              "ăn sáng": true,
+              "đi Hà Nội": false
+            },
+            "still": "còn độc thân"
+          },
+          {
+            "name": "Chị Hoa 👩",
+            "facts": {
+              "có gia đình": true,
+              "ăn sáng": false,
+              "đi Hà Nội": true
+            }
+          },
+          {
+            "name": "Bé Bin 👦",
+            "facts": {
+              "ăn sáng": true,
+              "đi học": false
+            },
+            "still": "còn ngủ"
+          }
+        ],
+        "templates": {
+          "q": "{name} đã {action} chưa?",
+          "yes": "Rồi, {pronoun} {action} rồi.",
+          "no": "Chưa, {pronoun} chưa {action}."
+        }
+      }
+    },
+    {
+      "type": "family-tree",
+      "title": "Cây gia đình",
+      "titleEn": "Family tree",
+      "intro": "Kéo đúng từ vào cây gia đình rồi giới thiệu ảnh: “Đây là …, kia là …”.",
+      "introEn": "Drag the right words onto the family tree, then present the photo: “Đây là …, kia là …”.",
+      "config": {
+        "me": "Mark",
+        "members": [
+          {
+            "relation": "bố / ba",
+            "emoji": "👨"
+          },
+          {
+            "relation": "mẹ / má",
+            "emoji": "👩"
+          },
+          {
+            "relation": "anh trai",
+            "emoji": "🧑"
+          },
+          {
+            "relation": "em gái",
+            "emoji": "👧"
+          },
+          {
+            "relation": "ông",
+            "emoji": "👴"
+          },
+          {
+            "relation": "bà",
+            "emoji": "👵"
+          }
+        ],
+        "questions": [
+          "Gia đình bạn có mấy người?",
+          "Bố mẹ bạn làm gì?",
+          "Bạn có mấy anh chị em?"
+        ]
+      }
+    },
+    {
+      "type": "who-is-we",
+      "title": "Chúng tôi hay chúng ta?",
+      "titleEn": "Chúng tôi or chúng ta?",
+      "intro": "Người nghe có ở trong nhóm không? Chọn đúng đại từ.",
+      "introEn": "Is the listener part of the group? Choose the right pronoun.",
+      "config": {
+        "rounds": [
+          {
+            "situation": "Bạn rủ bạn cùng lớp đi ăn trưa.",
+            "answer": "Chúng ta"
+          },
+          {
+            "situation": "Bạn kể với giáo viên về nhóm bạn đi Đà Lạt.",
+            "answer": "Chúng tôi"
+          },
+          {
+            "situation": "Giáo viên nói với cả lớp: “___ bắt đầu học nhé!”",
+            "answer": "Chúng ta"
+          },
+          {
+            "situation": "Bạn giới thiệu công ty mình với khách hàng.",
+            "answer": "Chúng tôi"
+          }
+        ]
+      }
+    }
+  ]
+}

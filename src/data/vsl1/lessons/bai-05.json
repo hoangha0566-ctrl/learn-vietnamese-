@@ -1,0 +1,989 @@
+{
+  "id": "bai-05",
+  "number": 5,
+  "bookLesson": 5,
+  "bookPages": "91–101",
+  "syllabusLessons": [
+    11,
+    12,
+    13
+  ],
+  "topic": "Giờ giấc, thói quen, giá cả",
+  "topicEn": "Time, habits, prices",
+  "title": "Bây giờ là mấy giờ?",
+  "titleEn": "What time is it now?",
+  "objectives": [
+    {
+      "vi": "Hỏi và nói giờ, buổi trong ngày",
+      "en": "Ask and tell the time and part of the day"
+    },
+    {
+      "vi": "Nói về thói quen hằng ngày với “thường”",
+      "en": "Talk about daily habits with “thường”"
+    },
+    {
+      "vi": "Hỏi số lượng, giá tiền với “bao nhiêu”",
+      "en": "Ask about quantity and price with “bao nhiêu”"
+    },
+    {
+      "vi": "Dùng “rất” và trợ từ “à”",
+      "en": "Use “rất” and the particle “à”"
+    }
+  ],
+  "bookDialogues": [
+    {
+      "page": "91",
+      "title": "Việt chuẩn bị ra sân bay đón đoàn khách du lịch Nhật"
+    },
+    {
+      "page": "91",
+      "title": "Hùng và Mai nói chuyện về công việc hằng ngày"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "giờ",
+      "meaning": "hour, o'clock",
+      "type": "noun",
+      "image": "",
+      "audio": "",
+      "example": "Bây giờ là mấy giờ?",
+      "exampleEn": "What time is it now?"
+    },
+    {
+      "word": "bây giờ",
+      "meaning": "now",
+      "type": "adverb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "phút",
+      "meaning": "minute",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "rưỡi",
+      "meaning": "half (past)",
+      "type": "word",
+      "image": "",
+      "audio": "",
+      "example": "10 giờ rưỡi",
+      "exampleEn": "half past ten"
+    },
+    {
+      "word": "kém",
+      "meaning": "to (before the hour)",
+      "type": "word",
+      "image": "",
+      "audio": "",
+      "example": "3 giờ kém 15",
+      "exampleEn": "quarter to three"
+    },
+    {
+      "word": "đúng",
+      "meaning": "exactly, sharp",
+      "type": "word",
+      "image": "",
+      "audio": "",
+      "example": "9 giờ đúng",
+      "exampleEn": "nine o'clock sharp"
+    },
+    {
+      "word": "rồi",
+      "meaning": "already",
+      "type": "adverb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "sáng / trưa / chiều / tối / đêm",
+      "meaning": "morning / noon / afternoon / evening / night",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "buổi sáng",
+      "meaning": "in the morning",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "lúc",
+      "meaning": "at (a time)",
+      "type": "preposition",
+      "image": "",
+      "audio": "",
+      "example": "Tôi đi làm lúc 7 giờ.",
+      "exampleEn": "I go to work at 7."
+    },
+    {
+      "word": "từ … đến …",
+      "meaning": "from … to …",
+      "type": "phrase",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "thường",
+      "meaning": "usually",
+      "type": "adverb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ít khi",
+      "meaning": "rarely",
+      "type": "adverb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "thức dậy",
+      "meaning": "to wake up",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đi ngủ",
+      "meaning": "to go to bed",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "ăn sáng / ăn trưa / ăn tối",
+      "meaning": "have breakfast / lunch / dinner",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đi làm",
+      "meaning": "to go to work",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "về nhà",
+      "meaning": "to go home",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đọc báo",
+      "meaning": "to read the newspaper",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "xem ti vi",
+      "meaning": "to watch TV",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "bao nhiêu",
+      "meaning": "how many, how much",
+      "type": "question word",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "tiền",
+      "meaning": "money",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "đồng",
+      "meaning": "dong (currency)",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "rất",
+      "meaning": "very",
+      "type": "adverb",
+      "image": "",
+      "audio": "",
+      "example": "Ông ấy rất bận.",
+      "exampleEn": "He is very busy."
+    },
+    {
+      "word": "bận",
+      "meaning": "busy",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "sớm",
+      "meaning": "early",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "muộn / trễ",
+      "meaning": "late",
+      "type": "adjective",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "à",
+      "meaning": "(particle: checking information)",
+      "type": "particle",
+      "image": "",
+      "audio": "",
+      "example": "Anh là sinh viên à?",
+      "exampleEn": "You're a student?"
+    },
+    {
+      "word": "tại sao? – vì …",
+      "meaning": "why? – because …",
+      "type": "phrase",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "máy bay",
+      "meaning": "airplane",
+      "type": "noun",
+      "image": "",
+      "audio": ""
+    },
+    {
+      "word": "khởi hành",
+      "meaning": "to depart",
+      "type": "verb",
+      "image": "",
+      "audio": ""
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Bây giờ là mấy giờ? – … giờ (… phút)",
+      "explainVi": "Nói giờ: 7 giờ, 7 giờ 15, 7 giờ rưỡi, 8 giờ kém 10, 9 giờ đúng.",
+      "explainEn": "Telling time: 7:00, 7:15, 7:30, 7:50 (8 minus 10), 9:00 sharp.",
+      "examples": [
+        {
+          "vi": "Bây giờ là 10 giờ rưỡi.",
+          "en": "It's 10:30 now."
+        },
+        {
+          "vi": "Bây giờ là 3 giờ kém 15.",
+          "en": "It's quarter to three."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "Buổi trong ngày",
+      "explainVi": "Sáng: 1–10 giờ. Trưa: 11–12 giờ. Chiều: 13–18 giờ. Tối: 19–22 giờ. Đêm: 23–24 giờ.",
+      "explainEn": "Morning 1–10, noon 11–12, afternoon 13–18, evening 19–22, night 23–24.",
+      "examples": [
+        {
+          "vi": "Máy bay đến lúc 12 giờ trưa.",
+          "en": "The plane arrives at 12 noon."
+        },
+        {
+          "vi": "Tôi đi ngủ lúc 11 giờ đêm.",
+          "en": "I go to bed at 11 p.m."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "S + thường + V",
+      "explainVi": "Diễn tả hành động lặp lại thường xuyên. Phủ định: thường không / ít khi.",
+      "explainEn": "A regularly repeated action. Negative: thường không / ít khi.",
+      "examples": [
+        {
+          "vi": "Anh thường đi làm lúc mấy giờ?",
+          "en": "What time do you usually go to work?"
+        },
+        {
+          "vi": "Tôi ít khi đọc sách.",
+          "en": "I rarely read books."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "bao nhiêu",
+      "explainVi": "Hỏi số lượng mà người nói không biết nhiều hay ít; hỏi giá tiền.",
+      "explainEn": "Asks about a quantity of unknown size; asks prices.",
+      "examples": [
+        {
+          "vi": "Lớp cô có bao nhiêu người?",
+          "en": "How many people are in your class?"
+        },
+        {
+          "vi": "Cái này bao nhiêu tiền?",
+          "en": "How much is this?"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "rất + adj",
+      "explainVi": "Mức độ cao, dùng trong câu trần thuật.",
+      "explainEn": "High degree, used in statements.",
+      "examples": [
+        {
+          "vi": "Cô ấy nói tiếng Việt rất giỏi.",
+          "en": "She speaks Vietnamese very well."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "pattern": "… à?",
+      "explainVi": "Trợ từ cuối câu, hỏi để xác nhận lại điều mình đã biết hoặc ngạc nhiên.",
+      "explainEn": "Final particle asking to confirm something (often with surprise).",
+      "examples": [
+        {
+          "vi": "Mười giờ rưỡi rồi à?",
+          "en": "It's 10:30 already?"
+        },
+        {
+          "vi": "Chị không đi làm à?",
+          "en": "You're not going to work?"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Mấy giờ rồi?",
+      "titleEn": "What time is it?",
+      "lines": [
+        {
+          "speaker": "Linh",
+          "vi": "Anh Tom ơi, bây giờ là mấy giờ?",
+          "en": "Tom, what time is it now?"
+        },
+        {
+          "speaker": "Tom",
+          "vi": "Bảy giờ kém mười lăm.",
+          "en": "Quarter to seven."
+        },
+        {
+          "speaker": "Linh",
+          "vi": "Bảy giờ kém mười lăm rồi à? Tôi phải đi làm.",
+          "en": "Already quarter to seven? I have to go to work."
+        },
+        {
+          "speaker": "Tom",
+          "vi": "Chị thường đi làm lúc mấy giờ?",
+          "en": "What time do you usually go to work?"
+        },
+        {
+          "speaker": "Linh",
+          "vi": "Lúc bảy giờ. Công ty tôi rất xa.",
+          "en": "At seven. My company is very far."
+        }
+      ]
+    },
+    {
+      "title": "Ở chợ",
+      "titleEn": "At the market",
+      "lines": [
+        {
+          "speaker": "Anna",
+          "vi": "Chị ơi, cái áo này bao nhiêu tiền?",
+          "en": "Excuse me, how much is this shirt?"
+        },
+        {
+          "speaker": "Người bán",
+          "vi": "Hai trăm năm mươi ngàn đồng.",
+          "en": "250,000 dong."
+        },
+        {
+          "speaker": "Anna",
+          "vi": "Hai trăm năm mươi ngàn à? Còn cái kia?",
+          "en": "250,000? And that one?"
+        },
+        {
+          "speaker": "Người bán",
+          "vi": "Cái kia một trăm rưỡi.",
+          "en": "That one is 150,000."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Một ngày của bác sĩ Hải",
+    "text": "Ông Hải là bác sĩ. Ông ấy thường thức dậy lúc 5 giờ rưỡi sáng. Ông ấy ăn sáng lúc 6 giờ 15 và đi làm lúc 6 giờ 45. Buổi sáng, ông làm việc ở bệnh viện từ 7 giờ đến 11 giờ rưỡi. Buổi trưa, ông ăn trưa ở căn tin. Buổi chiều, ông làm việc từ 1 giờ đến 5 giờ. Buổi tối, ông thường đọc báo và xem ti vi. Ông ít khi đi ngủ trước 11 giờ đêm. Ông Hải rất bận.",
+    "translation": "Mr Hải is a doctor. He usually wakes up at 5:30 a.m. He has breakfast at 6:15 and goes to work at 6:45. In the morning he works at the hospital from 7 to 11:30. At noon he has lunch in the canteen. In the afternoon he works from 1 to 5. In the evening he usually reads the paper and watches TV. He rarely goes to bed before 11 p.m. He is very busy.",
+    "trueFalse": [
+      {
+        "q": "Ông Hải thường thức dậy lúc 6 giờ.",
+        "answer": false
+      },
+      {
+        "q": "Ông ấy ăn trưa ở căn tin.",
+        "answer": true
+      },
+      {
+        "q": "Buổi chiều ông làm việc từ 1 giờ đến 5 giờ.",
+        "answer": true
+      },
+      {
+        "q": "Ông Hải thường đi ngủ sớm.",
+        "answer": false
+      }
+    ],
+    "questions": [
+      {
+        "q": "Buổi tối ông Hải thường làm gì?",
+        "answers": [
+          "Buổi tối ông Hải thường đọc báo và xem ti vi.",
+          "Ông ấy thường đọc báo và xem ti vi."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "substitution",
+      "title": "Bảng thay thế",
+      "titleEn": "Substitution drill",
+      "items": [
+        {
+          "frame": "Bây giờ là {0}.",
+          "slots": [
+            [
+              "11 giờ rưỡi",
+              "3 giờ kém 15",
+              "6 giờ 15",
+              "9 giờ đúng"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Cô thường {0} lúc mấy giờ?",
+          "slots": [
+            [
+              "đi làm",
+              "đi ngủ",
+              "về nhà",
+              "ăn tối"
+            ]
+          ],
+          "en": ""
+        },
+        {
+          "frame": "Buổi tối, tôi thường {0}.",
+          "slots": [
+            [
+              "đọc sách",
+              "xem ti vi",
+              "đọc báo",
+              "học tiếng Việt"
+            ]
+          ],
+          "en": ""
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Điền vào chỗ trống",
+      "titleEn": "Fill in the blanks",
+      "items": [
+        {
+          "q": "Bây giờ là mấy ___?",
+          "answers": [
+            "giờ"
+          ]
+        },
+        {
+          "q": "Tôi thường đi làm ___ 7 giờ sáng.",
+          "answers": [
+            "lúc"
+          ]
+        },
+        {
+          "q": "Anh ấy học tiếng Việt ___ 8 giờ đến 10 giờ.",
+          "answers": [
+            "từ"
+          ]
+        },
+        {
+          "q": "Đoàn khách có ___ người?",
+          "answers": [
+            "bao nhiêu",
+            "mấy"
+          ]
+        },
+        {
+          "q": "Mười giờ rưỡi rồi ___?",
+          "answers": [
+            "à"
+          ]
+        },
+        {
+          "q": "Ông ấy ___ bận.",
+          "answers": [
+            "rất"
+          ]
+        }
+      ],
+      "wordBank": [
+        "giờ",
+        "lúc",
+        "từ",
+        "bao nhiêu",
+        "à",
+        "rất"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "title": "Chọn buổi đúng",
+      "titleEn": "Choose the right part of day",
+      "items": [
+        {
+          "q": "Máy bay đến lúc 12 giờ ___.",
+          "options": [
+            "sáng",
+            "trưa",
+            "tối"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Chị ấy thường về nhà lúc 5 giờ ___.",
+          "options": [
+            "trưa",
+            "chiều",
+            "đêm"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Tôi thường đi ngủ lúc 11 giờ ___.",
+          "options": [
+            "chiều",
+            "đêm",
+            "sáng"
+          ],
+          "answer": 1,
+          "explain": ""
+        },
+        {
+          "q": "Thanh thức dậy ___ 6 giờ sáng.",
+          "options": [
+            "lúc",
+            "ở",
+            "là"
+          ],
+          "answer": 0,
+          "explain": ""
+        },
+        {
+          "q": "7:45 đọc là:",
+          "options": [
+            "7 giờ kém 15",
+            "8 giờ kém 15",
+            "8 giờ rưỡi"
+          ],
+          "answer": 1,
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "type": "clock",
+      "title": "Nhìn đồng hồ, viết giờ",
+      "titleEn": "Read the clock",
+      "items": [
+        {
+          "q": "07:30",
+          "answers": [
+            "7 giờ rưỡi",
+            "bảy giờ rưỡi",
+            "7 giờ 30",
+            "7 giờ 30 phút"
+          ]
+        },
+        {
+          "q": "09:00",
+          "answers": [
+            "9 giờ",
+            "9 giờ đúng",
+            "chín giờ"
+          ]
+        },
+        {
+          "q": "14:15",
+          "answers": [
+            "2 giờ 15 chiều",
+            "14 giờ 15",
+            "hai giờ mười lăm chiều"
+          ]
+        },
+        {
+          "q": "05:50",
+          "answers": [
+            "6 giờ kém 10",
+            "5 giờ 50",
+            "sáu giờ kém mười"
+          ]
+        },
+        {
+          "q": "22:00",
+          "answers": [
+            "10 giờ tối",
+            "22 giờ",
+            "mười giờ tối"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "reorder",
+      "title": "Sắp xếp thành câu",
+      "titleEn": "Put the words in order",
+      "items": [
+        {
+          "words": [
+            "đi học",
+            "chị",
+            "lúc",
+            "thường",
+            "mấy giờ"
+          ],
+          "answers": [
+            "Chị thường đi học lúc mấy giờ?"
+          ]
+        },
+        {
+          "words": [
+            "sáng",
+            "lúc",
+            "thức dậy",
+            "cô Mai",
+            "6 giờ"
+          ],
+          "answers": [
+            "Cô Mai thức dậy lúc 6 giờ sáng."
+          ]
+        },
+        {
+          "words": [
+            "rất",
+            "ông ấy",
+            "bận"
+          ],
+          "answers": [
+            "Ông ấy rất bận."
+          ]
+        },
+        {
+          "words": [
+            "đến",
+            "7 giờ sáng",
+            "lúc",
+            "trường",
+            "anh ấy"
+          ],
+          "answers": [
+            "Anh ấy đến trường lúc 7 giờ sáng."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rewrite",
+      "title": "Viết lại câu",
+      "titleEn": "Rewrite",
+      "items": [
+        {
+          "q": "Tiếng Việt khó.",
+          "answers": [
+            "Tiếng Việt rất khó."
+          ],
+          "instruction": "Dùng “rất”"
+        },
+        {
+          "q": "Anh ấy thức dậy sớm.",
+          "answers": [
+            "Anh ấy thức dậy rất sớm."
+          ],
+          "instruction": "Dùng “rất”"
+        },
+        {
+          "q": "Tại sao anh Nam đi làm muộn? (thức dậy muộn)",
+          "answers": [
+            "Vì anh ấy thức dậy muộn.",
+            "Vì sáng nay anh ấy thức dậy muộn."
+          ],
+          "instruction": "Trả lời với “vì”"
+        },
+        {
+          "q": "Bạn thường thức dậy lúc mấy giờ?",
+          "answers": [
+            "Tôi thường thức dậy lúc 6 giờ."
+          ],
+          "instruction": "Trả lời với “thường” (giờ tuỳ bạn)"
+        }
+      ]
+    },
+    {
+      "type": "translate-en-vi",
+      "title": "Dịch sang tiếng Việt",
+      "titleEn": "Translate into Vietnamese",
+      "items": [
+        {
+          "q": "What time is it now?",
+          "answers": [
+            "Bây giờ là mấy giờ?",
+            "Mấy giờ rồi?"
+          ]
+        },
+        {
+          "q": "I usually go to bed at 11 p.m.",
+          "answers": [
+            "Tôi thường đi ngủ lúc 11 giờ đêm."
+          ]
+        },
+        {
+          "q": "How much is this?",
+          "answers": [
+            "Cái này bao nhiêu tiền?"
+          ]
+        },
+        {
+          "q": "He is very busy.",
+          "answers": [
+            "Anh ấy rất bận.",
+            "Ông ấy rất bận."
+          ]
+        },
+        {
+          "q": "You're a student? (to a young man, checking)",
+          "answers": [
+            "Anh là sinh viên à?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translate-vi-en",
+      "title": "Dịch sang tiếng Anh",
+      "titleEn": "Translate into English",
+      "items": [
+        {
+          "q": "Tôi ít khi xem ti vi.",
+          "answers": [
+            "I rarely watch TV."
+          ]
+        },
+        {
+          "q": "Buổi sáng tôi làm việc từ 8 giờ đến 12 giờ.",
+          "answers": [
+            "In the morning I work from 8 to 12.",
+            "I work from 8 to 12 in the morning."
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "type": "magic-clock",
+      "title": "Đồng hồ ma thuật",
+      "titleEn": "Magic clock",
+      "intro": "Kéo kim đồng hồ đúng giờ bạn nghe. Bầu trời đổi màu theo buổi!",
+      "introEn": "Drag the clock hands to the time you hear. The sky changes with the time of day!",
+      "config": {
+        "rounds": [
+          {
+            "say": "Bảy giờ sáng",
+            "h": 7,
+            "m": 0,
+            "period": "sáng"
+          },
+          {
+            "say": "Mười giờ rưỡi sáng",
+            "h": 10,
+            "m": 30,
+            "period": "sáng"
+          },
+          {
+            "say": "Mười hai giờ trưa",
+            "h": 12,
+            "m": 0,
+            "period": "trưa"
+          },
+          {
+            "say": "Ba giờ kém mười lăm chiều",
+            "h": 14,
+            "m": 45,
+            "period": "chiều"
+          },
+          {
+            "say": "Sáu giờ mười lăm chiều",
+            "h": 18,
+            "m": 15,
+            "period": "chiều"
+          },
+          {
+            "say": "Tám giờ tối",
+            "h": 20,
+            "m": 0,
+            "period": "tối"
+          },
+          {
+            "say": "Mười một giờ đêm",
+            "h": 23,
+            "m": 0,
+            "period": "đêm"
+          }
+        ],
+        "reverseMode": "Đồng hồ hiện giờ, học viên nói/viết giờ kèm buổi.",
+        "periods": {
+          "sáng": [
+            1,
+            10
+          ],
+          "trưa": [
+            11,
+            12
+          ],
+          "chiều": [
+            13,
+            18
+          ],
+          "tối": [
+            19,
+            22
+          ],
+          "đêm": [
+            23,
+            24
+          ]
+        }
+      }
+    },
+    {
+      "type": "daily-routine",
+      "title": "Một ngày của Thanh",
+      "titleEn": "Thanh's day",
+      "intro": "Sắp xếp các hoạt động lên dòng thời gian rồi hỏi – đáp “… thường … lúc mấy giờ?”",
+      "introEn": "Place activities on the timeline, then ask and answer “… thường … lúc mấy giờ?”",
+      "config": {
+        "activities": [
+          {
+            "time": "6:05",
+            "action": "thức dậy"
+          },
+          {
+            "time": "7:00",
+            "action": "ăn sáng"
+          },
+          {
+            "time": "7:20",
+            "action": "đi làm"
+          },
+          {
+            "time": "11:30",
+            "action": "ăn trưa"
+          },
+          {
+            "time": "17:00",
+            "action": "về đến nhà"
+          },
+          {
+            "time": "19:15",
+            "action": "đi học tiếng Anh"
+          },
+          {
+            "time": "23:00",
+            "action": "đi ngủ"
+          }
+        ],
+        "frequencySlider": [
+          "luôn luôn",
+          "thường",
+          "thỉnh thoảng",
+          "ít khi",
+          "không bao giờ"
+        ]
+      }
+    },
+    {
+      "type": "market-shopping",
+      "title": "Đi chợ",
+      "titleEn": "Market shopping",
+      "intro": "Bạn có 500.000 đồng. Hỏi giá rồi chọn đúng tờ tiền để trả.",
+      "introEn": "You have 500,000 dong. Ask the price, then pay with the right notes.",
+      "config": {
+        "budget": 500000,
+        "notes": [
+          500000,
+          200000,
+          100000,
+          50000,
+          20000,
+          10000,
+          5000,
+          2000,
+          1000
+        ],
+        "items": [
+          {
+            "name": "cái áo",
+            "emoji": "👕",
+            "price": 150000,
+            "say": "một trăm rưỡi"
+          },
+          {
+            "name": "cái nón",
+            "emoji": "👒",
+            "price": 45000,
+            "say": "bốn mươi lăm ngàn"
+          },
+          {
+            "name": "ký xoài",
+            "emoji": "🥭",
+            "price": 35000,
+            "say": "ba mươi lăm ngàn"
+          },
+          {
+            "name": "ly cà phê",
+            "emoji": "☕",
+            "price": 25000,
+            "say": "hai mươi lăm ngàn"
+          },
+          {
+            "name": "đôi dép",
+            "emoji": "🩴",
+            "price": 120000,
+            "say": "một trăm hai mươi ngàn"
+          }
+        ],
+        "question": "{name} này bao nhiêu tiền?"
+      }
+    }
+  ]
+}
