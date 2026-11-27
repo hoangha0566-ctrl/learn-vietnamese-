@@ -11,6 +11,8 @@
     for (let i = a.length - 1; i > 0; i--) { const j = (Math.random() * (i + 1)) | 0; [a[i], a[j]] = [a[j], a[i]]; }
     return a;
   };
+  // Danh sách đáp án đúng: "answer" có thể là chuỗi hoặc mảng
+  const answers = (q) => (Array.isArray(q.answer) ? q.answer : [q.answer]);
   const verbColor = (v) => (D.verbs.find((x) => x.verb === v) || {}).color || '#888';
 
   const store = {
@@ -179,7 +181,7 @@
       el.fcEmoji.textContent = c.emoji;
       el.fcWord.textContent = c.word;
       el.fcEn.textContent = c.en;
-      el.fcColl.innerHTML = `<span class="vtag" style="--vc:${verbColor(c.verb)}">${esc(c.verb)}</span> ${esc(c.word)}`;
+      el.fcColl.innerHTML = [c.verb, ...(c.alt || [])].map((v) => `<span class="vtag" style="--vc:${verbColor(v)}">${esc(v)}</span>`).join(' / ') + ` ${esc(c.word)}`;
       el.fcEx.innerHTML = `${esc(c.example)} <button class="speak sm" type="button" data-say="${esc(c.example)}" aria-label="Nghe câu ví dụ">🔊</button>`;
       el.fcExEn.textContent = c.exampleEn;
       const k = this.known.has(c.word), w = this.weak.has(c.word);
@@ -267,11 +269,11 @@
       let ok = 0;
       $$('.ex-row', root).forEach((row) => {
         const i = +row.dataset.i, q = ex.items[i], s = $('.vsel', row), fix = $('.fix', row);
-        const right = s.value === q.answer;
+        const right = answers(q).includes(s.value);
         row.classList.remove('ok', 'no');
         row.classList.add(right ? 'ok' : 'no');
         s.disabled = true;
-        fix.innerHTML = right ? '✓' : `✗ → <b>${esc(q.answer)}</b>`;
+        fix.innerHTML = right ? (answers(q).length > 1 ? `✓ <small>(${answers(q).map(esc).join(' / ')})</small>` : '✓') : `✗ → <b>${answers(q).map(esc).join(' / ')}</b>`;
         const nm = $('.pic-name', row); if (nm) nm.textContent = nm.dataset.name;
         if (right) ok++;
       });
@@ -307,16 +309,17 @@
       if (!b) return;
       const li = b.closest('.mcq-q');
       if (li.classList.contains('done')) return;
-      const q = ex.items[+li.dataset.i], right = b.dataset.v === q.answer;
+      const q = ex.items[+li.dataset.i], ok_ = answers(q), right = ok_.includes(b.dataset.v);
       li.classList.add('done', right ? 'ok' : 'no');
       $$('.opt', li).forEach((o) => {
         o.disabled = true;
-        if (o.dataset.v === q.answer) o.classList.add('right');
+        if (ok_.includes(o.dataset.v)) o.classList.add('right');
       });
       if (!right) b.classList.add('wrong');
-      $('.blank', li).textContent = q.answer;
+      $('.blank', li).textContent = right ? b.dataset.v : ok_[0];
       $('.blank', li).classList.add(right ? 'is-good' : 'is-bad');
-      $('.mcq-fb', li).innerHTML = right ? '✓ Đúng rồi!' : `✗ Sai rồi. Đáp án đúng: <b>${esc(q.answer)}</b>`;
+      const note = q.note ? ` <small>${esc(q.note)}</small>` : '';
+      $('.mcq-fb', li).innerHTML = (right ? '✓ Đúng rồi!' : `✗ Sai rồi. Đáp án đúng: <b>${ok_.map(esc).join(' / ')}</b>`) + note;
       right ? Sfx.good() : Sfx.bad();
       answered++; if (right) ok++;
       if (answered === ex.items.length) setTimeout(() => showScore(root, ok, ex.items.length), 250);

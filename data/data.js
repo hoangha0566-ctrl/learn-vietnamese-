@@ -1,5 +1,7 @@
 /*
  * DỮ LIỆU NỘI DUNG — sửa nội dung ở đây, không cần sửa code.
+ * "answer" có thể là một chuỗi hoặc một mảng nhiều đáp án đúng, ví dụ ["đi", "đeo"].
+ * "alt" (thẻ flashcard, món đồ trong game): các động từ khác cũng đúng.
  * Phần bên phải dấu "=" là JSON thuần (có thể copy sang file .json).
  * Dùng .js thay vì .json để trang chạy được cả khi mở trực tiếp file index.html
  * (trình duyệt chặn fetch() file .json khi mở bằng file://).
@@ -19,7 +21,7 @@ window.APP_DATA = {
     { "word": "cà vạt",   "emoji": "👔", "en": "necktie",                  "verb": "thắt", "example": "Bố thắt cà vạt đi làm.",             "exampleEn": "Dad wears a tie to work." },
     { "word": "giày",     "emoji": "👟", "en": "shoes",                    "verb": "đi",   "example": "Cởi giày ra trước khi vào nhà.",     "exampleEn": "Take your shoes off before going inside." },
     { "word": "tất",      "emoji": "🧦", "en": "socks",                    "verb": "đi",   "example": "Em đi tất trước khi đi giày.",       "exampleEn": "I put on socks before shoes." },
-    { "word": "găng tay", "emoji": "🧤", "en": "gloves",                   "verb": "đi",   "example": "Mùa đông, tôi đi găng tay.",         "exampleEn": "In winter I wear gloves." },
+    { "word": "găng tay", "emoji": "🧤", "en": "gloves",                   "verb": "đi", "alt": ["đeo"], "example": "Mùa đông, tôi đi găng tay.",         "exampleEn": "In winter I wear gloves." },
     { "word": "đồng hồ",  "emoji": "⌚", "en": "watch",                    "verb": "đeo",  "example": "Cô ấy đeo đồng hồ đẹp lắm.",         "exampleEn": "She wears a very nice watch." },
     { "word": "kính",     "emoji": "👓", "en": "glasses",                  "verb": "đeo",  "example": "Bạn ấy đeo kính để đọc sách.",       "exampleEn": "He wears glasses to read." },
     { "word": "nhẫn",     "emoji": "💍", "en": "ring",                     "verb": "đeo",  "example": "Chị ấy đeo nhẫn cưới.",              "exampleEn": "She wears a wedding ring." }
@@ -32,11 +34,11 @@ window.APP_DATA = {
     { "verb": "đội",   "color": "#10b981", "en": "to wear (on the head)",             "tip": "Đồ đội trên đầu.",
       "items": [ { "name": "mũ", "emoji": "🧢" }, { "name": "nón", "emoji": "👒" } ],
       "example": "Anh ấy đội mũ rộng vành.", "exampleEn": "He is wearing a wide-brimmed hat." },
-    { "verb": "đi",    "color": "#f59e0b", "en": "to put on (shoes, socks, gloves)",  "tip": "Đồ xỏ vào chân, vào tay.",
+    { "verb": "đi",    "color": "#f59e0b", "en": "to put on (shoes, socks, gloves)",  "tip": "Đồ xỏ vào chân, vào tay. Găng tay: “đi” hoặc “đeo” đều được.",
       "items": [ { "name": "giày", "emoji": "👟" }, { "name": "tất", "emoji": "🧦" }, { "name": "găng tay", "emoji": "🧤" } ],
       "example": "Em đi tất trước khi đi giày.", "exampleEn": "I put on socks before shoes." },
     { "verb": "đeo",   "color": "#8b5cf6", "en": "to wear (accessories)",             "tip": "Phụ kiện: đồng hồ, kính, nhẫn…",
-      "items": [ { "name": "đồng hồ", "emoji": "⌚" }, { "name": "kính", "emoji": "👓" }, { "name": "nhẫn", "emoji": "💍" }, { "name": "vòng tay", "emoji": "📿" } ],
+      "items": [ { "name": "đồng hồ", "emoji": "⌚" }, { "name": "kính", "emoji": "👓" }, { "name": "nhẫn", "emoji": "💍" }, { "name": "vòng tay", "emoji": "📿" }, { "name": "găng tay", "emoji": "🧤" } ],
       "example": "Cô ấy đeo kính.", "exampleEn": "She wears glasses." },
     { "verb": "quàng", "color": "#ef4444", "en": "to put on (scarf)",                 "tip": "Vòng quanh cổ.",
       "items": [ { "name": "khăn", "emoji": "🧣" } ],
@@ -49,7 +51,7 @@ window.APP_DATA = {
       "example": "Trước khi vào nhà, cởi giày ra.", "exampleEn": "Take your shoes off before going inside." }
   ],
 
-  "verbNote": "Chú ý: <b>“đi”</b> trong bài này nghĩa là <b>mang / xỏ</b> (giày, tất, găng tay), <u>không phải</u> “đi bộ”. Theo sách, giày, tất, găng tay dùng <b>“đi”</b>, không dùng “đeo”.",
+  "verbNote": "Chú ý: <b>“đi”</b> trong bài này nghĩa là <b>mang / xỏ</b> (giày, tất, găng tay), <u>không phải</u> “đi bộ”. Giày, tất dùng <b>“đi”</b>, không dùng “đeo”. Riêng <b>găng tay</b> thì dùng <b>“đi”</b> hoặc <b>“đeo”</b> đều được.",
 
   "exercises": {
     "fill": {
@@ -87,7 +89,7 @@ window.APP_DATA = {
       "items": [
         { "emoji": "🧥", "item": "áo khoác",      "answer": "mặc" },
         { "emoji": "🧢", "item": "mũ lưỡi trai",  "answer": "đội" },
-        { "emoji": "🧤", "item": "găng tay",      "answer": "đi" },
+        { "emoji": "🧤", "item": "găng tay",      "answer": ["đi", "đeo"] },
         { "emoji": "⌚", "item": "đồng hồ",       "answer": "đeo" },
         { "emoji": "🧣", "item": "khăn",          "answer": "quàng" },
         { "emoji": "👔", "item": "cà vạt",        "answer": "thắt" },
@@ -102,7 +104,7 @@ window.APP_DATA = {
         { "text": "Bạn ấy ___ kính để đọc sách.",          "options": ["đeo", "đội", "mặc"],   "answer": "đeo" },
         { "text": "Trước khi ngủ, em ___ áo khoác ra.",    "options": ["đội", "cởi", "thắt"],  "answer": "cởi" },
         { "text": "Anh ấy ___ cà vạt đỏ đi làm.",          "options": ["quàng", "thắt", "đi"], "answer": "thắt" },
-        { "text": "Hôm nay lạnh, tôi ___ găng tay.",       "options": ["đi", "đeo", "cởi"],    "answer": "đi" },
+        { "text": "Hôm nay lạnh, tôi ___ găng tay.",       "options": ["đi", "đeo", "cởi"],    "answer": ["đi", "đeo"], "note": "“đi găng tay” và “đeo găng tay” đều đúng." },
         { "text": "Mẹ ___ chiếc váy hoa rất đẹp.",         "options": ["mặc", "đội", "quàng"], "answer": "mặc" },
         { "text": "Cô bé ___ mũ len đỏ trong trời tuyết.", "options": ["thắt", "đội", "đi"],   "answer": "đội" }
       ]
@@ -116,7 +118,7 @@ window.APP_DATA = {
       "quanDai": { "name": "quần dài", "en": "long pants",  "emoji": "👖", "verb": "mặc" },
       "khan":    { "name": "khăn",     "en": "scarf",       "emoji": "🧣", "verb": "quàng" },
       "mu":      { "name": "mũ len",   "en": "woolly hat",  "emoji": "🧢", "verb": "đội" },
-      "gangTay": { "name": "găng tay", "en": "gloves",      "emoji": "🧤", "verb": "đi" },
+      "gangTay": { "name": "găng tay", "en": "gloves",      "emoji": "🧤", "verb": "đi", "alt": ["đeo"] },
       "tat":     { "name": "tất",      "en": "socks",       "emoji": "🧦", "verb": "đi" },
       "giay":    { "name": "giày",     "en": "shoes",       "emoji": "👟", "verb": "đi" },
       "dongHo":  { "name": "đồng hồ",  "en": "watch",       "emoji": "⌚", "verb": "đeo" },

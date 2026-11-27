@@ -433,8 +433,10 @@
   window.addEventListener('pointercancel', endDrag);
 
   /* ---------- Bảng 7 động từ ---------- */
+  // Động từ đúng khi mặc: "verb" + các động từ trong "alt" (vd. găng tay: đi / đeo)
+  const wearVerbs = (id) => [item(id).verb, ...(item(id).alt || [])];
   function actionFor(id) {
-    return S.worn.has(id) ? { type: 'remove', verb: 'cởi' } : { type: 'wear', verb: item(id).verb };
+    return S.worn.has(id) ? { type: 'remove', verb: 'cởi', ok: ['cởi'] } : { type: 'wear', verb: item(id).verb, ok: wearVerbs(id) };
   }
 
   function openSheet(id) {
@@ -468,9 +470,10 @@
     const b = e.target.closest('.vbtn');
     if (!b || b.disabled || !S.sheet) return;
     const v = b.dataset.v, { id, act } = S.sheet, it = item(id);
-    if (v === act.verb) {
+    if (act.ok.includes(v)) {
       b.classList.add('right');
-      setTimeout(() => { closeSheet(); apply(id, act); }, 280);
+      setTimeout(() => { closeSheet(); apply(id, { ...act, verb: v }); }, 280);
+      if (act.ok.length > 1) setTimeout(() => toast(`👍 Với ${esc(it.name)}, “${act.ok.map(esc).join('” hay “')}” đều đúng.`, 'good'), 1500);
       return;
     }
     // Sai: không trừ điểm, ghi 1 lỗi, cho thử lại
@@ -480,15 +483,17 @@
     b.classList.add('wrong'); b.disabled = true;
     Sfx.bad();
     const V = (x) => `<span class="vtag" style="--vc:${verbColor(x)}">${esc(x)}</span>`;
+    const VV = act.ok.map(V).join(' hoặc ');
+    const ex = `“${esc(act.verb)} ${esc(it.name)}”`;
     let msg;
     if (act.type === 'wear') {
       msg = v === 'cởi'
-        ? `Nam chưa có ${esc(it.name)} trên người nên chưa cởi được.<br>Với <b>${esc(it.name)}</b>, ta dùng ${V(act.verb)} → “${esc(act.verb)} ${esc(it.name)}”.`
-        : `Chưa đúng. Với <b>${esc(it.name)}</b>, ta dùng ${V(act.verb)} → “${esc(act.verb)} ${esc(it.name)}”.`;
+        ? `Nam chưa có ${esc(it.name)} trên người nên chưa cởi được.<br>Với <b>${esc(it.name)}</b>, ta dùng ${VV} → ${ex}.`
+        : `Chưa đúng. Với <b>${esc(it.name)}</b>, ta dùng ${VV} → ${ex}.`;
     } else {
-      msg = v === it.verb
-        ? `Nam đang ${esc(it.verb)} ${esc(it.name)} rồi! Muốn bỏ ra, ta dùng ${V('cởi')} → “cởi ${esc(it.name)} ra”.`
-        : `Chưa đúng. Muốn bỏ <b>${esc(it.name)}</b> ra, ta dùng ${V('cởi')}.<br><small>(Khi mặc vào thì dùng “${esc(it.verb)} ${esc(it.name)}”.)</small>`;
+      msg = wearVerbs(id).includes(v)
+        ? `Nam đang ${esc(v)} ${esc(it.name)} rồi! Muốn bỏ ra, ta dùng ${V('cởi')} → “cởi ${esc(it.name)} ra”.`
+        : `Chưa đúng. Muốn bỏ <b>${esc(it.name)}</b> ra, ta dùng ${V('cởi')}.<br><small>(Khi mặc vào thì dùng “${wearVerbs(id).map(esc).join(' / ')} ${esc(it.name)}”.)</small>`;
     }
     el.sheetFb.className = 'sheet-fb bad show';
     el.sheetFb.innerHTML = `<span class="fb-ico">✗</span><span>${msg}<br><small>Thử lại nhé!</small></span>`;
