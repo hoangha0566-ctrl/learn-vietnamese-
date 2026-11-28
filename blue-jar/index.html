@@ -263,6 +263,104 @@ svg{display:block}
 .sound .off-line{display:none}
 .sound:not(.on) .off-line{display:block}
 
+/* --- game nhân vật --- */
+.game-card{background:linear-gradient(135deg,var(--cobalt) 0%,#26206a 100%);color:#fff;border:0;display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center}
+.game-card .eyebrow{color:#c9d6ff}
+.game-card h2{color:#fff}
+.game-card p{margin:6px 0 14px;color:#dfe6ff}
+.game-card .btn.primary{background:#fff;border-color:#fff;color:#1f3d98}
+.game-faces{display:flex}
+.game-faces svg{width:72px;height:90px;margin-right:-22px;filter:drop-shadow(0 4px 6px rgba(0,0,0,.25))}
+.ghome{display:flex;flex-direction:column;gap:18px}
+.gintro{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:var(--shadow)}
+.gintro p{margin:12px 0 0;color:var(--muted)}
+.gintro-cast{display:flex;justify-content:center;gap:10px}
+.gintro-cast figure{margin:0;text-align:center;flex:1;max-width:150px}
+.gintro-cast svg{width:100%;height:auto;max-width:120px;margin:0 auto;background:var(--cobalt-soft);border-radius:50% 50% 16px 16px}
+.gintro-cast figcaption{font-size:13px;font-weight:600;margin-top:6px}
+.chapters{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.chap{width:100%;display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:16px;border:1.5px solid var(--line);background:var(--surface);text-align:left;cursor:pointer;min-height:64px}
+.chap:hover:not(:disabled){border-color:var(--cobalt)}
+.chap-num{flex:none;width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:var(--cobalt);color:var(--on-cobalt);font-weight:700;font-size:17px}
+.chap-txt{flex:1;min-width:0;display:flex;flex-direction:column}
+.chap-txt b{font-size:16.5px}
+.chap-txt small{color:var(--muted);font-size:13.5px}
+.chap-stars{display:flex;gap:2px;flex:none}
+.chap-stars i svg{width:20px;height:20px;color:var(--line)}
+.chap-stars i.on svg{color:var(--gold)}
+.chap-stars em{font-style:normal;font-weight:700;font-size:13px;color:var(--cobalt);background:var(--cobalt-soft);padding:4px 10px;border-radius:99px}
+.chap.locked{opacity:.55;cursor:not-allowed}
+.chap.locked .chap-num{background:var(--line);color:var(--muted)}
+.chap.done .chap-num{background:var(--ok)}
+.ghud{display:flex;align-items:center;gap:10px}
+.hearts{display:flex;gap:1px}
+.hearts i svg{width:20px;height:20px;color:var(--line);transition:color .3s}
+.hearts i.on svg{color:#e0475b}
+.clues{display:inline-flex;align-items:center;gap:3px;font-weight:700;color:var(--pansy);font-variant-numeric:tabular-nums}
+.clues svg{width:18px;height:18px}
+.game{display:flex;flex-direction:column;gap:0;padding-top:14px}
+.stage{position:relative;aspect-ratio:16/10;max-width:100%;border-radius:20px 20px 0 0;overflow:hidden;border:1px solid var(--line);border-bottom:0;background:#18203a;isolation:isolate}
+.stage .bg{position:absolute;inset:0;width:100%;height:100%}
+.stage .glow{transition:opacity .6s}
+.stage.dark .bg{filter:brightness(.35) saturate(.6)}
+.stage.dark .glow{opacity:0}
+.stage.dark .actor{filter:brightness(.45) saturate(.5)}
+.stage.dark .actor.talk{filter:brightness(.7) saturate(.7)}
+.stage::after{content:"";position:absolute;inset:0;pointer-events:none;background:#b3302c;opacity:0;z-index:3}
+.stage.flash::after{animation:flash 1s ease}
+@keyframes flash{0%,40%{opacity:.45}15%,60%{opacity:0}30%{opacity:.35}100%{opacity:0}}
+.stage.flash{animation:quake .45s}
+@keyframes quake{25%{transform:translateX(-4px)}50%{transform:translateX(4px)}75%{transform:translateX(-2px)}}
+.actor{position:absolute;bottom:-2%;height:80%;aspect-ratio:160/200;transform:translateX(-50%) scale(.94);transform-origin:bottom center;transition:transform .25s,filter .25s;filter:saturate(.75) brightness(.92);z-index:1}
+.actor svg{width:100%;height:100%}
+.actor.talk{transform:translateX(-50%) scale(1.02);filter:none;z-index:2;animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateX(-50%) scale(1.02) translateY(-2%)}}
+.actor.ghost{opacity:.88;filter:drop-shadow(0 0 14px #9fc6ff)}
+.actor.ghost.talk{filter:drop-shadow(0 0 18px #bcd6ff)}
+.actor.shake{animation:shake .35s}
+.spot{position:absolute;z-index:4;border:2px dashed rgba(255,255,255,.75);border-radius:12px;background:rgba(255,255,255,.08);cursor:pointer;animation:pulse 1.8s ease-in-out infinite}
+.spot:hover{background:rgba(255,255,255,.2)}
+.spot.seen{animation:none;border-style:solid;border-color:rgba(255,255,255,.35)}
+.spot.found{border-color:#62d39a;background:rgba(98,211,154,.25)}
+.lampspot{border-color:#ffd77a}
+@keyframes pulse{50%{box-shadow:0 0 0 6px rgba(255,255,255,.18)}}
+.dlg{background:var(--surface);border:1px solid var(--line);border-radius:0 0 20px 20px;padding:16px clamp(14px,3vw,24px) 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px}
+.dlg-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.who{font-weight:700;font-size:14px;color:#fff;background:var(--who);padding:4px 12px;border-radius:99px}
+.dlg.narr .who{background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.dlg-en{font-size:var(--read-size)!important;margin:0}
+.dlg.narr .dlg-en{font-style:italic}
+.dlg .vi.dlg-vi{display:block;margin:0}
+.dlg-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.dlg-actions .gnext{margin-left:auto}
+.gopts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.gopts .opt{min-height:52px;font-size:16px}
+.gopts .opt small{display:block;font-size:13px;color:var(--muted);font-weight:400;margin-top:2px}
+.clocks{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.clockbtn{padding:8px;border-radius:14px;border:1.5px solid var(--line);background:var(--surface);cursor:pointer;color:var(--ink)}
+.clockbtn:hover:not(:disabled){border-color:var(--cobalt)}
+.clockbtn svg{width:100%;height:auto;max-width:110px;margin:0 auto}
+.clockbtn.right{border-color:var(--ok);background:var(--ok-soft)}
+.clockbtn.wrong{border-color:var(--bad);background:var(--bad-soft);animation:shake .35s}
+.ordered{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.ordered li{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:10px;border:1.5px dashed var(--line);color:var(--muted);min-height:40px}
+.ordered li span{flex:none;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:700;background:var(--cobalt-soft);color:var(--cobalt)}
+.ordered li.filled{border-style:solid;border-color:var(--ok);background:var(--ok-soft);color:var(--ink);font-weight:600}
+.order-pool{display:flex;flex-wrap:wrap;gap:6px}
+.order-pool .tool{min-height:42px}
+.order-pool .tool.used{opacity:.3}
+.hint{margin:0;color:var(--pansy);font-weight:600}
+.modal-jar svg{width:110px;height:auto}
+.feedback:not(.good):not(.bad){border-color:var(--line);background:var(--bg)}
+@media (max-width:620px){
+  .gopts{grid-template-columns:1fr}
+  .clocks{grid-template-columns:repeat(2,1fr)}
+  .clockbtn svg{max-width:90px}
+  .game-card{grid-template-columns:1fr}
+  .ghud{gap:6px}
+  .stage{border-radius:14px 14px 0 0}
+  .actor{height:84%}
+}
 @media (max-width:620px){
   .hero-in{grid-template-columns:1fr;padding-block:24px 20px;gap:16px}
   .hero-jar{display:flex;align-items:center;gap:14px;max-width:none;text-align:left}
@@ -1765,7 +1863,7 @@ function renderPara(text, pid) {
 /* ===== TRẠNG THÁI ===== */
 const STORE = "bluejar-v1";
 function loadState() {
-  const d = { read: {}, saved: {}, best: {}, font: 19, showVi: false, sound: true, mode: "scene" };
+  const d = { read: {}, saved: {}, best: {}, font: 19, showVi: false, sound: true, mode: "scene", game: {}, gameVi: false };
   try { const r = JSON.parse(localStorage.getItem(STORE) || "null"); if (r && typeof r === "object") return Object.assign(d, r); } catch (e) {}
   return d;
 }
@@ -1907,6 +2005,9 @@ function renderHome() {
       '</div>' +
     '</article>';
   });
+  html += '<article class="case game-card"><div class="game-faces">' + portrait("jack", "surprised") + portrait("felise", "neutral") + portrait("lav", "happy") + '</div><div><p class="eyebrow">Game nhập vai</p><h2>Phá án cùng Jack</h2>' +
+    '<p>Trò chuyện với Jack, Felise và bác sĩ Lavington qua 4 chương. Trả lời đúng để thu manh mối, giải đố đồng hồ, tìm bức tranh và chọn đúng chiếc bình xanh.</p>' +
+    '<button class="btn primary" data-gamehome="1">Vào game</button></div></article>';
   html += '<article class="case notebook-card"><header class="case-head"><div><p class="eyebrow">Sổ tay thám tử</p><h2>Sổ từ vựng của bạn</h2></div><span class="case-count">' + saved + ' từ</span></header>' +
     '<p class="muted">Khi tra từ, bấm <b>Lưu vào sổ</b> để gom các từ khó lại một chỗ và ôn bằng thử thách riêng.</p>' +
     '<div class="case-actions"><button class="btn" data-notebook="1">Mở sổ từ</button></div></article>';
@@ -2354,5 +2455,459 @@ document.addEventListener("keydown", function (e) {
 
 $("#modal").addEventListener("click", function (e) { if (e.target.id === "modal") closeModal(); });
 try { if ("speechSynthesis" in window) speechSynthesis.getVoices(); } catch (e) {}
+
+
+/* ===================================================================
+   GAME NHÂN VẬT: "Phá án cùng Jack"
+   =================================================================== */
+const CAST = {
+  n: { name: "Người kể chuyện", color: "var(--muted)" },
+  jack: { name: "Jack Hartington", color: "#2c53c4" },
+  felise: { name: "Felise Marchaud", color: "#6b3c9e" },
+  lav: { name: "Dr Lavington", color: "#8a5a17" },
+  lady: { name: "Người phụ nữ trong mơ", color: "#3d7fa8" }
+};
+
+function portrait(who, face) {
+  face = face || "neutral";
+  const P = {
+    jack: { skin: "#f1c7a6", eye: "#3b2a1e", cloth: "#34558b", trim: "#f4f1e8" },
+    felise: { skin: "#f4d5c0", eye: "#6b3c9e", cloth: "#2f5d3a", trim: "#f4f1e8" },
+    lav: { skin: "#e8bd9c", eye: "#3a3a3a", cloth: "#2b2f3a", trim: "#f4f1e8" },
+    lady: { skin: "#f7e6da", eye: "#3d6f9a", cloth: "#9cc3e0", trim: "#e9f3fb" }
+  }[who];
+  const brows = {
+    neutral: "M58 70 h14 M88 70 h14",
+    happy: "M58 70 q7 -4 14 0 M88 70 q7 -4 14 0",
+    surprised: "M58 63 q7 -5 14 0 M88 63 q7 -5 14 0",
+    scared: "M58 70 l14 -5 M88 65 l14 5",
+    sad: "M58 66 l14 4 M88 70 l14 -4",
+    stern: "M58 66 l14 4 M88 70 l14 -4"
+  }[face] || "M58 70 h14 M88 70 h14";
+  const mouth = {
+    neutral: '<path d="M72 106 q8 3 16 0" fill="none" stroke="#7a3b2e" stroke-width="2.6" stroke-linecap="round"/>',
+    happy: '<path d="M69 102 q11 12 22 0 z" fill="#8c3a2e"/>',
+    surprised: '<ellipse cx="80" cy="107" rx="5" ry="7" fill="#6e2a22"/>',
+    scared: '<path d="M70 108 q5 -5 10 0 t10 0" fill="none" stroke="#7a3b2e" stroke-width="2.6" stroke-linecap="round"/>',
+    sad: '<path d="M71 109 q9 -8 18 0" fill="none" stroke="#7a3b2e" stroke-width="2.6" stroke-linecap="round"/>',
+    stern: '<path d="M72 106 h16" fill="none" stroke="#7a3b2e" stroke-width="2.6" stroke-linecap="round"/>'
+  }[face] || "";
+  const er = face === "surprised" || face === "scared" ? 4.6 : 3.6;
+  let back = "", front = "", extra = "";
+  if (who === "jack") {
+    back = '<path d="M46 74 q-2 -34 34 -38 q36 4 34 38 q-4 -16 -34 -18 q-30 2 -34 18z" fill="#6b4226"/>';
+    front = '<path d="M42 56 q4 -26 38 -28 q36 2 40 26 q-38 -10 -78 2z" fill="#8b6a46"/><path d="M40 57 q42 -10 86 -4 q4 6 -4 8 q-40 -6 -80 2 q-6 -2 -2 -6z" fill="#6e5236"/><path d="M52 44 l52 -2 M50 50 l58 -2" stroke="#a5865e" stroke-width="1.5" opacity=".7"/>';
+    extra = '<path d="M64 138 l16 22 l16 -22" fill="' + P.trim + '"/><path d="M77 146 h6 l3 26 l-6 7 l-6 -7z" fill="#8a3324"/>';
+  } else if (who === "felise") {
+    back = '<path d="M38 84 q-6 -52 42 -54 q48 2 42 54 q2 28 -8 34 q4 -26 -4 -44 q-30 -8 -60 0 q-8 18 -4 44 q-10 -6 -8 -34z" fill="#2a1d1a"/>';
+    front = '<path d="M46 66 q2 -30 34 -32 q32 2 34 32 q-18 -14 -34 -12 q-18 -2 -34 12z" fill="#2a1d1a"/>';
+    extra = '<path d="M58 140 q22 18 44 0 l4 6 q-26 20 -52 0z" fill="' + P.trim + '"/><g transform="translate(104 152)"><circle r="5" cx="-4" cy="-3" fill="#7d4fc0"/><circle r="5" cx="4" cy="-3" fill="#7d4fc0"/><circle r="5.5" cx="0" cy="4" fill="#5b2e96"/><circle r="2.2" fill="#f2c94c"/></g>' +
+      '<ellipse cx="62" cy="96" rx="6" ry="3.5" fill="#e88f8f" opacity=".35"/><ellipse cx="98" cy="96" rx="6" ry="3.5" fill="#e88f8f" opacity=".35"/>';
+  } else if (who === "lav") {
+    back = '<path d="M44 82 q-4 -22 8 -34 q-4 18 2 30z M116 82 q4 -22 -8 -34 q4 18 -2 30z" fill="#a3a3a3"/>';
+    front = '<path d="M54 46 q26 -16 52 0" fill="none" stroke="#b9b9b9" stroke-width="5" stroke-linecap="round"/><ellipse cx="92" cy="50" rx="9" ry="4" fill="#fff" opacity=".35"/>';
+    extra = '<path d="M64 138 l16 16 l16 -16" fill="' + P.trim + '"/><path d="M70 150 l10 6 l10 -6 l0 10 l-10 -5 l-10 5z" fill="#7a1f2b"/>' +
+      '<g fill="none" stroke="#2b2b2b" stroke-width="2.2"><circle cx="65" cy="83" r="10"/><circle cx="95" cy="83" r="10"/><path d="M75 83 h10 M55 81 l-9 -3 M105 81 l9 -3"/></g>' +
+      '<path d="M66 97 q14 -8 28 0 q-6 6 -14 2 q-8 4 -14 -2z" fill="#9e9e9e"/>';
+  } else if (who === "lady") {
+    back = '<path d="M42 80 q-6 -48 38 -50 q44 2 38 50 q-6 -20 -38 -24 q-32 4 -38 24z" fill="#e5c56a"/><circle cx="80" cy="28" r="16" fill="#e5c56a"/>';
+    front = '<path d="M48 64 q8 -26 32 -26 q24 0 32 26 q-14 -12 -32 -12 q-18 0 -32 12z" fill="#e5c56a"/>';
+    extra = '<g transform="translate(80 178)"><path d="M-12 -30 h24 v6 c0 3 14 7 14 22 c0 16 -8 24 -12 28 h-28 c-4 -4 -12 -12 -12 -28 c0 -15 14 -19 14 -22z" fill="#2347a8" stroke="#e9f3fb" stroke-width="1.5"/><path d="M-14 -4 q14 -8 28 0 M-12 10 q12 6 24 0" fill="none" stroke="#e9f3fb" stroke-width="1.6"/><circle cy="3" r="3" fill="none" stroke="#e9f3fb" stroke-width="1.4"/></g>' +
+      '<path d="M40 200 q8 -30 26 -26 l14 6 l14 -6 q18 -4 26 26" fill="' + P.skin + '" opacity=".9"/>';
+  }
+  return '<svg class="pt pt-' + who + '" viewBox="0 0 160 200" aria-hidden="true">' + back +
+    '<path d="M8 200 C10 152 40 134 80 134 C120 134 150 152 152 200Z" fill="' + P.cloth + '"/>' +
+    '<rect x="68" y="110" width="24" height="32" rx="8" fill="' + P.skin + '"/>' +
+    '<circle cx="46" cy="86" r="7" fill="' + P.skin + '"/><circle cx="114" cy="86" r="7" fill="' + P.skin + '"/>' +
+    '<ellipse cx="80" cy="82" rx="34" ry="40" fill="' + P.skin + '"/>' + front +
+    '<circle cx="65" cy="83" r="' + er + '" fill="' + P.eye + '"/><circle cx="95" cy="83" r="' + er + '" fill="' + P.eye + '"/>' +
+    '<circle cx="66.5" cy="81.5" r="1.2" fill="#fff"/><circle cx="96.5" cy="81.5" r="1.2" fill="#fff"/>' +
+    '<path d="' + brows + '" fill="none" stroke="#4a3426" stroke-width="2.6" stroke-linecap="round"/>' +
+    '<path d="M80 88 q-3 8 1 10" fill="none" stroke="#c68f72" stroke-width="2" stroke-linecap="round"/>' +
+    mouth + extra + "</svg>";
+}
+
+const BG = {
+  golf: '<defs><linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a9d4f2"/><stop offset="1" stop-color="#eaf5fc"/></linearGradient></defs><rect width="400" height="250" fill="url(#sky1)"/><circle cx="330" cy="50" r="22" fill="#fff4c2"/><path d="M0 150 q80 -40 170 -10 t230 -20 V250 H0z" fill="#8fc77b"/><path d="M0 180 q120 -30 240 0 t160 -10 V250 H0z" fill="#69ac57"/><path d="M60 250 q80 -60 200 -70 q60 0 80 10 q-80 10 -140 60z" fill="#a6d88e"/><g fill="#3f7d3a"><circle cx="40" cy="140" r="22"/><circle cx="70" cy="132" r="18"/><circle cx="370" cy="132" r="20"/></g><path d="M300 175 v-48" stroke="#555" stroke-width="2"/><path d="M300 127 l22 7 l-22 7z" fill="#c0392b"/><ellipse cx="300" cy="176" rx="7" ry="2.5" fill="#3d6b33"/>',
+  garden: '<rect width="400" height="250" fill="#cfe6f5"/><path d="M0 170 H400 V250 H0z" fill="#86c06f"/><g><rect x="200" y="70" width="160" height="110" fill="#f3e6cf"/><path d="M190 74 L280 22 L370 74z" fill="#8a4b3b"/><rect x="222" y="98" width="34" height="30" fill="#7fb0d6" stroke="#fff" stroke-width="3"/><rect x="300" y="98" width="34" height="30" fill="#7fb0d6" stroke="#fff" stroke-width="3"/><rect x="266" y="130" width="26" height="50" fill="#5b3a2a"/></g><g stroke="#f7f3ea" stroke-width="5"><path d="M0 190 H170 M0 208 H170"/><path d="M12 180 v40 M42 180 v40 M72 180 v40 M102 180 v40 M132 180 v40 M162 180 v40"/></g><g>' +
+    [30, 60, 90, 120, 150, 185, 215, 245, 275, 305, 335, 365].map(function (x, i) { return '<circle cx="' + x + '" cy="' + (228 + (i % 2) * 8) + '" r="6" fill="' + (i % 3 ? "#7d4fc0" : "#5b2e96") + '"/><circle cx="' + x + '" cy="' + (228 + (i % 2) * 8) + '" r="2" fill="#f2c94c"/>'; }).join("") + '</g>',
+  dining: '<rect width="400" height="250" fill="#eadcc4"/><rect y="150" width="400" height="100" fill="#8c6a4a"/><path d="M0 150 H400" stroke="#6e5136" stroke-width="4"/><rect x="150" y="30" width="100" height="80" fill="#bcd8ec" stroke="#fff" stroke-width="5"/><path d="M200 30 v80 M150 70 h100" stroke="#fff" stroke-width="3"/><rect x="40" y="185" width="320" height="16" rx="4" fill="#f7f3ea"/><g fill="#fff" stroke="#c9b99a"><ellipse cx="120" cy="190" rx="18" ry="5"/><ellipse cx="280" cy="190" rx="18" ry="5"/></g><circle cx="340" cy="60" r="12" fill="#f6d27a" opacity=".7"/>',
+  room: '<rect width="400" height="250" fill="#d9cbb0"/><rect y="200" width="400" height="50" fill="#7a5a3c"/><rect x="20" y="60" width="78" height="150" rx="4" fill="#6e4a2e"/><path d="M59 64 v142" stroke="#4e321e" stroke-width="3"/><circle cx="53" cy="135" r="3" fill="#e0c27a"/><circle cx="65" cy="135" r="3" fill="#e0c27a"/><rect x="160" y="40" width="80" height="80" fill="#2b3f66" stroke="#f3ead8" stroke-width="5"/><circle cx="215" cy="62" r="7" fill="#f3ead8" opacity=".8"/><rect x="140" y="175" width="120" height="10" fill="#5a3d26"/><path d="M150 185 v30 M250 185 v30" stroke="#5a3d26" stroke-width="6"/><rect x="290" y="118" width="92" height="96" fill="#9a8c7a"/><rect x="306" y="150" width="60" height="64" fill="#2a2420"/><path d="M322 214 q14 -34 28 0z" fill="#e3823a"/><rect x="284" y="110" width="104" height="10" fill="#7d6f5e"/>',
+  night: '<defs><radialGradient id="lg"><stop offset="0" stop-color="#ffd77a" stop-opacity=".5"/><stop offset="1" stop-color="#ffd77a" stop-opacity="0"/></radialGradient></defs><rect width="400" height="250" fill="#18203a"/><rect y="195" width="400" height="55" fill="#0f1528"/><rect x="40" y="40" width="70" height="80" fill="#0b1020" stroke="#2d3963" stroke-width="5"/><circle cx="70" cy="62" r="8" fill="#e9eefc" opacity=".8"/><rect x="150" y="170" width="100" height="10" fill="#3a2c22"/><path d="M160 180 v24 M240 180 v24" stroke="#3a2c22" stroke-width="6"/><g transform="translate(200 160)"><path d="M-9 -26 h18 v5 c0 3 11 6 11 18 c0 13 -6 19 -9 22 h-22 c-3 -3 -9 -9 -9 -22 c0 -12 11 -15 11 -18z" fill="#2347a8"/><path d="M-11 -4 q11 -6 22 0" stroke="#cfe0ff" stroke-width="1.4" fill="none"/></g><g class="lamp"><path d="M200 0 v34" stroke="#8a7a62" stroke-width="2.5"/><path d="M176 58 h48 l-11 -24 h-26z" fill="#f2d48a"/><circle class="glow" cx="200" cy="62" r="110" fill="url(#lg)"/></g>',
+  dream: '<defs><radialGradient id="dr" cx=".5" cy=".45" r=".7"><stop offset="0" stop-color="#3e5a9e"/><stop offset="1" stop-color="#0d1430"/></radialGradient></defs><rect width="400" height="250" fill="url(#dr)"/><g fill="#cfe0ff" opacity=".18"><ellipse cx="80" cy="200" rx="120" ry="20"/><ellipse cx="320" cy="215" rx="140" ry="22"/><ellipse cx="200" cy="60" rx="90" ry="14"/></g>'
+};
+
+/* ---- KỊCH BẢN ---- */
+const CHAPTERS = [
+{ id: "c1", t: "Tiếng kêu trên sân golf", sub: "Jack nghe thấy tiếng kêu cứu, nhưng cô gái thì không.", p: "p1", cast: ["jack", "felise"], nodes: [
+  { bg: "golf", cast: ["jack"], who: "n", en: "A summer morning. Before breakfast, Jack Hartington is playing golf alone.", vi: "Một buổi sáng mùa hè. Trước bữa sáng, Jack Hartington đang chơi golf một mình." },
+  { who: "jack", f: "neutral", en: "Left arm right through, and don't look up.", vi: "Tay trái thẳng suốt, và đừng ngẩng đầu lên." },
+  { who: "n", fx: "flash", en: "Suddenly a shrill cry rent the silence of the summer's morning: \"Murder! Help! Murder!\"", vi: "Đột nhiên một tiếng kêu thất thanh xé tan sự yên tĩnh của buổi sáng mùa hè: “Giết người! Cứu với! Giết người!”" },
+  { who: "jack", f: "surprised", en: "What was that? It was a woman's voice!", vi: "Cái gì vậy? Đó là giọng một người phụ nữ!" },
+  { q: true, kind: "Từ vựng", who: "jack", f: "surprised", en: "The cry was \"shrill\". What does shrill mean?", vi: "Tiếng kêu “shrill”. Shrill nghĩa là gì?",
+    opts: [["the thé, chói tai", 1, "Đúng! A shrill cry = tiếng kêu the thé, chói tai."], ["trầm và ấm", 0, "Ngược lại rồi. Shrill là cao và chói tai."], ["nhỏ, khó nghe", 0, "Không phải. Tiếng kêu rất to và chói."], ["vui vẻ", 0, "Không phải. Đó là tiếng kêu cứu."]] },
+  { act: "clock", who: "n", en: "Jack looked at his watch just before the cry. It was five and twenty minutes past seven. Which watch shows that time?", vi: "Jack nhìn đồng hồ ngay trước tiếng kêu. Lúc đó là bảy giờ hai mươi lăm. Đồng hồ nào chỉ đúng giờ đó?", times: [[7, 20], [7, 45], [7, 25], [7, 30]], ok: 2 },
+  { who: "n", en: "Jack flung down his club and ran towards the only house near at hand: a small picturesque cottage.", vi: "Jack quăng cây gậy xuống và chạy về phía ngôi nhà duy nhất ở gần đó: một căn nhà nhỏ xinh như tranh." },
+  { q: true, kind: "Từ vựng", who: "n", en: "\"Jack flung down his club.\" What did he do with the club?", vi: "“Jack flung down his club.” Anh làm gì với cây gậy?",
+    opts: [["quăng mạnh xuống", 1, "Chính xác. Flung (quá khứ của fling) = quăng, ném mạnh."], ["nhặt lên", 0, "Không phải. Anh vứt nó xuống để chạy."], ["cẩn thận đặt xuống", 0, "Không, anh vội đến mức quăng nó đi."], ["bẻ gãy", 0, "Không, anh chỉ quăng nó xuống."]] },
+  { bg: "garden", cast: ["jack", "felise"], who: "n", en: "A girl is weeding pansies in the garden. Her eyes are velvety and dark, more violet than blue.", vi: "Một cô gái đang nhổ cỏ cho luống hoa păng-xê trong vườn. Đôi mắt cô mượt như nhung, thẫm màu, tím nhiều hơn xanh." },
+  { who: "jack", f: "neutral", en: "I beg your pardon. But did you cry out just now?", vi: "Xin lỗi cô. Nhưng có phải cô vừa kêu lên không?" },
+  { who: "felise", f: "surprised", en: "I? No, indeed.", vi: "Tôi ư? Không, thật đấy." },
+  { who: "jack", f: "surprised", en: "But you must have heard it! It came from somewhere just near here.", vi: "Nhưng hẳn cô đã nghe thấy chứ! Nó phát ra từ đâu đó ngay gần đây." },
+  { who: "felise", f: "neutral", en: "I heard nothing at all.", vi: "Tôi chẳng nghe thấy gì cả." },
+  { q: true, kind: "Hiểu truyện", who: "jack", f: "sad", en: "Does Jack think the girl is lying?", vi: "Jack có nghĩ cô gái đang nói dối không?",
+    opts: [["No. Her surprise was so genuine.", 1, "Đúng. “Her surprise was so genuine that Jack felt confused.” Vẻ ngạc nhiên của cô rất thật."], ["Yes, he is sure she is lying.", 0, "Không. Vẻ bình thản của cô rõ ràng đến mức anh không thể tin cô nói dối."], ["He thinks she cannot hear well.", 0, "Truyện không nói vậy. Anh tin cô thật sự không nghe thấy."]] },
+  { who: "felise", f: "stern", en: "Somebody has played a trick on you, Monsieur. Do you want to search our house?", vi: "Ai đó đã chơi khăm ông rồi, thưa ông. Ông có muốn lục soát nhà chúng tôi không?" },
+  { q: true, kind: "Hành động", who: "jack", f: "sad", en: "What should Jack do now?", vi: "Bây giờ Jack nên làm gì?",
+    opts: [["Raise his cap and retreat.", 1, "Đúng như trong truyện: “He raised his cap and retreated.” Lịch sự rút lui."], ["Run into the house and search it.", 0, "Không ổn! Xông vào nhà người lạ sẽ khiến Felise sợ hãi."], ["Call the girl a liar.", 0, "Thô lỗ quá. Jack là một quý ông lịch sự."]] },
+  { who: "n", en: "Jack raised his cap and retreated. On the train, his conscience pricked him. Had he really heard the cry?", vi: "Jack nhấc mũ chào rồi rút lui. Trên tàu, lương tâm anh cắn rứt. Anh có thật sự nghe thấy tiếng kêu không?" }
+]},
+{ id: "c2", t: "Ba buổi sáng, một tiếng kêu", sub: "Ảo giác hay thật? Jack nghĩ ra một phép thử.", p: "p1", cast: ["jack", "felise", "lav"], nodes: [
+  { bg: "garden", cast: ["jack", "felise"], who: "n", en: "The following morning. The girl is weeding again. Jack looks at his watch.", vi: "Sáng hôm sau. Cô gái lại đang nhổ cỏ. Jack nhìn đồng hồ." },
+  { who: "jack", f: "neutral", en: "Just five and twenty past seven. I wonder...", vi: "Vừa đúng bảy giờ hai mươi lăm. Không biết…" },
+  { who: "n", fx: "flash", en: "\"Murder - help, murder!\" The same cry, a woman's voice in dire distress.", vi: "“Giết người – cứu với, giết người!” Vẫn tiếng kêu ấy, giọng một người phụ nữ trong cơn nguy khốn." },
+  { who: "jack", f: "happy", en: "You heard it this time, anyway!", vi: "Lần này thì dù sao cô cũng nghe thấy rồi chứ!" },
+  { who: "felise", f: "scared", en: "I heard nothing at all... You have had the shell-shock, yes?", vi: "Tôi chẳng nghe thấy gì cả… Ông từng bị sang chấn vì bom đạn, phải không?" },
+  { q: true, kind: "Từ vựng", who: "felise", f: "scared", en: "What is \"shell-shock\"?", vi: "“Shell-shock” là gì?",
+    opts: [["sang chấn tâm lý do bom đạn", 1, "Đúng. Sau Thế chiến I, nhiều người lính bị shell-shock. Felise nghĩ Jack bị như vậy."], ["bị điện giật", 0, "Không phải. Shell ở đây là vỏ đạn pháo."], ["sợ vỏ sò", 0, "Haha, không phải đâu! Shell ở đây là đạn pháo."], ["say nắng", 0, "Không phải. Đó là sang chấn do chiến tranh."]] },
+  { who: "jack", f: "scared", en: "She thinks I suffer from delusions. Was she right? Am I going mad?", vi: "Cô ấy nghĩ mình bị ảo giác. Liệu cô ấy đúng không? Mình đang phát điên sao?" },
+  { q: true, kind: "Từ vựng", who: "jack", f: "scared", en: "\"Delusions\" are...", vi: "“Delusions” là…",
+    opts: [["ảo giác, ảo tưởng", 1, "Chính xác. Suffer from delusions = bị ảo giác."], ["giấc mơ đẹp", 0, "Không phải. Đó là những thứ tưởng tượng nhưng tin là thật."], ["lời nói dối", 0, "Gần nhưng không đúng. Delusion là ảo tưởng của chính mình."], ["kỷ niệm", 0, "Không phải."]] },
+  { bg: "dining", cast: ["jack", "lav"], who: "n", en: "At breakfast, a middle-age man watches Jack with close scrutiny. His name is Lavington, a well-known medical specialist.", vi: "Trong bữa sáng, một người đàn ông trung niên soi xét Jack rất kỹ. Ông tên là Lavington, một chuyên gia y khoa có tiếng." },
+  { q: true, kind: "Từ vựng", who: "lav", f: "neutral", en: "\"The close scrutiny of a middle-age man.\" Scrutiny means...", vi: "“The close scrutiny of a middle-age man.” Scrutiny nghĩa là…",
+    opts: [["sự soi xét kỹ lưỡng", 1, "Đúng. Lavington quan sát Jack rất kỹ."], ["nụ cười thân thiện", 0, "Không phải. Ông ấy đang quan sát, không cười."], ["lời khuyên", 0, "Chưa đâu, ông chưa nói gì cả."], ["sự giận dữ", 0, "Không phải."]] },
+  { who: "jack", f: "neutral", en: "Supposing someone else was with me? The voice might be silent. We might both hear it. Or only I might hear it.", vi: "Giả sử có người đi cùng mình thì sao? Giọng nói có thể im bặt. Cả hai có thể cùng nghe. Hoặc chỉ mình nghe thấy." },
+  { q: true, kind: "Hiểu truyện", who: "jack", f: "neutral", en: "Why does Jack want to play golf with Lavington?", vi: "Tại sao Jack muốn chơi golf cùng Lavington?",
+    opts: [["To test if the voice is only in his head.", 1, "Đúng. Nếu chỉ mình anh nghe thấy, có thể anh bị ảo giác."], ["Because Lavington is a great golfer.", 0, "Không phải. Jack chọn Lavington vì ông là bác sĩ."], ["To ask about the girl.", 0, "Chưa. Jack muốn kiểm tra chính mình trước."]] },
+  { bg: "golf", cast: ["jack", "lav"], who: "lav", f: "happy", en: "A fine morning for golf, Hartington.", vi: "Một buổi sáng đẹp để chơi golf đấy, Hartington." },
+  { who: "n", en: "Twenty past seven... twenty-five past seven. Nothing happened. The spell was broken!", vi: "Bảy giờ hai mươi… bảy giờ hai mươi lăm. Không có gì xảy ra. Bùa phép đã bị phá!" },
+  { who: "n", fx: "flash", en: "And then it came. \"Murder - Help! Murder!\"", vi: "Và rồi nó đến. “Giết người – Cứu với! Giết người!”" },
+  { who: "jack", f: "scared", en: "Did you hear that?!", vi: "Ông có nghe thấy không?!" },
+  { who: "lav", f: "neutral", en: "A bit short, I think.", vi: "Hơi ngắn một chút, tôi nghĩ vậy." },
+  { q: true, kind: "Hiểu truyện", who: "n", en: "What did Lavington hear?", vi: "Lavington đã nghe thấy gì?",
+    opts: [["Nothing. He was only watching the ball.", 1, "Đúng. “He had heard nothing.” Ông chỉ nhận xét cú đánh hơi ngắn."], ["The same cry.", 0, "Không. Ông ấy không nghe thấy gì cả."], ["A bird.", 0, "Không, ông không nghe thấy gì."]] },
+  { who: "n", en: "The world seemed to spin round. Jack took a step or two, lurching heavily... and fainted.", vi: "Thế giới như quay cuồng. Jack bước được một, hai bước, loạng choạng nặng nề… rồi ngất đi." }
+]},
+{ id: "c3", t: "Bác sĩ của tâm hồn", sub: "Lavington tìm ra manh mối từ chiếc đồng hồ và lai lịch ngôi nhà.", p: "p2", cast: ["jack", "lav"], nodes: [
+  { bg: "golf", cast: ["jack", "lav"], who: "lav", f: "happy", en: "There, take it easy now. You fainted, young man.", vi: "Đấy, cứ bình tĩnh nào. Cậu ngất đi đấy, chàng trai." },
+  { who: "jack", f: "sad", en: "I'm going mad. I hear things that no one else hears.", vi: "Tôi đang phát điên. Tôi nghe thấy những thứ không ai khác nghe thấy." },
+  { who: "lav", f: "happy", en: "One man in a thousand can see the moons of Jupiter. That's no reason for calling him a lunatic.", vi: "Cứ một nghìn người thì có một người thấy được các mặt trăng sao Mộc. Đó không phải lý do để gọi người ấy là kẻ điên." },
+  { q: true, kind: "Từ vựng", who: "lav", f: "neutral", en: "A \"lunatic\" is...", vi: "“Lunatic” là…",
+    opts: [["kẻ điên, người mất trí", 1, "Đúng. Lavington nói Jack không phải kẻ điên."], ["nhà thiên văn", 0, "Không, dù câu nói nhắc đến sao Mộc."], ["người may mắn", 0, "Không phải."], ["bác sĩ", 0, "Không phải."]] },
+  { who: "jack", f: "neutral", en: "But why did it come at half-past seven this morning, five minutes late?", vi: "Nhưng sao sáng nay nó lại đến lúc bảy giờ rưỡi, muộn năm phút?" },
+  { who: "lav", f: "neutral", en: "What's the time now by your watch? Mine says twenty to eight.", vi: "Đồng hồ của cậu bây giờ là mấy giờ? Đồng hồ của tôi chỉ tám giờ kém hai mươi." },
+  { act: "clock", who: "jack", en: "Jack consults his watch: \"Quarter to eight.\" Which watch is Jack's?", vi: "Jack xem đồng hồ: “Tám giờ kém mười lăm.” Đồng hồ nào là của Jack?", times: [[7, 40], [7, 45], [8, 15], [7, 15]], ok: 1 },
+  { q: true, kind: "Suy luận", who: "lav", f: "happy", en: "So, Jack's watch is...", vi: "Vậy đồng hồ của Jack…",
+    opts: [["five minutes fast", 1, "Chính xác! 7:45 so với 7:40: nhanh 5 phút. Vậy tiếng kêu luôn đến đúng 7 giờ 25 thật."], ["five minutes slow", 0, "Ngược rồi. Đồng hồ Jack chỉ 7:45, nhiều hơn 7:40, nên chạy nhanh."], ["fifteen minutes fast", 0, "Tính lại nhé: 7:45 trừ 7:40 = 5 phút."], ["exactly right", 0, "Không, hai đồng hồ lệch nhau 5 phút."]] },
+  { who: "lav", f: "neutral", en: "This cry occupies a perfectly definite place and time: the vicinity of that cottage, at twenty-five minutes past seven.", vi: "Tiếng kêu này chiếm một nơi chốn và thời điểm hoàn toàn xác định: vùng quanh ngôi nhà nhỏ đó, lúc bảy giờ hai mươi lăm." },
+  { q: true, kind: "Từ vựng", who: "lav", f: "neutral", en: "\"The vicinity of that cottage\" means...", vi: "“The vicinity of that cottage” nghĩa là…",
+    opts: [["vùng lân cận ngôi nhà", 1, "Đúng. Vicinity = vùng lân cận, khu vực xung quanh."], ["bên trong ngôi nhà", 0, "Không, vicinity là khu vực xung quanh."], ["chủ của ngôi nhà", 0, "Không phải."], ["lịch sử ngôi nhà", 0, "Không phải, đó là life history."]] },
+  { bg: "dining", cast: ["jack", "lav"], who: "lav", f: "happy", en: "I've collected the life history of Heather Cottage all right.", vi: "Tôi đã thu thập đầy đủ lai lịch của Heather Cottage rồi." },
+  { act: "order", who: "lav", en: "Put the people who lived in Heather Cottage in the right order, from first to now.", vi: "Xếp những người từng sống ở Heather Cottage theo đúng thứ tự, từ đầu tiên đến hiện tại.",
+    items: [["An old gardener and his wife", "Ông lão làm vườn và vợ"], ["A builder", "Một nhà thầu xây dựng"], ["A city gentleman (weekends)", "Quý ông thành phố (cuối tuần)"], ["Mr. and Mrs. Turner", "Ông bà Turner"], ["A French professor and his daughter", "Giáo sư người Pháp và con gái"]] },
+  { who: "lav", f: "stern", en: "The Turners left very early one morning. Mr. Turner has been seen since, but I can't find anybody who has seen Mrs. Turner.", vi: "Nhà Turner rời đi từ rất sớm một buổi sáng. Người ta có thấy ông Turner, nhưng tôi không tìm được ai từng thấy bà Turner." },
+  { who: "jack", f: "scared", en: "It can't be. You don't mean...", vi: "Không thể nào. Ý ông không phải là…" },
+  { q: true, kind: "Từ vựng", who: "lav", f: "neutral", en: "The people there now are \"a consumptive French professor and his daughter\". Consumptive means...", vi: "Người đang ở đó là “a consumptive French professor and his daughter”. Consumptive nghĩa là…",
+    opts: [["mắc bệnh lao phổi", 1, "Đúng. Vì vậy Felise không muốn cha bị kích động."], ["giàu có", 0, "Không phải."], ["nổi tiếng", 0, "Không phải."], ["khó tính", 0, "Không phải."]] }
+]},
+{ id: "c4", t: "Chiếc bình sứ xanh", sub: "Giấc mơ của Felise, bức tranh bí ẩn và một đêm trong bóng tối.", p: "p2", cast: ["felise", "lav", "lady"], nodes: [
+  { bg: "dining", cast: ["jack", "felise"], who: "n", en: "One day a young lady is waiting to see Jack. It is the pansy girl, Felise Marchaud.", vi: "Một hôm có một cô gái trẻ chờ gặp Jack. Đó là cô gái hoa păng-xê, Felise Marchaud." },
+  { who: "felise", f: "sad", en: "Monsieur, four nights running, I have had the same dream.", vi: "Thưa ông, bốn đêm liền tôi mơ cùng một giấc mơ." },
+  { bg: "dream", cast: ["lady"], who: "lady", f: "sad", en: "(A tall, fair lady holds out a blue china jar, as though imploring someone to do something with it.)", vi: "(Một người phụ nữ cao, tóc vàng chìa ra một chiếc bình sứ xanh, như thể van xin ai đó làm điều gì với nó.)" },
+  { who: "lady", f: "scared", fx: "flash", en: "Murder - help! Murder!", vi: "Giết người – cứu với! Giết người!" },
+  { q: true, kind: "Từ vựng", who: "n", en: "\"As though imploring me to do something.\" Imploring means...", vi: "“As though imploring me to do something.” Imploring nghĩa là…",
+    opts: [["van xin, khẩn cầu", 1, "Đúng. Người phụ nữ trong mơ đang van xin Felise."], ["ra lệnh", 0, "Không, bà ấy rất đau khổ, không ra lệnh."], ["đe dọa", 0, "Không phải."], ["cảm ơn", 0, "Không phải."]] },
+  { bg: "dining", cast: ["jack", "felise", "lav"], who: "felise", f: "surprised", en: "Of course! How stupid I am. Look at what I found at the back of one of the cupboards!", vi: "Tất nhiên rồi! Tôi thật ngốc. Hãy xem thứ tôi tìm thấy ở phía sau một chiếc tủ!" },
+  { act: "find", bg: "room", cast: [], who: "n", en: "Help Felise: where in the cottage did she find the old water-color sketch? Tap a place in the room.", vi: "Giúp Felise: cô tìm thấy bức tranh màu nước cũ ở đâu trong nhà? Chạm vào một chỗ trong phòng.",
+    spots: [
+      { x: 5, y: 24, w: 20, h: 60, ok: 1, en: "At the back of the cupboard: a dirty water-color of a tall fair woman and a blue jar!", vi: "Phía sau chiếc tủ: một bức tranh màu nước đã bẩn vẽ người phụ nữ cao tóc vàng và chiếc bình xanh!" },
+      { x: 40, y: 16, w: 20, h: 32, en: "Only the dark garden outside the window.", vi: "Chỉ có khu vườn tối bên ngoài cửa sổ." },
+      { x: 35, y: 68, w: 30, h: 20, en: "Nothing on the table but dust.", vi: "Trên bàn chẳng có gì ngoài bụi." },
+      { x: 72, y: 44, w: 24, h: 42, en: "Just a warm fire.", vi: "Chỉ là ngọn lửa ấm." }
+    ] },
+  { act: "jars", who: "lav", en: "\"The key to the mystery is evidently the blue jar. It seems to have a curious raised pattern over it.\" Which jar is in the sketch?", vi: "“Chìa khóa của bí ẩn rõ ràng là chiếc bình xanh. Hình như nó có hoa văn nổi khá lạ.” Chiếc bình nào có trong bức tranh?", ok: 2 },
+  { who: "jack", f: "surprised", en: "I have seen an exactly similar one in my uncle's collection! He is a great collector of Chinese porcelain.", vi: "Tôi đã thấy một chiếc giống hệt trong bộ sưu tập của chú tôi! Chú ấy là một nhà sưu tầm đồ sứ Trung Quốc." },
+  { who: "lav", f: "stern", en: "Hartington, you must get hold of that jar. We will spend a night in Heather Cottage, taking the blue jar with us.", vi: "Hartington, cậu phải lấy được chiếc bình đó. Chúng ta sẽ qua một đêm ở Heather Cottage, mang theo chiếc bình xanh." },
+  { q: true, kind: "Từ vựng", who: "lav", f: "neutral", en: "\"You must get hold of that jar.\" Get hold of means...", vi: "“You must get hold of that jar.” Get hold of nghĩa là…",
+    opts: [["lấy được, có được", 1, "Đúng. Jack phải mang chiếc bình từ nhà chú về."], ["làm vỡ", 0, "Không! Họ cần chiếc bình nguyên vẹn."], ["bán đi", 0, "Không phải."], ["vẽ lại", 0, "Không phải."]] },
+  { bg: "night", cast: ["felise", "lav"], who: "n", en: "Eleven o'clock. Heather Cottage. Three chairs round a small table, and the blue jar in the centre.", vi: "Mười một giờ đêm. Heather Cottage. Ba chiếc ghế quanh một chiếc bàn nhỏ, và chiếc bình xanh ở chính giữa." },
+  { act: "lamp", who: "lav", f: "stern", en: "Now we are ready. Turn off the lights, and let us sit round the table in the darkness.", vi: "Giờ chúng ta sẵn sàng rồi. Tắt đèn đi, và hãy ngồi quanh bàn trong bóng tối." },
+  { dark: true, who: "lav", f: "neutral", en: "Cast out fear from your hearts, and drift... drift...", vi: "Hãy gạt bỏ nỗi sợ khỏi trái tim, và trôi đi… trôi đi…" },
+  { dark: true, who: "felise", f: "scared", en: "Something terrible is going to happen. I feel it.", vi: "Sắp có chuyện khủng khiếp xảy ra. Tôi cảm thấy thế." },
+  { dark: true, q: true, kind: "Từ vựng", who: "n", en: "\"Nearer and nearer came that indefinable sense of menace.\" Menace means...", vi: "“Nearer and nearer came that indefinable sense of menace.” Menace nghĩa là…",
+    opts: [["mối đe dọa", 1, "Đúng. Một cảm giác đe dọa khó tả đang đến gần."], ["sự bình yên", 0, "Ngược lại rồi, căn phòng đầy nguy hiểm."], ["âm nhạc", 0, "Không phải."], ["ánh sáng", 0, "Không, căn phòng đang tối om."]] },
+  { dark: true, who: "n", en: "Jack felt himself choking, stifling... then he was drifting downstream. His lids closed. Peace. Darkness...", vi: "Jack cảm thấy mình như nghẹt thở, ngột ngạt… rồi anh trôi đi xuôi dòng. Mí mắt khép lại. Bình yên. Bóng tối…" },
+  { act: "predict", dark: true, who: "n", en: "(to be continued) What do you think happens when Jack wakes up?", vi: "(còn tiếp) Theo bạn, chuyện gì xảy ra khi Jack tỉnh dậy?",
+    opts: [["The ghost tells them the truth about Mrs. Turner.", "Hồn ma kể cho họ sự thật về bà Turner."], ["They find something hidden in the jar.", "Họ tìm thấy thứ gì đó giấu trong bình."], ["Felise and Lavington... and the jar... are gone!", "Felise, Lavington… và chiếc bình… đều biến mất!"]] }
+]}
+];
+
+/* ---- TRẠNG THÁI GAME ---- */
+let G = null;
+function gameSave() { S.game = S.game || {}; save(); }
+function chDone(id) { return S.game && S.game[id]; }
+function chUnlocked(i) { return i === 0 || chDone(CHAPTERS[i - 1].id); }
+
+const HEART = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2z" fill="currentColor"/></svg>';
+
+function renderGameHome() {
+  stopSpeak(); closeSheet(); closeModal();
+  let html = '<div class="rbar"><div class="rbar-in"><button class="tool icon" data-home="1" aria-label="Về hồ sơ">' + ICON.back + '</button>' +
+    '<div class="rbar-title"><b>Phá án cùng Jack</b><span>Game nhập vai theo truyện</span></div></div></div>' +
+    '<div class="wrap ghome">' +
+    '<section class="gintro"><div class="gintro-cast">' + ["jack", "felise", "lav"].map(function (w) { return '<figure>' + portrait(w, w === "jack" ? "surprised" : w === "felise" ? "neutral" : "happy") + '<figcaption>' + CAST[w].name + '</figcaption></figure>'; }).join("") + '</div>' +
+    '<p>Đi cùng Jack qua 4 chương. Trò chuyện với nhân vật, trả lời câu hỏi từ vựng, giải các thử thách nhỏ để thu manh mối. Mỗi chương có <b>3 trái tim bình tĩnh</b>: trả lời sai mất 1 tim, hết tim thì Jack ngất và phải chơi lại chương.</p></section>' +
+    '<ol class="chapters">' + CHAPTERS.map(function (c, i) {
+      const done = chDone(c.id), open = chUnlocked(i);
+      return '<li><button class="chap' + (open ? "" : " locked") + (done ? " done" : "") + '" ' + (open ? 'data-gstart="' + i + '"' : "disabled") + '>' +
+        '<span class="chap-num">' + (i + 1) + '</span>' +
+        '<span class="chap-txt"><b>' + c.t + '</b><small>' + (open ? c.sub : "Hoàn thành chương trước để mở khóa") + '</small></span>' +
+        '<span class="chap-stars">' + (done ? [0, 1, 2].map(function (k) { return '<i class="' + (k < done.stars ? "on" : "") + '">' + ICON.star + '</i>'; }).join("") : (open ? '<em>Chơi</em>' : '<em>Khóa</em>')) + '</span>' +
+      '</button></li>';
+    }).join("") + '</ol></div>';
+  view.innerHTML = html;
+  window.scrollTo(0, 0);
+}
+
+function startChapter(i) {
+  const c = CHAPTERS[i];
+  G = { ci: i, ni: 0, hearts: 3, clues: 0, bg: "golf", cast: [], faces: {}, dark: false, solved: {}, mistakes: 0 };
+  stepNode(true);
+}
+
+function stepNode(first) {
+  const c = CHAPTERS[G.ci];
+  const nd = c.nodes[G.ni];
+  if (nd.bg) G.bg = nd.bg;
+  if (nd.cast) G.cast = nd.cast.slice();
+  if (nd.bg && nd.bg !== "night") G.dark = false;
+  if (nd.who && nd.who !== "n" && nd.f) G.faces[nd.who] = nd.f;
+  if (nd.who && nd.who !== "n" && G.cast.indexOf(nd.who) < 0 && nd.act !== "find") G.cast.push(nd.who);
+  G.answered = false;
+  renderGame();
+  if (nd.fx === "flash") { const st = $(".stage"); if (st) { st.classList.remove("flash"); void st.offsetWidth; st.classList.add("flash"); } beep(false); }
+}
+
+function clockSVG(h, m) {
+  const ma = m * 6, ha = (h % 12) * 30 + m * 0.5;
+  let ticks = "";
+  for (let k = 0; k < 12; k++) ticks += '<path d="M50 8 v' + (k % 3 ? 5 : 9) + '" transform="rotate(' + k * 30 + ' 50 50)" stroke="currentColor" stroke-width="' + (k % 3 ? 1.6 : 3) + '"/>';
+  return '<svg viewBox="0 0 100 100" class="clock" aria-hidden="true"><circle cx="50" cy="50" r="46" fill="var(--paper)" stroke="currentColor" stroke-width="3"/>' + ticks +
+    '<path d="M50 50 L50 26" transform="rotate(' + ha + ' 50 50)" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>' +
+    '<path d="M50 50 L50 14" transform="rotate(' + ma + ' 50 50)" stroke="var(--pansy)" stroke-width="3" stroke-linecap="round"/><circle cx="50" cy="50" r="3.5" fill="currentColor"/></svg>';
+}
+function jarPick(k) {
+  const v = [
+    { body: "#b5402f", pat: "" },
+    { body: "#2347a8", pat: "" },
+    { body: "#2347a8", pat: '<path d="M30 52 q20 -10 40 0 M28 78 q22 10 44 0" stroke="#e9f3fb" stroke-width="2.2" fill="none"/><circle cx="50" cy="64" r="5" fill="none" stroke="#e9f3fb" stroke-width="2"/><path d="M36 64 q6 -8 10 0 M54 64 q6 -8 10 0" stroke="#e9f3fb" stroke-width="2" fill="none"/>' },
+    { body: "#3f8a5a", pat: '<path d="M30 60 h40 M30 72 h40" stroke="#eaf4ec" stroke-width="2"/>' }
+  ][k];
+  return '<svg viewBox="0 0 100 110" class="pickjar" aria-hidden="true"><path d="M38 10h24v8c0 4 20 10 20 38 0 30-11 44-17 50H35C29 100 18 86 18 56c0-28 20-34 20-38z" fill="' + v.body + '" stroke="var(--ink)" stroke-width="1.5"/>' + v.pat + "</svg>";
+}
+
+function renderGame() {
+  const c = CHAPTERS[G.ci];
+  const nd = c.nodes[G.ni];
+  const dark = G.dark || nd.dark;
+  const speaker = nd.who || "n";
+  const castHtml = G.cast.map(function (w, k) {
+    const n = G.cast.length;
+    const left = n === 1 ? 50 : n === 2 ? (k ? 74 : 26) : [17, 50, 83][k];
+    const active = speaker === w;
+    return '<div class="actor' + (active ? " talk" : "") + (w === "lady" ? " ghost" : "") + '" style="left:' + left + '%">' + portrait(w, G.faces[w] || "neutral") + '</div>';
+  }).join("");
+  let spots = "";
+  if (nd.act === "find") spots = nd.spots.map(function (s, k) { return '<button class="spot' + (G.solved[k] ? " seen" : "") + '" data-gspot="' + k + '" style="left:' + s.x + '%;top:' + s.y + '%;width:' + s.w + '%;height:' + s.h + '%" aria-label="Chỗ ' + (k + 1) + '"></button>'; }).join("");
+  if (nd.act === "lamp" && !G.dark) spots = '<button class="spot lampspot" data-glamp="1" style="left:40%;top:2%;width:20%;height:24%" aria-label="Tắt đèn"></button>';
+
+  const name = CAST[speaker];
+  let box = '<div class="dlg' + (speaker === "n" ? " narr" : "") + '">' +
+    '<div class="dlg-head"><span class="who" style="--who:' + name.color + '">' + name.name + '</span>' +
+    (nd.kind ? '<span class="pos keytag">' + nd.kind + '</span>' : "") + '</div>' +
+    '<p class="en dlg-en">' + renderPara(nd.en, c.p) + '</p>' +
+    '<p class="vi dlg-vi" lang="vi"' + (S.gameVi ? "" : " hidden") + '>' + esc(nd.vi) + '</p>';
+
+  if (nd.q) {
+    box += '<div class="gopts">' + nd.opts.map(function (o, k) { return '<button class="opt" data-gopt="' + k + '"><kbd>' + (k + 1) + '</kbd><span lang="vi">' + esc(o[0]) + '</span></button>'; }).join("") + '</div><div id="gfb" class="feedback" hidden></div>';
+  } else if (nd.act === "clock") {
+    box += '<div class="clocks">' + nd.times.map(function (t, k) { return '<button class="clockbtn" data-gclock="' + k + '" aria-label="Đồng hồ ' + (k + 1) + '">' + clockSVG(t[0], t[1]) + '</button>'; }).join("") + '</div><div id="gfb" class="feedback" hidden></div>';
+  } else if (nd.act === "jars") {
+    box += '<div class="clocks">' + [0, 1, 2, 3].map(function (k) { return '<button class="clockbtn" data-gjar="' + k + '" aria-label="Bình ' + (k + 1) + '">' + jarPick(k) + '</button>'; }).join("") + '</div><div id="gfb" class="feedback" hidden></div>';
+  } else if (nd.act === "order") {
+    if (!G.order) G.order = { got: [], items: shuffle(nd.items.map(function (it, k) { return k; })) };
+    box += '<ol class="ordered">' + nd.items.map(function (it, k) { const g = G.order.got[k]; return '<li class="' + (g != null ? "filled" : "") + '"><span>' + (k + 1) + '</span>' + (g != null ? esc(nd.items[g][0]) : "…") + '</li>'; }).join("") + '</ol>' +
+      '<div class="order-pool">' + G.order.items.map(function (k) { return '<button class="tool' + (G.order.got.indexOf(k) >= 0 ? " used" : "") + '" data-gord="' + k + '"' + (G.order.got.indexOf(k) >= 0 ? " disabled" : "") + '>' + esc(nd.items[k][0]) + '</button>'; }).join("") + '</div><div id="gfb" class="feedback" hidden></div>';
+  } else if (nd.act === "find") {
+    box += '<div id="gfb" class="feedback" hidden></div>';
+  } else if (nd.act === "lamp") {
+    box += '<p class="hint">Chạm vào chiếc đèn treo trên trần để tắt đèn.</p>';
+  } else if (nd.act === "predict") {
+    box += '<div class="gopts">' + nd.opts.map(function (o, k) { return '<button class="opt" data-gpred="' + k + '"><kbd>' + (k + 1) + '</kbd><span>' + esc(o[0]) + '<small lang="vi">' + esc(o[1]) + '</small></span></button>'; }).join("") + '</div>';
+  }
+  const needsAct = nd.q || nd.act;
+  box += '<div class="dlg-actions"><button class="tool" data-speak="' + esc(nd.en.replace(/[()]/g, "")) + '">' + ICON.play + '<span>Nghe</span></button>' +
+    '<button class="tool' + (S.gameVi ? " on" : "") + '" data-gvi="1"><span class="flag">VI</span><span>Dịch</span></button>' +
+    '<button class="btn primary small gnext" data-gnext="1"' + (needsAct ? " hidden" : "") + '>Tiếp ' + ICON.next + '</button></div></div>';
+
+  const total = c.nodes.length;
+  view.innerHTML = '<div class="rbar"><div class="rbar-in">' +
+      '<button class="tool icon" data-gamehome="1" aria-label="Danh sách chương">' + ICON.back + '</button>' +
+      '<div class="rbar-title"><b>Chương ' + (G.ci + 1) + '</b><span>' + c.t + '</span></div>' +
+      '<div class="ghud"><span class="hearts" aria-label="' + G.hearts + ' tim">' + [0, 1, 2].map(function (k) { return '<i class="' + (k < G.hearts ? "on" : "") + '">' + HEART + '</i>'; }).join("") + '</span>' +
+      '<span class="clues">' + ICON.key + G.clues + '</span>' + soundBtn() + '</div>' +
+    '</div><div class="bar thin"><i style="width:' + (G.ni / total * 100) + '%"></i></div></div>' +
+    '<div class="wrap game">' +
+      '<div class="stage' + (dark ? " dark" : "") + '"><svg class="bg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">' + BG[G.bg] + '</svg>' + castHtml + spots + '</div>' +
+      box +
+    '</div>';
+}
+
+function gFeedback(ok, msg, cont) {
+  const fb = $("#gfb");
+  if (!fb) return;
+  fb.className = "feedback " + (ok ? "good" : "bad");
+  fb.innerHTML = '<p class="fb-title">' + (ok ? "Manh mối +1" : "Mất 1 tim bình tĩnh") + '</p><p class="fb-word" lang="vi">' + msg + '</p>';
+  fb.hidden = false;
+  if (cont) { const b = $(".gnext"); if (b) b.hidden = false; }
+  fb.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+function gRight(msg) {
+  G.clues++; G.answered = true; beep(true);
+  updateHud();
+  gFeedback(true, msg, true);
+}
+function gWrong(msg, btn) {
+  G.hearts--; G.mistakes++; beep(false);
+  if (btn) { btn.classList.add("wrong"); btn.disabled = true; }
+  const nd = CHAPTERS[G.ci].nodes[G.ni];
+  const actor = $(".actor.talk") || $(".actor");
+  if (actor) { actor.classList.remove("shake"); void actor.offsetWidth; actor.classList.add("shake"); }
+  updateHud();
+  if (G.hearts <= 0) { setTimeout(gameOver, 700); gFeedback(false, msg, false); return; }
+  gFeedback(false, msg + " Thử lại nhé.", false);
+}
+function updateHud() {
+  const h = $(".hearts");
+  if (h) h.innerHTML = [0, 1, 2].map(function (k) { return '<i class="' + (k < G.hearts ? "on" : "") + '">' + HEART + '</i>'; }).join("");
+  const c = $(".clues"); if (c) c.innerHTML = ICON.key + G.clues;
+}
+function gameOver() {
+  showModal('<div class="modal-jar">' + portrait("jack", "scared") + '</div><h2>Jack ngất xỉu!</h2><p>Hết tim bình tĩnh rồi. Đọc lại bản dịch hoặc tra từ, rồi chơi lại chương này nhé.</p>' +
+    '<div class="modal-actions"><button class="btn primary" data-gstart="' + G.ci + '">Chơi lại chương</button><button class="btn" data-go="' + CHAPTERS[G.ci].p + '" data-mode="scene">Đọc lại truyện</button><button class="btn ghost" data-gamehome="1">Danh sách chương</button></div>');
+}
+
+function nextNode() {
+  stopSpeak();
+  const c = CHAPTERS[G.ci];
+  G.order = null;
+  if (G.ni < c.nodes.length - 1) { G.ni++; stepNode(); }
+  else endChapter();
+}
+function endChapter() {
+  const c = CHAPTERS[G.ci];
+  const stars = G.hearts;
+  S.game = S.game || {};
+  const prev = S.game[c.id];
+  if (!prev || stars > prev.stars) S.game[c.id] = { stars: stars, clues: G.clues };
+  gameSave();
+  const next = CHAPTERS[G.ci + 1];
+  showModal('<div class="res-stars">' + [0, 1, 2].map(function (k) { return '<span class="st' + (k < stars ? " on" : "") + '" style="--d:' + (k * 0.15) + 's">' + ICON.star + '</span>'; }).join("") + '</div>' +
+    '<h2>Xong chương ' + (G.ci + 1) + '!</h2><p>Bạn thu được <b>' + G.clues + ' manh mối</b> và còn <b>' + G.hearts + '/3 tim</b>.' + (next ? "" : " Bạn đã đi hết phần truyện hiện có. Hãy đọc phần kết để xem dự đoán của bạn có đúng không!") + '</p>' +
+    '<div class="modal-actions">' + (next ? '<button class="btn primary" data-gstart="' + (G.ci + 1) + '">Chương ' + (G.ci + 2) + ': ' + next.t + '</button>' : '<button class="btn primary" data-quiz="p2">Làm thử thách từ vựng Phần 2</button>') +
+    '<button class="btn" data-gstart="' + G.ci + '">Chơi lại để lấy đủ sao</button><button class="btn ghost" data-gamehome="1">Danh sách chương</button></div>');
+}
+
+document.addEventListener("click", function (e) {
+  const t = e.target.closest("button");
+  if (!t) return;
+  const d = t.dataset;
+  if (d.gamehome) { closeModal(); renderGameHome(); return; }
+  if (d.gstart != null) { closeModal(); startChapter(+d.gstart); return; }
+  if (!G) return;
+  const nd = CHAPTERS[G.ci] && CHAPTERS[G.ci].nodes[G.ni];
+  if (d.gnext) { nextNode(); return; }
+  if (d.gvi) {
+    S.gameVi = !S.gameVi; save();
+    const v = $(".dlg-vi"); if (v) v.hidden = !S.gameVi;
+    t.classList.toggle("on", !!S.gameVi);
+    return;
+  }
+  if (!nd || G.answered) return;
+  if (d.gopt != null) {
+    const o = nd.opts[+d.gopt];
+    if (o[1]) { t.classList.add("right"); document.querySelectorAll("[data-gopt]").forEach(function (b) { b.disabled = true; }); if (nd.who && nd.who !== "n") setFace(nd.who, "happy"); gRight(o[2]); }
+    else gWrong(o[2], t);
+    return;
+  }
+  if (d.gclock != null) {
+    const k = +d.gclock;
+    if (k === nd.ok) { t.classList.add("right"); document.querySelectorAll("[data-gclock]").forEach(function (b) { b.disabled = true; }); const tm = nd.times[k]; gRight("Đúng rồi: " + tm[0] + " giờ " + tm[1] + " phút."); }
+    else { const tm = nd.times[k]; gWrong("Đồng hồ này chỉ " + tm[0] + " giờ " + (tm[1] || "đúng") + (tm[1] ? " phút" : "") + ". Kim dài (màu tím) chỉ phút.", t); }
+    return;
+  }
+  if (d.gjar != null) {
+    const k = +d.gjar;
+    if (k === nd.ok) { t.classList.add("right"); document.querySelectorAll("[data-gjar]").forEach(function (b) { b.disabled = true; }); gRight("Đúng! Chiếc bình sứ Trung Quốc màu xanh, có hoa văn nổi (raised pattern)."); }
+    else gWrong(k === 0 ? "Bình này màu đỏ, không phải bình xanh." : k === 1 ? "Màu xanh đúng rồi, nhưng bình này trơn, không có hoa văn nổi." : "Bình này màu xanh lá.", t);
+    return;
+  }
+  if (d.gord != null) {
+    const k = +d.gord;
+    const pos = G.order.got.length;
+    if (k === pos) {
+      G.order.got.push(k); beep(true);
+      t.disabled = true; t.classList.add("used");
+      const li = document.querySelectorAll(".ordered li")[pos];
+      li.classList.add("filled"); li.innerHTML = '<span>' + (pos + 1) + '</span>' + esc(nd.items[k][0]);
+      if (G.order.got.length === nd.items.length) gRight("Chính xác cả lai lịch ngôi nhà! Nhà Turner rời đi đúng hai tháng trước, rồi giáo sư người Pháp và con gái đến.");
+    } else gWrong("Chưa đúng thứ tự. Người thứ " + (pos + 1) + " là: " + nd.items[pos][1] + ".", null);
+    return;
+  }
+  if (d.gspot != null) {
+    const s = nd.spots[+d.gspot];
+    G.solved[+d.gspot] = true; t.classList.add("seen");
+    if (s.ok) { t.classList.add("found"); gRight(esc(s.vi)); const p = $(".dlg-en"); if (p) p.innerHTML = renderPara(s.en, CHAPTERS[G.ci].p); }
+    else {
+      const fb = $("#gfb"); fb.className = "feedback"; fb.innerHTML = '<p class="fb-word"><i>' + esc(s.en) + '</i> ' + esc(s.vi) + ' Tìm chỗ khác xem.</p>'; fb.hidden = false;
+    }
+    return;
+  }
+  if (d.glamp) {
+    G.dark = true; G.answered = true;
+    $(".stage").classList.add("dark");
+    t.remove(); beep(true);
+    const h = $(".hint"); if (h) h.textContent = "Đèn đã tắt. Căn phòng chìm vào bóng tối…";
+    const b = $(".gnext"); if (b) b.hidden = false;
+    return;
+  }
+  if (d.gpred != null) {
+    G.answered = true;
+    document.querySelectorAll("[data-gpred]").forEach(function (b) { b.disabled = true; });
+    t.classList.add("right");
+    const msgs = ["Một giả thuyết hợp lý: Lavington nói hồn ma muốn được “siêu thoát”.", "Có thể lắm: Lavington từng đoán chiếc bình có đáy giả.", "Một nghi ngờ sắc bén! Hãy nhớ: Felise chỉ mới đến đây 10 ngày, và chú George thì đang ở xa…"];
+    const box = $(".dlg");
+    const fb = document.createElement("div");
+    fb.className = "feedback good";
+    fb.innerHTML = '<p class="fb-title">Dự đoán đã ghi vào sổ thám tử</p><p class="fb-word" lang="vi">' + msgs[+d.gpred] + ' Đọc phần kết của truyện để biết đáp án nhé.</p>';
+    box.insertBefore(fb, box.querySelector(".dlg-actions"));
+    G.clues++; updateHud();
+    const b = $(".gnext"); if (b) { b.hidden = false; b.innerHTML = "Kết thúc chương " + ICON.next; }
+    return;
+  }
+});
+function setFace(who, f) {
+  G.faces[who] = f;
+  const a = Array.prototype.find.call(document.querySelectorAll(".actor"), function (el) { return el.querySelector(".pt-" + who); });
+  if (a) a.innerHTML = portrait(who, f);
+}
+
+document.addEventListener("keydown", function (e) {
+  if (!G || !$(".game") || !$("#modal").hidden) return;
+  const b = $(".gnext");
+  if ((e.key === "ArrowRight" || e.key === "Enter") && b && !b.hidden && document.activeElement.tagName !== "BUTTON") { e.preventDefault(); nextNode(); return; }
+  if (/^[1-4]$/.test(e.key)) { const o = $('[data-gopt="' + (+e.key - 1) + '"]') || $('[data-gclock="' + (+e.key - 1) + '"]') || $('[data-gjar="' + (+e.key - 1) + '"]') || $('[data-gpred="' + (+e.key - 1) + '"]'); if (o && !o.disabled) o.click(); }
+});
+
 renderHome();
 </script>

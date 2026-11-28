@@ -43,5 +43,6 @@ Mở `blue-jar/index.html` — một file duy nhất, không cần cài gì.
 - Đọc xong mỗi cảnh nhận **1 manh mối**, làm đầy chiếc bình xanh.
 - **Thử thách từ vựng** mỗi phần: 12 câu (Anh→Việt, Việt→Anh, điền từ vào câu trong truyện), có chuỗi đúng, sao, kỷ lục.
 - **Sổ từ vựng**: lưu từ khó, ôn bằng thử thách riêng.
+- **Game “Phá án cùng Jack”**: 4 chương nhập vai với Jack, Felise, Dr Lavington (chân dung đổi nét mặt, cảnh nền, hội thoại chạm-để-tra-từ). Câu hỏi từ vựng/hiểu truyện, mini-game: chọn đồng hồ đúng giờ, xếp lai lịch Heather Cottage, tìm bức tranh trong phòng, chọn đúng chiếc bình, tắt đèn. 3 tim mỗi chương, mở khóa lần lượt.
 
 Nội dung (bài đọc, bản dịch, từ trọng tâm, cụm từ, từ điển) nằm ở đầu thẻ `<script>` trong `blue-jar/index.html`.
