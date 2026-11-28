@@ -1,0 +1,2358 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Blue Jar Reader</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Đọc truyện The Mystery of the Blue Jar (Agatha Christie) song ngữ Anh – Việt, tra từ bằng một chạm, có thử thách từ vựng.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Limelight&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&display=swap">
+<style>
+/* Layout: hồ sơ vụ án như một chiếc bình sứ men lam: dải viền hoa văn, thẻ cảnh như trang giấy, tra từ ở ngăn kéo dưới đáy */
+:root{
+  --bg:#edf1f8;
+  --surface:#ffffff;
+  --paper:#fcfcfa;
+  --ink:#141c31;
+  --muted:#58637d;
+  --line:#d4dbea;
+  --cobalt:#1f3d98;
+  --cobalt-2:#2c53c4;
+  --on-cobalt:#ffffff;
+  --cobalt-soft:#e2e9f8;
+  --pansy:#6b3c9e;
+  --pansy-soft:#efe6f9;
+  --ok:#17784a; --ok-soft:#dff3e7;
+  --bad:#b3302c; --bad-soft:#fbe5e3;
+  --gold:#b98a14;
+  --vi-bg:#f1f4fb;
+  --shadow:0 1px 2px rgba(20,28,49,.06),0 10px 28px rgba(20,28,49,.07);
+  --display:"Limelight","Didot","Bodoni MT",Georgia,serif;
+  --read:"Literata",Georgia,"Times New Roman",serif;
+  --ui:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --read-size:19px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0c1221; --surface:#141c30; --paper:#151e33; --ink:#e7ecf8; --muted:#9ca8c4; --line:#283453;
+    --cobalt:#93abff; --cobalt-2:#b4c6ff; --on-cobalt:#0c1221; --cobalt-soft:#1d2a52;
+    --pansy:#c9a6f3; --pansy-soft:#2c2246; --ok:#62d39a; --ok-soft:#133426; --bad:#ff8f86; --bad-soft:#3b1c1d;
+    --gold:#e9c25a; --vi-bg:#19233c; --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.25);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0c1221; --surface:#141c30; --paper:#151e33; --ink:#e7ecf8; --muted:#9ca8c4; --line:#283453;
+  --cobalt:#93abff; --cobalt-2:#b4c6ff; --on-cobalt:#0c1221; --cobalt-soft:#1d2a52;
+  --pansy:#c9a6f3; --pansy-soft:#2c2246; --ok:#62d39a; --ok-soft:#133426; --bad:#ff8f86; --bad-soft:#3b1c1d;
+  --gold:#e9c25a; --vi-bg:#19233c; --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.25);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--ui)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--pansy);outline-offset:2px;border-radius:6px}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 96px}
+.eyebrow{margin:0 0 4px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)} .center{text-align:center}
+.ok-text{color:var(--ok)}
+h1,h2,h3{text-wrap:balance}
+svg{display:block}
+
+/* --- nút --- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:10px 18px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);font-weight:600;font-size:15px;cursor:pointer;transition:transform .12s,background .15s,border-color .15s}
+.btn svg{width:18px;height:18px}
+.btn:hover{border-color:var(--cobalt)}
+.btn:active{transform:scale(.97)}
+.btn.primary{background:var(--cobalt);border-color:var(--cobalt);color:var(--on-cobalt)}
+.btn.primary:hover{background:var(--cobalt-2);border-color:var(--cobalt-2)}
+.btn.quiz{border-color:var(--pansy);color:var(--pansy)}
+.btn.quiz em{font-style:normal;font-weight:500;opacity:.85}
+.btn.ghost{border-color:transparent;background:transparent}
+.btn.small{min-height:38px;padding:6px 14px;font-size:14px}
+.btn:disabled{opacity:.4;cursor:default;transform:none}
+.tool{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:6px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);font-size:14px;font-weight:500;cursor:pointer}
+.tool svg{width:18px;height:18px}
+.tool.icon{padding:6px 10px;min-width:40px;justify-content:center;font-weight:700}
+.tool.on{background:var(--cobalt-soft);border-color:var(--cobalt);color:var(--cobalt)}
+.tool:hover{border-color:var(--cobalt)}
+.flag{font-size:11px;font-weight:700;letter-spacing:.04em;padding:2px 5px;border-radius:4px;background:var(--pansy-soft);color:var(--pansy)}
+.tool.on .flag{background:var(--cobalt);color:var(--on-cobalt)}
+
+/* --- hero --- */
+.hero{background:var(--surface);margin-top:calc(-1 * env(safe-area-inset-top,0px));padding-top:env(safe-area-inset-top,0px)}
+.hero-in{max-width:960px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:36px 28px;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center}
+.hero-text{min-width:0}
+.title{font-family:var(--display);font-weight:400;font-size:clamp(34px,7vw,60px);line-height:1.02;margin:6px 0 14px;color:var(--cobalt);letter-spacing:.01em}
+.lede{max-width:56ch;margin:0 0 20px;color:var(--muted);font-size:16.5px}
+.stats{display:flex;flex-wrap:wrap;gap:10px}
+.stat{display:flex;flex-direction:column;min-width:96px;padding:10px 14px;border-radius:14px;background:var(--bg);border:1px solid var(--line)}
+.stat b{font-size:24px;line-height:1.1;font-variant-numeric:tabular-nums}
+.stat b small{font-size:14px;color:var(--muted);font-weight:500}
+.stat span{font-size:13px;color:var(--muted)}
+.hero-jar{text-align:center;max-width:180px}
+.hero-jar p{margin:8px 0 0;font-size:12.5px;color:var(--muted)}
+.jar{margin:0 auto;max-width:100%;height:auto}
+.jar-body{fill:var(--paper)}
+.jar-fill{fill:var(--cobalt);opacity:.92;transition:d .6s}
+.jar-motif{stroke:var(--cobalt);opacity:.55}
+.jar-fill ~ .jar-motif{mix-blend-mode:normal}
+.jar-rim{stroke:var(--cobalt)}
+.jar-outline{stroke:var(--cobalt)}
+.rim{height:16px;background:
+  radial-gradient(circle at 12px 0,transparent 7px,var(--cobalt) 7.5px 9px,transparent 9.5px) 0 0/24px 16px repeat-x,
+  linear-gradient(var(--cobalt),var(--cobalt)) 0 0/100% 3px no-repeat;opacity:.9}
+
+/* --- hồ sơ --- */
+.home{display:flex;flex-direction:column;gap:18px}
+.case{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:var(--shadow)}
+.case-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.case-head h2{margin:0;font-size:22px;line-height:1.25}
+.case-count{flex:none;font-size:13px;font-weight:600;color:var(--cobalt);background:var(--cobalt-soft);padding:4px 10px;border-radius:999px;font-variant-numeric:tabular-nums}
+.bar{height:8px;border-radius:99px;background:var(--cobalt-soft);overflow:hidden;margin:14px 0 6px}
+.bar i{display:block;height:100%;background:var(--cobalt);border-radius:99px;transition:width .4s}
+.bar.thin{height:4px;margin:0;border-radius:0}
+.scene-chips{list-style:none;margin:12px 0 16px;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+.chip{width:100%;display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:12px;border:1px solid var(--line);background:var(--paper);text-align:left;cursor:pointer;font-size:14px;min-height:44px}
+.chip:hover{border-color:var(--cobalt)}
+.chip .num{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:12.5px;font-weight:700;background:var(--cobalt-soft);color:var(--cobalt);font-variant-numeric:tabular-nums}
+.chip .lab{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chip svg{flex:none;width:18px;height:18px;color:var(--ok)}
+.chip.done .num{background:var(--cobalt);color:var(--on-cobalt)}
+.case-actions{display:flex;flex-wrap:wrap;gap:8px}
+.notebook-card p{margin:10px 0 14px}
+.tips{padding:4px 4px 0}
+.tips h3{margin:0 0 6px;font-size:16px}
+.tips ul{margin:0;padding-left:20px;color:var(--muted)}
+.tips li{margin:4px 0}
+.w.demo{cursor:default}
+.foot{font-size:12.5px;color:var(--muted);text-align:center;padding-top:8px}
+
+/* --- thanh đọc --- */
+.rbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+.rbar-in{max-width:960px;margin:0 auto;padding-left:max(12px,env(safe-area-inset-left,0px));padding-right:max(12px,env(safe-area-inset-right,0px));padding-block:8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.rbar-title{flex:1;min-width:120px;display:flex;flex-direction:column;line-height:1.2}
+.rbar-title b{font-size:15px}
+.rbar-title span{font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.seg{display:inline-flex;padding:3px;border-radius:12px;background:var(--bg);border:1px solid var(--line)}
+.seg button{border:0;background:transparent;padding:6px 12px;border-radius:9px;font-size:14px;font-weight:600;cursor:pointer;color:var(--muted);min-height:34px}
+.seg button[aria-selected="true"]{background:var(--surface);color:var(--cobalt);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.fontctl{display:inline-flex;gap:4px}
+.dots{max-width:960px;margin:0 auto;display:flex;gap:6px;justify-content:center;flex-wrap:wrap;padding:0 16px 10px}
+.dot{width:26px;height:8px;border-radius:99px;border:0;background:var(--line);cursor:pointer;padding:0}
+.dot.done{background:var(--cobalt);opacity:.45}
+.dot.cur{background:var(--pansy);opacity:1;width:38px}
+
+/* --- cảnh truyện --- */
+.reader{display:flex;flex-direction:column;gap:22px}
+.scene{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px clamp(16px,4vw,36px) 26px;box-shadow:var(--shadow);animation:rise .35s ease both}
+@keyframes rise{from{transform:translateY(8px)}to{transform:none}}
+.scene-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;padding-bottom:14px;margin-bottom:14px;border-bottom:1px dashed var(--line)}
+.scene-head h2{margin:0;font-size:22px;line-height:1.3}
+.scene-tools{display:flex;gap:6px;flex-wrap:wrap}
+.para{margin:0 0 1.05em}
+.para:last-child{margin-bottom:0}
+.en{margin:0;font-family:var(--read);font-size:var(--read-size);line-height:1.78;max-width:65ch;hyphens:none}
+.vi{display:none;margin:.55em 0 0;padding:10px 14px;border-left:3px solid var(--pansy);background:var(--vi-bg);border-radius:0 10px 10px 0;font-size:calc(var(--read-size) * .86);line-height:1.65;color:var(--ink);max-width:65ch}
+.scene.vi-on .vi{display:block;animation:fade .25s ease}
+@keyframes fade{from{opacity:.2}to{opacity:1}}
+.w{cursor:pointer;border-radius:4px;padding:0 1px;margin:0 -1px;transition:background .12s}
+.w:hover{background:var(--cobalt-soft)}
+.w.key{text-decoration:underline dotted var(--pansy);text-decoration-thickness:2px;text-underline-offset:5px}
+.phr .w{background-image:linear-gradient(transparent 0,transparent 0)}
+.phr.sel{background:var(--cobalt-soft);border-radius:4px;box-shadow:0 0 0 2px var(--cobalt-soft)}
+.w.sel{background:var(--pansy);color:var(--surface);text-decoration-color:var(--surface)}
+.pager{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.pager.end{justify-content:center}
+.pager-mid{font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* --- ngăn tra từ --- */
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;justify-content:center;pointer-events:none;padding-left:max(8px,env(safe-area-inset-left,0px));padding-right:max(8px,env(safe-area-inset-right,0px))}
+.sheet-card{pointer-events:auto;width:100%;max-width:560px;max-height:70vh;overflow:auto;background:var(--surface);border:1px solid var(--line);border-bottom:0;border-radius:20px 20px 0 0;box-shadow:0 -10px 40px rgba(10,16,32,.22);padding:16px 20px calc(18px + env(safe-area-inset-bottom,0px));transform:translateY(100%);transition:transform .22s ease}
+.sheet.open .sheet-card{transform:none}
+.sheet-card::before{content:"";display:block;width:40px;height:4px;border-radius:9px;background:var(--line);margin:-6px auto 10px}
+.sheet-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.sw-word{font-family:var(--read);font-size:30px;font-weight:600;line-height:1.15;color:var(--cobalt)}
+.sw-lemma{font-size:14px;color:var(--muted);margin-top:2px}
+.close{font-size:22px;line-height:1}
+.sw-meta{display:flex;gap:6px;margin:10px 0 4px;flex-wrap:wrap}
+.pos{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--cobalt-soft);color:var(--cobalt);vertical-align:2px;white-space:nowrap}
+.pos.keytag{background:var(--pansy-soft);color:var(--pansy)}
+.sw-mean{font-size:18px;margin:6px 0 10px;line-height:1.5}
+.sw-key{margin:-4px 0 10px;font-size:15px;color:var(--muted)}
+.sw-phrase{display:flex;flex-direction:column;gap:4px;padding:12px 14px;border-radius:12px;background:var(--vi-bg);border:1px solid var(--line);margin:4px 0 12px}
+.sw-phrase .pos{align-self:flex-start;background:var(--pansy-soft);color:var(--pansy)}
+.sw-phrase b{font-family:var(--read);font-size:18px}
+.sw-actions{display:flex;gap:8px;flex-wrap:wrap}
+.sw-actions.small{margin-top:6px}
+.link{color:var(--cobalt);font-weight:600}
+
+/* --- hộp thoại --- */
+.modal{position:fixed;inset:0;z-index:30;background:rgba(8,12,26,.55);display:grid;place-items:center;padding:16px}
+.modal-card{width:100%;max-width:440px;background:var(--surface);border-radius:22px;padding:26px 22px;text-align:center;box-shadow:var(--shadow);animation:pop .3s ease both}
+@keyframes pop{from{transform:scale(.94)}to{transform:none}}
+.modal-card h2{margin:10px 0 6px;font-size:24px}
+.modal-card p{color:var(--muted);margin:0 0 18px}
+.modal-actions{display:flex;flex-direction:column;gap:8px}
+.modal-jar{display:flex;justify-content:center}
+
+/* --- thử thách --- */
+.q-score{display:flex;align-items:center;gap:8px;font-variant-numeric:tabular-nums}
+.q-score b{font-size:20px;color:var(--cobalt)}
+.q-score small{color:var(--muted);font-size:12px;margin-left:-4px}
+.streak{display:inline-flex;align-items:center;gap:2px;font-weight:700;font-size:14px;color:var(--muted);padding:3px 8px;border-radius:99px;background:var(--bg)}
+.streak svg{width:16px;height:16px}
+.streak.hot{color:var(--gold);background:var(--pansy-soft)}
+.quiz{display:flex;flex-direction:column;gap:16px}
+.q-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:26px 20px;text-align:center;box-shadow:var(--shadow);animation:rise .3s ease both}
+.q-kind{margin:0 0 10px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--pansy)}
+.q-word{display:flex;align-items:center;justify-content:center;gap:10px;font-family:var(--read);font-size:clamp(30px,8vw,42px);font-weight:600;color:var(--cobalt);line-height:1.15;flex-wrap:wrap}
+.q-word.vi{font-family:var(--ui);font-size:clamp(22px,6vw,30px);color:var(--ink)}
+.q-pos{margin:8px 0 0;color:var(--muted);font-size:14px}
+.q-sent{margin:0;font-family:var(--read);font-size:20px;line-height:1.7;text-align:left}
+.blank{display:inline-block;min-width:5em;border-bottom:2.5px solid var(--pansy);color:transparent;line-height:1}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{display:flex;align-items:center;gap:10px;text-align:left;padding:14px;border-radius:14px;border:1.5px solid var(--line);background:var(--surface);cursor:pointer;font-size:17px;font-weight:500;min-height:58px;transition:border-color .12s,transform .12s}
+.opts:not(.vi-opts) .opt span{font-family:var(--read);font-size:18px}
+.opt:hover:not(:disabled){border-color:var(--cobalt);transform:translateY(-1px)}
+.opt kbd{flex:none;width:24px;height:24px;border-radius:7px;display:grid;place-items:center;font:600 12px var(--ui);background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.opt span{min-width:0}
+.opt.right{border-color:var(--ok);background:var(--ok-soft)}
+.opt.right kbd{background:var(--ok);color:var(--surface);border-color:var(--ok)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft);animation:shake .35s}
+.opt:disabled{cursor:default}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.feedback{border-radius:16px;padding:16px 18px;border:1.5px solid;animation:rise .25s ease both}
+.feedback.good{border-color:var(--ok);background:var(--ok-soft)}
+.feedback.bad{border-color:var(--bad);background:var(--bad-soft)}
+.fb-title{margin:0 0 6px;font-weight:700;font-size:17px}
+.feedback.good .fb-title{color:var(--ok)} .feedback.bad .fb-title{color:var(--bad)}
+.fb-word{margin:0 0 6px}
+.fb-ex{margin:4px 0 12px;font-family:var(--read);font-style:italic;color:var(--muted);font-size:15.5px}
+.fb-ex mark{background:var(--pansy-soft);color:var(--pansy);font-style:normal;font-weight:600;padding:0 3px;border-radius:4px}
+.result{display:flex;flex-direction:column;gap:18px}
+.res-card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:28px 22px;text-align:center;box-shadow:var(--shadow)}
+.res-card h2{font-family:var(--display);font-weight:400;font-size:46px;margin:8px 0 2px;color:var(--cobalt)}
+.res-sub{color:var(--muted);margin:0 0 10px}
+.res-stars{display:flex;justify-content:center;gap:6px}
+.st svg{width:52px;height:52px;color:var(--line)}
+.st.on svg{color:var(--gold);animation:pop .4s var(--d) ease both}
+.review{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px}
+.review-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.review h3{margin:0}
+.review ul,.nb-list{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:10px}
+.review li{padding:10px 0;border-top:1px solid var(--line)}
+.nb-list li{display:flex;gap:10px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px}
+.nb-main{flex:1;min-width:0}
+.nb-main b{font-family:var(--read);font-size:19px;color:var(--cobalt)}
+.nb-main p{margin:4px 0 0}
+.nb-main .fb-ex{margin:6px 0 0}
+.nb-act{display:flex;gap:6px}
+.empty{text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px 20px}
+.empty p{color:var(--muted);max-width:44ch;margin:0 auto 16px}
+.empty-jar{display:flex;justify-content:center}
+
+/* --- toast & nút âm thanh --- */
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:40;background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;font-weight:600;font-size:14px;box-shadow:var(--shadow);white-space:nowrap;max-width:calc(100% - 32px);overflow:hidden;text-overflow:ellipsis}
+.toast.show{animation:toastIn .25s ease both}
+@keyframes toastIn{from{transform:translate(-50%,10px)}to{transform:translate(-50%,0)}}
+.sound .off-line{display:none}
+.sound:not(.on) .off-line{display:block}
+
+@media (max-width:620px){
+  .hero-in{grid-template-columns:1fr;padding-block:24px 20px;gap:16px}
+  .hero-jar{display:flex;align-items:center;gap:14px;max-width:none;text-align:left}
+  .hero-jar .jar{width:72px;height:96px;margin:0}
+  .hide-sm{display:none}
+  .opts{grid-template-columns:1fr}
+  .rbar-title{flex:1 1 calc(100% - 60px)}
+  .seg{flex:1}
+  .seg button{flex:1}
+  .scene-chips{grid-template-columns:1fr}
+  .pager .btn{padding:10px 14px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+
+<main id="view"></main>
+
+<div id="sheet" class="sheet" hidden><div class="sheet-card" role="dialog" aria-label="Tra từ"><div id="sheet-body"></div></div></div>
+<div id="modal" class="modal" hidden><div class="modal-card" role="dialog" aria-modal="true"><div id="modal-body"></div></div></div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script>
+/* ===== NỘI DUNG BÀI ĐỌC =====
+   Mỗi cảnh: t = tiêu đề tiếng Việt, p = các đoạn [tiếng Anh, tiếng Việt] */
+const PARTS = [
+{
+  id: "p1",
+  label: "Phần 1",
+  kind: "Main reading",
+  title: "Tiếng kêu lúc 7 giờ 25",
+  scenes: [
+  { t: "Tiếng kêu trên sân golf", p: [
+    [`Standing by the ball, Jack Hartington looked back to the tee, measuring the distance. His face was eloquent of the contempt which he felt. With a sigh he drew out his iron, executed two vicious swings with it, annihilating in turn a tuft of grass, and then addressed himself firmly to the ball.`,
+     `Đứng cạnh quả bóng, Jack Hartington ngoái nhìn lại điểm phát bóng, ước lượng khoảng cách. Nét mặt anh lộ rõ vẻ khinh bỉ mà anh cảm thấy. Thở dài một tiếng, anh rút cây gậy sắt ra, vung mạnh hai cú đầy hung hăng, lần lượt phạt bay một búi cỏ, rồi kiên quyết vào thế chuẩn bị đánh bóng.`],
+    [`He grasped his iron firmly, and repeated to himself the magic words, "Left arm right through, and don't look up." He swung back - and then stopped, petrified, as a shrill cry rent the silence of the summer's morning. "Murder," it called. "Help! Murder!" It was a woman's voice, and it died away at the end into a sort of gurgling sigh.`,
+     `Anh nắm chặt cây gậy sắt và tự nhắc thầm câu thần chú: “Tay trái thẳng suốt, và đừng ngẩng đầu lên.” Anh vung gậy ra sau – rồi khựng lại, chết sững, khi một tiếng kêu thất thanh xé tan sự yên tĩnh của buổi sáng mùa hè. “Giết người!” tiếng kêu vang lên. “Cứu với! Giết người!” Đó là giọng một người phụ nữ, và cuối cùng nó lịm dần thành một tiếng thở dài ọc ọc như nghẹn lại.`]
+  ]},
+  { t: "Cô gái trong vườn hoa", p: [
+    [`Jack flung down his club and ran in the direction of the sound. It had come from somewhere quite near at hand. This part of the course was quite wild country, and there was only one house near at hand, a small picturesque cottage. It was towards this cottage that he ran in, and in less than a minute he was standing with his hand on the small latched gate.`,
+     `Jack quăng cây gậy xuống và chạy về phía phát ra âm thanh. Nó vọng đến từ đâu đó rất gần. Khu vực này của sân golf là vùng khá hoang vu, và gần đó chỉ có duy nhất một ngôi nhà – một căn nhà nhỏ xinh như trong tranh. Anh chạy về phía ngôi nhà ấy, và chưa đầy một phút sau anh đã đứng đặt tay lên chiếc cổng nhỏ có then cài.`],
+    [`There was a girl standing in the garden, and for a moment Jack jumped to the natural conclusion that it was she who had uttered the cry for help. But he quickly changed his mind.`,
+     `Có một cô gái đang đứng trong vườn, và trong giây lát Jack vội đi đến kết luận hiển nhiên rằng chính cô là người đã kêu cứu. Nhưng anh nhanh chóng đổi ý.`],
+    [`She had a little basket in her hand, half-full of weeds, and had evidently just straightened herself up from weeding a wide border of pansies. Her eyes, Jack noticed, were just like pansies themselves, velvety and soft and dark, and more violet than blue. The girl was looking at Jack with an expression midway between annoyance and surprise.`,
+     `Cô cầm trên tay một chiếc giỏ nhỏ đựng lưng lửng cỏ dại, và rõ ràng vừa mới đứng thẳng dậy sau khi nhổ cỏ cho một luống hoa păng-xê rộng. Jack để ý thấy đôi mắt cô giống hệt những bông păng-xê: mượt như nhung, dịu dàng, thẫm màu, và tím nhiều hơn là xanh. Cô gái nhìn Jack với vẻ mặt nửa bực mình, nửa ngạc nhiên.`]
+  ]},
+  { t: "“Tôi chẳng nghe thấy gì cả”", p: [
+    [`"I beg your pardon," said the young man. "But did you cry out just now?" "I? No, indeed." Her surprise was so genuine that Jack felt confused. Her voice was very soft and pretty with a slight foreign inflection. "But you must have heard it," he exclaimed. "It came from somewhere just near here."`,
+     `“Xin lỗi cô,” chàng trai nói. “Nhưng có phải cô vừa kêu lên không?” “Tôi ư? Không, thật đấy.” Vẻ ngạc nhiên của cô chân thật đến mức Jack thấy bối rối. Giọng cô rất nhẹ nhàng, dễ nghe, phảng phất chút âm sắc nước ngoài. “Nhưng hẳn cô đã nghe thấy chứ,” anh thốt lên. “Nó phát ra từ đâu đó ngay gần đây.”`],
+    [`She stared at him. "I heard nothing at all." Jack in his turn stared at her. It was perfectly incredible that she should not have heard that agonized appeal for help. And yet her calmness was so evident that he could not believe she was lying to him.`,
+     `Cô nhìn anh chằm chằm. “Tôi chẳng nghe thấy gì cả.” Đến lượt Jack nhìn cô chằm chằm. Thật hoàn toàn không thể tin nổi là cô lại không nghe thấy tiếng kêu cứu đau đớn đến thế. Vậy mà vẻ bình thản của cô rõ ràng đến mức anh không thể tin rằng cô đang nói dối mình.`]
+  ]},
+  { t: "Một trò đùa?", p: [
+    [`"It came from somewhere close at hand," he insisted. She was looking at him suspiciously now. "What did it say?" she asked. "Murder - help! Murder!" "Murder - help, murder," repeated the girl. "Somebody has played a trick on you, Monsieur. Who could be murdered here?"`,
+     `“Nó phát ra từ đâu đó ngay gần đây mà,” anh khăng khăng. Lúc này cô đang nhìn anh đầy nghi ngờ. “Nó nói gì?” cô hỏi. “Giết người – cứu với! Giết người!” “Giết người – cứu với, giết người,” cô gái nhắc lại. “Ai đó đã chơi khăm ông rồi, thưa ông. Ở đây thì ai có thể bị giết chứ?”`],
+    [`Jack looked about him with a confused idea of discovering a dead body upon a garden path. Yet he was still perfectly sure that the cry he had heard was real and not a product of his imagination. He looked up at the cottage windows. Everything seemed perfectly still and peaceful.`,
+     `Jack nhìn quanh với ý nghĩ mơ hồ là sẽ phát hiện một cái xác trên lối đi trong vườn. Thế nhưng anh vẫn hoàn toàn chắc chắn rằng tiếng kêu anh nghe thấy là thật chứ không phải sản phẩm của trí tưởng tượng. Anh ngước nhìn lên các ô cửa sổ của ngôi nhà. Mọi thứ đều có vẻ hoàn toàn tĩnh lặng và yên bình.`]
+  ]},
+  { t: "Lương tâm cắn rứt", p: [
+    [`"Do you want to search our house?" asked the girl drily. "I'm sorry," he said. "It must have come from higher up in the woods." He raised his cap and retreated. Glancing back over his shoulder, he saw that the girl had calmly resumed her weeding.`,
+     `“Ông có muốn lục soát nhà chúng tôi không?” cô gái hỏi giọng lạnh nhạt. “Tôi xin lỗi,” anh nói. “Chắc nó phát ra từ phía trên kia, trong rừng.” Anh nhấc mũ chào rồi rút lui. Ngoái lại qua vai, anh thấy cô gái đã bình thản tiếp tục nhổ cỏ.`],
+    [`For some time he hunted through the woods, but could find no sign of anything unusual having occurred. In the end, he gave up the search and hurried home to bolt his breakfast and catch the 8.46 by the usual narrow margin of a second or so.`,
+     `Anh lùng sục khắp khu rừng một lúc lâu, nhưng chẳng tìm thấy dấu hiệu nào cho thấy có chuyện bất thường xảy ra. Cuối cùng, anh bỏ cuộc tìm kiếm, vội về nhà ăn vội bữa sáng và bắt kịp chuyến tàu 8 giờ 46, suýt soát chừng một giây như mọi khi.`],
+    [`His conscience pricked him a little as he sat in the train. Ought he not to have immediately reported what he had heard to the police? Was he absolutely certain that he had heard the cry? Was it some bird's cry in the distance that he had twisted into the resemblance of a woman's voice?`,
+     `Ngồi trên tàu, lương tâm anh hơi cắn rứt. Lẽ ra anh không nên báo ngay cho cảnh sát những gì mình đã nghe sao? Anh có hoàn toàn chắc chắn là mình đã nghe thấy tiếng kêu đó không? Hay đó chỉ là tiếng chim kêu đằng xa mà anh đã méo mó tưởng tượng thành giọng một người phụ nữ?`]
+  ]},
+  { t: "Bảy giờ hai mươi lăm", p: [
+    [`But he rejected the suggestion angrily. It was a woman's voice, and he had heard it. He remembered looking at his watch just before the cry had come. As nearly as possible it must have been five and twenty minutes past seven when he had heard the call. That might be a fact useful to the police if - if anything should be discovered.`,
+     `Nhưng anh giận dữ gạt bỏ ý nghĩ đó. Đó là giọng một người phụ nữ, và anh đã nghe thấy nó. Anh nhớ mình đã nhìn đồng hồ ngay trước khi tiếng kêu vang lên. Chính xác nhất có thể thì lúc anh nghe thấy tiếng gọi hẳn là bảy giờ hai mươi lăm phút. Đó có thể là một chi tiết hữu ích cho cảnh sát nếu – nếu như người ta phát hiện ra điều gì.`],
+    [`Going home that evening, he scanned the evening papers anxiously to see if there were any mention of a crime having been committed. But there was nothing, and he hardly knew whether to be relieved or disappointed.`,
+     `Tối hôm đó trên đường về nhà, anh lo lắng dò từng trang báo buổi chiều xem có tin nào nhắc đến một vụ án không. Nhưng chẳng có gì cả, và anh cũng không rõ mình nên thấy nhẹ nhõm hay thất vọng.`]
+  ]},
+  { t: "Lần thứ hai", p: [
+    [`He was out early the following morning. As he passed the cottage, he noted out of the tail of his eye that the girl was out in the garden again weeding. Evidently a habit of hers. As he teed up on the next tee, he glanced at his watch. "Just five and twenty past seven," he murmured. "I wonder..."`,
+     `Sáng hôm sau anh ra ngoài từ sớm. Khi đi ngang qua ngôi nhà, anh liếc qua khóe mắt thấy cô gái lại đang ở ngoài vườn nhổ cỏ. Rõ ràng đó là thói quen của cô. Khi đặt bóng ở điểm phát bóng tiếp theo, anh liếc nhìn đồng hồ. “Vừa đúng bảy giờ hai mươi lăm,” anh lẩm bẩm. “Không biết…”`],
+    [`The words were frozen on his lips. From behind him came the same cry which had so startled him before. A woman's voice, in dire distress. "Murder - help, murder!" Jack raced back. The pansy girl was standing by the gate. She looked startled, and Jack ran up to her triumphantly, crying out: "You heard it this time, anyway."`,
+     `Lời nói đông cứng trên môi anh. Từ phía sau vọng đến đúng tiếng kêu đã khiến anh giật thót lần trước. Giọng một người phụ nữ đang trong cơn nguy khốn tột cùng. “Giết người – cứu với, giết người!” Jack chạy hết tốc lực quay lại. Cô gái hoa păng-xê đang đứng cạnh cổng. Cô trông có vẻ giật mình, và Jack chạy đến chỗ cô đầy đắc thắng, kêu lên: “Lần này thì dù sao cô cũng nghe thấy rồi chứ.”`],
+    [`Her eyes were wide with some emotion he could not fathom but he noticed that she shrank back from him as he approached, and even glanced back at the house, as though she meditated running to it for shelter. She shook her head, staring at him. "I heard nothing at all," she said wonderingly.`,
+     `Đôi mắt cô mở to vì một cảm xúc nào đó mà anh không thể hiểu thấu, nhưng anh để ý thấy cô lùi lại khi anh tiến đến gần, thậm chí còn ngoái nhìn về phía ngôi nhà, như thể đang tính chạy vào đó để trú ẩn. Cô lắc đầu, nhìn anh chằm chằm. “Tôi chẳng nghe thấy gì cả,” cô nói, vẻ ngơ ngác.`],
+    [`It was as though she had struck him a blow between the eyes. Her sincerity was so evident that he could not disbelieve her. Yet he couldn't have imagined it - he couldn't - he couldn't - He heard her voice speaking gently - almost with sympathy. "You have had the shell-shock, yes?"`,
+     `Cứ như thể cô vừa giáng cho anh một đòn ngay giữa mặt. Sự chân thành của cô rõ ràng đến mức anh không thể không tin cô. Thế nhưng anh không thể nào tưởng tượng ra nó được – không thể – không thể nào… Anh nghe giọng cô cất lên nhẹ nhàng – gần như là thương cảm. “Ông từng bị sang chấn vì bom đạn, phải không?”`]
+  ]},
+  { t: "Ảo giác chăng?", p: [
+    [`In a flash he understood her look of fear, her glance back at the house. She thought that he suffered from delusions... And then, like a douche of cold water, came the horrible thought, was she right? Did he suffer from delusions?`,
+     `Trong chớp mắt, anh hiểu ra ánh nhìn sợ hãi của cô, cái liếc mắt về phía ngôi nhà. Cô nghĩ rằng anh bị ảo giác… Và rồi, như một gáo nước lạnh dội xuống, một ý nghĩ khủng khiếp ập đến: liệu cô ấy có đúng không? Liệu anh có thật sự bị ảo giác?`],
+    [`Obsessed by the horror of the thought, he turned and stumbled away without vouchsafing a word. The girl watched him go, sighed, shook her head, and bent down to her weeding again.`,
+     `Bị ám ảnh bởi nỗi kinh hoàng của ý nghĩ ấy, anh quay người, loạng choạng bỏ đi mà chẳng buồn nói một lời. Cô gái nhìn theo anh, thở dài, lắc đầu, rồi lại cúi xuống nhổ cỏ.`],
+    [`Jack hurried back to breakfast. As he ate it, he was conscious, not for the first time, of the close scrutiny of a middle-age man who sat at the table next to him. His name, Jack knew, was Lavington, and he had heard vague rumors as to his being a well-known medical specialist. But this morning his quiet observation frightened Jack a little. Was his secret written plainly in his face for all to see?`,
+     `Jack vội về ăn sáng. Trong lúc ăn, anh nhận ra – không phải lần đầu – ánh mắt soi xét kỹ lưỡng của một người đàn ông trung niên ngồi ở bàn bên cạnh. Jack biết ông ta tên là Lavington, và anh từng nghe những lời đồn mơ hồ rằng ông là một chuyên gia y khoa có tiếng. Nhưng sáng nay, sự quan sát lặng lẽ của ông khiến Jack hơi sợ. Phải chăng bí mật của anh hiện rõ trên mặt cho ai cũng thấy?`]
+  ]},
+  { t: "Một phép thử", p: [
+    [`And suddenly a very simple way of testing the solution occurred to him. He had hitherto been alone on his round. Supposing someone else was with him? Then one out of three things might happen. The voice might be silent. They might both hear it. Or - he only might hear it.`,
+     `Và đột nhiên một cách rất đơn giản để kiểm chứng nảy ra trong đầu anh. Từ trước đến giờ anh vẫn chơi một mình. Giả sử có người khác đi cùng anh thì sao? Khi đó một trong ba điều có thể xảy ra. Giọng nói có thể im bặt. Cả hai có thể cùng nghe thấy. Hoặc – chỉ mình anh nghe thấy.`],
+    [`That evening he proceeded to carry his plan into effect. Lavington was the man he wanted with him. They fell into conversation easily enough. Jack was able to come naturally to the suggestion that they might play a few holes together before breakfast. The arrangement was made for the following morning.`,
+     `Tối hôm đó anh bắt tay thực hiện kế hoạch. Lavington chính là người anh muốn đi cùng. Hai người bắt chuyện với nhau khá dễ dàng. Jack có thể tự nhiên gợi ý rằng họ có thể cùng chơi vài lỗ golf trước bữa sáng. Cuộc hẹn được định vào sáng hôm sau.`]
+  ]},
+  { t: "Lần thứ ba", p: [
+    [`They started out a little before seven. The girl, as usual, was in the garden. She did not look up as they passed. The doctor was playing well, Jack wretchedly. His whole mind was intent on the forthcoming crisis. He kept glancing surreptitiously at his watch. Twenty past seven... then twenty-five minutes past seven. Jack stood rigid, his eyes glued on his watch. Nothing had happened. The spell was broken. An enormous weight seemed to have lifted from his mind.`,
+     `Họ khởi hành lúc gần bảy giờ. Như thường lệ, cô gái đang ở trong vườn. Cô không ngẩng lên khi họ đi qua. Vị bác sĩ chơi tốt, còn Jack thì chơi thảm hại. Toàn bộ tâm trí anh dồn vào thời khắc quyết định sắp tới. Anh cứ lén liếc nhìn đồng hồ. Bảy giờ hai mươi… rồi bảy giờ hai mươi lăm. Jack đứng cứng đờ, mắt dán chặt vào đồng hồ. Không có gì xảy ra. Bùa phép đã bị phá vỡ. Một gánh nặng khổng lồ dường như vừa được trút khỏi tâm trí anh.`],
+    [`And then it came. Just at the very instant the doctor was hitting. A woman's voice, high and agonized. "Murder - Help! Murder!" Jack spun round in the direction of the sound, and then, remembering, gazed breathlessly at his companion. Lavington was looking down the course, shading his eyes. "A bit short, I think." He had heard nothing. The world seemed to spin round with Jack. He took a step or two, lurching heavily. (to be continued)`,
+     `Và rồi nó đến. Đúng vào khoảnh khắc vị bác sĩ đang đánh bóng. Giọng một người phụ nữ, cao vút và đau đớn. “Giết người – Cứu với! Giết người!” Jack quay ngoắt về phía phát ra âm thanh, rồi chợt nhớ ra, nín thở nhìn người bạn đồng hành. Lavington đang nhìn dọc sân golf, tay che mắt. “Hơi ngắn một chút, tôi nghĩ vậy.” Ông chẳng nghe thấy gì cả. Thế giới như quay cuồng quanh Jack. Anh bước được một, hai bước, loạng choạng nặng nề. (còn tiếp)`]
+  ]}
+  ]
+},
+{
+  id: "p2",
+  label: "Phần 2",
+  kind: "Extra reading",
+  title: "Chiếc bình sứ xanh",
+  scenes: [
+  { t: "Bác sĩ Lavington", p: [
+    [`When he recovered himself, he was lying on the short turf, and Lavington was bending over him. "There, take it easy now, take it easy." "What did I do?" "You fainted, young man." "My God!" said Jack, and groaned. "What's the trouble? Something on your mind?"`,
+     `Khi tỉnh lại, anh thấy mình đang nằm trên thảm cỏ ngắn, và Lavington đang cúi xuống bên anh. “Đấy, cứ bình tĩnh nào, bình tĩnh.” “Tôi đã làm gì vậy?” “Cậu ngất đi đấy, chàng trai trẻ.” “Trời ơi!” Jack nói rồi rên lên. “Có chuyện gì thế? Cậu đang bận tâm điều gì à?”`],
+    [`"I'll tell you in one minute, but I'd like to ask you something first. You've been watching me for the last day or two. Why?" "That's rather an awkward question. A cat can look at a king, you know." Lavington's eyes twinkled a little. Then his face grew serious. "I'll answer you quite honestly. I recognized in you all the signs of a man laboring under a sense of acute strain, and it intrigued me what that strain could be."`,
+     `“Tôi sẽ kể ông nghe ngay thôi, nhưng trước hết tôi muốn hỏi ông một điều. Một hai ngày nay ông cứ quan sát tôi. Tại sao vậy?” “Đó là một câu hỏi khá khó trả lời đấy. Con mèo cũng có quyền nhìn ông vua mà, cậu biết đấy.” Mắt Lavington ánh lên tinh nghịch. Rồi mặt ông trở nên nghiêm túc. “Tôi sẽ trả lời cậu thật lòng. Tôi nhận ra ở cậu mọi dấu hiệu của một người đang chịu đựng một sự căng thẳng nặng nề, và tôi tò mò không biết sự căng thẳng ấy là gì.”`]
+  ]},
+  { t: "Bác sĩ của tâm hồn", p: [
+    [`"I can tell you that easily enough," said Jack bitterly. "I'm going mad." "Very curious," murmured Lavington. "Very curious indeed." Jack felt indignant. "I suppose that's all it does seem to you. Doctors are so damned callous."`,
+     `“Chuyện đó thì tôi nói được dễ thôi,” Jack cay đắng đáp. “Tôi đang phát điên.” “Rất kỳ lạ,” Lavington lẩm bẩm. “Thật sự rất kỳ lạ.” Jack thấy bất bình. “Tôi đoán với ông thì chuyện đó chỉ có vậy thôi. Bác sĩ các ông vô cảm chết đi được.”`],
+    [`"Strictly speaking, I am not a doctor - not a doctor of the body, that is." Jack looked at him keenly. "Of the mind?" "Yes, in a sense, but more truly I call myself a doctor of the soul. You've got to come to terms with the soul, you know, young man; it isn't just a religious term invented by clergymen. But we'll call it the mind, or the subconscious self, or any term that suits you better."`,
+     `“Nói cho đúng thì tôi không phải bác sĩ – ý tôi là không phải bác sĩ chữa thể xác.” Jack nhìn ông chăm chú. “Vậy là chữa tâm trí?” “Phải, theo một nghĩa nào đó, nhưng đúng hơn tôi tự gọi mình là bác sĩ của tâm hồn. Cậu phải chấp nhận chuyện linh hồn, chàng trai ạ; đó không chỉ là một thuật ngữ tôn giáo do các giáo sĩ bịa ra. Nhưng ta cứ gọi nó là tâm trí, hay cái tôi tiềm thức, hay bất cứ từ nào cậu thấy hợp hơn.”`]
+  ]},
+  { t: "Mặt trăng của sao Mộc", p: [
+    [`"I'm out of my mind all right. Absolutely balmy." "You will forgive me for saying so, but I don't believe it." "I suffer from delusions. I hear things that no one else hears."`,
+     `“Chắc chắn là tôi mất trí rồi. Hoàn toàn điên khùng.” “Thứ lỗi cho tôi khi nói vậy, nhưng tôi không tin đâu.” “Tôi bị ảo giác. Tôi nghe thấy những thứ mà không ai khác nghe thấy.”`],
+    [`"One man in a thousand can see the moons of Jupiter. Because the other nine hundred and ninety-nine can't see them there's no reason to doubt that the moons of Jupiter exist, and certainly no reason for calling the thousandth man a lunatic." "The moons of Jupiter are a proved scientific fact." "It's quite possible that the delusions of today may be the proved scientific facts of tomorrow."`,
+     `“Cứ một nghìn người thì có một người nhìn thấy được các mặt trăng của sao Mộc. Chỉ vì chín trăm chín mươi chín người kia không nhìn thấy, không có lý do gì để nghi ngờ rằng các mặt trăng của sao Mộc tồn tại, và chắc chắn cũng không có lý do gì để gọi người thứ một nghìn là kẻ điên.” “Các mặt trăng của sao Mộc là sự thật khoa học đã được chứng minh.” “Rất có thể những ảo giác của hôm nay sẽ là những sự thật khoa học được chứng minh của ngày mai.”`]
+  ]},
+  { t: "Chiếc đồng hồ chạy nhanh", p: [
+    [`Lavington's matter-of-fact manner was having its effect upon Jack. He felt immeasurably soothed and cheered. As faithfully as he could, Jack narrated the whole series of occurrences. "But what I can't understand," he ended, "is why this morning it should come at half-past seven - five minutes late."`,
+     `Thái độ điềm tĩnh, thực tế của Lavington bắt đầu có tác dụng với Jack. Anh thấy vô cùng nhẹ lòng và phấn chấn hẳn lên. Jack kể lại toàn bộ chuỗi sự việc một cách trung thực nhất có thể. “Nhưng điều tôi không hiểu,” anh kết thúc, “là tại sao sáng nay nó lại đến lúc bảy giờ rưỡi – muộn năm phút.”`],
+    [`Lavington thought for a minute or two. Then "What's the time now by your watch?" he asked. "Quarter to eight," replied Jack, consulting it. "That's simple enough, then. Mine says twenty to eight. Your watch is five minutes fast. That's a very interesting and important point - to me. In fact, it's invaluable."`,
+     `Lavington suy nghĩ một hai phút. Rồi ông hỏi: “Đồng hồ của cậu bây giờ là mấy giờ?” “Tám giờ kém mười lăm,” Jack đáp sau khi xem đồng hồ. “Vậy thì đơn giản thôi. Đồng hồ của tôi chỉ tám giờ kém hai mươi. Đồng hồ của cậu chạy nhanh năm phút. Đó là một điểm rất thú vị và quan trọng – đối với tôi. Thật ra, nó vô giá.”`]
+  ]},
+  { t: "Một nơi chốn, một thời điểm", p: [
+    [`"In what way?" Jack was beginning to get interested. "Well, the obvious explanation is that on the first morning you did hear some such cry - may have been a joke, may not. On the following mornings, you suggested yourself to hear it exactly the same time." "I'm sure I didn't."`,
+     `“Theo nghĩa nào?” Jack bắt đầu thấy hứng thú. “Chà, lời giải thích hiển nhiên là vào buổi sáng đầu tiên cậu đã thực sự nghe thấy một tiếng kêu như thế – có thể là trò đùa, có thể không. Vào những buổi sáng sau đó, cậu đã tự ám thị mình nghe thấy nó vào đúng thời điểm ấy.” “Tôi chắc là tôi không làm thế.”`],
+    [`"Not consciously, of course, but the subconscious plays us some funny tricks, you know. But, anyway, that explanation won't wash. If it were a case of suggestion, you would have heard the cry at twenty-five minutes past seven by your watch, and you could never have heard it when the time, as you thought, was past."`,
+     `“Tất nhiên là không có ý thức rồi, nhưng tiềm thức hay giở với chúng ta những trò kỳ quặc lắm, cậu biết đấy. Nhưng dù sao thì lời giải thích đó cũng không đứng vững. Nếu là do ám thị, cậu sẽ nghe thấy tiếng kêu lúc bảy giờ hai mươi lăm theo đồng hồ của cậu, và cậu không bao giờ có thể nghe thấy nó khi mà, theo cậu nghĩ, giờ đó đã qua rồi.”`],
+    [`"Well, then?" "Well - it's obvious, isn't it? This cry for help occupies a perfectly definite place and time in space. The place is the vicinity of that cottage and the time is twenty-five minutes past seven."`,
+     `“Vậy thì sao?” “Thì – rõ ràng quá rồi, phải không? Tiếng kêu cứu này chiếm một vị trí và thời điểm hoàn toàn xác định trong không gian. Địa điểm là vùng quanh ngôi nhà nhỏ đó, và thời điểm là bảy giờ hai mươi lăm.”`]
+  ]},
+  { t: "Như dòng điện", p: [
+    [`"Yes, but why should I be the one to hear it? I don't believe in ghosts and all that spook stuff. Why should I hear the damned thing?" "Ah! It's a curious thing that many of the best mediums are made out of confirmed skeptics. It isn't the people who are interested in occult phenomena who get the manifestations.`,
+     `“Vâng, nhưng tại sao tôi lại là người nghe thấy nó? Tôi đâu có tin vào ma quỷ hay mấy chuyện tâm linh đó. Tại sao tôi lại phải nghe cái thứ chết tiệt ấy?” “À! Có một điều kỳ lạ là rất nhiều người đồng cốt giỏi nhất lại xuất thân từ những người hoài nghi triệt để. Không phải những người quan tâm đến các hiện tượng huyền bí mới là người được chứng kiến sự hiện hình.`],
+    [`Some people see and hear things that other people don't - we don't know why. It's like electricity. Some substances are good conductors, and for a long time we didn't know why, and had to be content just to accept the fact. Nowadays we do know why. Someday, no doubt, we shall know why you hear this thing and I and the girl don't. Everything's governed by natural law, you know - there's no such thing really as the supernatural."`,
+     `Có những người nhìn thấy và nghe thấy những điều mà người khác không thấy – chúng ta không biết tại sao. Nó giống như điện vậy. Một số chất dẫn điện tốt, và suốt một thời gian dài chúng ta không biết tại sao, đành phải bằng lòng chấp nhận sự thật đó. Ngày nay thì chúng ta đã biết lý do. Chắc chắn một ngày nào đó, chúng ta sẽ biết tại sao cậu nghe thấy thứ này còn tôi và cô gái thì không. Mọi thứ đều do quy luật tự nhiên chi phối, cậu biết đấy – thật ra chẳng có cái gì gọi là siêu nhiên cả.”`]
+  ]},
+  { t: "Bắt đầu điều tra", p: [
+    [`"But what am I going to do?" asked Jack. Lavington chuckled. "I am going to poke about, and see what I can find out about that cottage back there. That's where the mystery centers, I dare swear."`,
+     `“Nhưng tôi sẽ phải làm gì đây?” Jack hỏi. Lavington cười khúc khích. “Tôi sẽ đi dò la xem tìm ra được gì về ngôi nhà nhỏ đằng kia. Tôi dám chắc bí ẩn tập trung ở đó.”`],
+    [`Jack rose to his feet. "Right, sir. I'm on, but, I'm sure the girl's all right." Jack flushed awkwardly. Lavington looked amused. "You didn't tell me she was a pretty girl! Well, cheer up, I think the mystery started before her time."`,
+     `Jack đứng dậy. “Được thôi, thưa ông. Tôi tham gia, nhưng tôi chắc cô gái ấy không có vấn đề gì đâu.” Jack đỏ mặt lúng túng. Lavington tỏ vẻ thích thú. “Cậu đâu có nói với tôi cô ấy là một cô gái xinh đẹp! Thôi, vui lên nào, tôi nghĩ bí ẩn này bắt đầu từ trước khi cô ấy đến.”`]
+  ]},
+  { t: "Lai lịch Heather Cottage", p: [
+    [`That evening Jack found his new friend waiting for him in the hall when he came down for dinner, and the doctor suggested that they should dine together at the same table. "Any news, sir?" asked Jack anxiously.`,
+     `Tối hôm đó, khi Jack xuống ăn tối, anh thấy người bạn mới đang đợi mình ở sảnh, và vị bác sĩ đề nghị họ cùng ăn tối chung bàn. “Có tin gì không, thưa ông?” Jack hỏi đầy lo lắng.`],
+    [`"I've collected the life history of Heather Cottage all right. It was tenanted first by an old gardener and his wife. The old man died, and the old woman went to her daughter. Then a builder got hold of it, and modernized it with great success, selling it to a city gentleman who used it for weekends.`,
+     `“Tôi đã thu thập đầy đủ lai lịch của Heather Cottage rồi. Ban đầu người thuê nó là một ông lão làm vườn và vợ ông. Ông lão qua đời, còn bà lão về ở với con gái. Sau đó một nhà thầu xây dựng mua lại, cải tạo cho hiện đại rất thành công, rồi bán cho một quý ông làm việc ở thành phố, người chỉ dùng nó vào dịp cuối tuần.`],
+    [`About a year ago, he sold it to some people called Turner - Mr. and Mrs. Turner. They seem to have been rather a curious couple from all I can make out. He was an Englishman, his wife was popularly supposed to be partly Russian, and was a very handsome, exotic-looking woman. They lived very quietly, seeing no one, and hardly ever going outside the cottage garden. The local rumor goes that they were afraid of something - but I don't think we ought to rely on that.`,
+     `Khoảng một năm trước, ông ta bán nó cho một gia đình tên là Turner – ông bà Turner. Theo tất cả những gì tôi tìm hiểu được thì họ có vẻ là một cặp vợ chồng khá kỳ lạ. Ông chồng là người Anh, còn bà vợ thì người ta đồn là có một phần dòng máu Nga, và là một phụ nữ rất đẹp, mang vẻ ngoại lai. Họ sống rất lặng lẽ, không gặp gỡ ai, và hầu như không bao giờ ra khỏi khu vườn. Dân địa phương đồn rằng họ sợ điều gì đó – nhưng tôi nghĩ ta không nên tin vào điều đó.`],
+    [`And then suddenly one day they departed, cleared out one morning early, and never came back. The agents here got a letter from Mr. Turner, written from London, instructing him to let the place. The people who have it now are a consumptive French professor and his daughter. They have been there just ten days."`,
+     `Rồi đột nhiên một ngày họ rời đi, dọn đi từ sáng sớm và không bao giờ quay lại. Người môi giới nhà đất ở đây nhận được một lá thư của ông Turner, gửi từ London, yêu cầu cho thuê ngôi nhà. Những người đang ở đó bây giờ là một vị giáo sư người Pháp bị bệnh lao và con gái ông. Họ mới ở đó được mười ngày.”`]
+  ]},
+  { t: "Bà Turner ở đâu?", p: [
+    [`Jack digested this in silence. "I rather want to know more about the Turners," said Lavington quietly. "They left very early in the morning. As far as I can make out, nobody actually saw them go. Mr. Turner has been seen since - but I can't find anybody who has seen Mrs. Turner."`,
+     `Jack lặng lẽ ngẫm nghĩ những điều đó. “Tôi khá muốn biết thêm về nhà Turner,” Lavington nói khẽ. “Họ rời đi từ rất sớm. Theo những gì tôi tìm hiểu được, thực ra không ai thấy họ đi cả. Từ đó đến nay người ta có thấy ông Turner – nhưng tôi không tìm được ai đã từng thấy bà Turner.”`],
+    [`Jack paled. "It can't be. You don't mean..." "Don't excite yourself, young man. The influence of anyone at the point of death - and especially of violent death - upon their surroundings is very strong. Those surroundings might conceivably absorb that influence, transmitting it in turn to a suitably tuned receiver - in this case yourself." "But why me?" murmured Jack.`,
+     `Jack tái mặt. “Không thể nào. Ý ông không phải là…” “Đừng kích động, chàng trai. Ảnh hưởng của một người lúc cận kề cái chết – nhất là cái chết bạo lực – lên môi trường xung quanh là rất mạnh. Có thể hình dung rằng môi trường ấy hấp thụ ảnh hưởng đó, rồi truyền nó lại cho một ‘máy thu’ được chỉnh đúng tần số – trong trường hợp này là cậu.” “Nhưng tại sao lại là tôi?” Jack lẩm bẩm.`]
+  ]},
+  { t: "Vị khách bất ngờ", p: [
+    [`Jack had definitely given up playing golf before breakfast. On getting back one day, Jack was informed that a young lady was waiting to see him. To his intense surprise it proved to be the pansy girl. She was very nervous and confused. "You will forgive me, Monsieur, for coming to seek you like this? But there is something I want to tell you..." She looked around uncertainly.`,
+     `Jack đã dứt khoát thôi chơi golf trước bữa sáng. Một hôm khi trở về, Jack được báo rằng có một cô gái trẻ đang chờ gặp anh. Anh vô cùng ngạc nhiên khi đó lại chính là cô gái hoa păng-xê. Cô rất lo lắng và bối rối. “Ông sẽ thứ lỗi cho tôi chứ, thưa ông, vì đã đến tìm ông thế này? Nhưng có một chuyện tôi muốn kể với ông…” Cô ngập ngừng nhìn quanh.`],
+    [`"Come in here," said Jack promptly. "Now, sit down, Miss, Miss..." "Marchaud, Monsieur. Felise Marchaud." "Sit down, Mademoiselle Marchaud, and tell me all about it." Felise sat down obediently. She was dressed in dark green today, and the beauty and charm of the proud little face was more evident than ever. Jack's heart beat faster as he sat down beside her.`,
+     `“Mời cô vào đây,” Jack nói ngay. “Nào, cô ngồi đi, cô… cô…” “Marchaud, thưa ông. Felise Marchaud.” “Mời cô ngồi, cô Marchaud, và kể hết cho tôi nghe.” Felise ngoan ngoãn ngồi xuống. Hôm nay cô mặc màu xanh lá thẫm, và vẻ đẹp cùng nét duyên dáng của gương mặt nhỏ nhắn kiêu hãnh ấy càng rõ hơn bao giờ hết. Tim Jack đập nhanh hơn khi anh ngồi xuống cạnh cô.`]
+  ]},
+  { t: "Giấc mơ về chiếc bình xanh", p: [
+    [`"It is like this," explained Felise. "We have been here but a short time, and from the beginning we hear the house is haunted. No servant will stay in it. That does not matter so much - me, I can do the ménage and cook easily enough. This talk of ghosts, I think it is all folly - that is until four days ago.`,
+     `“Chuyện là thế này,” Felise giải thích. “Chúng tôi mới đến đây chưa lâu, và ngay từ đầu chúng tôi đã nghe nói ngôi nhà bị ma ám. Không người hầu nào chịu ở lại. Chuyện đó cũng không quan trọng lắm – tôi thì tôi có thể tự lo việc nhà và nấu nướng dễ dàng. Mấy lời bàn tán về ma quỷ, tôi nghĩ toàn là chuyện điên rồ – cho đến bốn ngày trước.`],
+    [`Monsieur, four nights running, I have had the same dream. A lady stands there - she is beautiful, tall and very fair. In her hands she holds a blue china jar. She is very distressed, and continually she holds out the jar to me, as though imploring me to do something with it. But alas! she cannot speak, and I - I do not know what she asks.`,
+     `Thưa ông, bốn đêm liền tôi mơ cùng một giấc mơ. Một người phụ nữ đứng đó – bà ấy đẹp, cao và có mái tóc vàng óng. Trên tay bà cầm một chiếc bình sứ màu xanh lam. Bà rất đau khổ, và cứ liên tục chìa chiếc bình về phía tôi, như thể van xin tôi làm điều gì đó với nó. Nhưng than ôi! bà không thể nói, còn tôi – tôi không biết bà muốn gì.`],
+    [`That was the dream for the first two nights - but the night before last, there was more of it. She and the blue jar faded away, and suddenly I heard her voice crying out - and, oh! Monsieur, the words she says are those you spoke to me that morning. 'Murder - help! Murder!' I awoke in terror. I say to myself - it is a nightmare. But last night the dream came again. Monsieur, what is it? You too have heard. What shall we do?"`,
+     `Hai đêm đầu giấc mơ chỉ có vậy – nhưng đêm hôm kia thì có thêm. Bà ấy và chiếc bình xanh mờ dần đi, và đột nhiên tôi nghe thấy giọng bà kêu lên – và, ôi! thưa ông, những lời bà nói chính là những lời ông đã nói với tôi sáng hôm đó. ‘Giết người – cứu với! Giết người!’ Tôi choàng tỉnh trong kinh hoàng. Tôi tự nhủ – đó chỉ là một cơn ác mộng. Nhưng đêm qua giấc mơ lại đến. Thưa ông, chuyện này là sao? Ông cũng đã nghe thấy. Chúng ta phải làm gì đây?”`]
+  ]},
+  { t: "Kể cho bác sĩ nghe", p: [
+    [`Felise's face was terrified. Her small hands clasped themselves together, and she gazed appealingly at Jack. "That's all right, Mademoiselle Marchaud. You mustn't worry. If you don't mind, repeat the whole story to a friend of mine who is staying here, a Dr Lavington."`,
+     `Gương mặt Felise đầy kinh hãi. Đôi bàn tay nhỏ bé của cô siết chặt vào nhau, và cô nhìn Jack đầy khẩn khoản. “Không sao đâu, cô Marchaud. Cô đừng lo. Nếu cô không phiền, hãy kể lại toàn bộ câu chuyện cho một người bạn của tôi đang ở đây, bác sĩ Lavington.”`],
+    [`Jack returned with Lavington a few minutes later. Lavington gave the girl a keen scrutiny as he acknowledged Jack's hurried introductions. With a few reassuring words, he soon put the girl at her ease, and he, in his turn, listened attentively to her story.`,
+     `Vài phút sau Jack quay lại cùng Lavington. Lavington nhìn cô gái thật kỹ trong lúc đáp lại lời giới thiệu vội vàng của Jack. Với vài lời trấn an, ông nhanh chóng giúp cô gái thấy thoải mái, và đến lượt ông chăm chú lắng nghe câu chuyện của cô.`],
+    [`"Very curious," he said, when she had finished. "You have told your father this?" Felise shook her head. "I have not liked to worry him. He is very ill still" - her eyes filled with tears - "I keep from him anything that might excite or agitate him." "I understand," said Lavington kindly. "And I am glad you came to us, Mademoiselle Marchaud. Hartington here, as you know, had an experience something similar to yours. There is nothing else that you can think of?"`,
+     `“Rất kỳ lạ,” ông nói khi cô kể xong. “Cô đã kể chuyện này với cha cô chưa?” Felise lắc đầu. “Tôi không muốn làm cha lo lắng. Cha vẫn còn ốm nặng lắm” – mắt cô rưng rưng – “tôi giấu cha mọi điều có thể khiến cha bị kích động hay bất an.” “Tôi hiểu,” Lavington ân cần nói. “Và tôi mừng là cô đã đến gặp chúng tôi, cô Marchaud. Như cô biết đấy, anh Hartington đây cũng đã có một trải nghiệm khá giống cô. Cô còn nghĩ ra điều gì khác không?”`]
+  ]},
+  { t: "Bức tranh màu nước", p: [
+    [`Felise gave a quick movement. "Of course! How stupid I am. It is the point of the whole story. Look, Monsieur, at what I found at the back of one of the cupboards." She held out to them a dirty water-color - a sketch of a tall fair woman, with something subtly un-English in her face. She was standing by a table on which was standing a blue china jar.`,
+     `Felise khẽ giật mình. “Tất nhiên rồi! Tôi thật ngốc quá. Đó mới là mấu chốt của cả câu chuyện. Ông xem này, thưa ông, thứ tôi tìm thấy ở phía sau một chiếc tủ.” Cô chìa cho họ một bức tranh màu nước đã bẩn – bức phác họa một người phụ nữ cao, tóc vàng, gương mặt phảng phất nét gì đó không giống người Anh. Bà đang đứng cạnh một chiếc bàn, trên bàn đặt một chiếc bình sứ xanh.`],
+    [`"I only found it this morning," explained Felise. "Monsieur le docteur, that is the face of the woman I saw in my dream, and that is the identical blue jar." "Extraordinary," commented Lavington. "The key to the mystery is evidently the blue jar. It looks like a Chinese jar to me, probably an old one. It seems to have a curious raised pattern over it."`,
+     `“Tôi mới tìm thấy nó sáng nay,” Felise giải thích. “Thưa bác sĩ, đó chính là gương mặt người phụ nữ tôi thấy trong mơ, và đó chính là chiếc bình xanh ấy.” “Lạ thường thật,” Lavington nhận xét. “Chìa khóa của bí ẩn rõ ràng là chiếc bình xanh. Với tôi nó trông giống bình Trung Quốc, có lẽ là đồ cổ. Hình như nó có một hoa văn nổi khá lạ phủ khắp thân.”`],
+    [`"It is Chinese," declared Jack. "I have seen an exactly similar one in my uncle's collection - he is a great collector of Chinese porcelain, you know, and I remember noticing a jar just like this a short time ago."`,
+     `“Đó là bình Trung Quốc,” Jack khẳng định. “Tôi đã thấy một chiếc giống hệt thế trong bộ sưu tập của chú tôi – chú ấy là một nhà sưu tầm đồ sứ Trung Quốc có tiếng, ông biết đấy, và tôi nhớ cách đây không lâu có để ý thấy một chiếc bình y như thế này.”`],
+    [`"The Chinese jar," mused Lavington. He remained a minute or two lost in thought, then raised his head suddenly, a curious light shining in his eyes. "Hartington, how long has your uncle had that jar?" "How long? I really don't know." "Think. Did he buy it lately?" "I don't know - yes, I believe he did, now I come to think of it. I'm not very interested in porcelain myself, but I remember his showing me his 'recent acquisitions,' and this was one of them."`,
+     `“Chiếc bình Trung Quốc,” Lavington trầm ngâm. Ông chìm trong suy nghĩ một hai phút, rồi đột nhiên ngẩng đầu lên, mắt ánh lên một tia sáng lạ. “Hartington, chú cậu có chiếc bình đó bao lâu rồi?” “Bao lâu ư? Tôi thực sự không biết.” “Nghĩ đi. Có phải ông ấy mới mua gần đây không?” “Tôi không biết – à phải, giờ nghĩ lại thì tôi tin là vậy. Bản thân tôi không mấy hứng thú với đồ sứ, nhưng tôi nhớ chú từng khoe với tôi ‘những món mới sưu tầm’, và chiếc này là một trong số đó.”`]
+  ]},
+  { t: "Hai tháng trước", p: [
+    [`"Less than two months ago? The Turners left Heather Cottage just two months ago." "Yes, I believe it was." "Then Hartington, you must find out from your uncle at once where he bought this jar." Jack's face fell. "I'm afraid that's impossible. Uncle George is away on the Continent. I don't even know where to write to him." "How long will he be away?" "Three weeks to a month at least."`,
+     `“Chưa đến hai tháng trước phải không? Nhà Turner rời Heather Cottage đúng hai tháng trước.” “Vâng, tôi tin là vậy.” “Vậy thì Hartington, cậu phải hỏi chú cậu ngay xem ông ấy mua chiếc bình này ở đâu.” Mặt Jack xịu xuống. “E là không được rồi. Chú George đang đi châu Âu. Tôi còn chẳng biết phải gửi thư cho chú đến đâu.” “Ông ấy sẽ đi bao lâu?” “Ít nhất ba tuần đến một tháng.”`],
+    [`There was a silence. Felise sat looking anxiously from one man to the other. "Is there nothing that we can do?" she asked timidly. "Yes, there is one thing," said Lavington, in a tone of suppressed excitement. "It is unusual, perhaps, but I believe that it will succeed. Hartington, you must get hold of that jar. Bring it down here and, if Mademoiselle permits, we will spend a night in Heather Cottage, taking the blue jar with us."`,
+     `Một khoảng lặng. Felise ngồi lo lắng nhìn hết người này đến người kia. “Chúng ta không thể làm gì sao?” cô rụt rè hỏi. “Có, có một cách,” Lavington nói, giọng đầy phấn khích được kìm nén. “Có lẽ nó hơi khác thường, nhưng tôi tin là nó sẽ thành công. Hartington, cậu phải lấy được chiếc bình đó. Mang nó xuống đây và, nếu cô cho phép, chúng ta sẽ qua một đêm ở Heather Cottage, mang theo chiếc bình xanh.”`],
+    [`Jack felt his skin creep uncomfortably. "What do you think will happen?" he asked uneasily. "I have not the slightest idea - but I honestly believe that the mystery will be solved and the ghost laid. Quite possibly there may be a false bottom to the jar and something is concealed inside it."`,
+     `Jack thấy sởn gai ốc khó chịu. “Ông nghĩ chuyện gì sẽ xảy ra?” anh bồn chồn hỏi. “Tôi không hề có chút ý niệm nào – nhưng tôi thật lòng tin rằng bí ẩn sẽ được giải đáp và hồn ma sẽ được yên nghỉ. Rất có thể chiếc bình có một cái đáy giả và có thứ gì đó được giấu bên trong.”`]
+  ]},
+  { t: "Mang chiếc bình về", p: [
+    [`Felise clasped her hands. "It is a wonderful idea," she exclaimed. Her eyes were alight with enthusiasm. "When can you get the jar?" asked Felise, turning to Jack. "Tomorrow," said the latter.`,
+     `Felise chắp tay lại. “Thật là một ý tưởng tuyệt vời,” cô thốt lên. Đôi mắt cô bừng sáng vì hăng hái. “Khi nào anh lấy được chiếc bình?” Felise hỏi, quay sang Jack. “Ngày mai,” anh đáp.`],
+    [`He went to his uncle's house the following evening, and took away the jar in question. He was more than ever convinced when he saw it again that it was the identical one pictured in the water color sketch, but carefully as he looked it over he could see no sign that it contained a secret receptacle of any kind.`,
+     `Tối hôm sau anh đến nhà chú và mang chiếc bình đó đi. Khi nhìn thấy nó lần nữa, anh càng tin chắc hơn bao giờ hết rằng đó chính là chiếc bình được vẽ trong bức tranh màu nước, nhưng dù xem xét nó kỹ đến đâu, anh cũng không thấy dấu hiệu nào cho thấy nó có ngăn bí mật nào cả.`]
+  ]},
+  { t: "Đêm ở Heather Cottage", p: [
+    [`It was eleven o'clock when he and Lavington arrived at Heather Cottage. Felise was on the lookout for them, and opened the door softly before they had time to knock. "Come in," she whispered. "My father is asleep upstairs, and we must not wake him. I have made coffee for you in here."`,
+     `Mười một giờ đêm, anh và Lavington đến Heather Cottage. Felise đã ngóng chờ họ, và khẽ mở cửa trước khi họ kịp gõ. “Mời vào,” cô thì thầm. “Cha tôi đang ngủ trên lầu, chúng ta không được đánh thức cha. Tôi đã pha cà phê cho hai người ở trong này.”`],
+    [`She led the way into a small cozy sitting-room. She brewed them both some fragrant coffee. Then Jack unfastened the Chinese jar from its many wrappings. Felise gasped as her eyes fell on it. "That is it," she cried eagerly. "I would know it anywhere."`,
+     `Cô dẫn họ vào một phòng khách nhỏ ấm cúng. Cô pha cho cả hai chút cà phê thơm ngát. Rồi Jack tháo chiếc bình Trung Quốc ra khỏi lớp lớp giấy bọc. Felise há hốc miệng khi nhìn thấy nó. “Đúng nó rồi,” cô háo hức kêu lên. “Ở đâu tôi cũng nhận ra nó.”`],
+    [`Meanwhile Lavington was making his own preparations. He removed all the ornaments from a small table and set it in the middle of the room. Round it he placed three chairs. Then, he placed the blue jar in the centre of the table. "Now," he said, "we are ready. Turn off the lights, and let us sit round the table in the darkness."`,
+     `Trong khi đó, Lavington đang tự chuẩn bị. Ông dọn hết đồ trang trí khỏi một chiếc bàn nhỏ và đặt nó vào giữa phòng. Ông xếp ba chiếc ghế quanh bàn. Rồi ông đặt chiếc bình xanh vào chính giữa bàn. “Nào,” ông nói, “chúng ta sẵn sàng rồi. Tắt đèn đi, và chúng ta hãy ngồi quanh bàn trong bóng tối.”`]
+  ]},
+  { t: "Trong bóng tối", p: [
+    [`The others obeyed him. Lavington's voice spoke again out of the darkness. "Think of nothing - or of everything. Do not force the mind. It is possible that one of us has mediumistic powers. If so, that person will go into a trance. Remember, there is nothing to fear. Cast out fear from your hearts, and drift - drift..."`,
+     `Hai người kia làm theo. Giọng Lavington lại cất lên từ trong bóng tối. “Đừng nghĩ gì cả – hoặc nghĩ về mọi thứ. Đừng ép buộc tâm trí. Có thể một trong chúng ta có khả năng đồng cốt. Nếu vậy, người đó sẽ rơi vào trạng thái xuất thần. Hãy nhớ, không có gì phải sợ. Hãy gạt bỏ nỗi sợ khỏi trái tim, và trôi đi – trôi đi…”`],
+    [`His voice died away and there was silence. Minute by minute, the silence seemed to grow more pregnant with possibilities. It was all very well for Lavington to say "Cast out fear." It was not fear that Jack felt - it was panic. And he was certain that Felise felt the same way. Suddenly he heard her voice, low and terrified. "Something terrible is going to happen. I feel it." "Cast out fear," said Lavington. "Do not fight against the influence."`,
+     `Giọng ông nhỏ dần rồi tắt hẳn, và mọi thứ chìm vào im lặng. Từng phút trôi qua, sự im lặng dường như càng lúc càng chứa đầy những điều có thể xảy ra. Lavington nói “Hãy gạt bỏ nỗi sợ” thì dễ lắm. Thứ Jack cảm thấy không phải là sợ – mà là hoảng loạn. Và anh chắc chắn Felise cũng cảm thấy như vậy. Đột nhiên anh nghe thấy giọng cô, khe khẽ và kinh hãi. “Sắp có chuyện khủng khiếp xảy ra. Tôi cảm thấy thế.” “Hãy gạt bỏ nỗi sợ,” Lavington nói. “Đừng chống lại sự ảnh hưởng.”`],
+    [`The darkness seemed to get darker and the silence more acute. And nearer and nearer came that indefinable sense of menace. Jack felt himself choking - stifling - the evil thing was very near... And then the moment of conflict passed. He was drifting - drifting downstream - his lids closed - peace - darkness...`,
+     `Bóng tối dường như càng tối hơn và sự im lặng càng thêm nặng nề. Và cái cảm giác đe dọa khó tả ấy cứ đến gần, gần hơn nữa. Jack cảm thấy mình như nghẹt thở – ngột ngạt – thứ tà ác ấy đã ở rất gần… Rồi khoảnh khắc giằng co trôi qua. Anh đang trôi – trôi xuôi dòng – mí mắt khép lại – bình yên – bóng tối…`]
+  ]}
+  ]
+}
+];
+
+/* ===== TỪ TRỌNG TÂM (dùng cho thử thách) =====
+   [từ gốc, dạng trong bài, từ loại, nghĩa, câu trong bài] */
+const VOCAB = {
+p1: [
+ ["contempt","contempt","n","sự khinh miệt, coi thường","His face was eloquent of the contempt which he felt."],
+ ["grasp","grasped","v","nắm chặt","He grasped his iron firmly, and repeated to himself the magic words."],
+ ["petrified","petrified","adj","chết sững, cứng đờ vì sợ","He swung back - and then stopped, petrified, as a shrill cry rent the silence."],
+ ["shrill","shrill","adj","the thé, chói tai","A shrill cry rent the silence of the summer's morning."],
+ ["fling","flung","v","quăng, ném mạnh","Jack flung down his club and ran in the direction of the sound."],
+ ["picturesque","picturesque","adj","đẹp như tranh","There was only one house near at hand, a small picturesque cottage."],
+ ["utter","uttered","v","thốt ra, phát ra (tiếng)","Jack jumped to the natural conclusion that it was she who had uttered the cry for help."],
+ ["annoyance","annoyance","n","sự bực mình, khó chịu","The girl was looking at Jack with an expression midway between annoyance and surprise."],
+ ["genuine","genuine","adj","thật, chân thật","Her surprise was so genuine that Jack felt confused."],
+ ["incredible","incredible","adj","không thể tin được","It was perfectly incredible that she should not have heard that agonized appeal for help."],
+ ["suspiciously","suspiciously","adv","một cách nghi ngờ","She was looking at him suspiciously now."],
+ ["trick","trick","n","trò lừa, trò chơi khăm","Somebody has played a trick on you, Monsieur."],
+ ["retreat","retreated","v","rút lui","He raised his cap and retreated."],
+ ["resume","resumed","v","tiếp tục lại (sau khi ngừng)","He saw that the girl had calmly resumed her weeding."],
+ ["conscience","conscience","n","lương tâm","His conscience pricked him a little as he sat in the train."],
+ ["resemblance","resemblance","n","sự giống nhau","Was it some bird's cry in the distance that he had twisted into the resemblance of a woman's voice?"],
+ ["reject","rejected","v","bác bỏ, gạt đi","But he rejected the suggestion angrily."],
+ ["anxiously","anxiously","adv","một cách lo lắng, sốt ruột","He scanned the evening papers anxiously to see if there were any mention of a crime."],
+ ["relieved","relieved","adj","nhẹ nhõm","He hardly knew whether to be relieved or disappointed."],
+ ["triumphantly","triumphantly","adv","một cách đắc thắng","Jack ran up to her triumphantly, crying out: \"You heard it this time, anyway.\""],
+ ["fathom","fathom","v","hiểu thấu, đoán ra","Her eyes were wide with some emotion he could not fathom."],
+ ["sincerity","sincerity","n","sự chân thành","Her sincerity was so evident that he could not disbelieve her."],
+ ["delusion","delusions","n","ảo giác, ảo tưởng","She thought that he suffered from delusions."],
+ ["stumble","stumbled","v","đi loạng choạng, vấp","He turned and stumbled away without vouchsafing a word."],
+ ["scrutiny","scrutiny","n","sự soi xét kỹ lưỡng","He was conscious of the close scrutiny of a middle-age man."],
+ ["rumor","rumors","n","tin đồn","He had heard vague rumors as to his being a well-known medical specialist."],
+ ["wretchedly","wretchedly","adv","tệ hại, thảm hại","The doctor was playing well, Jack wretchedly."],
+ ["surreptitiously","surreptitiously","adv","một cách lén lút","He kept glancing surreptitiously at his watch."],
+ ["rigid","rigid","adj","cứng đờ","Jack stood rigid, his eyes glued on his watch."],
+ ["lurch","lurching","v","loạng choạng, lảo đảo","He took a step or two, lurching heavily."]
+],
+p2: [
+ ["faint","fainted","v","ngất xỉu","You fainted, young man."],
+ ["twinkle","twinkled","v","lấp lánh (ánh mắt tinh nghịch)","Lavington's eyes twinkled a little."],
+ ["intrigue","intrigued","v","khiến tò mò","It intrigued me what that strain could be."],
+ ["bitterly","bitterly","adv","một cách cay đắng","\"I can tell you that easily enough,\" said Jack bitterly."],
+ ["indignant","indignant","adj","phẫn nộ, bất bình","Jack felt indignant."],
+ ["callous","callous","adj","nhẫn tâm, vô cảm","Doctors are so damned callous."],
+ ["lunatic","lunatic","n","kẻ điên, người mất trí","There's certainly no reason for calling the thousandth man a lunatic."],
+ ["soothe","soothed","v","xoa dịu, làm yên lòng","He felt immeasurably soothed and cheered."],
+ ["narrate","narrated","v","kể lại, thuật lại","As faithfully as he could, Jack narrated the whole series of occurrences."],
+ ["invaluable","invaluable","adj","vô giá, cực kỳ quý","That's a very interesting and important point. In fact, it's invaluable."],
+ ["vicinity","vicinity","n","vùng lân cận","The place is the vicinity of that cottage."],
+ ["skeptic","skeptics","n","người hoài nghi","Many of the best mediums are made out of confirmed skeptics."],
+ ["supernatural","supernatural","n","điều siêu nhiên","There's no such thing really as the supernatural."],
+ ["chuckle","chuckled","v","cười khúc khích","Lavington chuckled."],
+ ["flush","flushed","v","đỏ mặt","Jack flushed awkwardly."],
+ ["exotic","exotic","adj","mang vẻ ngoại lai, lạ mà hấp dẫn","She was a very handsome, exotic-looking woman."],
+ ["consumptive","consumptive","adj","mắc bệnh lao phổi","The people who have it now are a consumptive French professor and his daughter."],
+ ["digest","digested","v","ngẫm nghĩ, \"tiêu hóa\" thông tin","Jack digested this in silence."],
+ ["pale","paled","v","tái mặt","Jack paled. \"It can't be.\""],
+ ["haunted","haunted","adj","bị ma ám","From the beginning we hear the house is haunted."],
+ ["folly","folly","n","sự điên rồ, ngu xuẩn","This talk of ghosts, I think it is all folly."],
+ ["implore","imploring","v","van xin, khẩn cầu","She holds out the jar to me, as though imploring me to do something with it."],
+ ["nightmare","nightmare","n","cơn ác mộng","I say to myself - it is a nightmare."],
+ ["agitate","agitate","v","làm xáo động, làm bất an","I keep from him anything that might excite or agitate him."],
+ ["identical","identical","adj","giống hệt, chính là cái đó","That is the identical blue jar."],
+ ["porcelain","porcelain","n","đồ sứ","He is a great collector of Chinese porcelain."],
+ ["acquisition","acquisitions","n","món mới mua, mới sưu tầm","I remember his showing me his 'recent acquisitions'."],
+ ["timidly","timidly","adv","một cách rụt rè","\"Is there nothing that we can do?\" she asked timidly."],
+ ["conceal","concealed","v","che giấu","There may be a false bottom to the jar and something is concealed inside it."],
+ ["enthusiasm","enthusiasm","n","sự hăng hái, nhiệt tình","Her eyes were alight with enthusiasm."],
+ ["fragrant","fragrant","adj","thơm ngát","She brewed them both some fragrant coffee."],
+ ["receptacle","receptacle","n","ngăn chứa, đồ đựng","He could see no sign that it contained a secret receptacle of any kind."],
+ ["trance","trance","n","trạng thái xuất thần, lên đồng","If so, that person will go into a trance."],
+ ["menace","menace","n","mối đe dọa","Nearer and nearer came that indefinable sense of menace."]
+]
+};
+
+/* ===== CỤM TỪ (khớp theo đúng chữ trong bài) ===== */
+const PHRASES = {
+ "near at hand":"ở ngay gần đây",
+ "close at hand":"ở ngay gần đây",
+ "i beg your pardon":"xin lỗi (cách nói lịch sự)",
+ "jumped to the natural conclusion":"vội đi đến kết luận (tưởng là) hiển nhiên",
+ "straightened herself up":"đứng thẳng người dậy",
+ "half full":"đầy một nửa, lưng lửng",
+ "in his turn":"đến lượt anh ấy",
+ "in his turn stared":"đến lượt anh ấy nhìn chằm chằm",
+ "played a trick on":"chơi khăm, lừa (ai)",
+ "looked about him":"nhìn quanh",
+ "raised his cap":"nhấc mũ (để chào)",
+ "gave up the search":"bỏ cuộc tìm kiếm",
+ "bolt his breakfast":"ăn vội bữa sáng",
+ "by the usual narrow margin":"suýt soát như thường lệ",
+ "his conscience pricked him":"lương tâm anh cắn rứt",
+ "conscience pricked him":"lương tâm cắn rứt",
+ "in the distance":"ở đằng xa",
+ "five and twenty minutes past seven":"7 giờ 25 phút (cách nói cổ: five and twenty = 25)",
+ "five and twenty past seven":"7 giờ 25 (cách nói cổ)",
+ "twenty five minutes past seven":"7 giờ 25 phút",
+ "twenty past seven":"7 giờ 20",
+ "as nearly as possible":"chính xác nhất có thể",
+ "out of the tail of his eye":"bằng khóe mắt, liếc nhìn",
+ "teed up":"(golf) đặt bóng lên tee để phát bóng",
+ "were frozen on his lips":"đông cứng trên môi (không nói tiếp được)",
+ "in dire distress":"trong cơn nguy khốn tột cùng",
+ "shrank back":"co rúm lùi lại",
+ "struck him a blow between the eyes":"giáng cho anh một đòn ngay giữa mặt (gây sốc nặng)",
+ "shell shock":"sang chấn tâm lý do bom đạn (sau chiến tranh)",
+ "in a flash":"trong chớp mắt",
+ "a douche of cold water":"một gáo nước lạnh (cú sốc làm tỉnh người)",
+ "suffered from delusions":"bị ảo giác",
+ "suffer from delusions":"bị ảo giác",
+ "not for the first time":"không phải lần đầu",
+ "middle age":"trung niên",
+ "well known":"nổi tiếng, có tiếng",
+ "for all to see":"cho mọi người đều thấy",
+ "occurred to him":"nảy ra trong đầu anh",
+ "carry his plan into effect":"thực hiện kế hoạch của mình",
+ "fell into conversation":"bắt chuyện với nhau",
+ "started out":"khởi hành, bắt đầu đi",
+ "as usual":"như thường lệ",
+ "glued on":"dán chặt vào",
+ "the spell was broken":"bùa phép đã bị phá (mọi chuyện đã chấm dứt)",
+ "spun round":"quay ngoắt lại",
+ "a bit short":"hơi ngắn (đánh bóng chưa tới)",
+ "to be continued":"còn tiếp",
+ "recovered himself":"tỉnh lại, hồi phục lại",
+ "take it easy":"bình tĩnh nào, cứ từ từ",
+ "on your mind":"làm bạn bận tâm",
+ "a cat can look at a king":"(thành ngữ) con mèo cũng được nhìn ông vua – ai cũng có quyền nhìn người khác",
+ "laboring under":"đang phải chịu đựng (căng thẳng, áp lực)",
+ "come to terms with":"chấp nhận, đối mặt với",
+ "strictly speaking":"nói cho chính xác thì",
+ "in a sense":"theo một nghĩa nào đó",
+ "out of my mind":"mất trí, phát điên",
+ "matter of fact":"điềm nhiên, thực tế (matter-of-fact manner)",
+ "won't wash":"(khẩu ngữ) không thuyết phục, không đứng vững",
+ "plays us some funny tricks":"giở với chúng ta những trò kỳ quặc",
+ "spook stuff":"chuyện ma quỷ (khẩu ngữ)",
+ "no doubt":"chắc chắn, không nghi ngờ gì",
+ "had to be content":"đành phải bằng lòng",
+ "poke about":"lục lọi, dò la",
+ "i dare swear":"tôi dám chắc",
+ "rose to his feet":"đứng dậy",
+ "i'm on":"tôi tham gia, tôi đồng ý",
+ "cheer up":"vui lên nào",
+ "before her time":"trước thời của cô ấy (trước khi cô ấy đến)",
+ "life history":"lai lịch, lịch sử",
+ "got hold of":"có được, mua được",
+ "get hold of":"lấy được, có được",
+ "as far as i can make out":"theo những gì tôi tìm hiểu được",
+ "from all i can make out":"theo tất cả những gì tôi tìm hiểu được",
+ "cleared out":"dọn đi, bỏ đi",
+ "let the place":"cho thuê ngôi nhà",
+ "at the point of death":"lúc cận kề cái chết",
+ "given up":"từ bỏ",
+ "to his intense surprise":"trước sự ngạc nhiên tột độ của anh",
+ "proved to be":"hóa ra là",
+ "more evident than ever":"rõ hơn bao giờ hết",
+ "four nights running":"bốn đêm liền",
+ "holds out":"chìa ra",
+ "held out":"đã chìa ra",
+ "faded away":"mờ dần rồi biến mất",
+ "the night before last":"đêm hôm kia",
+ "put the girl at her ease":"làm cô gái thấy thoải mái",
+ "keep from him":"giấu không cho ông ấy biết",
+ "filled with tears":"rưng rưng nước mắt",
+ "water color":"tranh màu nước",
+ "un english":"không giống người Anh",
+ "lost in thought":"chìm trong suy nghĩ",
+ "now i come to think of it":"giờ nghĩ lại thì",
+ "recent acquisitions":"những món mới sưu tầm gần đây",
+ "on the continent":"ở lục địa châu Âu",
+ "face fell":"mặt xịu xuống (thất vọng)",
+ "felt his skin creep":"thấy sởn gai ốc",
+ "not the slightest idea":"không hề có chút ý niệm nào",
+ "false bottom":"đáy giả",
+ "alight with enthusiasm":"bừng sáng vì hăng hái",
+ "took away":"mang đi",
+ "in question":"(cái) đang được nói đến",
+ "more than ever":"hơn bao giờ hết",
+ "looked it over":"xem xét kỹ",
+ "on the lookout":"đang ngóng chờ, canh chừng",
+ "sitting room":"phòng khách",
+ "led the way":"dẫn đường",
+ "her eyes fell on it":"mắt cô rơi vào nó (nhìn thấy nó)",
+ "turn off the lights":"tắt đèn",
+ "cast out fear":"gạt bỏ nỗi sợ",
+ "go into a trance":"rơi vào trạng thái xuất thần",
+ "died away":"nhỏ dần rồi tắt hẳn",
+ "minute by minute":"từng phút một",
+ "pregnant with possibilities":"chứa đầy những khả năng (điều có thể xảy ra)",
+ "it was all very well":"nói thì dễ lắm (nhưng làm thì khó)",
+ "fight against":"chống lại",
+ "nearer and nearer":"càng lúc càng gần",
+ "half past seven":"7 giờ rưỡi",
+ "quarter to eight":"8 giờ kém 15",
+ "twenty to eight":"8 giờ kém 20",
+ "five minutes fast":"(đồng hồ) chạy nhanh 5 phút",
+ "in fact":"thật ra, trên thực tế",
+ "of course":"tất nhiên",
+ "at once":"ngay lập tức",
+ "at least":"ít nhất",
+ "in turn":"lần lượt; đến lượt",
+ "in the end":"cuối cùng",
+ "all right":"ổn, chắc chắn",
+ "find out":"tìm ra, hỏi ra",
+ "made out of":"được tạo nên từ",
+ "came down for dinner":"xuống ăn tối",
+ "suitably tuned receiver":"\"máy thu\" được chỉnh đúng tần số",
+ "subconscious self":"cái tôi tiềm thức",
+ "nine hundred and ninety nine":"chín trăm chín mươi chín",
+ "eleven o'clock":"11 giờ (đúng)",
+};
+
+/* ===== TỪ ĐIỂN (từ | từ loại | nghĩa trong ngữ cảnh) ===== */
+const DICT_RAW = `
+a|det|một
+able|adj|có thể, có khả năng (be able to)
+about|prep|về; khoảng; quanh
+absolutely|adv|hoàn toàn, tuyệt đối
+absorb|v|hấp thụ, thấm hút
+accept|v|chấp nhận
+acknowledge|v|đáp lại (lời chào, lời giới thiệu); thừa nhận
+acquisition|n|món mới mua, mới sưu tầm
+actually|adv|thực sự, thật ra
+acute|adj|gay gắt, nặng nề, dữ dội
+address|v|(golf) vào thế chuẩn bị đánh bóng; tập trung vào
+afraid|adj|sợ; e rằng
+again|adv|lại, lần nữa
+against|prep|chống lại
+agatha|name|Agatha (tên tác giả Agatha Christie)
+age|n|tuổi (middle-age: trung niên)
+agent|n|người môi giới nhà đất
+agitate|v|làm xáo động, làm bất an
+ago|adv|trước đây (two months ago: hai tháng trước)
+agonized|adj|đau đớn tột cùng, quằn quại
+ah|int|À!
+alas|int|than ôi, tiếc thay
+alight|adj|bừng sáng, rạng rỡ
+all|det|tất cả
+almost|adv|gần như
+alone|adj|một mình
+am|v|là, thì, đang (dùng với I)
+amused|adj|thích thú, thấy buồn cười
+an|det|một (trước nguyên âm)
+and|conj|và
+angrily|adv|một cách giận dữ
+annihilate|v|tiêu diệt hoàn toàn (ở đây: phạt bay)
+annoyance|n|sự bực mình, khó chịu
+answer|v|trả lời
+anxiously|adv|một cách lo lắng, sốt ruột
+any|det|bất kỳ, nào
+anybody|pron|bất kỳ ai
+anyone|pron|bất kỳ ai
+anything|pron|bất cứ điều gì
+anyway|adv|dù sao đi nữa
+anywhere|adv|bất cứ đâu
+appeal|n|lời kêu gọi, lời cầu cứu
+appealingly|adv|một cách khẩn khoản, van nài
+approach|v|đến gần, tiến lại gần
+are|v|là, thì (dùng với you/we/they)
+arm|n|cánh tay
+around|adv|xung quanh
+arrangement|n|sự sắp xếp, cuộc hẹn
+arrive|v|đến nơi
+as|conj|khi; như; vì
+ask|v|hỏi; yêu cầu
+asleep|adj|đang ngủ
+at|prep|ở, tại, vào lúc
+ate|v|đã ăn (quá khứ của eat)
+attentively|adv|một cách chăm chú
+away|adv|đi xa, rời đi
+awkward|adj|khó xử, khó trả lời
+awkwardly|adv|một cách lúng túng, ngượng nghịu
+awoke|v|đã thức dậy, choàng tỉnh (quá khứ của awake)
+back|adv|lại, trở lại; phía sau
+ball|n|quả bóng
+balmy|adj|(lóng, Anh) gàn dở, điên khùng (= barmy)
+basket|n|cái giỏ
+be|v|là, thì, ở
+beat|v|đập (tim); đánh
+beautiful|adj|xinh đẹp
+beauty|n|vẻ đẹp
+because|conj|bởi vì
+been|v|đã là, đã ở (quá khứ phân từ của be)
+before|prep|trước
+beg|v|xin, van xin (I beg your pardon: xin lỗi)
+beginning|n|lúc bắt đầu
+behind|prep|phía sau
+being|v|là, đang là (dạng -ing của be)
+believe|v|tin, cho rằng
+bend|v|cúi xuống
+bent|v|đã cúi xuống (quá khứ của bend)
+beside|prep|bên cạnh
+best|adj|tốt nhất, giỏi nhất
+better|adj|tốt hơn, hợp hơn
+between|prep|giữa
+bird|n|con chim
+bit|n|một chút (a bit short: hơi ngắn)
+bitterly|adv|một cách cay đắng
+blow|n|cú đánh, đòn
+blue|adj|màu xanh lam
+body|n|cơ thể; thi thể (dead body: xác chết)
+bolt|v|ăn vội, ăn ngấu nghiến (bolt one's breakfast)
+border|n|luống hoa viền, bồn hoa
+both|det|cả hai
+bottom|n|đáy (false bottom: đáy giả)
+bought|v|đã mua (quá khứ của buy)
+breakfast|n|bữa sáng
+breathlessly|adv|nín thở, hồi hộp
+brew|v|pha (trà, cà phê)
+bring|v|mang đến
+broken|adj|bị phá vỡ
+builder|n|thợ xây, nhà thầu xây dựng
+but|conj|nhưng; (cổ) chỉ (but a short time: chỉ một thời gian ngắn)
+buy|v|mua
+by|prep|bởi; bên cạnh; theo (by your watch: theo đồng hồ của cậu)
+call|v|gọi; n: tiếng gọi
+can|aux|có thể
+can't|aux|không thể (= cannot)
+cannot|aux|không thể
+cap|n|mũ lưỡi trai
+carefully|adv|cẩn thận, kỹ lưỡng
+carry|v|mang; carry into effect: thực hiện
+case|n|trường hợp
+cast|v|ném; gạt bỏ (cast out fear: gạt bỏ nỗi sợ)
+cat|n|con mèo
+catch|v|bắt kịp (tàu, xe)
+center|v|tập trung (vào)
+centre|n|trung tâm, chính giữa
+certain|adj|chắc chắn
+certainly|adv|chắc chắn
+chair|n|cái ghế
+change|v|thay đổi
+charm|n|sự quyến rũ, duyên dáng
+cheer|v|làm vui lên (cheer up: vui lên nào)
+china|n|đồ sứ (china jar: bình sứ)
+chinese|adj|thuộc Trung Quốc
+choke|v|nghẹt thở
+christie|name|Christie (họ của Agatha Christie)
+chuckle|v|cười khúc khích
+city|n|thành phố (city gentleman: quý ông làm ở khu tài chính London)
+clasp|v|chắp (tay), siết chặt
+clear|v|dọn; clear out: dọn đi, bỏ đi
+clergymen|n|các giáo sĩ, mục sư (số nhiều của clergyman)
+close|adj|gần; kỹ lưỡng (close scrutiny)
+closed|v|nhắm lại, đóng lại
+club|n|gậy đánh golf
+coffee|n|cà phê
+cold|adj|lạnh
+collect|v|thu thập
+collection|n|bộ sưu tập
+collector|n|nhà sưu tầm
+color|n|màu (water-color: tranh màu nước)
+come|v|đến
+comment|v|nhận xét, bình luận
+commit|v|phạm (tội)
+companion|n|bạn đồng hành
+conceal|v|che giấu
+conceivably|adv|có thể hình dung được, có lẽ
+conclusion|n|kết luận
+conductor|n|chất dẫn (điện)
+confirmed|adj|kiên định, thâm căn cố đế (confirmed skeptic)
+conflict|n|sự xung đột, giằng co
+confused|adj|bối rối
+conscience|n|lương tâm
+conscious|adj|ý thức được, nhận thấy
+consciously|adv|một cách có ý thức
+consult|v|xem (đồng hồ); hỏi ý kiến
+consumptive|adj|mắc bệnh lao phổi
+contain|v|chứa đựng
+contempt|n|sự khinh miệt, coi thường
+content|adj|bằng lòng (be content to: đành bằng lòng)
+continent|n|lục địa; the Continent: lục địa châu Âu (theo cách nói của người Anh)
+continually|adv|liên tục, không ngừng
+continue|v|tiếp tục (to be continued: còn tiếp)
+conversation|n|cuộc trò chuyện
+convinced|adj|tin chắc
+cook|v|nấu ăn
+cottage|n|ngôi nhà nhỏ ở vùng quê
+could|aux|có thể (quá khứ của can)
+couldn't|aux|không thể (= could not)
+country|n|vùng quê (wild country: vùng hoang vu)
+couple|n|cặp vợ chồng
+course|n|sân golf; of course: tất nhiên
+cozy|adj|ấm cúng
+creep|v|bò; skin creep: sởn gai ốc
+cry|n|tiếng kêu; v: kêu lên, khóc
+crime|n|tội ác, vụ án
+crisis|n|thời khắc quyết định, khủng hoảng
+cupboard|n|tủ chạn, tủ
+curious|adj|kỳ lạ; tò mò
+damned|adj|(chửi thề) chết tiệt
+dare|v|dám (I dare swear: tôi dám chắc)
+dark|adj|tối; sẫm màu
+darkness|n|bóng tối
+daughter|n|con gái
+day|n|ngày
+dead|adj|chết
+death|n|cái chết
+declare|v|tuyên bố, khẳng định
+definite|adj|xác định, rõ ràng
+definitely|adv|dứt khoát, chắc chắn
+delusion|n|ảo giác, ảo tưởng
+depart|v|rời đi
+did|v|đã làm (quá khứ của do)
+didn't|aux|đã không (= did not)
+die|v|chết; die away: nhỏ dần rồi tắt hẳn
+digest|v|ngẫm nghĩ, "tiêu hóa" (thông tin)
+dine|v|ăn tối
+dinner|n|bữa tối
+dire|adj|khủng khiếp, cực kỳ nghiêm trọng
+direction|n|hướng
+dirty|adj|bẩn
+disappointed|adj|thất vọng
+disbelieve|v|không tin
+discover|v|phát hiện
+distance|n|khoảng cách (in the distance: ở đằng xa)
+distress|n|cơn nguy khốn, sự đau khổ
+distressed|adj|đau khổ, lo âu
+do|v|làm
+docteur|fr|(tiếng Pháp) bác sĩ
+doctor|n|bác sĩ
+does|v|làm (ngôi thứ ba số ít của do)
+don't|aux|không (= do not)
+door|n|cửa ra vào
+doubt|v|nghi ngờ; n: sự nghi ngờ
+douche|n|sự dội nước (a douche of cold water: gáo nước lạnh)
+down|adv|xuống
+downstream|adv|xuôi dòng
+dr|n|Bác sĩ (viết tắt của Doctor)
+dream|n|giấc mơ
+dressed|adj|mặc (quần áo)
+drew|v|đã rút ra (quá khứ của draw)
+drift|v|trôi, trôi dạt
+drily|adv|một cách lạnh nhạt, khô khan
+eagerly|adv|một cách háo hức
+early|adv|sớm
+ease|n|sự thoải mái (put sb at ease: làm ai thấy thoải mái)
+easily|adv|dễ dàng
+easy|adj|dễ (take it easy: bình tĩnh nào)
+effect|n|tác dụng, ảnh hưởng
+eight|num|tám
+electricity|n|điện
+eleven|num|mười một
+eloquent|adj|(nét mặt) biểu lộ rõ; hùng hồn
+else|adv|khác
+emotion|n|cảm xúc
+end|n|cuối, kết thúc; v: kết thúc
+english|adj|thuộc nước Anh, người Anh
+englishman|n|người đàn ông Anh
+enormous|adj|khổng lồ
+enough|adv|đủ, khá
+enthusiasm|n|sự hăng hái, nhiệt tình
+especially|adv|đặc biệt là
+even|adv|thậm chí
+evening|n|buổi tối
+ever|adv|từng, bao giờ (more than ever: hơn bao giờ hết)
+everything|pron|mọi thứ
+evident|adj|rõ ràng, hiển nhiên
+evidently|adv|rõ ràng là
+evil|adj|tà ác, độc ác
+exactly|adv|chính xác, đúng
+excite|v|kích động, làm phấn khích
+excitement|n|sự phấn khích
+exclaim|v|kêu lên, thốt lên
+execute|v|thực hiện
+exist|v|tồn tại
+exotic|adj|mang vẻ ngoại lai, lạ mà hấp dẫn
+experience|n|trải nghiệm
+explain|v|giải thích
+explanation|n|lời giải thích
+expression|n|vẻ mặt
+extra|adj|thêm, phụ
+extraordinary|adj|phi thường, lạ thường
+eye|n|mắt
+face|n|khuôn mặt
+fact|n|sự thật
+fade|v|mờ dần
+faint|v|ngất xỉu
+fair|adj|(tóc) vàng, (da) trắng
+faithfully|adv|trung thực, đúng như thật
+false|adj|giả
+far|adv|xa (as far as I can make out: theo những gì tôi tìm hiểu được)
+fast|adj|nhanh (đồng hồ chạy nhanh)
+faster|adj|nhanh hơn
+father|n|bố, cha
+fathom|v|hiểu thấu, đoán ra
+fear|n|nỗi sợ
+feel|v|cảm thấy
+feet|n|bàn chân (số nhiều của foot); rose to his feet: đứng dậy
+felise|name|Felise (tên cô gái)
+fell|v|rơi (quá khứ của fall); fell into conversation: bắt chuyện; face fell: mặt xịu xuống
+felt|v|đã cảm thấy (quá khứ của feel)
+few|det|một vài
+fight|v|chống lại, chiến đấu
+fill|v|làm đầy (eyes filled with tears: mắt rưng rưng)
+find|v|tìm thấy (find out: tìm ra)
+finish|v|kết thúc, nói xong
+firmly|adv|chắc chắn, kiên quyết
+first|adj|đầu tiên
+five|num|năm (số 5)
+flash|n|tia chớp (in a flash: trong chớp mắt)
+flung|v|quăng, ném mạnh (quá khứ của fling)
+flush|v|đỏ mặt
+follow|v|theo sau (the following morning: sáng hôm sau)
+folly|n|sự điên rồ, ngu xuẩn
+for|prep|cho; vì; trong (khoảng thời gian)
+force|v|ép buộc
+foreign|adj|nước ngoài
+forgive|v|tha thứ
+forthcoming|adj|sắp tới
+found|v|đã tìm thấy (quá khứ của find)
+four|num|bốn
+fragrant|adj|thơm ngát
+french|adj|thuộc nước Pháp, người Pháp
+friend|n|người bạn
+frightened|v|làm sợ hãi (quá khứ của frighten)
+from|prep|từ
+frozen|adj|đông cứng
+full|adj|đầy
+funny|adj|kỳ quặc; buồn cười
+garden|n|khu vườn
+gardener|n|người làm vườn
+gasp|v|há hốc miệng, thở hổn hển
+gate|n|cổng
+gave|v|đã cho (quá khứ của give)
+gaze|v|nhìn chăm chú
+gentleman|n|quý ông
+gently|adv|nhẹ nhàng
+genuine|adj|thật, chân thật
+george|name|George (chú của Jack)
+get|v|lấy, có được; trở nên (get hold of: lấy được)
+ghost|n|con ma, hồn ma
+girl|n|cô gái
+give|v|cho (give up: từ bỏ)
+given|v|đã cho (quá khứ phân từ của give); given up: đã từ bỏ
+glad|adj|vui mừng
+glance|v|liếc nhìn; n: cái liếc mắt
+glue|v|dán (eyes glued on: mắt dán chặt vào)
+go|v|đi
+god|n|Chúa (My God!: Trời ơi!)
+golf|n|môn golf
+good|adj|tốt
+got|v|đã có, đã lấy (quá khứ của get)
+govern|v|chi phối, điều khiển
+grasp|v|nắm chặt
+grass|n|cỏ
+great|adj|lớn, rất (a great collector: một nhà sưu tầm lớn)
+green|adj|màu xanh lá
+grew|v|trở nên (quá khứ của grow)
+groan|v|rên rỉ
+grow|v|trở nên; lớn lên
+gurgling|adj|ọc ọc, ừng ực (âm thanh như nước trong cổ họng)
+habit|n|thói quen
+had|v|đã có (quá khứ của have)
+half|n|một nửa (half-past seven: bảy giờ rưỡi)
+hall|n|sảnh, hành lang
+hand|n|bàn tay (at hand: ở gần)
+handsome|adj|đẹp, sang (với phụ nữ: đẹp quý phái)
+happen|v|xảy ra
+hardly|adv|hầu như không
+hartington|name|Hartington (họ của Jack)
+has|v|có (ngôi thứ ba số ít của have)
+haunted|adj|bị ma ám
+have|v|có
+having|v|có (dạng -ing của have)
+he|pron|anh ấy, ông ấy
+head|n|cái đầu (shook her head: lắc đầu)
+hear|v|nghe thấy
+heard|v|đã nghe thấy (quá khứ của hear)
+heart|n|trái tim
+heather|name|Heather (tên ngôi nhà: Heather Cottage; heather = cây thạch nam)
+heavily|adv|nặng nề
+held|v|đã cầm, đã chìa (quá khứ của hold)
+help|n|sự giúp đỡ (Help!: Cứu với!)
+her|pron|cô ấy; của cô ấy
+here|adv|ở đây
+hers|pron|của cô ấy
+herself|pron|chính cô ấy
+high|adj|cao
+him|pron|anh ấy, ông ấy
+himself|pron|chính anh ấy
+his|det|của anh ấy, của ông ấy
+history|n|lịch sử (life history: lai lịch)
+hit|v|đánh (bóng)
+hitherto|adv|cho tới lúc đó, từ trước đến nay
+hold|v|cầm, giữ (hold out: chìa ra)
+hole|n|(golf) lỗ golf
+home|n|nhà
+honestly|adv|thành thật
+horrible|adj|kinh khủng
+horror|n|nỗi kinh hoàng
+house|n|ngôi nhà
+how|adv|thế nào (how long: bao lâu)
+hundred|num|trăm
+hunt|v|lùng sục, tìm kiếm
+hurry|v|vội vã
+i|pron|tôi
+i'd|pron|tôi muốn / tôi sẽ (= I would)
+i'll|pron|tôi sẽ (= I will)
+i'm|pron|tôi là / tôi đang (= I am)
+i've|pron|tôi đã (= I have)
+idea|n|ý tưởng; ý niệm
+identical|adj|giống hệt, chính là cái đó
+if|conj|nếu
+ill|adj|ốm
+imagination|n|trí tưởng tượng
+imagine|v|tưởng tượng
+immeasurably|adv|vô cùng, không đo đếm được
+immediately|adv|ngay lập tức
+implore|v|van xin, khẩn cầu
+important|adj|quan trọng
+impossible|adj|không thể
+in|prep|trong, ở
+incredible|adj|không thể tin được
+indeed|adv|thật vậy, quả thực
+indefinable|adj|khó tả, không thể định nghĩa
+indignant|adj|phẫn nộ, bất bình
+inflection|n|ngữ điệu, âm sắc giọng nói
+influence|n|ảnh hưởng
+inform|v|thông báo
+inside|prep|bên trong
+insist|v|khăng khăng, nhấn mạnh
+instant|n|khoảnh khắc, giây phút
+instruct|v|chỉ thị, yêu cầu
+intense|adj|mãnh liệt, tột độ
+intent|adj|dồn hết (tâm trí) vào (intent on)
+interested|adj|quan tâm, hứng thú
+interesting|adj|thú vị
+into|prep|vào trong
+intrigue|v|khiến tò mò
+introduction|n|lời giới thiệu
+invaluable|adj|vô giá, cực kỳ quý
+invent|v|phát minh, bịa ra
+iron|n|(golf) gậy sắt; sắt
+is|v|là, thì (ngôi thứ ba số ít của be)
+isn't|aux|không phải là (= is not)
+it|pron|nó
+it's|pron|nó là (= it is)
+its|det|của nó
+jack|name|Jack (nhân vật chính)
+jar|n|cái bình, cái lọ
+joke|n|trò đùa
+jump|v|nhảy (jump to a conclusion: vội kết luận)
+jupiter|name|sao Mộc
+just|adv|vừa mới; chỉ; đúng
+keen|adj|sắc sảo, kỹ lưỡng (keen scrutiny: cái nhìn soi xét)
+keenly|adv|một cách chăm chú, sắc sảo
+keep|v|giữ; cứ tiếp tục (keep from: giấu không cho biết)
+kept|v|cứ tiếp tục; giữ (quá khứ của keep)
+key|n|chìa khóa
+kind|n|loại (of any kind: nào cả)
+kindly|adv|tử tế, ân cần
+king|n|vua
+knew|v|đã biết (quá khứ của know)
+knock|v|gõ cửa
+know|v|biết
+known|adj|được biết đến (well-known: nổi tiếng)
+labor|v|vật lộn (laboring under: đang phải chịu đựng)
+lady|n|quý bà, quý cô
+laid|v|(hồn ma) được yên nghỉ (quá khứ phân từ của lay; lay a ghost: trừ ma)
+last|adj|cuối cùng; trước (last night: đêm qua)
+latched|adj|có then cài, có chốt
+late|adj|muộn
+lately|adv|gần đây
+later|adv|sau đó
+latter|n|người sau (trong hai người vừa nhắc)
+lavington|name|Lavington (vị bác sĩ)
+law|n|định luật, quy luật
+le|fr|(tiếng Pháp) mạo từ "the"
+least|adv|ít nhất (at least)
+led|v|đã dẫn (quá khứ của lead)
+left|adj|trái (left arm: tay trái); v: đã rời đi (quá khứ của leave)
+less|adv|ít hơn (less than: chưa đến)
+let|v|để, hãy; cho thuê (let the place)
+letter|n|lá thư
+lids|n|mí mắt (eyelids)
+life|n|cuộc đời (life history: lai lịch)
+lift|v|nhấc lên, trút bỏ
+light|n|ánh sáng; đèn
+like|prep|giống như; v: thích, muốn
+listen|v|lắng nghe
+little|adj|nhỏ (a little: một chút)
+live|v|sống
+local|adj|địa phương
+london|name|Luân Đôn (thủ đô nước Anh)
+long|adj|dài, lâu
+look|v|nhìn; trông có vẻ (look over: xem xét kỹ)
+lookout|n|sự canh chừng (on the lookout: ngóng chờ)
+lost|adj|lạc, chìm (lost in thought: chìm trong suy nghĩ)
+low|adj|thấp; (giọng) khẽ
+lunatic|n|kẻ điên, người mất trí
+lurch|v|loạng choạng, lảo đảo
+lying|v|đang nằm; đang nói dối (dạng -ing của lie)
+mad|adj|điên
+made|v|đã làm (quá khứ của make)
+mademoiselle|fr|(tiếng Pháp) cô (gọi phụ nữ chưa chồng)
+magic|adj|thần kỳ (magic words: câu thần chú)
+main|adj|chính
+make|v|làm (make out: hiểu ra, tìm ra)
+man|n|người đàn ông
+manifestation|n|sự hiện hình (của hồn ma), biểu hiện
+manner|n|thái độ, cách cư xử
+many|det|nhiều
+marchaud|name|Marchaud (họ của Felise)
+margin|n|khoảng cách nhỏ (by a narrow margin: suýt soát)
+matter|v|có ý nghĩa, quan trọng; n: vấn đề
+may|aux|có thể
+me|pron|tôi
+mean|v|có ý, muốn nói
+meanwhile|adv|trong khi đó
+measure|v|đo, ước lượng
+medical|adj|thuộc y khoa
+meditate|v|dự tính, suy tính
+medium|n|người đồng cốt (người giao tiếp với hồn ma)
+mediumistic|adj|có khả năng đồng cốt
+menace|n|mối đe dọa
+mention|n|sự nhắc đến
+middle|n|giữa (middle-age: trung niên)
+midway|adv|ở giữa, nửa chừng
+might|aux|có thể, có lẽ
+mind|n|tâm trí (on your mind: bận tâm)
+mine|pron|của tôi
+minute|n|phút
+miss|n|cô (cách gọi)
+modernize|v|hiện đại hóa, cải tạo
+moment|n|khoảnh khắc, lúc
+monsieur|fr|(tiếng Pháp) ông, thưa ông
+month|n|tháng
+moon|n|mặt trăng (moons of Jupiter: các vệ tinh của sao Mộc)
+more|adv|hơn, nhiều hơn
+morning|n|buổi sáng
+movement|n|cử động
+mr|n|ông (Mister)
+mrs|n|bà (Missis)
+much|adv|nhiều
+murder|n|vụ giết người (Murder!: Giết người!); v: giết
+murmur|v|lẩm bẩm, thì thầm
+muse|v|trầm ngâm nói
+must|aux|phải; hẳn là
+mustn't|aux|không được (= must not)
+my|det|của tôi
+myself|pron|chính tôi
+mystery|n|bí ẩn
+ménage|fr|(tiếng Pháp) việc nhà
+name|n|tên
+narrate|v|kể lại, thuật lại
+narrow|adj|hẹp
+natural|adj|tự nhiên; hiển nhiên
+naturally|adv|một cách tự nhiên
+near|adj|gần
+nearly|adv|gần như (as nearly as possible: chính xác nhất có thể)
+nervous|adj|lo lắng, hồi hộp
+never|adv|không bao giờ
+new|adj|mới
+news|n|tin tức
+next|adj|tiếp theo; bên cạnh (next to)
+night|n|đêm
+nightmare|n|cơn ác mộng
+nine|num|chín
+ninety|num|chín mươi
+no|det|không
+nobody|pron|không ai
+not|adv|không
+note|v|để ý, nhận thấy
+nothing|pron|không có gì
+notice|v|để ý, nhận thấy
+now|adv|bây giờ
+nowadays|adv|ngày nay
+o'clock|adv|giờ đúng (eleven o'clock: 11 giờ)
+obediently|adv|một cách ngoan ngoãn, vâng lời
+obey|v|vâng lời, làm theo
+observation|n|sự quan sát
+obsessed|adj|bị ám ảnh
+obvious|adj|hiển nhiên
+occult|adj|huyền bí, thuộc thế giới tâm linh
+occupy|v|chiếm (vị trí)
+occur|v|xảy ra; nảy ra (occur to sb: nảy ra trong đầu ai)
+occurrence|n|sự việc xảy ra
+of|prep|của
+off|adv|tắt (turn off)
+oh|int|ôi
+old|adj|già; cũ, cổ
+on|prep|trên; vào (I'm on: tôi tham gia)
+once|adv|một lần (at once: ngay lập tức)
+one|num|một
+only|adv|chỉ
+open|v|mở
+or|conj|hoặc
+ornament|n|đồ trang trí
+other|adj|khác
+others|pron|những người khác
+ought|aux|nên (ought to)
+our|det|của chúng tôi
+out|adv|ra ngoài
+outside|prep|bên ngoài
+over|prep|qua, trên (over his shoulder: qua vai)
+own|adj|của riêng mình
+pale|v|tái mặt
+panic|n|sự hoảng loạn
+pansy|n|hoa păng-xê (hoa bướm, hoa tím)
+paper|n|tờ báo (evening papers: báo buổi chiều)
+pardon|n|sự tha thứ (I beg your pardon: xin lỗi)
+part|n|phần
+partly|adv|một phần
+pass|v|đi ngang qua; trôi qua
+past|prep|quá (giờ) (twenty-five past seven: 7 giờ 25); adj: đã qua
+path|n|lối đi
+pattern|n|hoa văn
+peace|n|sự bình yên
+peaceful|adj|yên bình
+people|n|người ta, mọi người
+perfectly|adv|hoàn toàn
+perhaps|adv|có lẽ
+permit|v|cho phép
+person|n|người
+petrified|adj|chết sững, cứng đờ vì sợ
+phenomena|n|các hiện tượng (số nhiều của phenomenon)
+picture|v|vẽ, miêu tả
+picturesque|adj|đẹp như tranh
+place|n|nơi, chỗ; ngôi nhà; v: đặt
+plainly|adv|rõ ràng
+plan|n|kế hoạch
+play|v|chơi (play a trick on: chơi khăm)
+point|n|điểm; mấu chốt
+poke|v|chọc (poke about: lục lọi, dò la)
+police|n|cảnh sát
+popularly|adv|theo lời đồn, theo dư luận
+porcelain|n|đồ sứ
+possibility|n|khả năng (điều có thể xảy ra)
+possible|adj|có thể
+possibly|adv|có lẽ
+power|n|năng lực, khả năng
+pregnant|adj|(nghĩa bóng) chứa đầy (pregnant with possibilities); có thai
+preparation|n|sự chuẩn bị
+pretty|adj|xinh xắn, dễ nghe
+prick|v|châm, chích (conscience pricked him: lương tâm cắn rứt)
+probably|adv|có lẽ
+proceed|v|tiến hành, bắt tay vào
+product|n|sản phẩm
+professor|n|giáo sư
+promptly|adv|ngay lập tức
+proud|adj|kiêu hãnh
+prove|v|chứng minh; hóa ra (proved to be)
+put|v|đặt, để
+quarter|n|một phần tư; 15 phút (quarter to eight: 8 giờ kém 15)
+question|n|câu hỏi (in question: đang được nói đến)
+quick|adj|nhanh
+quickly|adv|nhanh chóng
+quiet|adj|lặng lẽ, yên tĩnh
+quietly|adv|lặng lẽ, khẽ
+quite|adv|khá; hoàn toàn
+race|v|chạy hết tốc lực
+raise|v|nâng lên, ngẩng lên
+raised|adj|nổi (raised pattern: hoa văn nổi)
+ran|v|đã chạy (quá khứ của run)
+rather|adv|khá là
+read|v|đọc
+ready|adj|sẵn sàng
+real|adj|thật
+really|adv|thực sự
+reason|n|lý do
+reassuring|adj|trấn an, làm yên lòng
+receiver|n|máy thu, người tiếp nhận
+recent|adj|gần đây
+receptacle|n|ngăn chứa, đồ đựng
+recognize|v|nhận ra
+recover|v|hồi phục (recover oneself: tỉnh lại)
+reject|v|bác bỏ, gạt đi
+relieved|adj|nhẹ nhõm
+religious|adj|thuộc tôn giáo
+rely|v|tin cậy, dựa vào
+remain|v|vẫn, ở yên
+remember|v|nhớ
+remove|v|dọn đi, bỏ đi
+rent|v|xé toạc (quá khứ của rend): a cry rent the silence – tiếng kêu xé tan sự im lặng
+repeat|v|nhắc lại, kể lại
+replied|v|đã đáp (quá khứ của reply)
+report|v|báo cáo, trình báo
+resemblance|n|sự giống nhau
+resume|v|tiếp tục lại (sau khi ngừng)
+retreat|v|rút lui
+return|v|quay lại
+right|adj|đúng; phải (right through: thẳng suốt)
+rigid|adj|cứng đờ
+room|n|căn phòng
+rose|v|đã đứng dậy (quá khứ của rise)
+round|prep|quanh (spun round: quay ngoắt lại); n: (golf) một vòng chơi
+rumor|n|tin đồn
+run|v|chạy
+running|adj|liên tiếp (four nights running: bốn đêm liền)
+russian|adj|thuộc nước Nga, người Nga
+said|v|đã nói (quá khứ của say)
+same|adj|giống, như nhau
+sat|v|đã ngồi (quá khứ của sit)
+saw|v|đã thấy (quá khứ của see)
+say|v|nói
+scan|v|đọc lướt, dò tìm
+scientific|adj|khoa học
+scrutiny|n|sự soi xét kỹ lưỡng
+search|v|lục soát; n: cuộc tìm kiếm
+second|n|giây
+secret|n|bí mật; adj: bí mật
+see|v|nhìn thấy
+seek|v|tìm, tìm gặp
+seem|v|có vẻ
+seen|v|đã thấy (quá khứ phân từ của see)
+self|n|bản thân (subconscious self: cái tôi tiềm thức)
+sell|v|bán
+sense|n|cảm giác (in a sense: theo một nghĩa nào đó)
+series|n|chuỗi, loạt
+serious|adj|nghiêm túc
+servant|n|người hầu
+set|v|đặt
+seven|num|bảy
+shade|v|che (shading his eyes: lấy tay che mắt)
+shall|aux|sẽ
+she|pron|cô ấy
+shell|n|vỏ đạn (shell-shock: sang chấn do bom đạn)
+shelter|n|chỗ trú ẩn
+shine|v|chiếu sáng, ánh lên
+shock|n|cú sốc
+shook|v|đã lắc (quá khứ của shake)
+short|adj|ngắn
+should|aux|nên; lại (dùng để nhấn mạnh sự ngạc nhiên)
+shoulder|n|vai
+show|v|cho xem, khoe
+shrank|v|co rúm, lùi lại (quá khứ của shrink)
+shrill|adj|the thé, chói tai
+sigh|n|tiếng thở dài; v: thở dài
+sign|n|dấu hiệu
+silence|n|sự im lặng
+silent|adj|im lặng
+similar|adj|tương tự, giống
+simple|adj|đơn giản
+since|adv|từ đó đến nay
+sincerity|n|sự chân thành
+sir|n|thưa ông, thưa ngài
+sit|v|ngồi
+sitting|n|(sitting-room: phòng khách)
+sketch|n|bức phác họa
+skeptic|n|người hoài nghi
+skin|n|da
+slight|adj|nhẹ, nhỏ (not the slightest idea: không hề có chút ý niệm)
+small|adj|nhỏ
+so|adv|rất, quá; vì vậy
+soft|adj|nhẹ nhàng, dịu dàng
+softly|adv|nhẹ nhàng, khẽ
+some|det|một vài, một số; một ... nào đó
+somebody|pron|ai đó
+someday|adv|một ngày nào đó
+someone|pron|ai đó
+something|pron|điều gì đó
+somewhere|adv|đâu đó
+soon|adv|sớm, nhanh chóng
+soothe|v|xoa dịu, làm yên lòng
+sorry|adj|xin lỗi; tiếc
+sort|n|loại (a sort of: một kiểu như)
+soul|n|linh hồn, tâm hồn
+sound|n|âm thanh
+space|n|không gian
+speak|v|nói
+specialist|n|chuyên gia
+spell|n|bùa phép
+spend|v|trải qua (thời gian)
+spin|v|quay tròn
+spoke|v|đã nói (quá khứ của speak)
+spook|n|(khẩu ngữ) ma (spook stuff: chuyện ma quỷ)
+spun|v|đã quay (quá khứ của spin)
+stand|v|đứng
+stare|v|nhìn chằm chằm
+start|v|bắt đầu (start out: khởi hành)
+startle|v|làm giật mình
+stay|v|ở lại, lưu trú
+step|n|bước
+stifle|v|ngột ngạt, nghẹt thở
+still|adv|vẫn; adj: tĩnh lặng
+stood|v|đã đứng (quá khứ của stand)
+stop|v|dừng lại
+story|n|câu chuyện
+straighten|v|làm thẳng (straighten up: đứng thẳng dậy)
+strain|n|sự căng thẳng
+strictly|adv|nghiêm ngặt (strictly speaking: nói cho chính xác)
+strong|adj|mạnh
+struck|v|đã đánh (quá khứ của strike)
+stuff|n|thứ, chuyện (khẩu ngữ)
+stumble|v|đi loạng choạng, vấp
+stupid|adj|ngốc nghếch
+subconscious|n|tiềm thức
+substance|n|chất
+subtly|adv|một cách tinh tế, khó nhận ra
+succeed|v|thành công
+success|n|sự thành công
+such|det|như vậy, như thế
+suddenly|adv|đột nhiên
+suffer|v|chịu đựng, bị (suffer from delusions: bị ảo giác)
+suggest|v|gợi ý; tự ám thị (suggest yourself)
+suggestion|n|lời gợi ý; ý nghĩ; sự ám thị
+suit|v|hợp với
+suitably|adv|một cách thích hợp
+summer|n|mùa hè
+suppose|v|cho là, đoán
+supposed|adj|được cho là (be supposed to be)
+supposing|conj|giả sử
+suppressed|adj|bị kìm nén
+sure|adj|chắc chắn
+surprise|n|sự ngạc nhiên
+surreptitiously|adv|một cách lén lút
+surroundings|n|môi trường xung quanh
+suspiciously|adv|một cách nghi ngờ
+swear|v|thề (I dare swear: tôi dám chắc)
+swing|n|cú vung gậy
+swung|v|đã vung (quá khứ của swing)
+sympathy|n|sự cảm thông, thương cảm
+table|n|cái bàn
+tail|n|cái đuôi (tail of the eye: khóe mắt)
+take|v|lấy, cầm, mang (take away: mang đi)
+talk|n|lời bàn tán
+tall|adj|cao
+tears|n|nước mắt
+tee|n|(golf) điểm phát bóng; v: tee up: đặt bóng lên tee
+tell|v|kể, nói
+ten|num|mười
+tenanted|adj|có người thuê ở
+term|n|thuật ngữ (come to terms with: chấp nhận)
+terrible|adj|khủng khiếp
+terrified|adj|kinh hãi
+terror|n|nỗi kinh hoàng
+test|v|kiểm tra, thử
+than|conj|hơn
+that|pron|đó, cái đó; rằng
+that's|pron|đó là (= that is)
+the|det|(mạo từ xác định) cái, này
+their|det|của họ
+them|pron|họ, chúng
+themselves|pron|chính họ, chính chúng
+then|adv|sau đó; khi đó; vậy thì
+there|adv|ở đó (there is/was: có)
+there's|adv|có (= there is)
+they|pron|họ
+thing|n|điều, thứ
+think|v|nghĩ
+this|det|này
+those|det|những ... đó
+though|conj|mặc dù (as though: như thể)
+thought|n|ý nghĩ, suy nghĩ; v: đã nghĩ (quá khứ của think)
+thousand|num|nghìn
+thousandth|adj|thứ một nghìn
+three|num|ba
+through|prep|qua, khắp; xuyên suốt
+time|n|thời gian; lần (this time: lần này)
+timidly|adv|một cách rụt rè
+to|prep|đến, tới
+today|adv|hôm nay
+together|adv|cùng nhau
+told|v|đã kể, đã nói (quá khứ của tell)
+tomorrow|adv|ngày mai
+tone|n|giọng điệu
+too|adv|cũng; quá
+took|v|đã lấy, đã bước (quá khứ của take)
+towards|prep|về phía
+train|n|tàu hỏa
+trance|n|trạng thái xuất thần, lên đồng
+transmit|v|truyền đi
+trick|n|trò lừa, trò chơi khăm
+triumphantly|adv|một cách đắc thắng
+trouble|n|vấn đề, chuyện rắc rối
+truly|adv|thật sự, đúng hơn
+tuft|n|búi (cỏ, tóc)
+tuned|adj|được chỉnh (đúng tần số)
+turf|n|thảm cỏ, bãi cỏ
+turn|v|quay; turn off: tắt (in turn: lần lượt; đến lượt)
+turner|name|Turner (họ của cặp vợ chồng thuê nhà trước)
+twenty|num|hai mươi
+twinkle|v|lấp lánh (ánh mắt tinh nghịch)
+twist|v|vặn vẹo, bóp méo
+two|num|hai
+un|pre|tiền tố phủ định (un-English: không giống người Anh)
+uncertainly|adv|ngập ngừng, không chắc chắn
+uncle|n|chú, bác
+uncomfortably|adv|một cách khó chịu
+under|prep|dưới
+understand|v|hiểu
+understood|v|đã hiểu (quá khứ của understand)
+uneasily|adv|một cách bồn chồn, lo lắng
+unfasten|v|tháo, cởi (dây buộc)
+until|conj|cho đến khi
+unusual|adj|bất thường, khác thường
+up|adv|lên
+upon|prep|trên; lên
+upstairs|adv|trên lầu
+us|pron|chúng tôi, chúng ta
+use|v|sử dụng
+useful|adj|hữu ích
+usual|adj|thường lệ (as usual: như thường lệ)
+utter|v|thốt ra, phát ra (tiếng)
+vague|adj|mơ hồ
+velvety|adj|mượt như nhung
+very|adv|rất; adj: chính (the very instant: đúng khoảnh khắc)
+vicinity|n|vùng lân cận
+vicious|adj|hung hăng, dữ dội
+violent|adj|bạo lực
+violet|adj|màu tím
+voice|n|giọng nói
+vouchsafe|v|hạ cố, ban cho (without vouchsafing a word: chẳng thèm nói một lời)
+wait|v|chờ đợi
+wake|v|đánh thức
+want|v|muốn
+was|v|đã là, đã ở (quá khứ của be)
+wash|v|rửa; (khẩu ngữ) won't wash: không thuyết phục
+watch|n|đồng hồ đeo tay; v: quan sát
+water|n|nước (water-color: tranh màu nước)
+way|n|cách; đường
+we|pron|chúng tôi, chúng ta
+we'll|pron|chúng ta sẽ (= we will)
+weed|n|cỏ dại; v: nhổ cỏ, làm cỏ
+weekend|n|cuối tuần
+week|n|tuần
+weight|n|sức nặng, gánh nặng
+well|adv|tốt, giỏi; int: Chà, À (well-known: nổi tiếng)
+went|v|đã đi (quá khứ của go)
+were|v|đã là, đã ở (quá khứ của be)
+what|pron|cái gì
+what's|pron|cái gì là (= what is)
+when|conj|khi
+where|adv|ở đâu
+whether|conj|liệu ... hay không
+which|pron|cái mà, cái nào
+whisper|v|thì thầm
+who|pron|ai; người mà
+whole|adj|toàn bộ
+why|adv|tại sao
+wide|adj|rộng (eyes wide: mắt mở to)
+wife|n|vợ
+wild|adj|hoang dã, hoang vu
+will|aux|sẽ
+window|n|cửa sổ
+with|prep|với
+without|prep|không có; mà không
+woman|n|người phụ nữ
+won't|aux|sẽ không (= will not)
+wonder|v|tự hỏi
+wonderful|adj|tuyệt vời
+wonderingly|adv|một cách ngơ ngác, ngạc nhiên
+woods|n|khu rừng
+word|n|từ, lời
+world|n|thế giới
+worry|v|lo lắng; làm (ai) lo lắng
+would|aux|sẽ (quá khứ của will)
+wrappings|n|lớp giấy/vải bọc
+wretchedly|adv|tệ hại, thảm hại
+write|v|viết
+written|v|được viết (quá khứ phân từ của write)
+year|n|năm
+yes|int|vâng, có, phải
+yet|adv|tuy nhiên, thế nhưng
+you|pron|bạn, ông, cô...
+you've|pron|bạn đã (= you have)
+young|adj|trẻ
+your|det|của bạn
+yours|pron|của bạn
+yourself|pron|chính bạn
+came|v|đã đến (quá khứ của come)
+calm|adj|bình tĩnh, điềm tĩnh
+calmly|adv|một cách bình thản
+calmness|n|sự bình thản, điềm tĩnh
+callous|adj|nhẫn tâm, vô cảm
+lip|n|môi
+solution|n|lời giải, giải pháp (ở đây: lời giải đáp cho bí ẩn)
+sold|v|đã bán (quá khứ của sell)
+solve|v|giải quyết, giải đáp (the mystery will be solved: bí ẩn sẽ được giải đáp)
+supernatural|n|điều siêu nhiên
+`;
+
+/* ===== ỨNG DỤNG ===== */
+const POS = {n:"danh từ",v:"động từ",adj:"tính từ",adv:"trạng từ",prep:"giới từ",conj:"liên từ",pron:"đại từ",det:"hạn định từ",int:"thán từ",num:"số từ",aux:"trợ động từ",name:"tên riêng",fr:"tiếng Pháp",pre:"tiền tố",phr:"cụm từ"};
+const DICT = {};
+DICT_RAW.trim().split("\n").forEach(function (l) {
+  const a = l.split("|");
+  if (a.length >= 3) DICT[a[0].trim()] = { p: a[1].trim(), m: a.slice(2).join("|").trim() };
+});
+
+function lookup(raw) {
+  const w = raw.toLowerCase().replace(/’/g, "'");
+  const c = [w];
+  const add = function (s) { if (s && s.length > 1) c.push(s); };
+  if (w.endsWith("'s")) add(w.slice(0, -2));
+  if (/ies$/.test(w)) add(w.slice(0, -3) + "y");
+  if (/ied$/.test(w)) add(w.slice(0, -3) + "y");
+  if (/es$/.test(w)) add(w.slice(0, -2));
+  if (/s$/.test(w)) add(w.slice(0, -1));
+  if (/ed$/.test(w)) { add(w.slice(0, -2)); add(w.slice(0, -1)); if (/(.)\1ed$/.test(w)) add(w.slice(0, -3)); }
+  if (/ing$/.test(w)) { const b = w.slice(0, -3); add(b); add(b + "e"); if (/(.)\1$/.test(b)) add(b.slice(0, -1)); }
+  if (/ily$/.test(w)) add(w.slice(0, -3) + "y");
+  if (/ly$/.test(w)) add(w.slice(0, -2));
+  if (/er$/.test(w)) { add(w.slice(0, -2)); add(w.slice(0, -1)); }
+  if (/est$/.test(w)) { add(w.slice(0, -3)); add(w.slice(0, -2)); }
+  for (let i = 0; i < c.length; i++) if (DICT[c[i]]) return { lemma: c[i], p: DICT[c[i]].p, m: DICT[c[i]].m };
+  return null;
+}
+
+const PH_MAX = 7;
+const WORD_RE = /[A-Za-zÀ-ÿ]+(?:'[A-Za-z]+)?/g;
+const esc = function (s) { return String(s).replace(/[&<>"]/g, function (ch) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]; }); };
+
+/* tập từ trọng tâm theo phần */
+const KEYS = {};
+Object.keys(VOCAB).forEach(function (pid) {
+  const s = new Set();
+  VOCAB[pid].forEach(function (v) { s.add(v[0].toLowerCase()); s.add(v[1].toLowerCase()); });
+  KEYS[pid] = s;
+});
+function vocabItems(pid) {
+  return VOCAB[pid].map(function (v) { return { w: v[0], f: v[1], p: v[2], vi: v[3], ex: v[4], part: pid }; });
+}
+function findVocab(word) {
+  const lw = word.toLowerCase();
+  for (const pid in VOCAB) for (const v of VOCAB[pid]) if (v[0] === lw || v[1].toLowerCase() === lw) return { w: v[0], f: v[1], p: v[2], vi: v[3], ex: v[4] };
+  return null;
+}
+
+function renderPara(text, pid) {
+  const toks = [];
+  let m;
+  WORD_RE.lastIndex = 0;
+  while ((m = WORD_RE.exec(text))) toks.push({ w: m[0], s: m.index, e: m.index + m[0].length });
+  let html = "", pos = 0, i = 0;
+  const keys = KEYS[pid] || new Set();
+  const wspan = function (t) {
+    const lw = t.w.toLowerCase();
+    const r = lookup(t.w);
+    const isKey = keys.has(lw) || (r && keys.has(r.lemma));
+    return '<span class="w' + (isKey ? " key" : "") + '" data-w="' + esc(t.w) + '" tabindex="0" role="button">' + esc(t.w) + "</span>";
+  };
+  while (i < toks.length) {
+    let matched = 0, key = null;
+    for (let n = Math.min(PH_MAX, toks.length - i); n >= 2; n--) {
+      let ok = true;
+      for (let j = i; j < i + n - 1; j++) {
+        if (!/^[\s-]+$/.test(text.slice(toks[j].e, toks[j + 1].s))) { ok = false; break; }
+      }
+      if (!ok) continue;
+      const k = toks.slice(i, i + n).map(function (t) { return t.w.toLowerCase(); }).join(" ");
+      if (PHRASES[k]) { matched = n; key = k; break; }
+    }
+    html += esc(text.slice(pos, toks[i].s));
+    if (matched) {
+      html += '<span class="phr" data-ph="' + esc(key) + '">';
+      for (let j = i; j < i + matched; j++) {
+        html += wspan(toks[j]);
+        if (j < i + matched - 1) html += esc(text.slice(toks[j].e, toks[j + 1].s));
+      }
+      html += "</span>";
+      pos = toks[i + matched - 1].e;
+      i += matched;
+    } else {
+      html += wspan(toks[i]);
+      pos = toks[i].e;
+      i++;
+    }
+  }
+  html += esc(text.slice(pos));
+  return html;
+}
+
+/* ===== TRẠNG THÁI ===== */
+const STORE = "bluejar-v1";
+function loadState() {
+  const d = { read: {}, saved: {}, best: {}, font: 19, showVi: false, sound: true, mode: "scene" };
+  try { const r = JSON.parse(localStorage.getItem(STORE) || "null"); if (r && typeof r === "object") return Object.assign(d, r); } catch (e) {}
+  return d;
+}
+let S = loadState();
+function save() { try { localStorage.setItem(STORE, JSON.stringify(S)); } catch (e) {} }
+
+const TOTAL = PARTS.reduce(function (a, p) { return a + p.scenes.length; }, 0);
+const readCount = function (pid) {
+  if (!pid) return Object.keys(S.read).filter(function (k) { return S.read[k]; }).length;
+  return Object.keys(S.read).filter(function (k) { return S.read[k] && k.indexOf(pid + "-") === 0; }).length;
+};
+const partById = function (pid) { return PARTS.find(function (p) { return p.id === pid; }); };
+
+/* ===== TIỆN ÍCH ===== */
+const $ = function (s, r) { return (r || document).querySelector(s); };
+const view = $("#view");
+function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); const t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+
+let toastTimer;
+function toast(msg) {
+  const t = $("#toast");
+  t.textContent = msg;
+  t.hidden = false;
+  t.classList.remove("show");
+  void t.offsetWidth;
+  t.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function () { t.hidden = true; }, 2200);
+}
+
+let actx;
+function beep(ok) {
+  if (!S.sound) return;
+  try {
+    actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+    const o = actx.createOscillator(), g = actx.createGain(), t = actx.currentTime;
+    o.type = "triangle";
+    if (ok) { o.frequency.setValueAtTime(587, t); o.frequency.setValueAtTime(880, t + 0.09); }
+    else { o.frequency.setValueAtTime(196, t); o.frequency.linearRampToValueAtTime(150, t + 0.25); }
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(0.18, t + 0.02);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + 0.32);
+    o.connect(g); g.connect(actx.destination);
+    o.start(t); o.stop(t + 0.34);
+  } catch (e) {}
+}
+
+let speakingBtn = null;
+function pickVoice() {
+  try {
+    const vs = speechSynthesis.getVoices();
+    return vs.find(function (v) { return /en[-_]GB/i.test(v.lang); }) || vs.find(function (v) { return /^en/i.test(v.lang); }) || null;
+  } catch (e) { return null; }
+}
+function speak(text, btn) {
+  if (!("speechSynthesis" in window)) { toast("Thiết bị này không hỗ trợ đọc to"); return; }
+  if (btn && speakingBtn === btn) { speechSynthesis.cancel(); return; }
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "en-GB"; u.rate = 0.9;
+  const v = pickVoice(); if (v) u.voice = v;
+  if (btn) {
+    if (speakingBtn) speakingBtn.classList.remove("on");
+    speakingBtn = btn; btn.classList.add("on");
+    u.onend = u.onerror = function () { btn.classList.remove("on"); if (speakingBtn === btn) speakingBtn = null; };
+  }
+  speechSynthesis.speak(u);
+}
+function stopSpeak() { try { speechSynthesis.cancel(); } catch (e) {} if (speakingBtn) { speakingBtn.classList.remove("on"); speakingBtn = null; } }
+
+const ICON = {
+  play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+  star: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.8 6.8 19.6l1-5.8L3.5 9.7l5.9-.8z" fill="currentColor"/></svg>',
+  back: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  next: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  check: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  key: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 12h9M18 12v3M21 12v2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+  flame: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c.5 3.5 4.5 5.5 4.5 10a4.5 4.5 0 0 1-9 0c0-2 1-3.5 2-4.5 0 2 1 3 2 3 0-3-1-5.5.5-8.5z" fill="currentColor"/></svg>'
+};
+
+function jarSVG(frac, size) {
+  const pct = Math.max(0, Math.min(1, frac));
+  const top = 30 + (1 - pct) * 118;
+  const id = "jc" + Math.random().toString(36).slice(2, 7);
+  return '<svg class="jar" viewBox="0 0 120 160" width="' + size + '" height="' + Math.round(size * 4 / 3) + '" role="img" aria-label="Chiếc bình manh mối: ' + Math.round(pct * 100) + '%">' +
+    '<defs><clipPath id="' + id + '"><path d="M44 14h32v12c0 5 30 14 30 52 0 40-15 64-25 74H39C29 142 14 118 14 78c0-38 30-47 30-52z"/></clipPath></defs>' +
+    '<path class="jar-body" d="M44 14h32v12c0 5 30 14 30 52 0 40-15 64-25 74H39C29 142 14 118 14 78c0-38 30-47 30-52z"/>' +
+    '<g clip-path="url(#' + id + ')">' +
+      '<path class="jar-fill" d="M0 ' + top + ' Q 30 ' + (top - 6) + ' 60 ' + top + ' T 120 ' + top + ' V170 H0Z"/>' +
+      '<g class="jar-motif" fill="none" stroke-width="2.2" stroke-linecap="round">' +
+        '<path d="M22 50 q38 -16 76 0"/><path d="M18 128 q42 14 84 0"/>' +
+        '<path d="M40 74c6-10 18-10 20 0 2 10-12 12-12 4M80 74c-6-10-18-10-20 0"/>' +
+        '<path d="M34 100c8 6 16 6 26 0s18-6 26 0"/>' +
+        '<circle cx="60" cy="88" r="5"/>' +
+      '</g>' +
+    '</g>' +
+    '<path class="jar-rim" d="M42 12h36" stroke-width="4" stroke-linecap="round"/>' +
+    '<path class="jar-outline" fill="none" stroke-width="2.5" d="M44 14h32v12c0 5 30 14 30 52 0 40-15 64-25 74H39C29 142 14 118 14 78c0-38 30-47 30-52z"/>' +
+  '</svg>';
+}
+
+const soundBtn = function () { return '<button class="tool icon sound' + (S.sound ? " on" : "") + '" data-sound="1" aria-pressed="' + S.sound + '" aria-label="Bật/tắt âm thanh trò chơi" title="Âm thanh trò chơi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16 9a4 4 0 0 1 0 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path class="off-line" d="M3 3l18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>'; };
+
+/* ===== MÀN HÌNH: HỒ SƠ (TRANG CHỦ) ===== */
+function renderHome() {
+  stopSpeak(); closeSheet();
+  const rc = readCount();
+  const saved = Object.keys(S.saved).length;
+  let html = '<section class="hero"><div class="hero-in">' +
+    '<div class="hero-text">' +
+      '<p class="eyebrow">Agatha Christie · TAP II · Session 12</p>' +
+      '<h1 class="title">The Mystery of the Blue Jar</h1>' +
+      '<p class="lede">Bí ẩn chiếc bình xanh. Đọc từng cảnh, chạm vào bất kỳ từ nào để xem nghĩa, bật bản dịch khi cần, rồi giải thử thách từ vựng để phá án.</p>' +
+      '<div class="stats">' +
+        '<div class="stat"><b>' + rc + '<small>/' + TOTAL + '</small></b><span>manh mối</span></div>' +
+        '<div class="stat"><b>' + saved + '</b><span>từ đã lưu</span></div>' +
+        '<div class="stat"><b>' + Math.max(S.best.p1 || 0, S.best.p2 || 0) + '<small>%</small></b><span>điểm cao nhất</span></div>' +
+      '</div>' +
+    '</div>' +
+    '<div class="hero-jar">' + jarSVG(rc / TOTAL, 150) + '<p>Mỗi cảnh đọc xong rót thêm men xanh vào bình.</p></div>' +
+  '</div></section><div class="rim" aria-hidden="true"></div>';
+
+  html += '<div class="wrap home">';
+  PARTS.forEach(function (p, pi) {
+    const n = p.scenes.length, r = readCount(p.id);
+    const best = S.best[p.id];
+    html += '<article class="case">' +
+      '<header class="case-head"><div><p class="eyebrow">' + p.label + ' · ' + p.kind + '</p><h2>' + p.title + '</h2></div>' +
+      '<span class="case-count">' + r + '/' + n + ' cảnh</span></header>' +
+      '<div class="bar"><i style="width:' + (r / n * 100) + '%"></i></div>' +
+      '<ol class="scene-chips">' + p.scenes.map(function (s, si) {
+        const done = S.read[p.id + "-" + si];
+        return '<li><button class="chip' + (done ? " done" : "") + '" data-go="' + p.id + '" data-scene="' + si + '" title="' + esc(s.t) + '"><span class="num">' + (si + 1) + '</span><span class="lab">' + esc(s.t) + '</span>' + (done ? ICON.check : "") + '</button></li>';
+      }).join("") + '</ol>' +
+      '<div class="case-actions">' +
+        '<button class="btn primary" data-go="' + p.id + '" data-mode="scene">' + (r > 0 && r < n ? "Đọc tiếp từng cảnh" : "Đọc từng cảnh") + '</button>' +
+        '<button class="btn" data-go="' + p.id + '" data-mode="all">Đọc toàn bộ</button>' +
+        '<button class="btn quiz" data-quiz="' + p.id + '">Thử thách từ vựng' + (best != null ? ' <em>· ' + best + '%</em>' : "") + '</button>' +
+      '</div>' +
+    '</article>';
+  });
+  html += '<article class="case notebook-card"><header class="case-head"><div><p class="eyebrow">Sổ tay thám tử</p><h2>Sổ từ vựng của bạn</h2></div><span class="case-count">' + saved + ' từ</span></header>' +
+    '<p class="muted">Khi tra từ, bấm <b>Lưu vào sổ</b> để gom các từ khó lại một chỗ và ôn bằng thử thách riêng.</p>' +
+    '<div class="case-actions"><button class="btn" data-notebook="1">Mở sổ từ</button></div></article>';
+  html += '<aside class="tips"><h3>Cách chơi</h3><ul>' +
+    '<li><b>Chạm vào một từ</b> để xem nghĩa tiếng Việt, từ loại và nghe phát âm. Cụm từ (như <i>at hand</i>) được nhận ra tự động.</li>' +
+    '<li>Từ có <span class="w key demo">gạch chân chấm</span> là từ trọng tâm, sẽ xuất hiện trong thử thách.</li>' +
+    '<li><b>Dịch tiếng Việt</b> hiện bản dịch ngay dưới từng đoạn. Bật cho cả bài ở thanh công cụ, hoặc từng cảnh.</li>' +
+    '<li>Đọc xong một cảnh nhận <b>1 manh mối</b>. Gom đủ để làm đầy chiếc bình.</li>' +
+  '</ul></aside>';
+  html += '<footer class="foot">Tài liệu: Mr. Vu\'s English Classes · Truyện: Agatha Christie. Bản dịch tiếng Việt và chú giải soạn cho mục đích học tập.</footer></div>';
+  view.innerHTML = html;
+  window.scrollTo(0, 0);
+}
+
+/* ===== MÀN HÌNH: ĐỌC ===== */
+let R = { pid: "p1", mode: "scene", idx: 0, vi: {} };
+
+function firstUnread(pid) {
+  const p = partById(pid);
+  for (let i = 0; i < p.scenes.length; i++) if (!S.read[pid + "-" + i]) return i;
+  return 0;
+}
+
+function openReader(pid, mode, idx) {
+  stopSpeak();
+  R.pid = pid;
+  R.mode = mode || S.mode || "scene";
+  S.mode = R.mode; save();
+  R.idx = idx != null ? idx : firstUnread(pid);
+  R.vi = {};
+  renderReader();
+}
+
+function sceneCard(p, si) {
+  const s = p.scenes[si];
+  const showVi = R.vi[si] != null ? R.vi[si] : S.showVi;
+  const done = S.read[p.id + "-" + si];
+  return '<article class="scene' + (showVi ? " vi-on" : "") + '" data-si="' + si + '">' +
+    '<header class="scene-head">' +
+      '<div><p class="eyebrow">Cảnh ' + (si + 1) + ' / ' + p.scenes.length + (done ? ' · <span class="ok-text">đã đọc</span>' : "") + '</p><h2>' + esc(s.t) + '</h2></div>' +
+      '<div class="scene-tools">' +
+        '<button class="tool" data-say="' + si + '" aria-label="Nghe đọc cảnh này">' + ICON.play + '<span>Nghe</span></button>' +
+        '<button class="tool vi-btn' + (showVi ? " on" : "") + '" data-vi="' + si + '" aria-pressed="' + showVi + '"><span class="flag">VI</span><span>' + (showVi ? "Ẩn bản dịch" : "Dịch tiếng Việt") + '</span></button>' +
+      '</div>' +
+    '</header>' +
+    s.p.map(function (pp) {
+      return '<div class="para"><p class="en">' + renderPara(pp[0], p.id) + '</p><p class="vi" lang="vi">' + esc(pp[1]) + '</p></div>';
+    }).join("") +
+  '</article>';
+}
+
+function renderReader() {
+  closeSheet();
+  const p = partById(R.pid);
+  const n = p.scenes.length;
+  let html = '<div class="rbar"><div class="rbar-in">' +
+    '<button class="tool icon" data-home="1" aria-label="Về hồ sơ">' + ICON.back + '</button>' +
+    '<div class="rbar-title"><b>' + p.label + '</b><span>' + p.title + '</span></div>' +
+    '<div class="seg" role="tablist" aria-label="Chế độ đọc">' +
+      '<button role="tab" aria-selected="' + (R.mode === "scene") + '" data-mode-set="scene">Từng cảnh</button>' +
+      '<button role="tab" aria-selected="' + (R.mode === "all") + '" data-mode-set="all">Toàn bộ</button>' +
+    '</div>' +
+    '<button class="tool vi-all' + (S.showVi ? " on" : "") + '" data-vi-all="1" aria-pressed="' + S.showVi + '"><span class="flag">VI</span><span class="hide-sm">Dịch cả bài</span></button>' +
+    '<div class="fontctl"><button class="tool icon" data-font="-1" aria-label="Chữ nhỏ hơn">A−</button><button class="tool icon" data-font="1" aria-label="Chữ to hơn">A+</button></div>' +
+  '</div>';
+  if (R.mode === "scene") {
+    html += '<div class="dots" aria-label="Các cảnh">' + p.scenes.map(function (s, si) {
+      return '<button class="dot' + (si === R.idx ? " cur" : "") + (S.read[p.id + "-" + si] ? " done" : "") + '" data-jump="' + si + '" aria-label="Cảnh ' + (si + 1) + ': ' + esc(s.t) + '"></button>';
+    }).join("") + '</div>';
+  }
+  html += '</div>';
+
+  html += '<div class="wrap reader" style="--read-size:' + S.font + 'px">';
+  if (R.mode === "scene") {
+    html += sceneCard(p, R.idx);
+    const last = R.idx === n - 1;
+    html += '<nav class="pager">' +
+      '<button class="btn" data-prev="1"' + (R.idx === 0 ? " disabled" : "") + '>' + ICON.back + 'Cảnh trước</button>' +
+      '<span class="pager-mid">' + (R.idx + 1) + ' / ' + n + '</span>' +
+      (last ? '<button class="btn primary" data-finish="1">Hoàn thành ' + ICON.check + '</button>'
+            : '<button class="btn primary" data-next="1">Cảnh tiếp ' + ICON.next + '</button>') +
+    '</nav>';
+  } else {
+    p.scenes.forEach(function (s, si) { html += sceneCard(p, si); });
+    html += '<nav class="pager end"><button class="btn primary" data-finish-all="1">Tôi đã đọc xong ' + p.label + ' ' + ICON.check + '</button></nav>';
+  }
+  html += '</div>';
+  view.innerHTML = html;
+  window.scrollTo(0, 0);
+}
+
+function markRead(pid, si) {
+  const k = pid + "-" + si;
+  if (!S.read[k]) { S.read[k] = true; save(); toast("Manh mối +1  ·  " + readCount() + "/" + TOTAL); return true; }
+  return false;
+}
+
+function finishPart(pid) {
+  const p = partById(pid);
+  p.scenes.forEach(function (s, si) { S.read[pid + "-" + si] = true; });
+  save();
+  const other = PARTS.find(function (x) { return x.id !== pid; });
+  showModal(
+    '<div class="modal-jar">' + jarSVG(readCount() / TOTAL, 110) + '</div>' +
+    '<h2>Đã đọc xong ' + p.label + '</h2>' +
+    '<p>Bạn đã gom <b>' + readCount() + '/' + TOTAL + '</b> manh mối. Giờ thử xem bạn nhớ được bao nhiêu từ trọng tâm nhé.</p>' +
+    '<div class="modal-actions">' +
+      '<button class="btn primary" data-quiz="' + pid + '">Làm thử thách từ vựng</button>' +
+      (other && readCount(other.id) < other.scenes.length ? '<button class="btn" data-go="' + other.id + '" data-mode="scene">Sang ' + other.label + '</button>' : "") +
+      '<button class="btn ghost" data-home="1">Về hồ sơ</button>' +
+    '</div>'
+  );
+}
+
+/* ===== BẢNG TRA TỪ ===== */
+let selEl = null;
+function openSheet(wEl) {
+  const word = wEl.dataset.w;
+  const phrEl = wEl.closest(".phr");
+  const r = lookup(word);
+  const kv = findVocab(word) || (r && findVocab(r.lemma));
+  if (selEl) selEl.classList.remove("sel");
+  document.querySelectorAll(".phr.sel").forEach(function (e) { e.classList.remove("sel"); });
+  selEl = wEl; wEl.classList.add("sel");
+  if (phrEl) phrEl.classList.add("sel");
+
+  const lemma = r ? r.lemma : word.toLowerCase();
+  let html = '<div class="sheet-top"><div><div class="sw-word">' + esc(word) + '</div>';
+  if (r && r.lemma !== word.toLowerCase() && r.lemma.replace(/'.*/, "") !== word.toLowerCase()) html += '<div class="sw-lemma">từ gốc: <b>' + esc(r.lemma) + '</b></div>';
+  html += '</div><button class="tool icon close" data-close="1" aria-label="Đóng">×</button></div>';
+  if (r) {
+    html += '<div class="sw-meta"><span class="pos">' + (POS[r.p] || r.p) + '</span>' + (kv ? '<span class="pos keytag">từ trọng tâm</span>' : "") + '</div>';
+    html += '<p class="sw-mean">' + esc(r.m) + '</p>';
+  } else {
+    html += '<p class="sw-mean muted">Từ này chưa có trong từ điển của bài.</p>' +
+      '<p><a class="link" href="https://translate.google.com/?sl=en&tl=vi&text=' + encodeURIComponent(word) + '" target="_blank" rel="noopener">Tra trên Google Dịch ↗</a></p>';
+  }
+  if (kv && kv.vi && (!r || kv.vi !== r.m)) html += '<p class="sw-key">Trong bài: <b>' + esc(kv.vi) + '</b></p>';
+  if (phrEl) {
+    const ph = phrEl.dataset.ph;
+    const phText = phrEl.textContent;
+    html += '<div class="sw-phrase"><span class="pos">cụm từ</span><b>' + esc(phText) + '</b><span>' + esc(PHRASES[ph]) + '</span>' +
+      '<div class="sw-actions small"><button class="tool" data-speak="' + esc(phText) + '">' + ICON.play + '<span>Nghe</span></button>' +
+      '<button class="tool' + (S.saved[ph] ? " on" : "") + '" data-save-ph="' + esc(ph) + '">' + ICON.star + '<span>' + (S.saved[ph] ? "Đã lưu" : "Lưu cụm") + '</span></button></div></div>';
+  }
+  if (r) {
+    html += '<div class="sw-actions"><button class="tool" data-speak="' + esc(word) + '">' + ICON.play + '<span>Nghe</span></button>' +
+      '<button class="tool' + (S.saved[lemma] ? " on" : "") + '" data-save="' + esc(lemma) + '" data-form="' + esc(word) + '">' + ICON.star + '<span>' + (S.saved[lemma] ? "Đã lưu vào sổ" : "Lưu vào sổ") + '</span></button></div>';
+  }
+  const sh = $("#sheet");
+  $("#sheet-body").innerHTML = html;
+  sh.hidden = false;
+  requestAnimationFrame(function () { sh.classList.add("open"); });
+}
+function closeSheet() {
+  const sh = $("#sheet");
+  if (!sh) return;
+  sh.classList.remove("open");
+  sh.hidden = true;
+  if (selEl) { selEl.classList.remove("sel"); selEl = null; }
+  document.querySelectorAll(".phr.sel").forEach(function (e) { e.classList.remove("sel"); });
+}
+
+/* ===== THỬ THÁCH ===== */
+let Q = null;
+function buildQuiz(items, n, allowFill) {
+  const pool = shuffle(items.slice()).slice(0, Math.min(n, items.length));
+  const types = allowFill ? ["en2vi", "fill", "vi2en"] : ["en2vi", "vi2en"];
+  const qs = pool.map(function (it, i) {
+    let t = types[i % types.length];
+    if (t === "fill" && (!it.ex || it.ex.toLowerCase().indexOf(it.f.toLowerCase()) < 0)) t = "en2vi";
+    const others = shuffle(items.filter(function (o) { return o !== it && o.vi !== it.vi && o.w !== it.w && o.f !== it.f; })).slice(0, 3);
+    let opts, correct;
+    if (t === "en2vi") { opts = [it].concat(others).map(function (o) { return o.vi; }); correct = it.vi; }
+    else if (t === "vi2en") { opts = [it].concat(others).map(function (o) { return o.w; }); correct = it.w; }
+    else { opts = [it].concat(others).map(function (o) { return o.f; }); correct = it.f; }
+    return { t: t, it: it, opts: shuffle(opts), correct: correct };
+  });
+  return shuffle(qs);
+}
+
+function startQuiz(source) {
+  stopSpeak(); closeSheet(); closeModal();
+  let items, title;
+  if (source === "saved") {
+    items = Object.keys(S.saved).map(function (k) { const s = S.saved[k]; return { w: s.w, f: s.w, p: s.p, vi: s.m, ex: s.ex || "" }; });
+    title = "Ôn sổ từ";
+    if (items.length < 4) { toast("Cần lưu ít nhất 4 từ để ôn"); return; }
+    Q = { source: source, title: title, qs: buildQuiz(items, 12, false) };
+  } else {
+    const p = partById(source);
+    items = vocabItems(source);
+    title = "Thử thách · " + p.label;
+    Q = { source: source, title: title, qs: buildQuiz(items, 12, true) };
+  }
+  Q.i = 0; Q.score = 0; Q.right = 0; Q.streak = 0; Q.bestStreak = 0; Q.wrong = []; Q.answered = false;
+  renderQuiz();
+}
+
+function blankSentence(ex, f) {
+  const re = new RegExp("\\b" + f.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i");
+  const parts = ex.split(re);
+  if (parts.length < 2) return esc(ex);
+  return esc(parts[0]) + '<span class="blank">______</span>' + esc(parts.slice(1).join(f));
+}
+function hiSentence(ex, f) {
+  const re = new RegExp("\\b(" + f.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")\\b", "i");
+  return esc(ex).replace(re, "<mark>$1</mark>");
+}
+
+function renderQuiz() {
+  const q = Q.qs[Q.i];
+  const total = Q.qs.length;
+  let prompt = "";
+  if (q.t === "en2vi") {
+    prompt = '<p class="q-kind">Từ này nghĩa là gì?</p><div class="q-word">' + esc(q.it.w) + ' <button class="tool icon" data-speak="' + esc(q.it.w) + '" aria-label="Nghe">' + ICON.play + '</button></div><p class="q-pos">' + (POS[q.it.p] || "") + '</p>';
+  } else if (q.t === "vi2en") {
+    prompt = '<p class="q-kind">Chọn từ tiếng Anh đúng nghĩa</p><div class="q-word vi" lang="vi">' + esc(q.it.vi) + '</div><p class="q-pos">' + (POS[q.it.p] || "") + '</p>';
+  } else {
+    prompt = '<p class="q-kind">Điền từ còn thiếu vào câu trong truyện</p><blockquote class="q-sent">' + blankSentence(q.it.ex, q.it.f) + '</blockquote>';
+  }
+  const html = '<div class="rbar"><div class="rbar-in">' +
+      '<button class="tool icon" data-home="1" aria-label="Thoát">' + ICON.back + '</button>' +
+      '<div class="rbar-title"><b>' + esc(Q.title) + '</b><span>Câu ' + (Q.i + 1) + ' / ' + total + '</span></div>' +
+      '<div class="q-score">' + soundBtn() + '<span class="streak' + (Q.streak >= 3 ? " hot" : "") + '">' + ICON.flame + Q.streak + '</span><b>' + Q.score + '</b><small>điểm</small></div>' +
+    '</div><div class="bar thin"><i style="width:' + (Q.i / total * 100) + '%"></i></div></div>' +
+    '<div class="wrap quiz">' +
+      '<section class="q-card">' + prompt + '</section>' +
+      '<div class="opts' + (q.t === "en2vi" ? " vi-opts" : "") + '">' + q.opts.map(function (o, oi) {
+        return '<button class="opt" data-opt="' + oi + '"><kbd>' + (oi + 1) + '</kbd><span' + (q.t === "en2vi" ? ' lang="vi"' : "") + '>' + esc(o) + '</span></button>';
+      }).join("") + '</div>' +
+      '<div id="feedback" class="feedback" hidden></div>' +
+    '</div>';
+  Q.answered = false;
+  view.innerHTML = html;
+  window.scrollTo(0, 0);
+}
+
+function answer(oi) {
+  if (!Q || Q.answered) return;
+  Q.answered = true;
+  const q = Q.qs[Q.i];
+  const chosen = q.opts[oi];
+  const ok = chosen === q.correct;
+  document.querySelectorAll(".opt").forEach(function (b, bi) {
+    b.disabled = true;
+    if (q.opts[bi] === q.correct) b.classList.add("right");
+    else if (bi === oi) b.classList.add("wrong");
+  });
+  if (ok) {
+    Q.streak++; Q.right++;
+    Q.bestStreak = Math.max(Q.bestStreak, Q.streak);
+    Q.score += 10 + (Q.streak >= 3 ? 5 : 0);
+  } else {
+    Q.streak = 0;
+    Q.wrong.push(q.it);
+  }
+  beep(ok);
+  const fb = $("#feedback");
+  const praise = ["Chính xác!", "Tuyệt!", "Thám tử giỏi!", "Đúng rồi!"];
+  fb.className = "feedback " + (ok ? "good" : "bad");
+  fb.innerHTML = '<p class="fb-title">' + (ok ? praise[Math.floor(Math.random() * praise.length)] + (Q.streak >= 3 ? " · chuỗi " + Q.streak + " (+5)" : "") : "Chưa đúng. Đáp án là <b>" + esc(q.correct) + "</b>") + '</p>' +
+    '<p class="fb-word"><b>' + esc(q.it.w) + '</b> <span class="pos">' + (POS[q.it.p] || "") + '</span> ' + esc(q.it.vi) + '</p>' +
+    (q.it.ex ? '<p class="fb-ex">“' + hiSentence(q.it.ex, q.it.f) + '”</p>' : "") +
+    '<button class="btn primary" data-qnext="1">' + (Q.i === Q.qs.length - 1 ? "Xem kết quả" : "Câu tiếp") + ' ' + ICON.next + '</button>';
+  fb.hidden = false;
+  fb.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+function nextQ() {
+  if (Q.i < Q.qs.length - 1) { Q.i++; renderQuiz(); }
+  else renderResult();
+}
+
+function renderResult() {
+  const total = Q.qs.length;
+  const pct = Math.round(Q.right / total * 100);
+  const stars = pct >= 90 ? 3 : pct >= 70 ? 2 : pct >= 40 ? 1 : 0;
+  let isBest = false;
+  if (Q.source !== "saved") {
+    if (S.best[Q.source] == null || pct > S.best[Q.source]) { S.best[Q.source] = pct; isBest = true; save(); }
+  }
+  const msg = stars === 3 ? "Vụ án đã được phá! Vốn từ của bạn thật sắc bén." :
+              stars === 2 ? "Rất tốt. Còn vài manh mối nhỏ cần xem lại." :
+              stars === 1 ? "Khởi đầu ổn. Đọc lại các cảnh và thử lần nữa nhé." :
+              "Đừng nản. Mở bản dịch, đọc lại rồi quay lại thử thách.";
+  let html = '<div class="wrap result">' +
+    '<section class="res-card">' +
+      '<div class="res-stars" aria-label="' + stars + ' trên 3 sao">' + [0, 1, 2].map(function (i) { return '<span class="st' + (i < stars ? " on" : "") + '" style="--d:' + (i * 0.15) + 's">' + ICON.star + '</span>'; }).join("") + '</div>' +
+      '<h2>' + pct + '% đúng</h2>' +
+      '<p class="res-sub">' + Q.right + '/' + total + ' câu · ' + Q.score + ' điểm · chuỗi dài nhất ' + Q.bestStreak + (isBest ? ' · <b class="ok-text">kỷ lục mới</b>' : "") + '</p>' +
+      '<p>' + msg + '</p>' +
+      '<div class="modal-actions">' +
+        '<button class="btn primary" data-quiz="' + Q.source + '">Chơi lại</button>' +
+        (Q.source !== "saved" ? '<button class="btn" data-go="' + Q.source + '" data-mode="scene" data-scene="0">Đọc lại</button>' : '<button class="btn" data-notebook="1">Về sổ từ</button>') +
+        '<button class="btn ghost" data-home="1">Về hồ sơ</button>' +
+      '</div>' +
+    '</section>';
+  if (Q.wrong.length) {
+    html += '<section class="review"><div class="review-head"><h3>Từ cần ôn lại</h3><button class="tool" data-save-wrong="1">' + ICON.star + '<span>Lưu tất cả vào sổ</span></button></div><ul>' +
+      Q.wrong.map(function (it) {
+        return '<li><div><b>' + esc(it.w) + '</b> <span class="pos">' + (POS[it.p] || "") + '</span> <span lang="vi">' + esc(it.vi) + '</span></div>' + (it.ex ? '<p class="fb-ex">“' + hiSentence(it.ex, it.f) + '”</p>' : "") + '</li>';
+      }).join("") + '</ul></section>';
+  }
+  html += '</div>';
+  view.innerHTML = html;
+  window.scrollTo(0, 0);
+}
+
+/* ===== SỔ TỪ ===== */
+function renderNotebook() {
+  stopSpeak(); closeSheet();
+  const keys = Object.keys(S.saved).sort();
+  let html = '<div class="rbar"><div class="rbar-in"><button class="tool icon" data-home="1" aria-label="Về hồ sơ">' + ICON.back + '</button>' +
+    '<div class="rbar-title"><b>Sổ từ vựng</b><span>' + keys.length + ' mục đã lưu</span></div>' +
+    (keys.length >= 4 ? '<button class="btn primary small" data-quiz="saved">Ôn sổ từ</button>' : "") +
+    '</div></div><div class="wrap notebook">';
+  if (!keys.length) {
+    html += '<section class="empty"><div class="empty-jar">' + jarSVG(0, 90) + '</div><h2>Sổ còn trống</h2><p>Khi đọc truyện, chạm vào một từ và bấm <b>Lưu vào sổ</b>. Các từ sẽ hiện ở đây để bạn ôn lại. Lưu từ 4 từ trở lên là có thể làm thử thách riêng.</p><button class="btn primary" data-go="p1" data-mode="scene">Bắt đầu đọc</button></section>';
+  } else {
+    html += '<ul class="nb-list">' + keys.map(function (k) {
+      const s = S.saved[k];
+      return '<li><div class="nb-main"><b>' + esc(s.w) + '</b> <span class="pos">' + (POS[s.p] || s.p) + '</span><p lang="vi">' + esc(s.m) + '</p>' + (s.ex ? '<p class="fb-ex">“' + hiSentence(s.ex, s.f || s.w) + '”</p>' : "") + '</div>' +
+        '<div class="nb-act"><button class="tool icon" data-speak="' + esc(s.w) + '" aria-label="Nghe">' + ICON.play + '</button><button class="tool icon" data-unsave="' + esc(k) + '" aria-label="Xóa khỏi sổ">×</button></div></li>';
+    }).join("") + '</ul>';
+    if (keys.length < 4) html += '<p class="muted center">Lưu thêm ' + (4 - keys.length) + ' từ nữa để mở khóa thử thách ôn sổ từ.</p>';
+  }
+  html += '</div>';
+  view.innerHTML = html;
+  window.scrollTo(0, 0);
+}
+
+function findSentence(word) {
+  for (const p of PARTS) for (const s of p.scenes) for (const pp of s.p) {
+    const sentences = pp[0].match(/[^.!?]+[.!?]+["']?/g) || [pp[0]];
+    for (const se of sentences) if (new RegExp("\\b" + word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i").test(se)) return se.trim().replace(/^["']\s*/, "");
+  }
+  return "";
+}
+
+/* ===== HỘP THOẠI ===== */
+function showModal(inner) {
+  const m = $("#modal");
+  $("#modal-body").innerHTML = inner;
+  m.hidden = false;
+}
+function closeModal() { const m = $("#modal"); if (m) m.hidden = true; }
+
+/* ===== SỰ KIỆN ===== */
+document.addEventListener("click", function (e) {
+  const t = e.target.closest("button, .w, [data-close]");
+  if (!t) {
+    if (!e.target.closest("#sheet")) closeSheet();
+    return;
+  }
+  const d = t.dataset;
+  if (t.classList.contains("w")) { openSheet(t); return; }
+  if (d.close) { closeSheet(); return; }
+  if (d.home) { closeModal(); renderHome(); return; }
+  if (d.notebook) { closeModal(); renderNotebook(); return; }
+  if (d.go) { closeModal(); openReader(d.go, d.mode || "scene", d.scene != null ? +d.scene : null); return; }
+  if (d.quiz) { startQuiz(d.quiz); return; }
+  if (d.modeSet) { R.mode = d.modeSet; S.mode = R.mode; save(); stopSpeak(); renderReader(); return; }
+  if (d.viAll) {
+    S.showVi = !S.showVi; R.vi = {}; save();
+    document.querySelectorAll(".scene").forEach(function (sc) {
+      sc.classList.toggle("vi-on", S.showVi);
+      const b = sc.querySelector(".vi-btn"); b.classList.toggle("on", S.showVi); b.setAttribute("aria-pressed", S.showVi); b.lastChild.textContent = S.showVi ? "Ẩn bản dịch" : "Dịch tiếng Việt";
+    });
+    t.classList.toggle("on", S.showVi); t.setAttribute("aria-pressed", S.showVi);
+    return;
+  }
+  if (d.vi != null) {
+    const si = +d.vi;
+    const sc = t.closest(".scene");
+    const on = !sc.classList.contains("vi-on");
+    R.vi[si] = on;
+    sc.classList.toggle("vi-on", on);
+    t.classList.toggle("on", on); t.setAttribute("aria-pressed", on);
+    t.lastChild.textContent = on ? "Ẩn bản dịch" : "Dịch tiếng Việt";
+    return;
+  }
+  if (d.font) {
+    S.font = Math.max(15, Math.min(28, S.font + (+d.font) * 1.5)); save();
+    const rd = $(".reader"); if (rd) rd.style.setProperty("--read-size", S.font + "px");
+    return;
+  }
+  if (d.say != null) {
+    const s = partById(R.pid).scenes[+d.say];
+    speak(s.p.map(function (pp) { return pp[0]; }).join(" "), t);
+    return;
+  }
+  if (d.speak) { speak(d.speak); return; }
+  if (d.jump != null) { stopSpeak(); R.idx = +d.jump; renderReader(); return; }
+  if (d.prev) { stopSpeak(); if (R.idx > 0) { R.idx--; renderReader(); } return; }
+  if (d.next) { stopSpeak(); markRead(R.pid, R.idx); R.idx++; renderReader(); return; }
+  if (d.finish) { stopSpeak(); markRead(R.pid, R.idx); finishPart(R.pid); return; }
+  if (d.finishAll) { stopSpeak(); finishPart(R.pid); return; }
+  if (d.save) {
+    const k = d.save;
+    if (S.saved[k]) { delete S.saved[k]; toast("Đã bỏ khỏi sổ"); }
+    else {
+      const r = DICT[k];
+      const kv = findVocab(k);
+      S.saved[k] = { w: k, f: d.form || k, p: r ? r.p : "", m: kv ? kv.vi : (r ? r.m : ""), ex: kv ? kv.ex : findSentence(d.form || k) };
+      toast("Đã lưu “" + k + "” vào sổ");
+    }
+    save();
+    if (selEl) openSheet(selEl);
+    return;
+  }
+  if (d.savePh) {
+    const k = d.savePh;
+    if (S.saved[k]) { delete S.saved[k]; toast("Đã bỏ khỏi sổ"); }
+    else { S.saved[k] = { w: k, f: k, p: "phr", m: PHRASES[k], ex: findSentence(k) }; toast("Đã lưu cụm từ vào sổ"); }
+    save();
+    if (selEl) openSheet(selEl);
+    return;
+  }
+  if (d.unsave) { delete S.saved[d.unsave]; save(); renderNotebook(); return; }
+  if (d.opt != null) { answer(+d.opt); return; }
+  if (d.qnext) { nextQ(); return; }
+  if (d.saveWrong) {
+    Q.wrong.forEach(function (it) { S.saved[it.w] = { w: it.w, f: it.f, p: it.p, m: it.vi, ex: it.ex }; });
+    save(); toast("Đã lưu " + Q.wrong.length + " từ vào sổ");
+    t.disabled = true;
+    return;
+  }
+  if (d.sound) { S.sound = !S.sound; save(); t.classList.toggle("on", S.sound); t.setAttribute("aria-pressed", S.sound); toast(S.sound ? "Đã bật âm thanh" : "Đã tắt âm thanh"); return; }
+});
+
+document.addEventListener("keydown", function (e) {
+  const a = document.activeElement;
+  if ((e.key === "Enter" || e.key === " ") && a && a.classList && a.classList.contains("w")) { e.preventDefault(); openSheet(a); return; }
+  if (e.key === "Escape") { closeSheet(); closeModal(); return; }
+  if (Q && $(".quiz")) {
+    if (!Q.answered && /^[1-4]$/.test(e.key)) { answer(+e.key - 1); return; }
+    if (Q.answered && e.key === "Enter") { e.preventDefault(); nextQ(); return; }
+  }
+  if ($(".reader") && R.mode === "scene" && !$("#modal:not([hidden])")) {
+    if (e.key === "ArrowRight") { const b = $("[data-next]") || $("[data-finish]"); if (b) b.click(); }
+    if (e.key === "ArrowLeft") { const b = $("[data-prev]"); if (b && !b.disabled) b.click(); }
+  }
+});
+
+$("#modal").addEventListener("click", function (e) { if (e.target.id === "modal") closeModal(); });
+try { if ("speechSynthesis" in window) speechSynthesis.getVoices(); } catch (e) {}
+renderHome();
+</script>

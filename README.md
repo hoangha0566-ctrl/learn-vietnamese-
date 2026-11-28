@@ -29,3 +29,19 @@ Muốn thêm món đồ vào game: thêm vào `game.items` trong `data/data.js` 
 ## Tiến độ
 Lưu bằng `localStorage` (thẻ đã thuộc, phần đã học, kỷ lục số lỗi, bật/tắt âm thanh).
 Phát âm dùng giọng tiếng Việt có sẵn của máy (Web Speech API), nếu máy có.
+
+---
+
+# The Mystery of the Blue Jar — đọc song ngữ (thư mục `blue-jar/`)
+
+App đọc truyện *The Mystery of the Blue Jar* (Agatha Christie, TAP II · Session 12, phần 1 + 2) kiểu trò chơi.
+Mở `blue-jar/index.html` — một file duy nhất, không cần cài gì.
+
+- **27 cảnh ngắn** (Phần 1: 10, Phần 2: 17). Chế độ **Từng cảnh** hoặc **Toàn bộ**.
+- **Chạm vào từ bất kỳ** → nghĩa tiếng Việt, từ loại, từ gốc, phát âm; cụm từ/thành ngữ được nhận ra tự động.
+- **Dịch tiếng Việt**: bản dịch hiện dưới từng đoạn (bật cho từng cảnh hoặc cả bài).
+- Đọc xong mỗi cảnh nhận **1 manh mối**, làm đầy chiếc bình xanh.
+- **Thử thách từ vựng** mỗi phần: 12 câu (Anh→Việt, Việt→Anh, điền từ vào câu trong truyện), có chuỗi đúng, sao, kỷ lục.
+- **Sổ từ vựng**: lưu từ khó, ôn bằng thử thách riêng.
+
+Nội dung (bài đọc, bản dịch, từ trọng tâm, cụm từ, từ điển) nằm ở đầu thẻ `<script>` trong `blue-jar/index.html`.
